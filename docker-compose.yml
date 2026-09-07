@@ -1,0 +1,18 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg17
+    container_name: jb_copilot_postgres
+
+    environment:
+      POSTGRES_DB: jb_copilot
+      POSTGRES_USER: jb_admin
+      POSTGRES_PASSWORD: jb_local_password
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

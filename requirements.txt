@@ -1,0 +1,7 @@
+psycopg[binary]
+pgvector
+python-dotenv
+PyMuPDF
+pandas
+tiktoken
+sentence-transformers
