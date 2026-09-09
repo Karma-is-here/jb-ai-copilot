@@ -22,6 +22,8 @@ Thumbs.db
 # Local databases / data
 data/raw/
 data/processed/
+data/normalized/
+data/manifest.json
 data/debug/
 
 # Generated artifacts

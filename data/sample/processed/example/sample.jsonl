@@ -1,0 +1,1 @@
+﻿{"document_id":"example/sample","source_file":"sample.pdf","source_path":"example/sample.pdf","page_number":1,"page_count":1,"extraction_method":"pymupdf","text":"This is a sample document used to demonstrate the ingestion pipeline. It contains example investment information for testing extraction and normalization."}

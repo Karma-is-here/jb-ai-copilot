@@ -1,0 +1,27 @@
+﻿{
+  "version": 1,
+  "documents": [
+    {
+      "document_id": "example/sample",
+      "source_path": "example/sample.pdf",
+      "filename": "sample.pdf",
+      "category": "example",
+      "subcategory": null,
+      "created_at": "2026-09-09T00:00:00+00:00",
+      "modified_at": "2026-09-09T00:00:00+00:00",
+      "sha256": "example-sha256-placeholder",
+      "extraction": {
+        "status": "success",
+        "processed_at": "2026-09-09T00:00:00+00:00",
+        "output": "example/sample.jsonl",
+        "error": null
+      },
+      "normalization": {
+        "status": "success",
+        "processed_at": "2026-09-09T00:00:00+00:00",
+        "output": "example/sample.jsonl",
+        "error": null
+      }
+    }
+  ]
+}
