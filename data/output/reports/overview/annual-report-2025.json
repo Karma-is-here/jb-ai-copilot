@@ -1,0 +1,934 @@
+{
+  "schema_version": "1.0",
+  "document": "overview\\annual-report-2025.jsonl",
+  "page_count": 22,
+  "question_count": 28,
+  "summaries": [
+    {
+      "strategy": "fixed",
+      "chunks": 95,
+      "mean_chars": 1073.4,
+      "median_chars": 1200,
+      "under_100_chars": 1,
+      "recall_at_1": 0.39285714285714285,
+      "recall_at_3": 0.6071428571428571,
+      "recall_at_5": 0.75,
+      "mrr": 0.5380952380952381
+    },
+    {
+      "strategy": "recursive",
+      "chunks": 91,
+      "mean_chars": 1000.3,
+      "median_chars": 1166,
+      "under_100_chars": 2,
+      "recall_at_1": 0.32142857142857145,
+      "recall_at_3": 0.5714285714285714,
+      "recall_at_5": 0.6428571428571429,
+      "mrr": 0.4820244636316065
+    },
+    {
+      "strategy": "semantic",
+      "chunks": 136,
+      "mean_chars": 669.3,
+      "median_chars": 626.0,
+      "under_100_chars": 1,
+      "recall_at_1": 0.42857142857142855,
+      "recall_at_3": 0.6428571428571429,
+      "recall_at_5": 0.6785714285714286,
+      "mrr": 0.548577764439109
+    },
+    {
+      "strategy": "structural",
+      "chunks": 395,
+      "mean_chars": 230.4,
+      "median_chars": 30,
+      "under_100_chars": 270,
+      "recall_at_1": 0.17857142857142858,
+      "recall_at_3": 0.5,
+      "recall_at_5": 0.6428571428571429,
+      "mrr": 0.367984693877551
+    }
+  ],
+  "selection": {
+    "selected_strategy": "semantic",
+    "selection_score": 0.550931,
+    "selection_reason": "Selected the highest-scoring strategy among candidates that passed the chunk-quality gates using available retrieval metrics.",
+    "selected_metrics": {
+      "strategy": "semantic",
+      "chunks": 136,
+      "mean_chars": 669.3,
+      "median_chars": 626.0,
+      "under_100_chars": 1,
+      "recall_at_1": 0.42857142857142855,
+      "recall_at_3": 0.6428571428571429,
+      "recall_at_5": 0.6785714285714286,
+      "mrr": 0.548577764439109
+    },
+    "candidates": [
+      {
+        "strategy": "semantic",
+        "score": 0.550931,
+        "metrics": {
+          "strategy": "semantic",
+          "chunks": 136,
+          "mean_chars": 669.3,
+          "median_chars": 626.0,
+          "under_100_chars": 1,
+          "recall_at_1": 0.42857142857142855,
+          "recall_at_3": 0.6428571428571429,
+          "recall_at_5": 0.6785714285714286,
+          "mrr": 0.548577764439109
+        },
+        "under_100_ratio": 0.0074
+      },
+      {
+        "strategy": "fixed",
+        "score": 0.540119,
+        "metrics": {
+          "strategy": "fixed",
+          "chunks": 95,
+          "mean_chars": 1073.4,
+          "median_chars": 1200.0,
+          "under_100_chars": 1,
+          "recall_at_1": 0.39285714285714285,
+          "recall_at_3": 0.6071428571428571,
+          "recall_at_5": 0.75,
+          "mrr": 0.5380952380952381
+        },
+        "under_100_ratio": 0.0105
+      },
+      {
+        "strategy": "recursive",
+        "score": 0.475851,
+        "metrics": {
+          "strategy": "recursive",
+          "chunks": 91,
+          "mean_chars": 1000.3,
+          "median_chars": 1166.0,
+          "under_100_chars": 2,
+          "recall_at_1": 0.32142857142857145,
+          "recall_at_3": 0.5714285714285714,
+          "recall_at_5": 0.6428571428571429,
+          "mrr": 0.4820244636316065
+        },
+        "under_100_ratio": 0.022
+      }
+    ],
+    "rejected_candidates": [
+      {
+        "strategy": "structural",
+        "score": 0.378795,
+        "metrics": {
+          "strategy": "structural",
+          "chunks": 395,
+          "mean_chars": 230.4,
+          "median_chars": 30.0,
+          "under_100_chars": 270,
+          "recall_at_1": 0.17857142857142858,
+          "recall_at_3": 0.5,
+          "recall_at_5": 0.6428571428571429,
+          "mrr": 0.367984693877551
+        },
+        "under_100_ratio": 0.6835,
+        "reasons": [
+          "median_chunk_too_small (30.0 < 100.0)",
+          "too_many_undersized_chunks (68.35% > 50.00%)"
+        ]
+      }
+    ]
+  },
+  "per_question": {
+    "fixed": [
+      {
+        "question": "What is the Julius Baer Foundation’s mission?",
+        "expected_page": 3,
+        "hit_rank": 8,
+        "hit_page": 14,
+        "hit_chunk_id": "d63f3e1883e67365"
+      },
+      {
+        "question": "What three areas does the Foundation fund?",
+        "expected_page": 3,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "How does the Foundation act as a convener?",
+        "expected_page": 3,
+        "hit_rank": 24,
+        "hit_page": 3,
+        "hit_chunk_id": "defb38844900d5b2"
+      },
+      {
+        "question": "How many partner organisations did the Foundation have across how many countries as of 31 December 2025?",
+        "expected_page": 4,
+        "hit_rank": 12,
+        "hit_page": 4,
+        "hit_chunk_id": "82c29f35f7cd0f46"
+      },
+      {
+        "question": "How much did the Foundation spend on donations in 2025?",
+        "expected_page": 4,
+        "hit_rank": 5,
+        "hit_page": 4,
+        "hit_chunk_id": "82c29f35f7cd0f46"
+      },
+      {
+        "question": "Which organisation in Zambia is supported to train young farmers in agroecology?",
+        "expected_page": 5,
+        "hit_rank": 2,
+        "hit_page": 21,
+        "hit_chunk_id": "153cb20331cd5146"
+      },
+      {
+        "question": "What does the Foundation identify as a key barrier to opportunity beyond education and skills?",
+        "expected_page": 8,
+        "hit_rank": 12,
+        "hit_page": 8,
+        "hit_chunk_id": "4b4b896fc9b35ce0"
+      },
+      {
+        "question": "What is the name of Forge Foundation’s programme supported by the Foundation?",
+        "expected_page": 8,
+        "hit_rank": 4,
+        "hit_page": 8,
+        "hit_chunk_id": "2b97820be203a0e9"
+      },
+      {
+        "question": "What does Fundación CODESPA’s project help seaweed farmers and multinational companies jointly design?",
+        "expected_page": 8,
+        "hit_rank": 2,
+        "hit_page": 8,
+        "hit_chunk_id": "2d5b6dfc67925424"
+      },
+      {
+        "question": "How many girls did CAMFED’s national leadership training programme connect with professionals for leadership guidance?",
+        "expected_page": 9,
+        "hit_rank": 1,
+        "hit_page": 9,
+        "hit_chunk_id": "4b72581989cb13a3"
+      },
+      {
+        "question": "What is the name of the Israeli-Palestinian winner team that qualified for seed funding through MEET?",
+        "expected_page": 9,
+        "hit_rank": 1,
+        "hit_page": 9,
+        "hit_chunk_id": "b4661b71dbe66620"
+      },
+      {
+        "question": "How much seaweed does the HISFA-CO cooperative consolidate each month, according to the participant account?",
+        "expected_page": 10,
+        "hit_rank": 5,
+        "hit_page": 10,
+        "hit_chunk_id": "563a93683de222c7"
+      },
+      {
+        "question": "What are the three steps of Impact Hub Mexico’s Emprende Juventud Poblana programme?",
+        "expected_page": 11,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What does the five-month incubator provide participants?",
+        "expected_page": 11,
+        "hit_rank": 1,
+        "hit_page": 11,
+        "hit_chunk_id": "8cbbc9ed75680b74"
+      },
+      {
+        "question": "What farming techniques does YEFI promote through its NO AGROCHEM project?",
+        "expected_page": 12,
+        "hit_rank": 1,
+        "hit_page": 12,
+        "hit_chunk_id": "9270610335a5eda1"
+      },
+      {
+        "question": "How many farmers had YEFI reached within four months, according to the report?",
+        "expected_page": 12,
+        "hit_rank": 2,
+        "hit_page": 12,
+        "hit_chunk_id": "ca7cba3f12f314da"
+      },
+      {
+        "question": "What was the name of the conference on social mobility held in Santiago de Chile?",
+        "expected_page": 13,
+        "hit_rank": 1,
+        "hit_page": 13,
+        "hit_chunk_id": "40145a951724bbcc"
+      },
+      {
+        "question": "Which research institution in Chile led the study discussed at the conference?",
+        "expected_page": 13,
+        "hit_rank": 1,
+        "hit_page": 21,
+        "hit_chunk_id": "69bdd805cef99426"
+      },
+      {
+        "question": "What initiative did the Foundation launch during its 60th anniversary year?",
+        "expected_page": 14,
+        "hit_rank": 4,
+        "hit_page": 14,
+        "hit_chunk_id": "d63f3e1883e67365"
+      },
+      {
+        "question": "Which organisation partnered with the Julius Baer Foundation to help the Jojoba for Namibia Trust scale its model?",
+        "expected_page": 16,
+        "hit_rank": 3,
+        "hit_page": 16,
+        "hit_chunk_id": "2da0bfb7ed1afbf3"
+      },
+      {
+        "question": "According to Arunima Singh, at which two stages can co-funding be especially valuable?",
+        "expected_page": 16,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "Who was appointed Chairman of the Julius Baer Foundation in 2025?",
+        "expected_page": 18,
+        "hit_rank": 1,
+        "hit_page": 18,
+        "hit_chunk_id": "c6670599c743af93"
+      },
+      {
+        "question": "Which body defines the Foundation’s strategic focus, policies and fund allocations?",
+        "expected_page": 18,
+        "hit_rank": 1,
+        "hit_page": 18,
+        "hit_chunk_id": "78dd6b6d2ef54333"
+      },
+      {
+        "question": "Which organisation reviewed the Foundation’s 2025 financial statements?",
+        "expected_page": 20,
+        "hit_rank": 2,
+        "hit_page": 20,
+        "hit_chunk_id": "2d91ed55f6769313"
+      },
+      {
+        "question": "On what date was the review report signed in Zurich?",
+        "expected_page": 20,
+        "hit_rank": 1,
+        "hit_page": 20,
+        "hit_chunk_id": "d850ba619c2ae3e3"
+      },
+      {
+        "question": "When was the Wealth Inequality Initiative launched?",
+        "expected_page": 21,
+        "hit_rank": 2,
+        "hit_page": 21,
+        "hit_chunk_id": "8d7da9569f1ec98a"
+      },
+      {
+        "question": "How many girls did ISRD’s four Bridge Education Centres reach in Manipur?",
+        "expected_page": 21,
+        "hit_rank": 1,
+        "hit_page": 21,
+        "hit_chunk_id": "69bdd805cef99426"
+      },
+      {
+        "question": "What percentage of the girls reached by ISRD subsequently enrolled in public schools?",
+        "expected_page": 21,
+        "hit_rank": 1,
+        "hit_page": 21,
+        "hit_chunk_id": "69bdd805cef99426"
+      }
+    ],
+    "recursive": [
+      {
+        "question": "What is the Julius Baer Foundation’s mission?",
+        "expected_page": 3,
+        "hit_rank": 6,
+        "hit_page": 14,
+        "hit_chunk_id": "9c565e2ef11b0e8b"
+      },
+      {
+        "question": "What three areas does the Foundation fund?",
+        "expected_page": 3,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "How does the Foundation act as a convener?",
+        "expected_page": 3,
+        "hit_rank": 25,
+        "hit_page": 3,
+        "hit_chunk_id": "ed6eef6f4e0d9889"
+      },
+      {
+        "question": "How many partner organisations did the Foundation have across how many countries as of 31 December 2025?",
+        "expected_page": 4,
+        "hit_rank": 15,
+        "hit_page": 4,
+        "hit_chunk_id": "d75b0186ae2ec191"
+      },
+      {
+        "question": "How much did the Foundation spend on donations in 2025?",
+        "expected_page": 4,
+        "hit_rank": 2,
+        "hit_page": 4,
+        "hit_chunk_id": "d75b0186ae2ec191"
+      },
+      {
+        "question": "Which organisation in Zambia is supported to train young farmers in agroecology?",
+        "expected_page": 5,
+        "hit_rank": 2,
+        "hit_page": 12,
+        "hit_chunk_id": "e91693328f54a907"
+      },
+      {
+        "question": "What does the Foundation identify as a key barrier to opportunity beyond education and skills?",
+        "expected_page": 8,
+        "hit_rank": 13,
+        "hit_page": 8,
+        "hit_chunk_id": "70d5fbc4501bd29e"
+      },
+      {
+        "question": "What is the name of Forge Foundation’s programme supported by the Foundation?",
+        "expected_page": 8,
+        "hit_rank": 8,
+        "hit_page": 8,
+        "hit_chunk_id": "93f29c613bedc1fd"
+      },
+      {
+        "question": "What does Fundación CODESPA’s project help seaweed farmers and multinational companies jointly design?",
+        "expected_page": 8,
+        "hit_rank": 1,
+        "hit_page": 8,
+        "hit_chunk_id": "0b7ace1ab12197e8"
+      },
+      {
+        "question": "How many girls did CAMFED’s national leadership training programme connect with professionals for leadership guidance?",
+        "expected_page": 9,
+        "hit_rank": 1,
+        "hit_page": 9,
+        "hit_chunk_id": "9cbfb507e4f52576"
+      },
+      {
+        "question": "What is the name of the Israeli-Palestinian winner team that qualified for seed funding through MEET?",
+        "expected_page": 9,
+        "hit_rank": 1,
+        "hit_page": 9,
+        "hit_chunk_id": "56f4939a96894258"
+      },
+      {
+        "question": "How much seaweed does the HISFA-CO cooperative consolidate each month, according to the participant account?",
+        "expected_page": 10,
+        "hit_rank": 4,
+        "hit_page": 10,
+        "hit_chunk_id": "800ce8bd9d13d452"
+      },
+      {
+        "question": "What are the three steps of Impact Hub Mexico’s Emprende Juventud Poblana programme?",
+        "expected_page": 11,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What does the five-month incubator provide participants?",
+        "expected_page": 11,
+        "hit_rank": 1,
+        "hit_page": 11,
+        "hit_chunk_id": "01c7e3bf52ccb35a"
+      },
+      {
+        "question": "What farming techniques does YEFI promote through its NO AGROCHEM project?",
+        "expected_page": 12,
+        "hit_rank": 1,
+        "hit_page": 12,
+        "hit_chunk_id": "e91693328f54a907"
+      },
+      {
+        "question": "How many farmers had YEFI reached within four months, according to the report?",
+        "expected_page": 12,
+        "hit_rank": 1,
+        "hit_page": 12,
+        "hit_chunk_id": "991228c5c8bd2be7"
+      },
+      {
+        "question": "What was the name of the conference on social mobility held in Santiago de Chile?",
+        "expected_page": 13,
+        "hit_rank": 1,
+        "hit_page": 13,
+        "hit_chunk_id": "c630893d423ed069"
+      },
+      {
+        "question": "Which research institution in Chile led the study discussed at the conference?",
+        "expected_page": 13,
+        "hit_rank": 2,
+        "hit_page": 13,
+        "hit_chunk_id": "c630893d423ed069"
+      },
+      {
+        "question": "What initiative did the Foundation launch during its 60th anniversary year?",
+        "expected_page": 14,
+        "hit_rank": 5,
+        "hit_page": 14,
+        "hit_chunk_id": "376f5606f4f1e443"
+      },
+      {
+        "question": "Which organisation partnered with the Julius Baer Foundation to help the Jojoba for Namibia Trust scale its model?",
+        "expected_page": 16,
+        "hit_rank": 2,
+        "hit_page": 16,
+        "hit_chunk_id": "19ba264a6a398ee3"
+      },
+      {
+        "question": "According to Arunima Singh, at which two stages can co-funding be especially valuable?",
+        "expected_page": 16,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "Who was appointed Chairman of the Julius Baer Foundation in 2025?",
+        "expected_page": 18,
+        "hit_rank": 1,
+        "hit_page": 18,
+        "hit_chunk_id": "95525276901418f8"
+      },
+      {
+        "question": "Which body defines the Foundation’s strategic focus, policies and fund allocations?",
+        "expected_page": 18,
+        "hit_rank": 14,
+        "hit_page": 2,
+        "hit_chunk_id": "c02ca2e2c7888f58"
+      },
+      {
+        "question": "Which organisation reviewed the Foundation’s 2025 financial statements?",
+        "expected_page": 20,
+        "hit_rank": 1,
+        "hit_page": 20,
+        "hit_chunk_id": "4e44f0983ab9cbfe"
+      },
+      {
+        "question": "On what date was the review report signed in Zurich?",
+        "expected_page": 20,
+        "hit_rank": 2,
+        "hit_page": 20,
+        "hit_chunk_id": "03753cc3465404e1"
+      },
+      {
+        "question": "When was the Wealth Inequality Initiative launched?",
+        "expected_page": 21,
+        "hit_rank": 2,
+        "hit_page": 21,
+        "hit_chunk_id": "0f47e03a1bd3a791"
+      },
+      {
+        "question": "How many girls did ISRD’s four Bridge Education Centres reach in Manipur?",
+        "expected_page": 21,
+        "hit_rank": 6,
+        "hit_page": 21,
+        "hit_chunk_id": "cb46099a9b325ac8"
+      },
+      {
+        "question": "What percentage of the girls reached by ISRD subsequently enrolled in public schools?",
+        "expected_page": 21,
+        "hit_rank": 3,
+        "hit_page": 21,
+        "hit_chunk_id": "cb46099a9b325ac8"
+      }
+    ],
+    "semantic": [
+      {
+        "question": "What is the Julius Baer Foundation’s mission?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 14,
+        "hit_chunk_id": "1f3d0d097ae9b751"
+      },
+      {
+        "question": "What three areas does the Foundation fund?",
+        "expected_page": 3,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "How does the Foundation act as a convener?",
+        "expected_page": 3,
+        "hit_rank": 3,
+        "hit_page": 3,
+        "hit_chunk_id": "30a419373292a27b"
+      },
+      {
+        "question": "How many partner organisations did the Foundation have across how many countries as of 31 December 2025?",
+        "expected_page": 4,
+        "hit_rank": 17,
+        "hit_page": 4,
+        "hit_chunk_id": "c4ae41b4b9277350"
+      },
+      {
+        "question": "How much did the Foundation spend on donations in 2025?",
+        "expected_page": 4,
+        "hit_rank": 7,
+        "hit_page": 4,
+        "hit_chunk_id": "c4ae41b4b9277350"
+      },
+      {
+        "question": "Which organisation in Zambia is supported to train young farmers in agroecology?",
+        "expected_page": 5,
+        "hit_rank": 1,
+        "hit_page": 21,
+        "hit_chunk_id": "ffed715a899cb68f"
+      },
+      {
+        "question": "What does the Foundation identify as a key barrier to opportunity beyond education and skills?",
+        "expected_page": 8,
+        "hit_rank": 51,
+        "hit_page": 8,
+        "hit_chunk_id": "57f0684e73622831"
+      },
+      {
+        "question": "What is the name of Forge Foundation’s programme supported by the Foundation?",
+        "expected_page": 8,
+        "hit_rank": 12,
+        "hit_page": 8,
+        "hit_chunk_id": "f8043144fa11c634"
+      },
+      {
+        "question": "What does Fundación CODESPA’s project help seaweed farmers and multinational companies jointly design?",
+        "expected_page": 8,
+        "hit_rank": 2,
+        "hit_page": 8,
+        "hit_chunk_id": "74c74a73986e7214"
+      },
+      {
+        "question": "How many girls did CAMFED’s national leadership training programme connect with professionals for leadership guidance?",
+        "expected_page": 9,
+        "hit_rank": 1,
+        "hit_page": 9,
+        "hit_chunk_id": "1f180c3411f13f14"
+      },
+      {
+        "question": "What is the name of the Israeli-Palestinian winner team that qualified for seed funding through MEET?",
+        "expected_page": 9,
+        "hit_rank": 2,
+        "hit_page": 9,
+        "hit_chunk_id": "964ca4aafdddbf11"
+      },
+      {
+        "question": "How much seaweed does the HISFA-CO cooperative consolidate each month, according to the participant account?",
+        "expected_page": 10,
+        "hit_rank": 1,
+        "hit_page": 10,
+        "hit_chunk_id": "90531b11809db933"
+      },
+      {
+        "question": "What are the three steps of Impact Hub Mexico’s Emprende Juventud Poblana programme?",
+        "expected_page": 11,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What does the five-month incubator provide participants?",
+        "expected_page": 11,
+        "hit_rank": 1,
+        "hit_page": 11,
+        "hit_chunk_id": "03309242ac7807db"
+      },
+      {
+        "question": "What farming techniques does YEFI promote through its NO AGROCHEM project?",
+        "expected_page": 12,
+        "hit_rank": 1,
+        "hit_page": 12,
+        "hit_chunk_id": "9b9cedf362a406ce"
+      },
+      {
+        "question": "How many farmers had YEFI reached within four months, according to the report?",
+        "expected_page": 12,
+        "hit_rank": 3,
+        "hit_page": 12,
+        "hit_chunk_id": "679c8f3d74222fa5"
+      },
+      {
+        "question": "What was the name of the conference on social mobility held in Santiago de Chile?",
+        "expected_page": 13,
+        "hit_rank": 2,
+        "hit_page": 13,
+        "hit_chunk_id": "5e5f57da09ba89f2"
+      },
+      {
+        "question": "Which research institution in Chile led the study discussed at the conference?",
+        "expected_page": 13,
+        "hit_rank": 4,
+        "hit_page": 13,
+        "hit_chunk_id": "5e5f57da09ba89f2"
+      },
+      {
+        "question": "What initiative did the Foundation launch during its 60th anniversary year?",
+        "expected_page": 14,
+        "hit_rank": 12,
+        "hit_page": 14,
+        "hit_chunk_id": "33f8f8076097fa86"
+      },
+      {
+        "question": "Which organisation partnered with the Julius Baer Foundation to help the Jojoba for Namibia Trust scale its model?",
+        "expected_page": 16,
+        "hit_rank": 1,
+        "hit_page": 16,
+        "hit_chunk_id": "135cfc3837861c00"
+      },
+      {
+        "question": "According to Arunima Singh, at which two stages can co-funding be especially valuable?",
+        "expected_page": 16,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "Who was appointed Chairman of the Julius Baer Foundation in 2025?",
+        "expected_page": 18,
+        "hit_rank": 1,
+        "hit_page": 18,
+        "hit_chunk_id": "9ca05a1885df05e1"
+      },
+      {
+        "question": "Which body defines the Foundation’s strategic focus, policies and fund allocations?",
+        "expected_page": 18,
+        "hit_rank": 1,
+        "hit_page": 18,
+        "hit_chunk_id": "74776f6eff10825e"
+      },
+      {
+        "question": "Which organisation reviewed the Foundation’s 2025 financial statements?",
+        "expected_page": 20,
+        "hit_rank": 18,
+        "hit_page": 18,
+        "hit_chunk_id": "23547a2ad84eca36"
+      },
+      {
+        "question": "On what date was the review report signed in Zurich?",
+        "expected_page": 20,
+        "hit_rank": 2,
+        "hit_page": 20,
+        "hit_chunk_id": "5038d667e3c45333"
+      },
+      {
+        "question": "When was the Wealth Inequality Initiative launched?",
+        "expected_page": 21,
+        "hit_rank": 1,
+        "hit_page": 21,
+        "hit_chunk_id": "40a16eb5985dbf8a"
+      },
+      {
+        "question": "How many girls did ISRD’s four Bridge Education Centres reach in Manipur?",
+        "expected_page": 21,
+        "hit_rank": 1,
+        "hit_page": 21,
+        "hit_chunk_id": "da41aeb693b65be4"
+      },
+      {
+        "question": "What percentage of the girls reached by ISRD subsequently enrolled in public schools?",
+        "expected_page": 21,
+        "hit_rank": 1,
+        "hit_page": 21,
+        "hit_chunk_id": "da41aeb693b65be4"
+      }
+    ],
+    "structural": [
+      {
+        "question": "What is the Julius Baer Foundation’s mission?",
+        "expected_page": 3,
+        "hit_rank": 12,
+        "hit_page": 14,
+        "hit_chunk_id": "2c56aa6defd75c95"
+      },
+      {
+        "question": "What three areas does the Foundation fund?",
+        "expected_page": 3,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "How does the Foundation act as a convener?",
+        "expected_page": 3,
+        "hit_rank": 4,
+        "hit_page": 3,
+        "hit_chunk_id": "602dc79874eb2243"
+      },
+      {
+        "question": "How many partner organisations did the Foundation have across how many countries as of 31 December 2025?",
+        "expected_page": 4,
+        "hit_rank": 4,
+        "hit_page": 4,
+        "hit_chunk_id": "bc21277e550d7655"
+      },
+      {
+        "question": "How much did the Foundation spend on donations in 2025?",
+        "expected_page": 4,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "Which organisation in Zambia is supported to train young farmers in agroecology?",
+        "expected_page": 5,
+        "hit_rank": 2,
+        "hit_page": 12,
+        "hit_chunk_id": "2fd2d6833cc2beeb"
+      },
+      {
+        "question": "What does the Foundation identify as a key barrier to opportunity beyond education and skills?",
+        "expected_page": 8,
+        "hit_rank": 6,
+        "hit_page": 8,
+        "hit_chunk_id": "69c4cc480ba39b53"
+      },
+      {
+        "question": "What is the name of Forge Foundation’s programme supported by the Foundation?",
+        "expected_page": 8,
+        "hit_rank": 6,
+        "hit_page": 8,
+        "hit_chunk_id": "69c4cc480ba39b53"
+      },
+      {
+        "question": "What does Fundación CODESPA’s project help seaweed farmers and multinational companies jointly design?",
+        "expected_page": 8,
+        "hit_rank": 4,
+        "hit_page": 8,
+        "hit_chunk_id": "3ec5f1a73d6ea13c"
+      },
+      {
+        "question": "How many girls did CAMFED’s national leadership training programme connect with professionals for leadership guidance?",
+        "expected_page": 9,
+        "hit_rank": 1,
+        "hit_page": 9,
+        "hit_chunk_id": "b02e18d1e3c74445"
+      },
+      {
+        "question": "What is the name of the Israeli-Palestinian winner team that qualified for seed funding through MEET?",
+        "expected_page": 9,
+        "hit_rank": 2,
+        "hit_page": 9,
+        "hit_chunk_id": "27d27ad5e6116660"
+      },
+      {
+        "question": "How much seaweed does the HISFA-CO cooperative consolidate each month, according to the participant account?",
+        "expected_page": 10,
+        "hit_rank": 15,
+        "hit_page": 10,
+        "hit_chunk_id": "cc0bc7956930f159"
+      },
+      {
+        "question": "What are the three steps of Impact Hub Mexico’s Emprende Juventud Poblana programme?",
+        "expected_page": 11,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What does the five-month incubator provide participants?",
+        "expected_page": 11,
+        "hit_rank": 1,
+        "hit_page": 11,
+        "hit_chunk_id": "085dfedc101abaec"
+      },
+      {
+        "question": "What farming techniques does YEFI promote through its NO AGROCHEM project?",
+        "expected_page": 12,
+        "hit_rank": 1,
+        "hit_page": 12,
+        "hit_chunk_id": "2fd2d6833cc2beeb"
+      },
+      {
+        "question": "How many farmers had YEFI reached within four months, according to the report?",
+        "expected_page": 12,
+        "hit_rank": 2,
+        "hit_page": 12,
+        "hit_chunk_id": "f7aeddc6a67940ad"
+      },
+      {
+        "question": "What was the name of the conference on social mobility held in Santiago de Chile?",
+        "expected_page": 13,
+        "hit_rank": 3,
+        "hit_page": 13,
+        "hit_chunk_id": "f42f5b5ce036a28f"
+      },
+      {
+        "question": "Which research institution in Chile led the study discussed at the conference?",
+        "expected_page": 13,
+        "hit_rank": 3,
+        "hit_page": 21,
+        "hit_chunk_id": "3dfcdebc13ad13dc"
+      },
+      {
+        "question": "What initiative did the Foundation launch during its 60th anniversary year?",
+        "expected_page": 14,
+        "hit_rank": 8,
+        "hit_page": 14,
+        "hit_chunk_id": "96a1e5fa732d60f8"
+      },
+      {
+        "question": "Which organisation partnered with the Julius Baer Foundation to help the Jojoba for Namibia Trust scale its model?",
+        "expected_page": 16,
+        "hit_rank": 3,
+        "hit_page": 16,
+        "hit_chunk_id": "ff2460a94112bd16"
+      },
+      {
+        "question": "According to Arunima Singh, at which two stages can co-funding be especially valuable?",
+        "expected_page": 16,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "Who was appointed Chairman of the Julius Baer Foundation in 2025?",
+        "expected_page": 18,
+        "hit_rank": 3,
+        "hit_page": 18,
+        "hit_chunk_id": "b9f45146329289f3"
+      },
+      {
+        "question": "Which body defines the Foundation’s strategic focus, policies and fund allocations?",
+        "expected_page": 18,
+        "hit_rank": 3,
+        "hit_page": 18,
+        "hit_chunk_id": "b9f45146329289f3"
+      },
+      {
+        "question": "Which organisation reviewed the Foundation’s 2025 financial statements?",
+        "expected_page": 20,
+        "hit_rank": 35,
+        "hit_page": 18,
+        "hit_chunk_id": "e2f3097d6308ee6c"
+      },
+      {
+        "question": "On what date was the review report signed in Zurich?",
+        "expected_page": 20,
+        "hit_rank": 2,
+        "hit_page": 20,
+        "hit_chunk_id": "c2e8c22ecba73dba"
+      },
+      {
+        "question": "When was the Wealth Inequality Initiative launched?",
+        "expected_page": 21,
+        "hit_rank": 4,
+        "hit_page": 21,
+        "hit_chunk_id": "71f1a2ee6984109b"
+      },
+      {
+        "question": "How many girls did ISRD’s four Bridge Education Centres reach in Manipur?",
+        "expected_page": 21,
+        "hit_rank": 1,
+        "hit_page": 21,
+        "hit_chunk_id": "1a4bb65ec1151c49"
+      },
+      {
+        "question": "What percentage of the girls reached by ISRD subsequently enrolled in public schools?",
+        "expected_page": 21,
+        "hit_rank": 1,
+        "hit_page": 21,
+        "hit_chunk_id": "1a4bb65ec1151c49"
+      }
+    ]
+  }
+}

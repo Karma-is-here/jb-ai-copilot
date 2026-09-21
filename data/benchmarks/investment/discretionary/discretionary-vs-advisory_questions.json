@@ -1,0 +1,87 @@
+[
+  {
+    "question": "In an advisory setup, who makes the final investment decision?",
+    "answer": "The client takes the final investment decision",
+    "page": 2
+  },
+  {
+    "question": "Who is responsible for day-to-day portfolio management under a discretionary mandate?",
+    "answer": "A portfolio manager",
+    "page": 2
+  },
+  {
+    "question": "What does an investment profile evaluate?",
+    "answer": "The client's financial situation, investment objectives, prior knowledge, and experience",
+    "page": 1
+  },
+  {
+    "question": "What do investment guidelines reflect?",
+    "answer": "The client's current understanding of financial instruments and the maximum amount of risk they are able to take",
+    "page": 1
+  },
+  {
+    "question": "What is an investment strategy used for?",
+    "answer": "As a guideline for adjusting investments whenever the portfolio valuation changes",
+    "page": 1
+  },
+  {
+    "question": "What are the five considerations discussed when choosing between discretionary and advisory mandates?",
+    "answer": "Financial (markets) knowledge; Learning effect; Time investment; Reachability; Regulation",
+    "page": 2
+  },
+  {
+    "question": "Which mandate may suit someone who is familiar with financial markets and interested in them?",
+    "answer": "An advisory mandate",
+    "page": 2
+  },
+  {
+    "question": "Which mandate may suit someone with little investing knowledge and less interest in learning more?",
+    "answer": "A discretionary mandate",
+    "page": 2
+  },
+  {
+    "question": "How is the learning effect described in an advisory setup?",
+    "answer": "The learning effect is direct",
+    "page": 2
+  },
+  {
+    "question": "How is the learning effect described in a discretionary setup?",
+    "answer": "The learning effect is indirect",
+    "page": 2
+  },
+  {
+    "question": "How can clients track decisions made by their portfolio manager in a discretionary setup?",
+    "answer": "By tracking the decisions their portfolio manager made on their behalf through their e-banking account",
+    "page": 2
+  },
+  {
+    "question": "Which mandate may suit someone who cannot allocate enough time to speak with an investment partner?",
+    "answer": "A discretionary mandate",
+    "page": 2
+  },
+  {
+    "question": "Which mandate may suit someone who is difficult for an investment advisor to reach?",
+    "answer": "A discretionary mandate",
+    "page": 2
+  },
+  {
+    "question": "What communication channels are mentioned for reaching a client?",
+    "answer": "Telephone or email",
+    "page": 2
+  },
+  {
+    "question": "What regulatory requirements might clients in certain countries have to follow?",
+    "answer": "They may have to approve all decisions in writing or adhere to holding periods",
+    "page": 2
+  },
+  {
+    "question": "How may a discretionary solution help clients facing complex investment regulations?",
+    "answer": "It may help them fully comply with regulation while simultaneously working towards achieving their investment goals",
+    "page": 2
+  },
+  {
+    "question": "What do the two investment professionals advise readers not to do?",
+    "answer": "Don't rush into something that does not suit your personal circumstances",
+    "page": 3
+  }
+]

@@ -1,0 +1,845 @@
+{
+  "schema_version": "1.0",
+  "document": "investment\\discretionary\\discretionary-mandates.jsonl",
+  "page_count": 2,
+  "question_count": 25,
+  "summaries": [
+    {
+      "strategy": "fixed",
+      "chunks": 4,
+      "mean_chars": 1038.8,
+      "median_chars": 1199.0,
+      "under_100_chars": 0,
+      "recall_at_1": 0.76,
+      "recall_at_3": 0.96,
+      "recall_at_5": 1.0,
+      "mrr": 0.85
+    },
+    {
+      "strategy": "recursive",
+      "chunks": 5,
+      "mean_chars": 771,
+      "median_chars": 617,
+      "under_100_chars": 0,
+      "recall_at_1": 0.68,
+      "recall_at_3": 0.96,
+      "recall_at_5": 1.0,
+      "mrr": 0.8166666666666667
+    },
+    {
+      "strategy": "semantic",
+      "chunks": 5,
+      "mean_chars": 771,
+      "median_chars": 762,
+      "under_100_chars": 0,
+      "recall_at_1": 0.52,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "mrr": 0.7133333333333334
+    },
+    {
+      "strategy": "structural",
+      "chunks": 10,
+      "mean_chars": 385.5,
+      "median_chars": 268.0,
+      "under_100_chars": 4,
+      "recall_at_1": 0.52,
+      "recall_at_3": 0.84,
+      "recall_at_5": 0.96,
+      "mrr": 0.688
+    }
+  ],
+  "selection": {
+    "selected_strategy": "fixed",
+    "selection_score": 0.8675,
+    "selection_reason": "Selected the highest-scoring strategy among candidates that passed the chunk-quality gates using available retrieval metrics.",
+    "selected_metrics": {
+      "strategy": "fixed",
+      "chunks": 4,
+      "mean_chars": 1038.8,
+      "median_chars": 1199.0,
+      "under_100_chars": 0,
+      "recall_at_1": 0.76,
+      "recall_at_3": 0.96,
+      "recall_at_5": 1.0,
+      "mrr": 0.85
+    },
+    "candidates": [
+      {
+        "strategy": "fixed",
+        "score": 0.8675,
+        "metrics": {
+          "strategy": "fixed",
+          "chunks": 4,
+          "mean_chars": 1038.8,
+          "median_chars": 1199.0,
+          "under_100_chars": 0,
+          "recall_at_1": 0.76,
+          "recall_at_3": 0.96,
+          "recall_at_5": 1.0,
+          "mrr": 0.85
+        },
+        "under_100_ratio": 0.0
+      },
+      {
+        "strategy": "recursive",
+        "score": 0.831833,
+        "metrics": {
+          "strategy": "recursive",
+          "chunks": 5,
+          "mean_chars": 771.0,
+          "median_chars": 617.0,
+          "under_100_chars": 0,
+          "recall_at_1": 0.68,
+          "recall_at_3": 0.96,
+          "recall_at_5": 1.0,
+          "mrr": 0.8166666666666667
+        },
+        "under_100_ratio": 0.0
+      },
+      {
+        "strategy": "semantic",
+        "score": 0.755667,
+        "metrics": {
+          "strategy": "semantic",
+          "chunks": 5,
+          "mean_chars": 771.0,
+          "median_chars": 762.0,
+          "under_100_chars": 0,
+          "recall_at_1": 0.52,
+          "recall_at_3": 1.0,
+          "recall_at_5": 1.0,
+          "mrr": 0.7133333333333334
+        },
+        "under_100_ratio": 0.0
+      },
+      {
+        "strategy": "structural",
+        "score": 0.7088,
+        "metrics": {
+          "strategy": "structural",
+          "chunks": 10,
+          "mean_chars": 385.5,
+          "median_chars": 268.0,
+          "under_100_chars": 4,
+          "recall_at_1": 0.52,
+          "recall_at_3": 0.84,
+          "recall_at_5": 0.96,
+          "mrr": 0.688
+        },
+        "under_100_ratio": 0.4
+      }
+    ],
+    "rejected_candidates": []
+  },
+  "per_question": {
+    "fixed": [
+      {
+        "question": "What do discretionary mandates allow clients to leave to investment professionals?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "ddf81c295ac79279"
+      },
+      {
+        "question": "Who manages a client's portfolio under a discretionary solution?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "ddf81c295ac79279"
+      },
+      {
+        "question": "Which factors guide the management of a discretionary portfolio?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "ddf81c295ac79279"
+      },
+      {
+        "question": "Which major investment categories are covered by Julius Baer's discretionary mandates?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "ddf81c295ac79279"
+      },
+      {
+        "question": "What personal and financial information does a client explain at the first step?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "ddf81c295ac79279"
+      },
+      {
+        "question": "What does the client explain about their investment preferences at the first step?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "ddf81c295ac79279"
+      },
+      {
+        "question": "What does Julius Baer provide after learning about the client's profile and objectives?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "ddf81c295ac79279"
+      },
+      {
+        "question": "Which team can develop a tailored investment solution upon request?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "0d9b346805460a8a"
+      },
+      {
+        "question": "What happens once the client decides which strategy to pursue?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "0d9b346805460a8a"
+      },
+      {
+        "question": "How does Julius Baer help keep a portfolio aligned with the chosen strategy?",
+        "expected_page": 2,
+        "hit_rank": 4,
+        "hit_page": 2,
+        "hit_chunk_id": "15f83d33e09b818a"
+      },
+      {
+        "question": "Can a client change their chosen strategy?",
+        "expected_page": 2,
+        "hit_rank": 3,
+        "hit_page": 2,
+        "hit_chunk_id": "15f83d33e09b818a"
+      },
+      {
+        "question": "What does Julius Baer provide to keep clients up to date on portfolio performance?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "15f83d33e09b818a"
+      },
+      {
+        "question": "What determines which products and services are offered to a client?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "15f83d33e09b818a"
+      },
+      {
+        "question": "Name one type of mandate included in Julius Baer's range.",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "15f83d33e09b818a"
+      },
+      {
+        "question": "Which mandates focus on a particular geographical area?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "15f83d33e09b818a"
+      },
+      {
+        "question": "Which team directly manages tailored mandates?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "15f83d33e09b818a"
+      },
+      {
+        "question": "What needs can Julius Baer tailor discretionary mandates to meet?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "15f83d33e09b818a"
+      },
+      {
+        "question": "What two levels of analysis are combined in the investment process?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "1bbb9775220755ff"
+      },
+      {
+        "question": "What does the Investment Committee define in the top-down process?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "1bbb9775220755ff"
+      },
+      {
+        "question": "What guides individual investment decisions by portfolio managers in the bottom-up process?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "1bbb9775220755ff"
+      },
+      {
+        "question": "What do all of Julius Baer's discretionary mandates reflect?",
+        "expected_page": 2,
+        "hit_rank": 3,
+        "hit_page": 2,
+        "hit_chunk_id": "1bbb9775220755ff"
+      },
+      {
+        "question": "How often does the Investment Committee meet to assess markets and economic developments?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "1bbb9775220755ff"
+      },
+      {
+        "question": "What are tactical decisions based on?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "1bbb9775220755ff"
+      },
+      {
+        "question": "How often can clients access tailored performance reports?",
+        "expected_page": 2,
+        "hit_rank": 3,
+        "hit_page": 2,
+        "hit_chunk_id": "1bbb9775220755ff"
+      },
+      {
+        "question": "What is the stated objective of the sustainability mandates?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "1bbb9775220755ff"
+      }
+    ],
+    "recursive": [
+      {
+        "question": "What do discretionary mandates allow clients to leave to investment professionals?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "3e18a8dff016a05c"
+      },
+      {
+        "question": "Who manages a client's portfolio under a discretionary solution?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "3e18a8dff016a05c"
+      },
+      {
+        "question": "Which factors guide the management of a discretionary portfolio?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "3e18a8dff016a05c"
+      },
+      {
+        "question": "Which major investment categories are covered by Julius Baer's discretionary mandates?",
+        "expected_page": 1,
+        "hit_rank": 2,
+        "hit_page": 1,
+        "hit_chunk_id": "3e18a8dff016a05c"
+      },
+      {
+        "question": "What personal and financial information does a client explain at the first step?",
+        "expected_page": 1,
+        "hit_rank": 2,
+        "hit_page": 1,
+        "hit_chunk_id": "3e18a8dff016a05c"
+      },
+      {
+        "question": "What does the client explain about their investment preferences at the first step?",
+        "expected_page": 1,
+        "hit_rank": 2,
+        "hit_page": 1,
+        "hit_chunk_id": "3e18a8dff016a05c"
+      },
+      {
+        "question": "What does Julius Baer provide after learning about the client's profile and objectives?",
+        "expected_page": 1,
+        "hit_rank": 2,
+        "hit_page": 1,
+        "hit_chunk_id": "3e18a8dff016a05c"
+      },
+      {
+        "question": "Which team can develop a tailored investment solution upon request?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "a17a4843677c64e6"
+      },
+      {
+        "question": "What happens once the client decides which strategy to pursue?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "a17a4843677c64e6"
+      },
+      {
+        "question": "How does Julius Baer help keep a portfolio aligned with the chosen strategy?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "ae8d0e7d8d9cc70f"
+      },
+      {
+        "question": "Can a client change their chosen strategy?",
+        "expected_page": 2,
+        "hit_rank": 4,
+        "hit_page": 2,
+        "hit_chunk_id": "ae8d0e7d8d9cc70f"
+      },
+      {
+        "question": "What does Julius Baer provide to keep clients up to date on portfolio performance?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "ae8d0e7d8d9cc70f"
+      },
+      {
+        "question": "What determines which products and services are offered to a client?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "ae8d0e7d8d9cc70f"
+      },
+      {
+        "question": "Name one type of mandate included in Julius Baer's range.",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "ae8d0e7d8d9cc70f"
+      },
+      {
+        "question": "Which mandates focus on a particular geographical area?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "ae8d0e7d8d9cc70f"
+      },
+      {
+        "question": "Which team directly manages tailored mandates?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "23732f0aaa084369"
+      },
+      {
+        "question": "What needs can Julius Baer tailor discretionary mandates to meet?",
+        "expected_page": 2,
+        "hit_rank": 3,
+        "hit_page": 2,
+        "hit_chunk_id": "23732f0aaa084369"
+      },
+      {
+        "question": "What two levels of analysis are combined in the investment process?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "23732f0aaa084369"
+      },
+      {
+        "question": "What does the Investment Committee define in the top-down process?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "23732f0aaa084369"
+      },
+      {
+        "question": "What guides individual investment decisions by portfolio managers in the bottom-up process?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "23732f0aaa084369"
+      },
+      {
+        "question": "What do all of Julius Baer's discretionary mandates reflect?",
+        "expected_page": 2,
+        "hit_rank": 3,
+        "hit_page": 2,
+        "hit_chunk_id": "23732f0aaa084369"
+      },
+      {
+        "question": "How often does the Investment Committee meet to assess markets and economic developments?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "23732f0aaa084369"
+      },
+      {
+        "question": "What are tactical decisions based on?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "23732f0aaa084369"
+      },
+      {
+        "question": "How often can clients access tailored performance reports?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "23732f0aaa084369"
+      },
+      {
+        "question": "What is the stated objective of the sustainability mandates?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "27792cce6f9a2f61"
+      }
+    ],
+    "semantic": [
+      {
+        "question": "What do discretionary mandates allow clients to leave to investment professionals?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "5ec9446ffeac857f"
+      },
+      {
+        "question": "Who manages a client's portfolio under a discretionary solution?",
+        "expected_page": 1,
+        "hit_rank": 2,
+        "hit_page": 1,
+        "hit_chunk_id": "5ec9446ffeac857f"
+      },
+      {
+        "question": "Which factors guide the management of a discretionary portfolio?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "5ec9446ffeac857f"
+      },
+      {
+        "question": "Which major investment categories are covered by Julius Baer's discretionary mandates?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "5ec9446ffeac857f"
+      },
+      {
+        "question": "What personal and financial information does a client explain at the first step?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "c33eaebfbb25651a"
+      },
+      {
+        "question": "What does the client explain about their investment preferences at the first step?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "c33eaebfbb25651a"
+      },
+      {
+        "question": "What does Julius Baer provide after learning about the client's profile and objectives?",
+        "expected_page": 1,
+        "hit_rank": 3,
+        "hit_page": 1,
+        "hit_chunk_id": "c33eaebfbb25651a"
+      },
+      {
+        "question": "Which team can develop a tailored investment solution upon request?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "c33eaebfbb25651a"
+      },
+      {
+        "question": "What happens once the client decides which strategy to pursue?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "c33eaebfbb25651a"
+      },
+      {
+        "question": "How does Julius Baer help keep a portfolio aligned with the chosen strategy?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "b08358cedfaebf05"
+      },
+      {
+        "question": "Can a client change their chosen strategy?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "b08358cedfaebf05"
+      },
+      {
+        "question": "What does Julius Baer provide to keep clients up to date on portfolio performance?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "b08358cedfaebf05"
+      },
+      {
+        "question": "What determines which products and services are offered to a client?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "b08358cedfaebf05"
+      },
+      {
+        "question": "Name one type of mandate included in Julius Baer's range.",
+        "expected_page": 2,
+        "hit_rank": 3,
+        "hit_page": 2,
+        "hit_chunk_id": "ffd314653c3d165a"
+      },
+      {
+        "question": "Which mandates focus on a particular geographical area?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "ffd314653c3d165a"
+      },
+      {
+        "question": "Which team directly manages tailored mandates?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "ffd314653c3d165a"
+      },
+      {
+        "question": "What needs can Julius Baer tailor discretionary mandates to meet?",
+        "expected_page": 2,
+        "hit_rank": 3,
+        "hit_page": 2,
+        "hit_chunk_id": "ffd314653c3d165a"
+      },
+      {
+        "question": "What two levels of analysis are combined in the investment process?",
+        "expected_page": 2,
+        "hit_rank": 3,
+        "hit_page": 2,
+        "hit_chunk_id": "ffd314653c3d165a"
+      },
+      {
+        "question": "What does the Investment Committee define in the top-down process?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "ffd314653c3d165a"
+      },
+      {
+        "question": "What guides individual investment decisions by portfolio managers in the bottom-up process?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "ffd314653c3d165a"
+      },
+      {
+        "question": "What do all of Julius Baer's discretionary mandates reflect?",
+        "expected_page": 2,
+        "hit_rank": 3,
+        "hit_page": 2,
+        "hit_chunk_id": "ffd314653c3d165a"
+      },
+      {
+        "question": "How often does the Investment Committee meet to assess markets and economic developments?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "95308ceab4569c0f"
+      },
+      {
+        "question": "What are tactical decisions based on?",
+        "expected_page": 2,
+        "hit_rank": 3,
+        "hit_page": 2,
+        "hit_chunk_id": "95308ceab4569c0f"
+      },
+      {
+        "question": "How often can clients access tailored performance reports?",
+        "expected_page": 2,
+        "hit_rank": 3,
+        "hit_page": 2,
+        "hit_chunk_id": "95308ceab4569c0f"
+      },
+      {
+        "question": "What is the stated objective of the sustainability mandates?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "95308ceab4569c0f"
+      }
+    ],
+    "structural": [
+      {
+        "question": "What do discretionary mandates allow clients to leave to investment professionals?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "64a2ed257f00e5f1"
+      },
+      {
+        "question": "Who manages a client's portfolio under a discretionary solution?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "64a2ed257f00e5f1"
+      },
+      {
+        "question": "Which factors guide the management of a discretionary portfolio?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "64a2ed257f00e5f1"
+      },
+      {
+        "question": "Which major investment categories are covered by Julius Baer's discretionary mandates?",
+        "expected_page": 1,
+        "hit_rank": 6,
+        "hit_page": 1,
+        "hit_chunk_id": "64a2ed257f00e5f1"
+      },
+      {
+        "question": "What personal and financial information does a client explain at the first step?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "fe2b499e53c11f97"
+      },
+      {
+        "question": "What does the client explain about their investment preferences at the first step?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "fe2b499e53c11f97"
+      },
+      {
+        "question": "What does Julius Baer provide after learning about the client's profile and objectives?",
+        "expected_page": 1,
+        "hit_rank": 3,
+        "hit_page": 1,
+        "hit_chunk_id": "fe2b499e53c11f97"
+      },
+      {
+        "question": "Which team can develop a tailored investment solution upon request?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "fe2b499e53c11f97"
+      },
+      {
+        "question": "What happens once the client decides which strategy to pursue?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "fe2b499e53c11f97"
+      },
+      {
+        "question": "How does Julius Baer help keep a portfolio aligned with the chosen strategy?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "e4fd2c799d27dc43"
+      },
+      {
+        "question": "Can a client change their chosen strategy?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "e4fd2c799d27dc43"
+      },
+      {
+        "question": "What does Julius Baer provide to keep clients up to date on portfolio performance?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "e4fd2c799d27dc43"
+      },
+      {
+        "question": "What determines which products and services are offered to a client?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "e4fd2c799d27dc43"
+      },
+      {
+        "question": "Name one type of mandate included in Julius Baer's range.",
+        "expected_page": 2,
+        "hit_rank": 3,
+        "hit_page": 2,
+        "hit_chunk_id": "52d55df45f8d8006"
+      },
+      {
+        "question": "Which mandates focus on a particular geographical area?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "52d55df45f8d8006"
+      },
+      {
+        "question": "Which team directly manages tailored mandates?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "52d55df45f8d8006"
+      },
+      {
+        "question": "What needs can Julius Baer tailor discretionary mandates to meet?",
+        "expected_page": 2,
+        "hit_rank": 4,
+        "hit_page": 2,
+        "hit_chunk_id": "52d55df45f8d8006"
+      },
+      {
+        "question": "What two levels of analysis are combined in the investment process?",
+        "expected_page": 2,
+        "hit_rank": 3,
+        "hit_page": 2,
+        "hit_chunk_id": "52d55df45f8d8006"
+      },
+      {
+        "question": "What does the Investment Committee define in the top-down process?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "52d55df45f8d8006"
+      },
+      {
+        "question": "What guides individual investment decisions by portfolio managers in the bottom-up process?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "52d55df45f8d8006"
+      },
+      {
+        "question": "What do all of Julius Baer's discretionary mandates reflect?",
+        "expected_page": 2,
+        "hit_rank": 5,
+        "hit_page": 2,
+        "hit_chunk_id": "52d55df45f8d8006"
+      },
+      {
+        "question": "How often does the Investment Committee meet to assess markets and economic developments?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "6839afbd4689616c"
+      },
+      {
+        "question": "What are tactical decisions based on?",
+        "expected_page": 2,
+        "hit_rank": 3,
+        "hit_page": 2,
+        "hit_chunk_id": "6839afbd4689616c"
+      },
+      {
+        "question": "How often can clients access tailored performance reports?",
+        "expected_page": 2,
+        "hit_rank": 4,
+        "hit_page": 2,
+        "hit_chunk_id": "6839afbd4689616c"
+      },
+      {
+        "question": "What is the stated objective of the sustainability mandates?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "6839afbd4689616c"
+      }
+    ]
+  }
+}

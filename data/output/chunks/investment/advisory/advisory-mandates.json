@@ -1,0 +1,157 @@
+{
+  "schema_version": "1.0",
+  "document": "data\\normalized\\investment\\advisory\\advisory-mandates.jsonl",
+  "strategy": "fixed",
+  "chunks": [
+    {
+      "chunk_id": "a1058d7e0508b3b7",
+      "document_id": "investment/advisory/advisory-mandates",
+      "source": {
+        "file": "advisory-mandates.pdf",
+        "page_start": 1,
+        "page_end": 1,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 1200
+        }
+      },
+      "text": "Advisory mandates at Julius Baer | Julius Baer\n\nJulius Bar\n\n€ Investing\n\nADVISORY MANDATES\n\nAll of Julius Baer’s investment expertise at your\nfingertips.\n\nDo you want to remain in full control of your investments, but sometimes struggle to keep on top of the\nincreasingly fast-paced and regulated world of financial markets? If so, then Julius Baer’s advisory\n\nmandates could be the right solution for you.\n\nOur advisory mandates offer expert investment strategies that are aligned with your financial situation\nand objectives. You benefit from the support of our financial experts at every turn, while having the\n\nfinal say on any investment decision.\n\nWhy opt for an advisory mandate?\n\nControl\n\nMaintain full control of all your investment decisions and get strategic and tactical advice to meet your\n\nindividual needs.\n\nDedicated specialist\n\nGain access to personal investment advice from your dedicated relationship manager.\n\nPortfolio monitoring and research expertise\nBenefit from our daily portfolio monitoring and research expertise by accessing or receiving our\n\npublications.\n\nHow does it work?\n\nOur first priority is to understand your needs and goals. To do this, we explore questions suc",
+      "chunking": {
+        "strategy": "fixed",
+        "chunk_index": 0
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 1200,
+        "chunk_size": 1200,
+        "overlap": 150
+      }
+    },
+    {
+      "chunk_id": "ecb32d752d4b4425",
+      "document_id": "investment/advisory/advisory-mandates",
+      "source": {
+        "file": "advisory-mandates.pdf",
+        "page_start": 1,
+        "page_end": 1,
+        "section": null,
+        "offsets": {
+          "start": 1050,
+          "end": 2005
+        }
+      },
+      "text": "ing or receiving our\n\npublications.\n\nHow does it work?\n\nOur first priority is to understand your needs and goals. To do this, we explore questions such as: What\nmatters to you? How involved do you want to be in your investments? What is your investment horizon?\n\nWe also determine your risk profile and explore investment themes you could be interested in.\n\nOnce we have completed this process, you define with your relationship manager the frequency of\ninteraction you wish to have. Your investment advisor or your relationship manager will then begin\nactively supporting you with your investments. You will receive individual investment ideas tailored to\nyour portfolio, and naturally also have the flexibility to implement investment ideas of your choice.\nDepending on the mandate you select, you will also be able to choose from a range of portfolio\n\nmonitoring options.\n\nhttps:/Awww.juliusbaer.com/in/en/our-solutions/investing/advisory-mandates/ 1/4",
+      "chunking": {
+        "strategy": "fixed",
+        "chunk_index": 1
+      },
+      "metadata": {
+        "start_offset": 1050,
+        "end_offset": 2005,
+        "chunk_size": 1200,
+        "overlap": 150
+      }
+    },
+    {
+      "chunk_id": "c6b9b15efafdb7d2",
+      "document_id": "investment/advisory/advisory-mandates",
+      "source": {
+        "file": "advisory-mandates.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 1200
+        }
+      },
+      "text": "Advisory mandates at Julius Baer | Julius Baer\n\nThe products and services offered depend on the domicile of the client and the legal entity of Julius Baer.\n\nWHAT SETS US APART\n\n&\n\nHolistic view Global presence and expertise\nInvestment advisors and relationship managers who Benefit from over 400 experts across the bank who\ntruly understand your financial situation and support your relationship manager in providing\nobjectives. tailored advice.\n\nQ ®\nA\n© ©\n\nAccess\n\nOur open architecture enables you to invest in longterm trends and gain access to industries with high\n\nbarriers to entry.\nFREQUENTLY ASKED QUESTIONS\n\nCan I personalise my advisory mandate? Vv\n\nYou have the possibility to choose between a range of investment strategies and profiles, which vary\ndepending on the model you select as well as your risk appetite and investment horizon. Ultimately,\n\nyou make every investment decision.\nHow frequent is the interaction with the bank? Vv\n\nThat depends entirely on your personal preferences, and on which mandate you ultimately choose.\n\nInteraction can be monthly, weekly, or even daily.\n\nOUR INVESTMENT EXPERTISE\n\nWhy should | opt for an advisory mandate at Julius Baer? Vv\n\nf Faas\n\nNext Ge",
+      "chunking": {
+        "strategy": "fixed",
+        "chunk_index": 2
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 1200,
+        "chunk_size": 1200,
+        "overlap": 150
+      }
+    },
+    {
+      "chunk_id": "35b56b852f6ffe2d",
+      "document_id": "investment/advisory/advisory-mandates",
+      "source": {
+        "file": "advisory-mandates.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": null,
+        "offsets": {
+          "start": 1050,
+          "end": 1298
+        }
+      },
+      "text": "raction can be monthly, weekly, or even daily.\n\nOUR INVESTMENT EXPERTISE\n\nWhy should | opt for an advisory mandate at Julius Baer? Vv\n\nf Faas\n\nNext Generation Research\n\nhttps:/Awww.juliusbaer.com/in/en/our-solutions/investing/advisory-mandates/ 2/4",
+      "chunking": {
+        "strategy": "fixed",
+        "chunk_index": 3
+      },
+      "metadata": {
+        "start_offset": 1050,
+        "end_offset": 1298,
+        "chunk_size": 1200,
+        "overlap": 150
+      }
+    },
+    {
+      "chunk_id": "7c0f206f4c21adf8",
+      "document_id": "investment/advisory/advisory-mandates",
+      "source": {
+        "file": "advisory-mandates.pdf",
+        "page_start": 3,
+        "page_end": 3,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 413
+        }
+      },
+      "text": "Advisory mandates at Julius Baer | Julius Baer\n\nDiscover more — Discover more —\n\nResponsible wealth management\n\nDiscover more —\n\nINSIGHTS\n\nHow to invest in infrastructure: Where Structured products explained: How\nstability meets growth they work, benefits, and risks\n11.06.2026 © 4min 05.05.2026 ©) 6min\n\nHow to Invest How to Invest\n\nhttps:/Awww.juliusbaer.com/in/en/our-solutions/investing/advisory-mandates/ 3/4",
+      "chunking": {
+        "strategy": "fixed",
+        "chunk_index": 4
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 413,
+        "chunk_size": 1200,
+        "overlap": 150
+      }
+    },
+    {
+      "chunk_id": "8fca4a4c77ba19da",
+      "document_id": "investment/advisory/advisory-mandates",
+      "source": {
+        "file": "advisory-mandates.pdf",
+        "page_start": 4,
+        "page_end": 4,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 314
+        }
+      },
+      "text": "Advisory mandates at Julius Baer | Julius Baer\n\nCommodities: Where markets meet\nreal-world materials\n\n27.04.2026 ©) 4min\n\nHow to Invest\n\nDiscover more\n\nOUR SOLUTIONS Wealth planning\n\nInvesting\n\nHow we invest today is how we live tomorrow\n\nhttps:/Awww.juliusbaer.com/in/en/our-solutions/investing/advisory-mandates/",
+      "chunking": {
+        "strategy": "fixed",
+        "chunk_index": 5
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 314,
+        "chunk_size": 1200,
+        "overlap": 150
+      }
+    }
+  ]
+}

@@ -1,0 +1,425 @@
+{
+  "schema_version": "1.0",
+  "document": "investment\\advisory\\advisory-mandates.jsonl",
+  "page_count": 4,
+  "question_count": 10,
+  "summaries": [
+    {
+      "strategy": "fixed",
+      "chunks": 6,
+      "mean_chars": 721.7,
+      "median_chars": 684.0,
+      "under_100_chars": 0,
+      "recall_at_1": 0.4,
+      "recall_at_3": 0.9,
+      "recall_at_5": 0.9,
+      "mrr": 0.6333333333333333
+    },
+    {
+      "strategy": "recursive",
+      "chunks": 6,
+      "mean_chars": 671.7,
+      "median_chars": 656.0,
+      "under_100_chars": 0,
+      "recall_at_1": 0.4,
+      "recall_at_3": 0.7,
+      "recall_at_5": 0.9,
+      "mrr": 0.6166666666666667
+    },
+    {
+      "strategy": "semantic",
+      "chunks": 7,
+      "mean_chars": 575.7,
+      "median_chars": 413,
+      "under_100_chars": 0,
+      "recall_at_1": 0.2,
+      "recall_at_3": 0.7,
+      "recall_at_5": 0.9,
+      "mrr": 0.5166666666666667
+    },
+    {
+      "strategy": "structural",
+      "chunks": 19,
+      "mean_chars": 212.1,
+      "median_chars": 131,
+      "under_100_chars": 6,
+      "recall_at_1": 0.5,
+      "recall_at_3": 0.7,
+      "recall_at_5": 0.8,
+      "mrr": 0.6488095238095238
+    }
+  ],
+  "selection": {
+    "selected_strategy": "fixed",
+    "selection_score": 0.656667,
+    "selection_reason": "Selected the highest-scoring strategy among candidates that passed the chunk-quality gates using available retrieval metrics.",
+    "selected_metrics": {
+      "strategy": "fixed",
+      "chunks": 6,
+      "mean_chars": 721.7,
+      "median_chars": 684.0,
+      "under_100_chars": 0,
+      "recall_at_1": 0.4,
+      "recall_at_3": 0.9,
+      "recall_at_5": 0.9,
+      "mrr": 0.6333333333333333
+    },
+    "candidates": [
+      {
+        "strategy": "fixed",
+        "score": 0.656667,
+        "metrics": {
+          "strategy": "fixed",
+          "chunks": 6,
+          "mean_chars": 721.7,
+          "median_chars": 684.0,
+          "under_100_chars": 0,
+          "recall_at_1": 0.4,
+          "recall_at_3": 0.9,
+          "recall_at_5": 0.9,
+          "mrr": 0.6333333333333333
+        },
+        "under_100_ratio": 0.0
+      },
+      {
+        "strategy": "structural",
+        "score": 0.637083,
+        "metrics": {
+          "strategy": "structural",
+          "chunks": 19,
+          "mean_chars": 212.1,
+          "median_chars": 131.0,
+          "under_100_chars": 6,
+          "recall_at_1": 0.5,
+          "recall_at_3": 0.7,
+          "recall_at_5": 0.8,
+          "mrr": 0.6488095238095238
+        },
+        "under_100_ratio": 0.3158
+      },
+      {
+        "strategy": "recursive",
+        "score": 0.610833,
+        "metrics": {
+          "strategy": "recursive",
+          "chunks": 6,
+          "mean_chars": 671.7,
+          "median_chars": 656.0,
+          "under_100_chars": 0,
+          "recall_at_1": 0.4,
+          "recall_at_3": 0.7,
+          "recall_at_5": 0.9,
+          "mrr": 0.6166666666666667
+        },
+        "under_100_ratio": 0.0
+      },
+      {
+        "strategy": "semantic",
+        "score": 0.515833,
+        "metrics": {
+          "strategy": "semantic",
+          "chunks": 7,
+          "mean_chars": 575.7,
+          "median_chars": 413.0,
+          "under_100_chars": 0,
+          "recall_at_1": 0.2,
+          "recall_at_3": 0.7,
+          "recall_at_5": 0.9,
+          "mrr": 0.5166666666666667
+        },
+        "under_100_ratio": 0.0
+      }
+    ],
+    "rejected_candidates": []
+  },
+  "per_question": {
+    "fixed": [
+      {
+        "question": "Who has the final say on investment decisions?",
+        "expected_page": 1,
+        "hit_rank": 3,
+        "hit_page": 1,
+        "hit_chunk_id": "a1058d7e0508b3b7"
+      },
+      {
+        "question": "What do advisory mandates offer?",
+        "expected_page": 1,
+        "hit_rank": 2,
+        "hit_page": 1,
+        "hit_chunk_id": "a1058d7e0508b3b7"
+      },
+      {
+        "question": "Who provides personal investment advice?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "a1058d7e0508b3b7"
+      },
+      {
+        "question": "What portfolio monitoring and research benefit is offered?",
+        "expected_page": 1,
+        "hit_rank": 2,
+        "hit_page": 1,
+        "hit_chunk_id": "a1058d7e0508b3b7"
+      },
+      {
+        "question": "What does Julius Baer determine when exploring the client's needs?",
+        "expected_page": 1,
+        "hit_rank": 6,
+        "hit_page": 1,
+        "hit_chunk_id": "ecb32d752d4b4425"
+      },
+      {
+        "question": "How often can interaction with the bank happen?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "c6b9b15efafdb7d2"
+      },
+      {
+        "question": "Can clients personalize their advisory mandate?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "c6b9b15efafdb7d2"
+      },
+      {
+        "question": "How many experts across the bank support the relationship manager?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "c6b9b15efafdb7d2"
+      },
+      {
+        "question": "What does the open architecture provide access to?",
+        "expected_page": 2,
+        "hit_rank": 3,
+        "hit_page": 2,
+        "hit_chunk_id": "c6b9b15efafdb7d2"
+      },
+      {
+        "question": "What investment ideas do clients receive?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "ecb32d752d4b4425"
+      }
+    ],
+    "recursive": [
+      {
+        "question": "Who has the final say on investment decisions?",
+        "expected_page": 1,
+        "hit_rank": 4,
+        "hit_page": 1,
+        "hit_chunk_id": "b2dbaf37e41057af"
+      },
+      {
+        "question": "What do advisory mandates offer?",
+        "expected_page": 1,
+        "hit_rank": 2,
+        "hit_page": 1,
+        "hit_chunk_id": "b2dbaf37e41057af"
+      },
+      {
+        "question": "Who provides personal investment advice?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "b2dbaf37e41057af"
+      },
+      {
+        "question": "What portfolio monitoring and research benefit is offered?",
+        "expected_page": 1,
+        "hit_rank": 2,
+        "hit_page": 1,
+        "hit_chunk_id": "b2dbaf37e41057af"
+      },
+      {
+        "question": "What does Julius Baer determine when exploring the client's needs?",
+        "expected_page": 1,
+        "hit_rank": 6,
+        "hit_page": 1,
+        "hit_chunk_id": "e537b2fc8d393153"
+      },
+      {
+        "question": "How often can interaction with the bank happen?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "70ef4deeac187c65"
+      },
+      {
+        "question": "Can clients personalize their advisory mandate?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "70ef4deeac187c65"
+      },
+      {
+        "question": "How many experts across the bank support the relationship manager?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "70ef4deeac187c65"
+      },
+      {
+        "question": "What does the open architecture provide access to?",
+        "expected_page": 2,
+        "hit_rank": 4,
+        "hit_page": 2,
+        "hit_chunk_id": "70ef4deeac187c65"
+      },
+      {
+        "question": "What investment ideas do clients receive?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "e537b2fc8d393153"
+      }
+    ],
+    "semantic": [
+      {
+        "question": "Who has the final say on investment decisions?",
+        "expected_page": 1,
+        "hit_rank": 4,
+        "hit_page": 1,
+        "hit_chunk_id": "28ed7685f7e9a75b"
+      },
+      {
+        "question": "What do advisory mandates offer?",
+        "expected_page": 1,
+        "hit_rank": 2,
+        "hit_page": 1,
+        "hit_chunk_id": "28ed7685f7e9a75b"
+      },
+      {
+        "question": "Who provides personal investment advice?",
+        "expected_page": 1,
+        "hit_rank": 2,
+        "hit_page": 1,
+        "hit_chunk_id": "28ed7685f7e9a75b"
+      },
+      {
+        "question": "What portfolio monitoring and research benefit is offered?",
+        "expected_page": 1,
+        "hit_rank": 2,
+        "hit_page": 1,
+        "hit_chunk_id": "28ed7685f7e9a75b"
+      },
+      {
+        "question": "What does Julius Baer determine when exploring the client's needs?",
+        "expected_page": 1,
+        "hit_rank": 6,
+        "hit_page": 1,
+        "hit_chunk_id": "212f50de0a81632e"
+      },
+      {
+        "question": "How often can interaction with the bank happen?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "83bb542ce14aff15"
+      },
+      {
+        "question": "Can clients personalize their advisory mandate?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "83bb542ce14aff15"
+      },
+      {
+        "question": "How many experts across the bank support the relationship manager?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "83bb542ce14aff15"
+      },
+      {
+        "question": "What does the open architecture provide access to?",
+        "expected_page": 2,
+        "hit_rank": 4,
+        "hit_page": 2,
+        "hit_chunk_id": "83bb542ce14aff15"
+      },
+      {
+        "question": "What investment ideas do clients receive?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "251d3517f8ab868c"
+      }
+    ],
+    "structural": [
+      {
+        "question": "Who has the final say on investment decisions?",
+        "expected_page": 1,
+        "hit_rank": 6,
+        "hit_page": 1,
+        "hit_chunk_id": "c3b6138a89226ae4"
+      },
+      {
+        "question": "What do advisory mandates offer?",
+        "expected_page": 1,
+        "hit_rank": 2,
+        "hit_page": 1,
+        "hit_chunk_id": "c3b6138a89226ae4"
+      },
+      {
+        "question": "Who provides personal investment advice?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "ccd5aedb7bcf3121"
+      },
+      {
+        "question": "What portfolio monitoring and research benefit is offered?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "ccd5aedb7bcf3121"
+      },
+      {
+        "question": "What does Julius Baer determine when exploring the client's needs?",
+        "expected_page": 1,
+        "hit_rank": 14,
+        "hit_page": 1,
+        "hit_chunk_id": "6af8c72084768eb3"
+      },
+      {
+        "question": "How often can interaction with the bank happen?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "9aeaab881ff422a1"
+      },
+      {
+        "question": "Can clients personalize their advisory mandate?",
+        "expected_page": 2,
+        "hit_rank": 4,
+        "hit_page": 2,
+        "hit_chunk_id": "9aeaab881ff422a1"
+      },
+      {
+        "question": "How many experts across the bank support the relationship manager?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "d2755b08c17a85a2"
+      },
+      {
+        "question": "What does the open architecture provide access to?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "6fcfe35a2a67defc"
+      },
+      {
+        "question": "What investment ideas do clients receive?",
+        "expected_page": 1,
+        "hit_rank": 2,
+        "hit_page": 1,
+        "hit_chunk_id": "6af8c72084768eb3"
+      }
+    ]
+  }
+}

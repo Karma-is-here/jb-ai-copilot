@@ -1,0 +1,250 @@
+{
+  "schema_version": "1.0",
+  "document": "data\\normalized\\overview\\asia-growing.jsonl",
+  "strategy": "semantic",
+  "chunks": [
+    {
+      "chunk_id": "6fe540d535993af6",
+      "document_id": "overview/asia-growing",
+      "source": {
+        "file": "asia-growing.pdf",
+        "page_start": 1,
+        "page_end": 1,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 1159
+        }
+      },
+      "text": "Accelerating growth in Asia by building true connections | Julius Baer\n\nJulius Bar\n\nAccelerating growth in Asia by building true\nconnections\n\nMarch 11,2022 by (8) 4min\n\nAsia has been a growth engine and centre of innovation for Julius Baer in the\npast decade, and this is set to continue. Jimmy Lee, Head Asia Pacific and\nMember of the Group Executive Board, shares his insights here about the\ncompany’s sweet spots, the desire to innovate, and other key factors which have\nled to our position as one of the largest wealth management providers in the\nregion.\n\nJulius Baer’s business in Asia may be relatively young against the centennial history of the Bank,\nbut it has achieved strong growth momentum over the past decade with the rapid rise of wealth in\n\nAsia.\n\nToday, Asia accounts for about a quarter of Julius Baer’s total assets under management and its global\nworkforce. In 2021, the Group reported record annual profits, with strong contributions from key\nmarkets including Singapore, Greater China, Japan, and India.\n\nAsia — Our second home market\n\n“Housing 25 per cent of our global workforce, Asia has significantly contributed to the sustainable\n\n",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 0
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 1159,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "d2adb099f7c7f608",
+      "document_id": "overview/asia-growing",
+      "source": {
+        "file": "asia-growing.pdf",
+        "page_start": 1,
+        "page_end": 1,
+        "section": null,
+        "offsets": {
+          "start": 1159,
+          "end": 1496
+        }
+      },
+      "text": "growth of Julius Baer in the past decade and will continue to play a vital role going forward. With our\n\nlarge footprint and regional management based in Singapore, the strategic importance of Asia is\n\nhttps://www.juliusbaer.com/en/insights/company-insights/behind-the-scenes/accelerating-growth-in-asia-by-building-true-connections/ 1/5",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 1
+      },
+      "metadata": {
+        "start_offset": 1159,
+        "end_offset": 1496,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "f4301661088442d3",
+      "document_id": "overview/asia-growing",
+      "source": {
+        "file": "asia-growing.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 1024
+        }
+      },
+      "text": "Accelerating growth in Asia by building true connections | Julius Baer\nevident,” explains Jimmy Lee, Head Asia Pacific at Julius Baer and Member of the Group Executive\n\nBoard.\nJulius Baer serves this diverse region from a number of locations, including local booking centres in\n\nSingapore and Hong Kong, a representative office in Shanghai, a domestic presence in India, and via\n\njoint ventures in Thailand and Japan.\n\n“Our ultimate succe\nfactor is our people.\n\nJimmy Lee\nHead Asia Pacific and Member of\nthe Group Executive Board\n\nJulius Bar \\\n\nLee highlights that Julius Baer differentiates itself for its high and ultra-high net worth clients as a\nfocused wealth manager by maintaining a diverse and experienced workforce, offering innovative\nsolutions, as well as fostering personal, trusted relationships. This leads to high client satisfaction, as\n\nthe recent Global Client survey has confirmed.\n\n“Our success is the direct reflection of our people’s commitment to excellence and the unwavering\nsupport of our clients. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 2
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 1024,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "a7d6b3b3da625621",
+      "document_id": "overview/asia-growing",
+      "source": {
+        "file": "asia-growing.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": null,
+        "offsets": {
+          "start": 1024,
+          "end": 1945
+        }
+      },
+      "text": "We are very proud that we’ve just been awarded Best Private Bank South Asia for\nthe first time by Asian Private Banker in a category of ASEAN countries, and we have won Best Private\nBank Global Indians for the second consecutive year at the Asian Private Banker Awards for Distinction\n2021.”\n\nTrue connections\n\n“We have a tradition of making far-sighted decisions, and building relationships and connections with\nour clients and their families, often lasting decades, by focusing on what truly matters to them. Lately,\nand as a partial result of the pandemic, we’ve been seeing the priorities and investment focus of\nwealthy individuals in Asia changing substantially. And we’ve been providing more advice on topics like\nsustainability, philanthropy, and building a legacy,” says Lee.\n\nhttps://www.juliusbaer.com/en/insights/company-insights/behind-the-scenes/accelerating-growth-in-asia-by-building-true-connections/ 2/5",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 3
+      },
+      "metadata": {
+        "start_offset": 1024,
+        "end_offset": 1945,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "323ba09cf9b86bb2",
+      "document_id": "overview/asia-growing",
+      "source": {
+        "file": "asia-growing.pdf",
+        "page_start": 3,
+        "page_end": 3,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 1199
+        }
+      },
+      "text": "Accelerating growth in Asia by building true connections | Julius Baer\n\n“It is not in our nature to stand still —- and innovation is important\nto appeal to our clients.”\n\nJimmy Lee, Head Asia Pacific at Julius Baer and Member of the Group Executive Board\n\nWith families increasingly planning for intergenerational transfer of wealth, Julius Baer instituted in\nearly 2021 its new Single Family Office in Singapore to support their Asian clients’ wealth planning\nneeds. With a global network of internal and external specialists and a range of sophisticated wealth\nplanning solutions, Julius Baer offers bespoke roadmaps to set up family governance, grow and protect\n\nfamily wealth, manage life’s challenges, and provide a family network to exchange ideas.\n\nContinuous innovation\n\n“The potential created by innovation in the region is tremendous,” says Lee. “It is not in our nature to\nstand still - and innovation is important to appeal to our clients. It is our goal to accelerate our\ntransformation journey. Just recently, the ‘Launchpad’, Julius Baer’s first innovation lab, was set up in\nSingapore, further underlining the power of innovation in the regional importance of Asia for our\n\nGroup.”\n\n",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 4
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 1199,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "dbf9f628e687fd12",
+      "document_id": "overview/asia-growing",
+      "source": {
+        "file": "asia-growing.pdf",
+        "page_start": 3,
+        "page_end": 3,
+        "section": null,
+        "offsets": {
+          "start": 1199,
+          "end": 2208
+        }
+      },
+      "text": "Arising Asia\n\nOne of the most dramatic developments of the past three decades has been Asia’s economic\nemergence and its integration into global flows of trade, capital and talent. Looking ahead, Asia’s\neconomies could go from participating in these flows to determining them. More than half of the\nworld’s population lives in Asia and a billion people have escaped poverty over the past three\n\ndecades.\n\nJulius Baer’s Global Wealth and Lifestyle Report found that Asia houses the largest number of\nhigh and ultra-high net worth individuals (UHNWI) globally, outpacing all other regions in wealth\n\ngeneration for these clients.\n\nSince being granted banking licenses in Singapore and Hong Kong in 2007 and 2010 respectively,\n\nthe Bank has achieved strong growth momentum.\n\nIn fact, as part of its quest to continuously innovate, Julius Baer has significantly expanded its digital\nofferings for its clients since the onset of the pandemic and has made tremendous technological\n\nprogress in the last two years.\n\n",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 5
+      },
+      "metadata": {
+        "start_offset": 1199,
+        "end_offset": 2208,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "512201fc8aded838",
+      "document_id": "overview/asia-growing",
+      "source": {
+        "file": "asia-growing.pdf",
+        "page_start": 3,
+        "page_end": 3,
+        "section": null,
+        "offsets": {
+          "start": 2208,
+          "end": 2646
+        }
+      },
+      "text": "The new proprietary Digital Advisory Suite (DiAS), for example, provides our relationship managers\nwith holistic overviews of client objectives, and helps them to identify opportunities of engagement\n\nwith sound recommendations that meet all regulatory requirements. For DiAS, Julius Baer received the\n\nhttps://www.juliusbaer.com/en/insights/company-insights/behind-the-scenes/accelerating-growth-in-asia-by-building-true-connections/ 3/5",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 6
+      },
+      "metadata": {
+        "start_offset": 2208,
+        "end_offset": 2646,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "17239ec62be4ea48",
+      "document_id": "overview/asia-growing",
+      "source": {
+        "file": "asia-growing.pdf",
+        "page_start": 4,
+        "page_end": 4,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 309
+        }
+      },
+      "text": "Accelerating growth in Asia by building true connections | Julius Baer\nFront Office award at the WealthTechAsia Awards last year. Also, through ‘Julius Baer Mobile’, our\nmobile banking app, clients booked in Singapore and Hong Kong can now trade securities in near real\n\ntime across over 30 major exchanges.\n\n",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 7
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 309,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "a330208f2512e42a",
+      "document_id": "overview/asia-growing",
+      "source": {
+        "file": "asia-growing.pdf",
+        "page_start": 4,
+        "page_end": 4,
+        "section": null,
+        "offsets": {
+          "start": 309,
+          "end": 1259
+        }
+      },
+      "text": "Working together to make a difference\n\nWhile innovation is important, having the right people is crucial, concludes Lee. “It’s not a novelty, but\nit’s a fact: our ultimate success factor is our people. With a purpose to create value beyond wealth, we\nare committed to the long-term development of our team that takes pride in their commitment and\n\ndedication to our clients with their high-quality service and care.”\n\nBehind The Scenes\n\nFrom the Julius Baer Art Collection to its Digital Transformation Team - we take you behind the\n\nscenes of Julius Baer.\n\nRELATED ARTICLES\n\nFrom humble beginnings to shared How Julius Baer’s 20 years in Asia are\nsuccess: 20 years of building trust in shaping its global Al transformation\nAsia\n\n08.05.2026 ©) 4min\n\n08.06.2026 ©) 1min\nBehind the Scenes\n\nExperienced Professionals\n\nhttps://www.juliusbaer.com/en/insights/company-insights/behind-the-scenes/accelerating-growth-in-asia-by-building-true-connections/ 4/5",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 8
+      },
+      "metadata": {
+        "start_offset": 309,
+        "end_offset": 1259,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    }
+  ]
+}

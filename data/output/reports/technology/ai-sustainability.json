@@ -1,0 +1,677 @@
+{
+  "schema_version": "1.0",
+  "document": "technology\\ai-sustainability.jsonl",
+  "page_count": 4,
+  "question_count": 19,
+  "summaries": [
+    {
+      "strategy": "fixed",
+      "chunks": 9,
+      "mean_chars": 921.8,
+      "median_chars": 1200,
+      "under_100_chars": 0,
+      "recall_at_1": 0.631578947368421,
+      "recall_at_3": 0.8421052631578947,
+      "recall_at_5": 0.8947368421052632,
+      "mrr": 0.7298245614035088
+    },
+    {
+      "strategy": "recursive",
+      "chunks": 9,
+      "mean_chars": 838.4,
+      "median_chars": 968,
+      "under_100_chars": 0,
+      "recall_at_1": 0.5789473684210527,
+      "recall_at_3": 0.7894736842105263,
+      "recall_at_5": 0.8947368421052632,
+      "mrr": 0.7017543859649122
+    },
+    {
+      "strategy": "semantic",
+      "chunks": 11,
+      "mean_chars": 686,
+      "median_chars": 678,
+      "under_100_chars": 0,
+      "recall_at_1": 0.42105263157894735,
+      "recall_at_3": 0.8421052631578947,
+      "recall_at_5": 0.8421052631578947,
+      "mrr": 0.6228070175438597
+    },
+    {
+      "strategy": "structural",
+      "chunks": 19,
+      "mean_chars": 397.2,
+      "median_chars": 142,
+      "under_100_chars": 9,
+      "recall_at_1": 0.47368421052631576,
+      "recall_at_3": 0.6842105263157895,
+      "recall_at_5": 0.7368421052631579,
+      "mrr": 0.605764411027569
+    }
+  ],
+  "selection": {
+    "selected_strategy": "fixed",
+    "selection_score": 0.747544,
+    "selection_reason": "Selected the highest-scoring strategy among candidates that passed the chunk-quality gates using available retrieval metrics.",
+    "selected_metrics": {
+      "strategy": "fixed",
+      "chunks": 9,
+      "mean_chars": 921.8,
+      "median_chars": 1200.0,
+      "under_100_chars": 0,
+      "recall_at_1": 0.631578947368421,
+      "recall_at_3": 0.8421052631578947,
+      "recall_at_5": 0.8947368421052632,
+      "mrr": 0.7298245614035088
+    },
+    "candidates": [
+      {
+        "strategy": "fixed",
+        "score": 0.747544,
+        "metrics": {
+          "strategy": "fixed",
+          "chunks": 9,
+          "mean_chars": 921.8,
+          "median_chars": 1200.0,
+          "under_100_chars": 0,
+          "recall_at_1": 0.631578947368421,
+          "recall_at_3": 0.8421052631578947,
+          "recall_at_5": 0.8947368421052632,
+          "mrr": 0.7298245614035088
+        },
+        "under_100_ratio": 0.0
+      },
+      {
+        "strategy": "recursive",
+        "score": 0.711404,
+        "metrics": {
+          "strategy": "recursive",
+          "chunks": 9,
+          "mean_chars": 838.4,
+          "median_chars": 968.0,
+          "under_100_chars": 0,
+          "recall_at_1": 0.5789473684210527,
+          "recall_at_3": 0.7894736842105263,
+          "recall_at_5": 0.8947368421052632,
+          "mrr": 0.7017543859649122
+        },
+        "under_100_ratio": 0.0
+      },
+      {
+        "strategy": "semantic",
+        "score": 0.639035,
+        "metrics": {
+          "strategy": "semantic",
+          "chunks": 11,
+          "mean_chars": 686.0,
+          "median_chars": 678.0,
+          "under_100_chars": 0,
+          "recall_at_1": 0.42105263157894735,
+          "recall_at_3": 0.8421052631578947,
+          "recall_at_5": 0.8421052631578947,
+          "mrr": 0.6228070175438597
+        },
+        "under_100_ratio": 0.0
+      },
+      {
+        "strategy": "structural",
+        "score": 0.601491,
+        "metrics": {
+          "strategy": "structural",
+          "chunks": 19,
+          "mean_chars": 397.2,
+          "median_chars": 142.0,
+          "under_100_chars": 9,
+          "recall_at_1": 0.47368421052631576,
+          "recall_at_3": 0.6842105263157895,
+          "recall_at_5": 0.7368421052631579,
+          "mrr": 0.605764411027569
+        },
+        "under_100_ratio": 0.4737
+      }
+    ],
+    "rejected_candidates": []
+  },
+  "per_question": {
+    "fixed": [
+      {
+        "question": "What two drivers of the future does the article identify as being at inflection points?",
+        "expected_page": 1,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What will sustainability require to decarbonise economies by 2050?",
+        "expected_page": 1,
+        "hit_rank": 2,
+        "hit_page": 1,
+        "hit_chunk_id": "45a9d8bc0fdb7c44"
+      },
+      {
+        "question": "How can cutting-edge AI enhance financial intermediaries’ work?",
+        "expected_page": 1,
+        "hit_rank": 5,
+        "hit_page": 1,
+        "hit_chunk_id": "45a9d8bc0fdb7c44"
+      },
+      {
+        "question": "How many users did ChatGPT reportedly reach within two months of its launch?",
+        "expected_page": 2,
+        "hit_rank": 3,
+        "hit_page": 2,
+        "hit_chunk_id": "a6eeaf1a4c4ef66b"
+      },
+      {
+        "question": "What economic and technological shift will the move to a zero-carbon economy by 2050 require?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "a6eeaf1a4c4ef66b"
+      },
+      {
+        "question": "What is the name of the cycle in which inflated expectations are followed by disillusionment before real advantages become clear?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "a6eeaf1a4c4ef66b"
+      },
+      {
+        "question": "What could AI-powered chatbots deliver to clients?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "2309fdeffe8783bb"
+      },
+      {
+        "question": "How could AI help relationship managers personalise advice?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "2309fdeffe8783bb"
+      },
+      {
+        "question": "How could AI assist with compliance and risk management?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "2309fdeffe8783bb"
+      },
+      {
+        "question": "Where is Julius Baer’s Launchpad innovation lab located?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "2309fdeffe8783bb"
+      },
+      {
+        "question": "What are Julius Baer’s content creation tools being tested to refine?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "2309fdeffe8783bb"
+      },
+      {
+        "question": "What percentage of EU private investors consider sustainability important to how they invest, according to the cited Deloitte research?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "d57dcb462de1fc6e"
+      },
+      {
+        "question": "What percentage of EU private investors said their banks and advisors had yet to discuss sustainable investing strategies with them?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "d57dcb462de1fc6e"
+      },
+      {
+        "question": "What does sustainable investing aim to promote alongside financial returns?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "d57dcb462de1fc6e"
+      },
+      {
+        "question": "What can make ESG analytical data confusing for financial intermediaries?",
+        "expected_page": 3,
+        "hit_rank": 2,
+        "hit_page": 3,
+        "hit_chunk_id": "3ae728ea4131f245"
+      },
+      {
+        "question": "Which Swiss and EU rules does the article cite in relation to sustainable investing?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "3ae728ea4131f245"
+      },
+      {
+        "question": "What two major economic changes does the article describe as potentially representing dramatic upheaval?",
+        "expected_page": 4,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "How does Julius Baer describe its ESG expertise and services for financial intermediaries?",
+        "expected_page": 4,
+        "hit_rank": 1,
+        "hit_page": 4,
+        "hit_chunk_id": "7ad0bc52e428e74c"
+      },
+      {
+        "question": "According to the article’s conclusion, what can expertise in sustainable investing do for a financial intermediary?",
+        "expected_page": 4,
+        "hit_rank": 3,
+        "hit_page": 4,
+        "hit_chunk_id": "01f8f237cf494a00"
+      }
+    ],
+    "recursive": [
+      {
+        "question": "What two drivers of the future does the article identify as being at inflection points?",
+        "expected_page": 1,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What will sustainability require to decarbonise economies by 2050?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "7f1751134d92c86a"
+      },
+      {
+        "question": "How can cutting-edge AI enhance financial intermediaries’ work?",
+        "expected_page": 1,
+        "hit_rank": 4,
+        "hit_page": 1,
+        "hit_chunk_id": "7f1751134d92c86a"
+      },
+      {
+        "question": "How many users did ChatGPT reportedly reach within two months of its launch?",
+        "expected_page": 2,
+        "hit_rank": 4,
+        "hit_page": 2,
+        "hit_chunk_id": "f179b436742bc3f5"
+      },
+      {
+        "question": "What economic and technological shift will the move to a zero-carbon economy by 2050 require?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "f179b436742bc3f5"
+      },
+      {
+        "question": "What is the name of the cycle in which inflated expectations are followed by disillusionment before real advantages become clear?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "f179b436742bc3f5"
+      },
+      {
+        "question": "What could AI-powered chatbots deliver to clients?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "b945f7c8f2a54025"
+      },
+      {
+        "question": "How could AI help relationship managers personalise advice?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "b945f7c8f2a54025"
+      },
+      {
+        "question": "How could AI assist with compliance and risk management?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "b945f7c8f2a54025"
+      },
+      {
+        "question": "Where is Julius Baer’s Launchpad innovation lab located?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "b945f7c8f2a54025"
+      },
+      {
+        "question": "What are Julius Baer’s content creation tools being tested to refine?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "b945f7c8f2a54025"
+      },
+      {
+        "question": "What percentage of EU private investors consider sustainability important to how they invest, according to the cited Deloitte research?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "dd13fa43079e0528"
+      },
+      {
+        "question": "What percentage of EU private investors said their banks and advisors had yet to discuss sustainable investing strategies with them?",
+        "expected_page": 3,
+        "hit_rank": 2,
+        "hit_page": 3,
+        "hit_chunk_id": "dd13fa43079e0528"
+      },
+      {
+        "question": "What does sustainable investing aim to promote alongside financial returns?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "fcb119397c3f9173"
+      },
+      {
+        "question": "What can make ESG analytical data confusing for financial intermediaries?",
+        "expected_page": 3,
+        "hit_rank": 2,
+        "hit_page": 3,
+        "hit_chunk_id": "fcb119397c3f9173"
+      },
+      {
+        "question": "Which Swiss and EU rules does the article cite in relation to sustainable investing?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "fcb119397c3f9173"
+      },
+      {
+        "question": "What two major economic changes does the article describe as potentially representing dramatic upheaval?",
+        "expected_page": 4,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "How does Julius Baer describe its ESG expertise and services for financial intermediaries?",
+        "expected_page": 4,
+        "hit_rank": 1,
+        "hit_page": 4,
+        "hit_chunk_id": "46bfbb4391ad3fea"
+      },
+      {
+        "question": "According to the article’s conclusion, what can expertise in sustainable investing do for a financial intermediary?",
+        "expected_page": 4,
+        "hit_rank": 3,
+        "hit_page": 4,
+        "hit_chunk_id": "a1ee4c166126215d"
+      }
+    ],
+    "semantic": [
+      {
+        "question": "What two drivers of the future does the article identify as being at inflection points?",
+        "expected_page": 1,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What will sustainability require to decarbonise economies by 2050?",
+        "expected_page": 1,
+        "hit_rank": 2,
+        "hit_page": 1,
+        "hit_chunk_id": "5f287d63692320bc"
+      },
+      {
+        "question": "How can cutting-edge AI enhance financial intermediaries’ work?",
+        "expected_page": 1,
+        "hit_rank": 3,
+        "hit_page": 1,
+        "hit_chunk_id": "5f287d63692320bc"
+      },
+      {
+        "question": "How many users did ChatGPT reportedly reach within two months of its launch?",
+        "expected_page": 2,
+        "hit_rank": 6,
+        "hit_page": 2,
+        "hit_chunk_id": "d129d7dc7b7400ff"
+      },
+      {
+        "question": "What economic and technological shift will the move to a zero-carbon economy by 2050 require?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "d129d7dc7b7400ff"
+      },
+      {
+        "question": "What is the name of the cycle in which inflated expectations are followed by disillusionment before real advantages become clear?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "d129d7dc7b7400ff"
+      },
+      {
+        "question": "What could AI-powered chatbots deliver to clients?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "4c8735f523347c0b"
+      },
+      {
+        "question": "How could AI help relationship managers personalise advice?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "4c8735f523347c0b"
+      },
+      {
+        "question": "How could AI assist with compliance and risk management?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "4c8735f523347c0b"
+      },
+      {
+        "question": "Where is Julius Baer’s Launchpad innovation lab located?",
+        "expected_page": 3,
+        "hit_rank": 2,
+        "hit_page": 3,
+        "hit_chunk_id": "2379748a95285789"
+      },
+      {
+        "question": "What are Julius Baer’s content creation tools being tested to refine?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "2379748a95285789"
+      },
+      {
+        "question": "What percentage of EU private investors consider sustainability important to how they invest, according to the cited Deloitte research?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "847cb73534dea5c8"
+      },
+      {
+        "question": "What percentage of EU private investors said their banks and advisors had yet to discuss sustainable investing strategies with them?",
+        "expected_page": 3,
+        "hit_rank": 2,
+        "hit_page": 3,
+        "hit_chunk_id": "847cb73534dea5c8"
+      },
+      {
+        "question": "What does sustainable investing aim to promote alongside financial returns?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "e9b5b84d4ac678c3"
+      },
+      {
+        "question": "What can make ESG analytical data confusing for financial intermediaries?",
+        "expected_page": 3,
+        "hit_rank": 2,
+        "hit_page": 3,
+        "hit_chunk_id": "e9b5b84d4ac678c3"
+      },
+      {
+        "question": "Which Swiss and EU rules does the article cite in relation to sustainable investing?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "e9b5b84d4ac678c3"
+      },
+      {
+        "question": "What two major economic changes does the article describe as potentially representing dramatic upheaval?",
+        "expected_page": 4,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "How does Julius Baer describe its ESG expertise and services for financial intermediaries?",
+        "expected_page": 4,
+        "hit_rank": 1,
+        "hit_page": 4,
+        "hit_chunk_id": "1a6af2439bb6d799"
+      },
+      {
+        "question": "According to the article’s conclusion, what can expertise in sustainable investing do for a financial intermediary?",
+        "expected_page": 4,
+        "hit_rank": 3,
+        "hit_page": 4,
+        "hit_chunk_id": "1a6af2439bb6d799"
+      }
+    ],
+    "structural": [
+      {
+        "question": "What two drivers of the future does the article identify as being at inflection points?",
+        "expected_page": 1,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What will sustainability require to decarbonise economies by 2050?",
+        "expected_page": 1,
+        "hit_rank": 6,
+        "hit_page": 1,
+        "hit_chunk_id": "53e7056a975512b9"
+      },
+      {
+        "question": "How can cutting-edge AI enhance financial intermediaries’ work?",
+        "expected_page": 1,
+        "hit_rank": 5,
+        "hit_page": 1,
+        "hit_chunk_id": "53e7056a975512b9"
+      },
+      {
+        "question": "How many users did ChatGPT reportedly reach within two months of its launch?",
+        "expected_page": 2,
+        "hit_rank": 6,
+        "hit_page": 2,
+        "hit_chunk_id": "a5eca21789948013"
+      },
+      {
+        "question": "What economic and technological shift will the move to a zero-carbon economy by 2050 require?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "a5eca21789948013"
+      },
+      {
+        "question": "What is the name of the cycle in which inflated expectations are followed by disillusionment before real advantages become clear?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "a5eca21789948013"
+      },
+      {
+        "question": "What could AI-powered chatbots deliver to clients?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "40036fc5cc227b35"
+      },
+      {
+        "question": "How could AI help relationship managers personalise advice?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "40036fc5cc227b35"
+      },
+      {
+        "question": "How could AI assist with compliance and risk management?",
+        "expected_page": 3,
+        "hit_rank": 2,
+        "hit_page": 3,
+        "hit_chunk_id": "40036fc5cc227b35"
+      },
+      {
+        "question": "Where is Julius Baer’s Launchpad innovation lab located?",
+        "expected_page": 3,
+        "hit_rank": 7,
+        "hit_page": 3,
+        "hit_chunk_id": "40036fc5cc227b35"
+      },
+      {
+        "question": "What are Julius Baer’s content creation tools being tested to refine?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "40036fc5cc227b35"
+      },
+      {
+        "question": "What percentage of EU private investors consider sustainability important to how they invest, according to the cited Deloitte research?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "64a1815a4b260aa9"
+      },
+      {
+        "question": "What percentage of EU private investors said their banks and advisors had yet to discuss sustainable investing strategies with them?",
+        "expected_page": 3,
+        "hit_rank": 2,
+        "hit_page": 3,
+        "hit_chunk_id": "64a1815a4b260aa9"
+      },
+      {
+        "question": "What does sustainable investing aim to promote alongside financial returns?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "a880eae363660c96"
+      },
+      {
+        "question": "What can make ESG analytical data confusing for financial intermediaries?",
+        "expected_page": 3,
+        "hit_rank": 2,
+        "hit_page": 3,
+        "hit_chunk_id": "a880eae363660c96"
+      },
+      {
+        "question": "Which Swiss and EU rules does the article cite in relation to sustainable investing?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "a880eae363660c96"
+      },
+      {
+        "question": "What two major economic changes does the article describe as potentially representing dramatic upheaval?",
+        "expected_page": 4,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "How does Julius Baer describe its ESG expertise and services for financial intermediaries?",
+        "expected_page": 4,
+        "hit_rank": 1,
+        "hit_page": 4,
+        "hit_chunk_id": "72149f9c57a5e074"
+      },
+      {
+        "question": "According to the article’s conclusion, what can expertise in sustainable investing do for a financial intermediary?",
+        "expected_page": 4,
+        "hit_rank": 3,
+        "hit_page": 4,
+        "hit_chunk_id": "b6b2bd813549e15a"
+      }
+    ]
+  }
+}

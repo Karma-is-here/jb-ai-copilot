@@ -1,0 +1,137 @@
+[
+  {
+    "question": "Where is Julius Baer's group head office?",
+    "answer": "Zurich, Switzerland",
+    "page": 4
+  },
+  {
+    "question": "How many locations does Julius Baer have around the world?",
+    "answer": "over 50 locations around the world",
+    "page": 4
+  },
+  {
+    "question": "In a single-location relationship, who is responsible for providing the services?",
+    "answer": "the Bank is responsible for the provision of the respective services",
+    "page": 4
+  },
+  {
+    "question": "What does the Relationship Manager do in a dual-location relationship?",
+    "answer": "take care of the clients' needs, provide advice, and liaise with the Bank in all relevant matters",
+    "page": 4
+  },
+  {
+    "question": "Who makes investment decisions under a discretionary portfolio management mandate?",
+    "answer": "clients delegate the power of making investment decisions to Julius Baer",
+    "page": 6
+  },
+  {
+    "question": "What do clients receive under discretionary portfolio management?",
+    "answer": "constant market and portfolio monitoring as well as active asset allocation",
+    "page": 6
+  },
+  {
+    "question": "Who makes the final investment decision under an advisory mandate?",
+    "answer": "the responsibility of making the final investment decision remains with the client",
+    "page": 6
+  },
+  {
+    "question": "Can Julius Baer initiate an advisory transaction without the client's instruction?",
+    "answer": "No. Julius Baer will not initiate any transactions without being explicitly instructed to do so by the client",
+    "page": 6
+  },
+  {
+    "question": "What does a non-advised agreement give clients access to?",
+    "answer": "the full range of investment products via the Julius Baer trading platform and generic, high-quality research on financial matters",
+    "page": 6
+  },
+  {
+    "question": "What are the two types of non-advised mandates?",
+    "answer": "Trade Basic Agreement and Non-Trading Account",
+    "page": 6
+  },
+  {
+    "question": "How many carefully selected third-party providers are considered in Julius Baer's investment universe?",
+    "answer": "more than 100 carefully selected third-party providers",
+    "page": 8
+  },
+  {
+    "question": "What must Julius Baer do if it does not obtain the information necessary for suitability?",
+    "answer": "it is required by law to abstain from providing advised services",
+    "page": 8
+  },
+  {
+    "question": "What does the Client Investment Profile evaluate?",
+    "answer": "knowledge and experience with regard to investment services and financial instruments, as well as investment goals, time horizon, and risk appetite",
+    "page": 8
+  },
+  {
+    "question": "What does Julius Baer do if a client requests advice on an unsuitable financial instrument?",
+    "answer": "Julius Baer will inform the client accordingly",
+    "page": 9
+  },
+  {
+    "question": "What does Julius Baer do if an order is deemed inappropriate?",
+    "answer": "Julius Baer will warn the client accordingly",
+    "page": 9
+  },
+  {
+    "question": "How are clients classified by default?",
+    "answer": "By default, Julius Baer treats all clients as retail clients",
+    "page": 9
+  },
+  {
+    "question": "What minimum bankable assets are required to request elective professional client status?",
+    "answer": "EUR 500,000 or more, together with the required experience",
+    "page": 9
+  },
+  {
+    "question": "Which asset classes are currently covered by the Julius Baer ESG Investment Rating Methodology?",
+    "answer": "equities, corporate and sovereign bonds, and funds",
+    "page": 11
+  },
+  {
+    "question": "What is the purpose of best execution?",
+    "answer": "to take sufficient steps to obtain the best possible result when executing transactions on a client's behalf",
+    "page": 12
+  },
+  {
+    "question": "Which factors does Julius Baer consider for best execution?",
+    "answer": "price, cost, speed, likelihood of execution and settlement, size, and the nature of the transaction or other relevant considerations",
+    "page": 12
+  },
+  {
+    "question": "How often does Julius Baer review its best execution policy?",
+    "answer": "on an annual basis",
+    "page": 13
+  },
+  {
+    "question": "What does Julius Baer publish annually about execution quality?",
+    "answer": "an annual report on the best execution monitoring results and the quality of execution per asset class",
+    "page": 13
+  },
+  {
+    "question": "What should clients do first if they have feedback about their relationship with Julius Baer?",
+    "answer": "address their feedback directly to their dedicated relationship manager or contact person",
+    "page": 17
+  },
+  {
+    "question": "What may Julius Baer do if it cannot rule out a conflict of interest affecting a client?",
+    "answer": "adequately inform the client about the existence and nature of the conflict of interest so the client can make an informed decision",
+    "page": 16
+  },
+  {
+    "question": "What is an inducement?",
+    "answer": "a monetary or non-monetary benefit that a Julius Baer entity may receive from another legal entity and that is not paid directly by or on behalf of a client",
+    "page": 16
+  },
+  {
+    "question": "What risk does investing in securities involve?",
+    "answer": "the risk of losing money",
+    "page": 19
+  },
+  {
+    "question": "What happens to a bond's price when market interest rates rise?",
+    "answer": "the bond's price will fall accordingly",
+    "page": 21
+  }
+]

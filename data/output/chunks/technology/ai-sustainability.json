@@ -1,0 +1,232 @@
+{
+  "schema_version": "1.0",
+  "document": "data\\normalized\\technology\\ai-sustainability.jsonl",
+  "strategy": "fixed",
+  "chunks": [
+    {
+      "chunk_id": "45a9d8bc0fdb7c44",
+      "document_id": "technology/ai-sustainability",
+      "source": {
+        "file": "ai-sustainability.pdf",
+        "page_start": 1,
+        "page_end": 1,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 1200
+        }
+      },
+      "text": "Al and sustainability: Two major drivers of the future | Julius Baer\n\nJulius Bar\n\nAl and sustainability: Two major drivers of\nthe future\n\nOctober 31, 2023 by Nic Dreckmann, COO & Head Intermediaries, Bank Julius Baer 0) 4 min\n\nWith generative Al and sustainable investing arguably both at inflection points,\nmastering them will differentiate financial intermediaries and enhance their\n\nclient relationships.\n\nKey takeaways\n\ne Both generative Al and sustainability are two drivers of the future that are at inflection\npoints.\n\ne Alis changing how organisations approach technology while sustainability will require huge\ninvestments to decarbonise economies by 2050.\n\ne Cutting-edge Al can enhance intermediaries’ client relationships, and expertise in\n\nsustainable investing represents an untapped opportunity.\n\nGenerative Al has captured the attention of the world in 2023. Allowing users to leverage trained data\nmodels to ‘generate’ content in the form of text, images, audio or videos, Al applications are proving\nhighly successful. Even now, they are redefining how corporates, consumers and governments\n\napproach technology.\n\nYet Al is not the only driver of the future that’s top of mind. The s",
+      "chunking": {
+        "strategy": "fixed",
+        "chunk_index": 0
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 1200,
+        "chunk_size": 1200,
+        "overlap": 150
+      }
+    },
+    {
+      "chunk_id": "e25257c2c91083a4",
+      "document_id": "technology/ai-sustainability",
+      "source": {
+        "file": "ai-sustainability.pdf",
+        "page_start": 1,
+        "page_end": 1,
+        "section": null,
+        "offsets": {
+          "start": 1050,
+          "end": 1476
+        }
+      },
+      "text": " are redefining how corporates, consumers and governments\n\napproach technology.\n\nYet Al is not the only driver of the future that’s top of mind. The summer's fires and floods in the\n\nnorthern hemisphere have emphasised the danger of climate change, as well as the huge technological\n\nhttps://www.juliusbaer.com/en/business-navigator/business-navigator/tech-innovation/ai-and-sustainability-two-major-drivers-of-the-future/ 1/5",
+      "chunking": {
+        "strategy": "fixed",
+        "chunk_index": 1
+      },
+      "metadata": {
+        "start_offset": 1050,
+        "end_offset": 1476,
+        "chunk_size": 1200,
+        "overlap": 150
+      }
+    },
+    {
+      "chunk_id": "a6eeaf1a4c4ef66b",
+      "document_id": "technology/ai-sustainability",
+      "source": {
+        "file": "ai-sustainability.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 1200
+        }
+      },
+      "text": "Al and sustainability: Two major drivers of the future | Julius Baer\n\nJulius Bar\n\nBoth generative Al and sustainability are drivers of the future that are at inflection points. Amid the\nexcitement about Al, it’s widely known that ChatGPT racked up 100 million users within two months of\nits launch and that all types of organisations are examining how to put the technology to use.\nSustainability is not moving at such a pace, but nonetheless the shift to a zero-carbon economy by\n\n2050 will require an economic and technological transformation.\n\nFor wealth managers and financial intermediaries, these are both topics that are impossible to ignore.\n\nWhat’s more, if addressed properly, they can deliver an invaluable competitive advantage.\n\nNic Dreckmann, COO & Head Intermediaries, Bank Julius Baer\n\nGenerative Al’s transformational possibilities\n\nTurning first to generative Al, there has been plenty of hype. Some new technologies go through a\n‘hype cycle’, where inflated expectations are followed by disillusionment before the real advantages\n\nbecome clear.\n\nJust as in other industries, the realistic uses for generative Al in the wealth management sector are\n\ncurrently taking shape. Broadly ",
+      "chunking": {
+        "strategy": "fixed",
+        "chunk_index": 2
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 1200,
+        "chunk_size": 1200,
+        "overlap": 150
+      }
+    },
+    {
+      "chunk_id": "fb47121c1a12fcdc",
+      "document_id": "technology/ai-sustainability",
+      "source": {
+        "file": "ai-sustainability.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": null,
+        "offsets": {
+          "start": 1050,
+          "end": 1411
+        }
+      },
+      "text": "become clear.\n\nJust as in other industries, the realistic uses for generative Al in the wealth management sector are\n\ncurrently taking shape. Broadly speaking, the technology has the potential to significantly improve\n\nhttps://www.juliusbaer.com/en/business-navigator/business-navigator/tech-innovation/ai-and-sustainability-two-major-drivers-of-the-future/ 2/5",
+      "chunking": {
+        "strategy": "fixed",
+        "chunk_index": 3
+      },
+      "metadata": {
+        "start_offset": 1050,
+        "end_offset": 1411,
+        "chunk_size": 1200,
+        "overlap": 150
+      }
+    },
+    {
+      "chunk_id": "2309fdeffe8783bb",
+      "document_id": "technology/ai-sustainability",
+      "source": {
+        "file": "ai-sustainability.pdf",
+        "page_start": 3,
+        "page_end": 3,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 1200
+        }
+      },
+      "text": "Al and sustainability: Two major drivers of the future | Julius Baer\n\nTo give a few highlights from a long list, chatbots could deliver instant support for clients. Al could also\n\nhelp relationship managers to quickly personalise advice. It could assist in compliance and risk\nmanagement through detecting compliance violations. And, it could reduce workload for staff in areas\n\nlike financial reporting.\n\nJulius Baer is beginning to leverage generative Al. Our Launchpad innovation lab in Singapore has\nintroduced several initiatives. Content creation tools are being tested to refine our investment\npublications. Additionally, we are working on offering trend analytics for relationship managers and an\nadvisory concierge service tailored to clients’ specific needs. These initiatives aim to seamlessly\n\nintegrate technology into our day-to-day operations and client services.\n\n“For wealth managers and financial intermediaries, these are\nboth topics that are impossible to ignore. What’s more, if\naddressed properly, they can deliver an invaluable competitive\nadvantage.”\n\nNic Dreckmann, COO & Head Intermediaries, Bank Julius Baer\n\nSustainable investing’s untapped opportunity\n\nTurning to sustain",
+      "chunking": {
+        "strategy": "fixed",
+        "chunk_index": 4
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 1200,
+        "chunk_size": 1200,
+        "overlap": 150
+      }
+    },
+    {
+      "chunk_id": "d57dcb462de1fc6e",
+      "document_id": "technology/ai-sustainability",
+      "source": {
+        "file": "ai-sustainability.pdf",
+        "page_start": 3,
+        "page_end": 3,
+        "section": null,
+        "offsets": {
+          "start": 1050,
+          "end": 2250
+        }
+      },
+      "text": " competitive\nadvantage.”\n\nNic Dreckmann, COO & Head Intermediaries, Bank Julius Baer\n\nSustainable investing’s untapped opportunity\n\nTurning to sustainable investing, there is evidence that demand is not yet fully met by investment\nadvisors. Research from Deloitte, the professional services firm, found that 79% of EU private investors\nconsider sustainability important to how they invest. Yet 60% said their banks and advisors had yet to\ndiscuss sustainable investing strategies with them. That suggests financial intermediaries could be\n\nmissing a major opportunity.\n\nFor financial intermediaries, sustainable investing offers the chance to lift client relationships to the\nnext level. Discussing how clients’ personal values affect their approach to sustainability topics can\nstrengthen relationships. What’s more, competence in this area shows that the financial intermediary\n\noffers high-quality and innovative advice.\n\nYet sustainable investing is a complex field. It refers to a range of practices in which investors aim to\nachieve financial returns while promoting long-term environmental or social value. Yet there are several\ntypes of sustainable investing as well as a plethora of environm",
+      "chunking": {
+        "strategy": "fixed",
+        "chunk_index": 5
+      },
+      "metadata": {
+        "start_offset": 1050,
+        "end_offset": 2250,
+        "chunk_size": 1200,
+        "overlap": 150
+      }
+    },
+    {
+      "chunk_id": "3ae728ea4131f245",
+      "document_id": "technology/ai-sustainability",
+      "source": {
+        "file": "ai-sustainability.pdf",
+        "page_start": 3,
+        "page_end": 3,
+        "section": null,
+        "offsets": {
+          "start": 2100,
+          "end": 2943
+        }
+      },
+      "text": "eturns while promoting long-term environmental or social value. Yet there are several\ntypes of sustainable investing as well as a plethora of environmental, social and governance (ESG)\nanalytical data from different providers that may be contradictory and confusing. For financial\nintermediaries who are not specialists there are dangers in becoming lost in an alphabet’s soup of\n\ndifferent metrics.\n\nAs regulators around the world increasingly turn their attention to sustainable investing, a little\nknowledge is a dangerous thing. In Switzerland and the EUV, for instance, the Self-Regulation\n\nSustainability Guidelines and Sustainable Finance Disclosure Regulation, respectively, require advisors\n\nhttps://www.juliusbaer.com/en/business-navigator/business-navigator/tech-innovation/ai-and-sustainability-two-major-drivers-of-the-future/ 3/5",
+      "chunking": {
+        "strategy": "fixed",
+        "chunk_index": 6
+      },
+      "metadata": {
+        "start_offset": 2100,
+        "end_offset": 2943,
+        "chunk_size": 1200,
+        "overlap": 150
+      }
+    },
+    {
+      "chunk_id": "7ad0bc52e428e74c",
+      "document_id": "technology/ai-sustainability",
+      "source": {
+        "file": "ai-sustainability.pdf",
+        "page_start": 4,
+        "page_end": 4,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 1200
+        }
+      },
+      "text": "Al and sustainability: Two major drivers of the future | Julius Baer\n\nJulius Bar\n\nPreparing for change\n\nArguably the Fourth Industrial Revolution, which Al is a key part of, and the decarbonisation of the\nenergy industry, represent the most dramatic economic upheaval in hundreds of years. Like wealth\nmanagers broadly, financial intermediaries must make the most of the opportunities to come which\n\nmay require being open to change.\n\nIn the field of sustainable investing, we recognise the importance of supporting financial intermediaries\nas they engage their clients as early as possible. Discussing sustainability is not only regarded as a sign\nof quality and innovation, but also moves the relationship into the realm of personal values,\ndifferentiating and adding strength to the intermediary’s advisory role. Julius Baer’s expertise in ESG -\nthrough our curated open product platform, our advanced ESG rating methodology, and our\nexperience creating dedicated and focused ESG services — makes us the default partner to guide you in\n\nthis new and exciting landscape.\nWealth management is unique in the strength of its client relationships that few other industries can\n\nmatch. Cutting-edge Al t",
+      "chunking": {
+        "strategy": "fixed",
+        "chunk_index": 7
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 1200,
+        "chunk_size": 1200,
+        "overlap": 150
+      }
+    },
+    {
+      "chunk_id": "01f8f237cf494a00",
+      "document_id": "technology/ai-sustainability",
+      "source": {
+        "file": "ai-sustainability.pdf",
+        "page_start": 4,
+        "page_end": 4,
+        "section": null,
+        "offsets": {
+          "start": 1050,
+          "end": 1716
+        }
+      },
+      "text": "nd exciting landscape.\nWealth management is unique in the strength of its client relationships that few other industries can\n\nmatch. Cutting-edge Al technology can enhance those relationships, while expertise in sustainable\n\ninvesting will differentiate a financial intermediary.\n\nRELATED TOPICS\n\nDigital Disruption Experienced Professionals Sustainability\n\nRELATED ARTICLES\n\nSeamless trading, global reach: The Bitcoin: Hot sauce for a portfolio?\npower of FIX\n\n24.02.2025 ©) 3min\n\n08.05.2025 ©) 2min\nInvestments\n\nPortrait\n\nhttps://www.juliusbaer.com/en/business-navigator/business-navigator/tech-innovation/ai-and-sustainability-two-major-drivers-of-the-future/ 4/5",
+      "chunking": {
+        "strategy": "fixed",
+        "chunk_index": 8
+      },
+      "metadata": {
+        "start_offset": 1050,
+        "end_offset": 1716,
+        "chunk_size": 1200,
+        "overlap": 150
+      }
+    }
+  ]
+}

@@ -1,0 +1,375 @@
+{
+  "schema_version": "1.0",
+  "document": "data\\normalized\\investment\\discretionary\\discretionary-vs-advisory.jsonl",
+  "strategy": "structural",
+  "chunks": [
+    {
+      "chunk_id": "2a80613d1a198ae8",
+      "document_id": "investment/discretionary/discretionary-vs-advisory",
+      "source": {
+        "file": "discretionary-vs-advisory.pdf",
+        "page_start": 1,
+        "page_end": 1,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 784
+        }
+      },
+      "text": "Discretionary vs. advisory | Julius Baer\n\nDiscretionary vs. advisory\n\nApril 15, 2019 by Elisabeth Yearley, Corporate Editor ) 2 min\n\nThe choice between taking investment decisions on your own or transferring the\nresponsibility to an investment professional sounds simple? In the opinion of\nDaniel Obradovic (discretionary, left) and Mischa Anand (advisory, right), there\nis more to it. In this article the two investment professionals share five aspects\nto consider before taking the decision.\n\nYou have decided that now is the right time to start investing. Maybe you got that important\npromotion (congratulations!), inherited wealth or simply rate your financial position as stable enough\n\nto embark on this journey. The process that succeeds this decision is generally identical:\n\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 0
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 784
+      }
+    },
+    {
+      "chunk_id": "3e7bcc581ec5ebe6",
+      "document_id": "investment/discretionary/discretionary-vs-advisory",
+      "source": {
+        "file": "discretionary-vs-advisory.pdf",
+        "page_start": 1,
+        "page_end": 1,
+        "section": null,
+        "offsets": {
+          "start": 784,
+          "end": 1412
+        }
+      },
+      "text": "In a first step, your bank advisor will create a personal investment profile. It evaluates your financial\nsituation, investment objectives as well as prior knowledge and experience. Your investment guidelines\nreflect your current understanding of financial instruments and the maximum amount of risk you are\nable to take in order to attain your broader investment goals. Furthermore, an investment strategy is\ndefined. It serves as a guideline for adjusting your investments whenever your portfolio valuation\n\nchanges.\n\nSo far, so good. “So let’s get going,” you say? A major decision, however, still needs to be taken: Should\n\n",
+      "chunking": {
+        "strategy": "size_fallback",
+        "chunk_index": 1
+      },
+      "metadata": {
+        "start_offset": 784,
+        "end_offset": 1412
+      }
+    },
+    {
+      "chunk_id": "07018d2a7aca3e96",
+      "document_id": "investment/discretionary/discretionary-vs-advisory",
+      "source": {
+        "file": "discretionary-vs-advisory.pdf",
+        "page_start": 1,
+        "page_end": 1,
+        "section": "you opt for a discretionary or advisory mandate?",
+        "offsets": {
+          "start": 1412,
+          "end": 1478
+        }
+      },
+      "text": "you opt for a discretionary or advisory mandate?\n\nThe difference\n\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 2
+      },
+      "metadata": {
+        "start_offset": 1412,
+        "end_offset": 1478
+      }
+    },
+    {
+      "chunk_id": "3a264f62f63afe9c",
+      "document_id": "investment/discretionary/discretionary-vs-advisory",
+      "source": {
+        "file": "discretionary-vs-advisory.pdf",
+        "page_start": 1,
+        "page_end": 1,
+        "section": "Julius Bar",
+        "offsets": {
+          "start": 1478,
+          "end": 1573
+        }
+      },
+      "text": "Julius Bar\n\nhttps://www.juliusbaer.com/en/insights/how-to-invest/discretionary-vs-advisory/ 1/5",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 3
+      },
+      "metadata": {
+        "start_offset": 1478,
+        "end_offset": 1573
+      }
+    },
+    {
+      "chunk_id": "f9cfc13a6caf3e8b",
+      "document_id": "investment/discretionary/discretionary-vs-advisory",
+      "source": {
+        "file": "discretionary-vs-advisory.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 698
+        }
+      },
+      "text": "Discretionary vs. advisory | Julius Baer\n\nIn an advisory setup, an experienced investment professional, mostly a relationship manager or\ninvestment advisor like Mischa Anand, is placed at your side to discuss all investment-related\nquestions. Although you can rely heavily on their support, it is you who takes the final investment\ndecision. If you choose a discretionary mandate, a portfolio manager, for example Daniel Obradovic, is\nresponsible for the every-day management of your portfolio and decides on investment-related issues\non your behalf. Both options come with advantages and disadvantages. It depends on your personal\n\ncircumstances, which model suits you best.\n\nFive considerations\n\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 4
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 698
+      }
+    },
+    {
+      "chunk_id": "d03d38b4ab8a6f94",
+      "document_id": "investment/discretionary/discretionary-vs-advisory",
+      "source": {
+        "file": "discretionary-vs-advisory.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": "1. Financial (markets) knowledge: (in)existent?",
+        "offsets": {
+          "start": 698,
+          "end": 1254
+        }
+      },
+      "text": "1. Financial (markets) knowledge: (in)existent?\n\nMaybe you are an avid reader or even studied finance as a subject at university. No matter where\nyou gained your knowledge from: Are you familiar with asset classes, financial indexes and the\ndynamics of financial markets? And more importantly: Do these topics interest you? If your answer\nis yes, then an advisory mandate might be the right choice. Should you have little knowledge in the\nrealm of investing and are less interested in learning more about it, a discretionary mandate may\n\nsuit you better.\n\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 5
+      },
+      "metadata": {
+        "start_offset": 698,
+        "end_offset": 1254
+      }
+    },
+    {
+      "chunk_id": "d88c0ba8ed840655",
+      "document_id": "investment/discretionary/discretionary-vs-advisory",
+      "source": {
+        "file": "discretionary-vs-advisory.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": ". Learning effect: indirect or direct?",
+        "offsets": {
+          "start": 1254,
+          "end": 1761
+        }
+      },
+      "text": ". Learning effect: indirect or direct?\n\nIn an advisory setup, you actively participate in the financial markets and immediately see the\nimplications of your investment decisions. Your learning effect is direct. In a discretionary setup,\nyou receive regular portfolio reports or track the decisions your portfolio manager made on your\nbehalf with your e-banking account. As a certain amount of time lies between the financial event\n\nand the reporting or next meeting, your learning effect will be indirect.\n\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 6
+      },
+      "metadata": {
+        "start_offset": 1254,
+        "end_offset": 1761
+      }
+    },
+    {
+      "chunk_id": "4f124cbf86f0e93e",
+      "document_id": "investment/discretionary/discretionary-vs-advisory",
+      "source": {
+        "file": "discretionary-vs-advisory.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": ". Time investment: low or high?",
+        "offsets": {
+          "start": 1761,
+          "end": 2048
+        }
+      },
+      "text": ". Time investment: low or high?\n\nBe honest to yourself: Can you allocate enough time to speak to your investment partner? Are you\nkeen to receive regular advice and discuss your portfolio? If you tend to negate these questions, a\n\ndiscretionary mandate may be the more suitable option.\n\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 7
+      },
+      "metadata": {
+        "start_offset": 1761,
+        "end_offset": 2048
+      }
+    },
+    {
+      "chunk_id": "55077084539fc55a",
+      "document_id": "investment/discretionary/discretionary-vs-advisory",
+      "source": {
+        "file": "discretionary-vs-advisory.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": ". Reachability: difficult or easy?",
+        "offsets": {
+          "start": 2048,
+          "end": 2486
+        }
+      },
+      "text": ". Reachability: difficult or easy?\n\nIt may sound mundane but is of importance when a sudden event affecting your investments\noccurs: Are you easily reachable via telephone or email? If you, for instance, are an expat who\nregularly alternates between continents, time zones and business meetings, it may be hard for\nyour investment advisor to uphold the communication with you. In this case, a discretionary\n\nmandate may suit you better.\n\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 8
+      },
+      "metadata": {
+        "start_offset": 2048,
+        "end_offset": 2486
+      }
+    },
+    {
+      "chunk_id": "f5e2bb625d835759",
+      "document_id": "investment/discretionary/discretionary-vs-advisory",
+      "source": {
+        "file": "discretionary-vs-advisory.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": ". Regulation: complex or simple?",
+        "offsets": {
+          "start": 2486,
+          "end": 2894
+        }
+      },
+      "text": ". Regulation: complex or simple?\n\nCertain countries have inflicted complex regulatory requirements on investment activities. As an\nexample you may have to approve all decisions in writing or adhere to holding periods. If you live in\none of these countries, a discretionary solution may help you to fully comply with regulation while\n\nsimultaneously working towards the achievement of your investment goals.\n\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 9
+      },
+      "metadata": {
+        "start_offset": 2486,
+        "end_offset": 2894
+      }
+    },
+    {
+      "chunk_id": "425b2109c9a2212b",
+      "document_id": "investment/discretionary/discretionary-vs-advisory",
+      "source": {
+        "file": "discretionary-vs-advisory.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": "Julius Bar",
+        "offsets": {
+          "start": 2894,
+          "end": 2989
+        }
+      },
+      "text": "Julius Bar\n\nhttps://www.juliusbaer.com/en/insights/how-to-invest/discretionary-vs-advisory/ 2/5",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 10
+      },
+      "metadata": {
+        "start_offset": 2894,
+        "end_offset": 2989
+      }
+    },
+    {
+      "chunk_id": "7e9764af40baa540",
+      "document_id": "investment/discretionary/discretionary-vs-advisory",
+      "source": {
+        "file": "discretionary-vs-advisory.pdf",
+        "page_start": 3,
+        "page_end": 3,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 242
+        }
+      },
+      "text": "Discretionary vs. advisory | Julius Baer\n\nDespite all the differences between discretionary and advisory, Daniel Obradovic and Mischa Anand\n\nshare the same opinion: “Don’t rush into something that does not suit your personal circumstances!”\n\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 11
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 242
+      }
+    },
+    {
+      "chunk_id": "c36d85f563f45eba",
+      "document_id": "investment/discretionary/discretionary-vs-advisory",
+      "source": {
+        "file": "discretionary-vs-advisory.pdf",
+        "page_start": 3,
+        "page_end": 3,
+        "section": "Julius Bar",
+        "offsets": {
+          "start": 242,
+          "end": 337
+        }
+      },
+      "text": "Julius Bar\n\nhttps://www.juliusbaer.com/en/insights/how-to-invest/discretionary-vs-advisory/ 3/5",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 12
+      },
+      "metadata": {
+        "start_offset": 242,
+        "end_offset": 337
+      }
+    },
+    {
+      "chunk_id": "d413eff17b8ea574",
+      "document_id": "investment/discretionary/discretionary-vs-advisory",
+      "source": {
+        "file": "discretionary-vs-advisory.pdf",
+        "page_start": 4,
+        "page_end": 4,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 419
+        }
+      },
+      "text": "Discretionary vs. advisory | Julius Baer\n\nHow to Invest\n\nWhere should you begin? How can you diversify your portfolio? And which investments give you the\nbest chance of maximising the returns for the risks taken, while matching your personal values? Our\n\nHow to Invest educational guide answers these questions and more.\n\nIf you would like to receive a copy of this publication, please enter your email address below.\n\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 13
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 419
+      }
+    },
+    {
+      "chunk_id": "fb4bdab90fa3e58e",
+      "document_id": "investment/discretionary/discretionary-vs-advisory",
+      "source": {
+        "file": "discretionary-vs-advisory.pdf",
+        "page_start": 4,
+        "page_end": 4,
+        "section": "Email address*",
+        "offsets": {
+          "start": 419,
+          "end": 781
+        }
+      },
+      "text": "Email address*\n\nBy submitting this form, | agree to the Terms of Use and Data Privacy Policy.\n\n[2] | would like to stay up to date on the latest news.\n\nYou can unsubscribe at any time by clicking on the unsubscribe link at the end of the newsletter message. Details about how data is\n\nprocessed can be found in the Data Privacy Policy,\n\nGet the publication now\n\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 14
+      },
+      "metadata": {
+        "start_offset": 419,
+        "end_offset": 781
+      }
+    },
+    {
+      "chunk_id": "97241a11ec4f0146",
+      "document_id": "investment/discretionary/discretionary-vs-advisory",
+      "source": {
+        "file": "discretionary-vs-advisory.pdf",
+        "page_start": 4,
+        "page_end": 4,
+        "section": "Julius Bar",
+        "offsets": {
+          "start": 781,
+          "end": 876
+        }
+      },
+      "text": "Julius Bar\n\nhttps://www.juliusbaer.com/en/insights/how-to-invest/discretionary-vs-advisory/ 4/5",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 15
+      },
+      "metadata": {
+        "start_offset": 781,
+        "end_offset": 876
+      }
+    }
+  ]
+}

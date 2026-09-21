@@ -1,0 +1,901 @@
+{
+  "schema_version": "1.0",
+  "document": "investment\\advisory\\investment-services-basic-client-information.jsonl",
+  "page_count": 26,
+  "question_count": 27,
+  "summaries": [
+    {
+      "strategy": "fixed",
+      "chunks": 128,
+      "mean_chars": 1091.8,
+      "median_chars": 1200.0,
+      "under_100_chars": 0,
+      "recall_at_1": 0.2962962962962963,
+      "recall_at_3": 0.48148148148148145,
+      "recall_at_5": 0.5555555555555556,
+      "mrr": 0.4004629402118222
+    },
+    {
+      "strategy": "recursive",
+      "chunks": 120,
+      "mean_chars": 1037.0,
+      "median_chars": 1159.0,
+      "under_100_chars": 4,
+      "recall_at_1": 0.4444444444444444,
+      "recall_at_3": 0.6296296296296297,
+      "recall_at_5": 0.6666666666666666,
+      "mrr": 0.5407818930041153
+    },
+    {
+      "strategy": "semantic",
+      "chunks": 172,
+      "mean_chars": 723.5,
+      "median_chars": 786.5,
+      "under_100_chars": 5,
+      "recall_at_1": 0.2962962962962963,
+      "recall_at_3": 0.5185185185185185,
+      "recall_at_5": 0.6296296296296297,
+      "mrr": 0.4365079365079365
+    },
+    {
+      "strategy": "structural",
+      "chunks": 264,
+      "mean_chars": 471.4,
+      "median_chars": 187.0,
+      "under_100_chars": 93,
+      "recall_at_1": 0.2222222222222222,
+      "recall_at_3": 0.5185185185185185,
+      "recall_at_5": 0.6296296296296297,
+      "mrr": 0.38594944150499705
+    }
+  ],
+  "selection": {
+    "selected_strategy": "recursive",
+    "selection_score": 0.548533,
+    "selection_reason": "Selected the highest-scoring strategy among candidates that passed the chunk-quality gates using available retrieval metrics.",
+    "selected_metrics": {
+      "strategy": "recursive",
+      "chunks": 120,
+      "mean_chars": 1037.0,
+      "median_chars": 1159.0,
+      "under_100_chars": 4,
+      "recall_at_1": 0.4444444444444444,
+      "recall_at_3": 0.6296296296296297,
+      "recall_at_5": 0.6666666666666666,
+      "mrr": 0.5407818930041153
+    },
+    "candidates": [
+      {
+        "strategy": "recursive",
+        "score": 0.548533,
+        "metrics": {
+          "strategy": "recursive",
+          "chunks": 120,
+          "mean_chars": 1037.0,
+          "median_chars": 1159.0,
+          "under_100_chars": 4,
+          "recall_at_1": 0.4444444444444444,
+          "recall_at_3": 0.6296296296296297,
+          "recall_at_5": 0.6666666666666666,
+          "mrr": 0.5407818930041153
+        },
+        "under_100_ratio": 0.0333
+      },
+      {
+        "strategy": "semantic",
+        "score": 0.439815,
+        "metrics": {
+          "strategy": "semantic",
+          "chunks": 172,
+          "mean_chars": 723.5,
+          "median_chars": 786.5,
+          "under_100_chars": 5,
+          "recall_at_1": 0.2962962962962963,
+          "recall_at_3": 0.5185185185185185,
+          "recall_at_5": 0.6296296296296297,
+          "mrr": 0.4365079365079365
+        },
+        "under_100_ratio": 0.0291
+      },
+      {
+        "strategy": "fixed",
+        "score": 0.408681,
+        "metrics": {
+          "strategy": "fixed",
+          "chunks": 128,
+          "mean_chars": 1091.8,
+          "median_chars": 1200.0,
+          "under_100_chars": 0,
+          "recall_at_1": 0.2962962962962963,
+          "recall_at_3": 0.48148148148148145,
+          "recall_at_5": 0.5555555555555556,
+          "mrr": 0.4004629402118222
+        },
+        "under_100_ratio": 0.0
+      },
+      {
+        "strategy": "structural",
+        "score": 0.399897,
+        "metrics": {
+          "strategy": "structural",
+          "chunks": 264,
+          "mean_chars": 471.4,
+          "median_chars": 187.0,
+          "under_100_chars": 93,
+          "recall_at_1": 0.2222222222222222,
+          "recall_at_3": 0.5185185185185185,
+          "recall_at_5": 0.6296296296296297,
+          "mrr": 0.38594944150499705
+        },
+        "under_100_ratio": 0.3523
+      }
+    ],
+    "rejected_candidates": []
+  },
+  "per_question": {
+    "fixed": [
+      {
+        "question": "Where is Julius Baer's group head office?",
+        "expected_page": 4,
+        "hit_rank": 3,
+        "hit_page": 4,
+        "hit_chunk_id": "fbd2d19e2a578f2a"
+      },
+      {
+        "question": "How many locations does Julius Baer have around the world?",
+        "expected_page": 4,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "In a single-location relationship, who is responsible for providing the services?",
+        "expected_page": 4,
+        "hit_rank": 1,
+        "hit_page": 4,
+        "hit_chunk_id": "afddd2e1b62df470"
+      },
+      {
+        "question": "What does the Relationship Manager do in a dual-location relationship?",
+        "expected_page": 4,
+        "hit_rank": 1,
+        "hit_page": 4,
+        "hit_chunk_id": "afddd2e1b62df470"
+      },
+      {
+        "question": "Who makes investment decisions under a discretionary portfolio management mandate?",
+        "expected_page": 6,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What do clients receive under discretionary portfolio management?",
+        "expected_page": 6,
+        "hit_rank": 3,
+        "hit_page": 6,
+        "hit_chunk_id": "dc3e5f6e9a73e8bf"
+      },
+      {
+        "question": "Who makes the final investment decision under an advisory mandate?",
+        "expected_page": 6,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "Can Julius Baer initiate an advisory transaction without the client's instruction?",
+        "expected_page": 6,
+        "hit_rank": 4,
+        "hit_page": 6,
+        "hit_chunk_id": "8deb1a29197c6a70"
+      },
+      {
+        "question": "What does a non-advised agreement give clients access to?",
+        "expected_page": 6,
+        "hit_rank": 19,
+        "hit_page": 6,
+        "hit_chunk_id": "9041abe0062d87dc"
+      },
+      {
+        "question": "What are the two types of non-advised mandates?",
+        "expected_page": 6,
+        "hit_rank": 18,
+        "hit_page": 6,
+        "hit_chunk_id": "b4b8ff9379ed9e50"
+      },
+      {
+        "question": "How many carefully selected third-party providers are considered in Julius Baer's investment universe?",
+        "expected_page": 8,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What must Julius Baer do if it does not obtain the information necessary for suitability?",
+        "expected_page": 8,
+        "hit_rank": 19,
+        "hit_page": 8,
+        "hit_chunk_id": "ee871a66a7d7748f"
+      },
+      {
+        "question": "What does the Client Investment Profile evaluate?",
+        "expected_page": 8,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What does Julius Baer do if a client requests advice on an unsuitable financial instrument?",
+        "expected_page": 9,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What does Julius Baer do if an order is deemed inappropriate?",
+        "expected_page": 9,
+        "hit_rank": 2,
+        "hit_page": 9,
+        "hit_chunk_id": "b5c547cfae69e4a0"
+      },
+      {
+        "question": "How are clients classified by default?",
+        "expected_page": 9,
+        "hit_rank": 1,
+        "hit_page": 9,
+        "hit_chunk_id": "2148680c74423fd0"
+      },
+      {
+        "question": "What minimum bankable assets are required to request elective professional client status?",
+        "expected_page": 9,
+        "hit_rank": 3,
+        "hit_page": 9,
+        "hit_chunk_id": "d26a9dc9bfc51a45"
+      },
+      {
+        "question": "Which asset classes are currently covered by the Julius Baer ESG Investment Rating Methodology?",
+        "expected_page": 11,
+        "hit_rank": 1,
+        "hit_page": 11,
+        "hit_chunk_id": "182b3204120924c8"
+      },
+      {
+        "question": "What is the purpose of best execution?",
+        "expected_page": 12,
+        "hit_rank": 7,
+        "hit_page": 12,
+        "hit_chunk_id": "a80d5ec1046fd988"
+      },
+      {
+        "question": "Which factors does Julius Baer consider for best execution?",
+        "expected_page": 12,
+        "hit_rank": 5,
+        "hit_page": 13,
+        "hit_chunk_id": "d36fa36138bbc072"
+      },
+      {
+        "question": "How often does Julius Baer review its best execution policy?",
+        "expected_page": 13,
+        "hit_rank": 1,
+        "hit_page": 13,
+        "hit_chunk_id": "ae131ecdc557846a"
+      },
+      {
+        "question": "What does Julius Baer publish annually about execution quality?",
+        "expected_page": 13,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What should clients do first if they have feedback about their relationship with Julius Baer?",
+        "expected_page": 17,
+        "hit_rank": 1,
+        "hit_page": 17,
+        "hit_chunk_id": "1a060f35e814853d"
+      },
+      {
+        "question": "What may Julius Baer do if it cannot rule out a conflict of interest affecting a client?",
+        "expected_page": 16,
+        "hit_rank": 1,
+        "hit_page": 16,
+        "hit_chunk_id": "46e44147cc082ed2"
+      },
+      {
+        "question": "What is an inducement?",
+        "expected_page": 16,
+        "hit_rank": 1,
+        "hit_page": 16,
+        "hit_chunk_id": "64c26aebb069d802"
+      },
+      {
+        "question": "What risk does investing in securities involve?",
+        "expected_page": 19,
+        "hit_rank": 17,
+        "hit_page": 19,
+        "hit_chunk_id": "c661417c8a3b711b"
+      },
+      {
+        "question": "What happens to a bond's price when market interest rates rise?",
+        "expected_page": 21,
+        "hit_rank": 2,
+        "hit_page": 21,
+        "hit_chunk_id": "968a1dcc788517eb"
+      }
+    ],
+    "recursive": [
+      {
+        "question": "Where is Julius Baer's group head office?",
+        "expected_page": 4,
+        "hit_rank": 1,
+        "hit_page": 4,
+        "hit_chunk_id": "ed1c2ca9a3c78444"
+      },
+      {
+        "question": "How many locations does Julius Baer have around the world?",
+        "expected_page": 4,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "In a single-location relationship, who is responsible for providing the services?",
+        "expected_page": 4,
+        "hit_rank": 1,
+        "hit_page": 4,
+        "hit_chunk_id": "8fd50610c77e4bc8"
+      },
+      {
+        "question": "What does the Relationship Manager do in a dual-location relationship?",
+        "expected_page": 4,
+        "hit_rank": 1,
+        "hit_page": 4,
+        "hit_chunk_id": "8fd50610c77e4bc8"
+      },
+      {
+        "question": "Who makes investment decisions under a discretionary portfolio management mandate?",
+        "expected_page": 6,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What do clients receive under discretionary portfolio management?",
+        "expected_page": 6,
+        "hit_rank": 5,
+        "hit_page": 6,
+        "hit_chunk_id": "77c02e0d99ec073c"
+      },
+      {
+        "question": "Who makes the final investment decision under an advisory mandate?",
+        "expected_page": 6,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "Can Julius Baer initiate an advisory transaction without the client's instruction?",
+        "expected_page": 6,
+        "hit_rank": 1,
+        "hit_page": 6,
+        "hit_chunk_id": "15a9b335284f87d5"
+      },
+      {
+        "question": "What does a non-advised agreement give clients access to?",
+        "expected_page": 6,
+        "hit_rank": 1,
+        "hit_page": 6,
+        "hit_chunk_id": "13e697b4769953a5"
+      },
+      {
+        "question": "What are the two types of non-advised mandates?",
+        "expected_page": 6,
+        "hit_rank": 1,
+        "hit_page": 6,
+        "hit_chunk_id": "13e697b4769953a5"
+      },
+      {
+        "question": "How many carefully selected third-party providers are considered in Julius Baer's investment universe?",
+        "expected_page": 8,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What must Julius Baer do if it does not obtain the information necessary for suitability?",
+        "expected_page": 8,
+        "hit_rank": 25,
+        "hit_page": 8,
+        "hit_chunk_id": "2d169f1863baabe0"
+      },
+      {
+        "question": "What does the Client Investment Profile evaluate?",
+        "expected_page": 8,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What does Julius Baer do if a client requests advice on an unsuitable financial instrument?",
+        "expected_page": 9,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What does Julius Baer do if an order is deemed inappropriate?",
+        "expected_page": 9,
+        "hit_rank": 3,
+        "hit_page": 9,
+        "hit_chunk_id": "148c57dd56727bd5"
+      },
+      {
+        "question": "How are clients classified by default?",
+        "expected_page": 9,
+        "hit_rank": 1,
+        "hit_page": 9,
+        "hit_chunk_id": "11b379259315e3f8"
+      },
+      {
+        "question": "What minimum bankable assets are required to request elective professional client status?",
+        "expected_page": 9,
+        "hit_rank": 1,
+        "hit_page": 9,
+        "hit_chunk_id": "da1f7ad2093fc8d2"
+      },
+      {
+        "question": "Which asset classes are currently covered by the Julius Baer ESG Investment Rating Methodology?",
+        "expected_page": 11,
+        "hit_rank": 1,
+        "hit_page": 11,
+        "hit_chunk_id": "91c08c21118d0bf2"
+      },
+      {
+        "question": "What is the purpose of best execution?",
+        "expected_page": 12,
+        "hit_rank": 2,
+        "hit_page": 12,
+        "hit_chunk_id": "9f02b33d52a53305"
+      },
+      {
+        "question": "Which factors does Julius Baer consider for best execution?",
+        "expected_page": 12,
+        "hit_rank": 2,
+        "hit_page": 13,
+        "hit_chunk_id": "ab849d001befd623"
+      },
+      {
+        "question": "How often does Julius Baer review its best execution policy?",
+        "expected_page": 13,
+        "hit_rank": 1,
+        "hit_page": 13,
+        "hit_chunk_id": "174177e6740239c5"
+      },
+      {
+        "question": "What does Julius Baer publish annually about execution quality?",
+        "expected_page": 13,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What should clients do first if they have feedback about their relationship with Julius Baer?",
+        "expected_page": 17,
+        "hit_rank": 1,
+        "hit_page": 17,
+        "hit_chunk_id": "eadf1b6d211fa305"
+      },
+      {
+        "question": "What may Julius Baer do if it cannot rule out a conflict of interest affecting a client?",
+        "expected_page": 16,
+        "hit_rank": 2,
+        "hit_page": 16,
+        "hit_chunk_id": "d62a2a12339ef490"
+      },
+      {
+        "question": "What is an inducement?",
+        "expected_page": 16,
+        "hit_rank": 1,
+        "hit_page": 16,
+        "hit_chunk_id": "b8021ec1b68821fd"
+      },
+      {
+        "question": "What risk does investing in securities involve?",
+        "expected_page": 19,
+        "hit_rank": 36,
+        "hit_page": 19,
+        "hit_chunk_id": "7e023ed4b8e14750"
+      },
+      {
+        "question": "What happens to a bond's price when market interest rates rise?",
+        "expected_page": 21,
+        "hit_rank": 2,
+        "hit_page": 21,
+        "hit_chunk_id": "d3b3b0fbc1a4cf12"
+      }
+    ],
+    "semantic": [
+      {
+        "question": "Where is Julius Baer's group head office?",
+        "expected_page": 4,
+        "hit_rank": 1,
+        "hit_page": 4,
+        "hit_chunk_id": "17b59af2e8bf5b4d"
+      },
+      {
+        "question": "How many locations does Julius Baer have around the world?",
+        "expected_page": 4,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "In a single-location relationship, who is responsible for providing the services?",
+        "expected_page": 4,
+        "hit_rank": 1,
+        "hit_page": 4,
+        "hit_chunk_id": "206ed0ef7049546e"
+      },
+      {
+        "question": "What does the Relationship Manager do in a dual-location relationship?",
+        "expected_page": 4,
+        "hit_rank": 2,
+        "hit_page": 4,
+        "hit_chunk_id": "65fb139ab39ecb20"
+      },
+      {
+        "question": "Who makes investment decisions under a discretionary portfolio management mandate?",
+        "expected_page": 6,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What do clients receive under discretionary portfolio management?",
+        "expected_page": 6,
+        "hit_rank": 1,
+        "hit_page": 6,
+        "hit_chunk_id": "da44c3dced2e92ef"
+      },
+      {
+        "question": "Who makes the final investment decision under an advisory mandate?",
+        "expected_page": 6,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "Can Julius Baer initiate an advisory transaction without the client's instruction?",
+        "expected_page": 6,
+        "hit_rank": 1,
+        "hit_page": 6,
+        "hit_chunk_id": "da8fd0255219b2cd"
+      },
+      {
+        "question": "What does a non-advised agreement give clients access to?",
+        "expected_page": 6,
+        "hit_rank": 2,
+        "hit_page": 6,
+        "hit_chunk_id": "633b9d0d8f6c6906"
+      },
+      {
+        "question": "What are the two types of non-advised mandates?",
+        "expected_page": 6,
+        "hit_rank": 2,
+        "hit_page": 6,
+        "hit_chunk_id": "b2f7e07872cfd675"
+      },
+      {
+        "question": "How many carefully selected third-party providers are considered in Julius Baer's investment universe?",
+        "expected_page": 8,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What must Julius Baer do if it does not obtain the information necessary for suitability?",
+        "expected_page": 8,
+        "hit_rank": 28,
+        "hit_page": 8,
+        "hit_chunk_id": "8f35f26b7d5547da"
+      },
+      {
+        "question": "What does the Client Investment Profile evaluate?",
+        "expected_page": 8,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What does Julius Baer do if a client requests advice on an unsuitable financial instrument?",
+        "expected_page": 9,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What does Julius Baer do if an order is deemed inappropriate?",
+        "expected_page": 9,
+        "hit_rank": 5,
+        "hit_page": 9,
+        "hit_chunk_id": "7ca9486d7678fbf5"
+      },
+      {
+        "question": "How are clients classified by default?",
+        "expected_page": 9,
+        "hit_rank": 1,
+        "hit_page": 9,
+        "hit_chunk_id": "6b54050c6ff67707"
+      },
+      {
+        "question": "What minimum bankable assets are required to request elective professional client status?",
+        "expected_page": 9,
+        "hit_rank": 2,
+        "hit_page": 9,
+        "hit_chunk_id": "a5e6efefc503d60b"
+      },
+      {
+        "question": "Which asset classes are currently covered by the Julius Baer ESG Investment Rating Methodology?",
+        "expected_page": 11,
+        "hit_rank": 1,
+        "hit_page": 11,
+        "hit_chunk_id": "ae91010b969240aa"
+      },
+      {
+        "question": "What is the purpose of best execution?",
+        "expected_page": 12,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "Which factors does Julius Baer consider for best execution?",
+        "expected_page": 12,
+        "hit_rank": 10,
+        "hit_page": 12,
+        "hit_chunk_id": "1bb2608c9750caf1"
+      },
+      {
+        "question": "How often does Julius Baer review its best execution policy?",
+        "expected_page": 13,
+        "hit_rank": 2,
+        "hit_page": 13,
+        "hit_chunk_id": "6b8064d914f0e45c"
+      },
+      {
+        "question": "What does Julius Baer publish annually about execution quality?",
+        "expected_page": 13,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What should clients do first if they have feedback about their relationship with Julius Baer?",
+        "expected_page": 17,
+        "hit_rank": 1,
+        "hit_page": 17,
+        "hit_chunk_id": "9e32f3f44fa1e8d6"
+      },
+      {
+        "question": "What may Julius Baer do if it cannot rule out a conflict of interest affecting a client?",
+        "expected_page": 16,
+        "hit_rank": 4,
+        "hit_page": 16,
+        "hit_chunk_id": "ee35dbd0999d11e9"
+      },
+      {
+        "question": "What is an inducement?",
+        "expected_page": 16,
+        "hit_rank": 1,
+        "hit_page": 16,
+        "hit_chunk_id": "ee35dbd0999d11e9"
+      },
+      {
+        "question": "What risk does investing in securities involve?",
+        "expected_page": 19,
+        "hit_rank": 5,
+        "hit_page": 19,
+        "hit_chunk_id": "bc1d3cae969e5120"
+      },
+      {
+        "question": "What happens to a bond's price when market interest rates rise?",
+        "expected_page": 21,
+        "hit_rank": 2,
+        "hit_page": 21,
+        "hit_chunk_id": "bcd084b893b6be95"
+      }
+    ],
+    "structural": [
+      {
+        "question": "Where is Julius Baer's group head office?",
+        "expected_page": 4,
+        "hit_rank": 6,
+        "hit_page": 4,
+        "hit_chunk_id": "e4c78341750d5974"
+      },
+      {
+        "question": "How many locations does Julius Baer have around the world?",
+        "expected_page": 4,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "In a single-location relationship, who is responsible for providing the services?",
+        "expected_page": 4,
+        "hit_rank": 2,
+        "hit_page": 4,
+        "hit_chunk_id": "f76cda73280888df"
+      },
+      {
+        "question": "What does the Relationship Manager do in a dual-location relationship?",
+        "expected_page": 4,
+        "hit_rank": 2,
+        "hit_page": 4,
+        "hit_chunk_id": "8a7cab27f952088e"
+      },
+      {
+        "question": "Who makes investment decisions under a discretionary portfolio management mandate?",
+        "expected_page": 6,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What do clients receive under discretionary portfolio management?",
+        "expected_page": 6,
+        "hit_rank": 3,
+        "hit_page": 6,
+        "hit_chunk_id": "1f3d28791d05e0ae"
+      },
+      {
+        "question": "Who makes the final investment decision under an advisory mandate?",
+        "expected_page": 6,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "Can Julius Baer initiate an advisory transaction without the client's instruction?",
+        "expected_page": 6,
+        "hit_rank": 1,
+        "hit_page": 6,
+        "hit_chunk_id": "85c19e0e887d5785"
+      },
+      {
+        "question": "What does a non-advised agreement give clients access to?",
+        "expected_page": 6,
+        "hit_rank": 1,
+        "hit_page": 6,
+        "hit_chunk_id": "4659c1d9b74d355b"
+      },
+      {
+        "question": "What are the two types of non-advised mandates?",
+        "expected_page": 6,
+        "hit_rank": 4,
+        "hit_page": 6,
+        "hit_chunk_id": "4659c1d9b74d355b"
+      },
+      {
+        "question": "How many carefully selected third-party providers are considered in Julius Baer's investment universe?",
+        "expected_page": 8,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What must Julius Baer do if it does not obtain the information necessary for suitability?",
+        "expected_page": 8,
+        "hit_rank": 36,
+        "hit_page": 8,
+        "hit_chunk_id": "6e15177233e39555"
+      },
+      {
+        "question": "What does the Client Investment Profile evaluate?",
+        "expected_page": 8,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What does Julius Baer do if a client requests advice on an unsuitable financial instrument?",
+        "expected_page": 9,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What does Julius Baer do if an order is deemed inappropriate?",
+        "expected_page": 9,
+        "hit_rank": 4,
+        "hit_page": 9,
+        "hit_chunk_id": "4024a0ac2e32a3d9"
+      },
+      {
+        "question": "How are clients classified by default?",
+        "expected_page": 9,
+        "hit_rank": 3,
+        "hit_page": 9,
+        "hit_chunk_id": "6b22638e245d3220"
+      },
+      {
+        "question": "What minimum bankable assets are required to request elective professional client status?",
+        "expected_page": 9,
+        "hit_rank": 1,
+        "hit_page": 9,
+        "hit_chunk_id": "2dc94c88ad4a5987"
+      },
+      {
+        "question": "Which asset classes are currently covered by the Julius Baer ESG Investment Rating Methodology?",
+        "expected_page": 11,
+        "hit_rank": 1,
+        "hit_page": 11,
+        "hit_chunk_id": "73b6e698b5e4a4d8"
+      },
+      {
+        "question": "What is the purpose of best execution?",
+        "expected_page": 12,
+        "hit_rank": 2,
+        "hit_page": 12,
+        "hit_chunk_id": "7449cb56974ee5ee"
+      },
+      {
+        "question": "Which factors does Julius Baer consider for best execution?",
+        "expected_page": 12,
+        "hit_rank": 4,
+        "hit_page": 12,
+        "hit_chunk_id": "3f5fd862f0bc6637"
+      },
+      {
+        "question": "How often does Julius Baer review its best execution policy?",
+        "expected_page": 13,
+        "hit_rank": 2,
+        "hit_page": 13,
+        "hit_chunk_id": "9d935283d2d8571c"
+      },
+      {
+        "question": "What does Julius Baer publish annually about execution quality?",
+        "expected_page": 13,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What should clients do first if they have feedback about their relationship with Julius Baer?",
+        "expected_page": 17,
+        "hit_rank": 1,
+        "hit_page": 17,
+        "hit_chunk_id": "097524b2670cd5cc"
+      },
+      {
+        "question": "What may Julius Baer do if it cannot rule out a conflict of interest affecting a client?",
+        "expected_page": 16,
+        "hit_rank": 1,
+        "hit_page": 16,
+        "hit_chunk_id": "851b4f82938edba5"
+      },
+      {
+        "question": "What is an inducement?",
+        "expected_page": 16,
+        "hit_rank": 3,
+        "hit_page": 16,
+        "hit_chunk_id": "7310ccac4dc170c6"
+      },
+      {
+        "question": "What risk does investing in securities involve?",
+        "expected_page": 19,
+        "hit_rank": 7,
+        "hit_page": 19,
+        "hit_chunk_id": "48a309817d15d83a"
+      },
+      {
+        "question": "What happens to a bond's price when market interest rates rise?",
+        "expected_page": 21,
+        "hit_rank": 3,
+        "hit_page": 21,
+        "hit_chunk_id": "e6a2f1e90a34c308"
+      }
+    ]
+  }
+}

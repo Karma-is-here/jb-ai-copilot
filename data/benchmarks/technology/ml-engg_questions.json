@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What does Dominik describe as the role of an ML engineer at Julius Baer?",
+    "answer": "transforming ideas into innovations",
+    "page": 1
+  },
+  {
+    "question": "What kind of bank data has Dominik been making usable for large language models?",
+    "answer": "publications",
+    "page": 1
+  },
+  {
+    "question": "What does Dominik say AI can help colleagues focus on by reducing routine tasks?",
+    "answer": "more value-adding activities",
+    "page": 1
+  },
+  {
+    "question": "What can AI do to enrich interactions and decision-making for client relationships?",
+    "answer": "retrieving, preparing, or summarising, data",
+    "page": 2
+  },
+  {
+    "question": "Which artist’s text-to-image work particularly excited Dominik?",
+    "answer": "Refik Anadol",
+    "page": 2
+  },
+  {
+    "question": "Which prize did Dominik win before joining Julius Baer?",
+    "answer": "Julius Baer’s annual Best Master’s Thesis in Business Information Technology prize",
+    "page": 2
+  },
+  {
+    "question": "What did Dominik complete before enrolling at university?",
+    "answer": "an apprenticeship with a rail manufacturing company",
+    "page": 2
+  },
+  {
+    "question": "What attracted Marine to machine learning?",
+    "answer": "it’s very applied",
+    "page": 3
+  },
+  {
+    "question": "How did Marine initially join Julius Baer?",
+    "answer": "applying for a working student position",
+    "page": 3
+  },
+  {
+    "question": "What data does Marine’s team use to train the models behind its in-house GenAI tool?",
+    "answer": "the data created by our Investment Research team",
+    "page": 3
+  },
+  {
+    "question": "What percentage of Marine’s fellow Data Science classmates at ETH Zurich were women?",
+    "answer": "fewer than ten per cent",
+    "page": 3
+  },
+  {
+    "question": "What did Paul study for his bachelor’s degree?",
+    "answer": "biomedical engineering",
+    "page": 4
+  },
+  {
+    "question": "What is Paul responsible for in the ML engineering team?",
+    "answer": "to orchestrate the landscape of machine learning and large language models used by the bank and make sure that they run reliably and quickly",
+    "page": 4
+  },
+  {
+    "question": "Why did Paul say Julius Baer’s in-house hardware setup enabled innovative and safe data utilisation?",
+    "answer": "By keeping data in-house",
+    "page": 4
+  },
+  {
+    "question": "What do the three ML engineers identify as one of their most important job motivations?",
+    "answer": "working together",
+    "page": 5
+  },
+  {
+    "question": "Why are communication skills important for an ML engineer, according to the article?",
+    "answer": "they need to be able to collaborate with experts from different areas",
+    "page": 5
+  },
+  {
+    "question": "What kind of culture does Marine say is essential to fostering innovation in AI and machine learning?",
+    "answer": "a bottom-up culture",
+    "page": 5
+  },
+  {
+    "question": "Which two career paths can ML engineers choose between at Julius Baer, according to Paul?",
+    "answer": "the computer science route",
+    "page": 6
+  },
+  {
+    "question": "How many new roles did the World Economic Forum project would emerge by 2025 as a result of AI?",
+    "answer": "97 million new roles",
+    "page": 6
+  },
+  {
+    "question": "What combination of capabilities does the article say employers may seek in future ML engineers?",
+    "answer": "business insights to understand what the market needs and how they can best leverage advancements in machine learning",
+    "page": 6
+  }
+]

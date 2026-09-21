@@ -1,0 +1,733 @@
+{
+  "schema_version": "1.0",
+  "document": "technology\\dias.jsonl",
+  "page_count": 3,
+  "question_count": 21,
+  "summaries": [
+    {
+      "strategy": "fixed",
+      "chunks": 7,
+      "mean_chars": 979.3,
+      "median_chars": 1200,
+      "under_100_chars": 0,
+      "recall_at_1": 0.6190476190476191,
+      "recall_at_3": 0.8571428571428571,
+      "recall_at_5": 0.9047619047619048,
+      "mrr": 0.7409297052154195
+    },
+    {
+      "strategy": "recursive",
+      "chunks": 7,
+      "mean_chars": 893.6,
+      "median_chars": 933,
+      "under_100_chars": 0,
+      "recall_at_1": 0.7142857142857143,
+      "recall_at_3": 0.8571428571428571,
+      "recall_at_5": 0.8571428571428571,
+      "mrr": 0.7993197278911565
+    },
+    {
+      "strategy": "semantic",
+      "chunks": 8,
+      "mean_chars": 781.9,
+      "median_chars": 733.5,
+      "under_100_chars": 0,
+      "recall_at_1": 0.7619047619047619,
+      "recall_at_3": 0.8571428571428571,
+      "recall_at_5": 0.8571428571428571,
+      "mrr": 0.8231292517006803
+    },
+    {
+      "strategy": "structural",
+      "chunks": 14,
+      "mean_chars": 446.8,
+      "median_chars": 228.0,
+      "under_100_chars": 5,
+      "recall_at_1": 0.7142857142857143,
+      "recall_at_3": 0.7142857142857143,
+      "recall_at_5": 0.8571428571428571,
+      "mrr": 0.7547619047619047
+    }
+  ],
+  "selection": {
+    "selected_strategy": "semantic",
+    "selection_score": 0.816667,
+    "selection_reason": "Selected the highest-scoring strategy among candidates that passed the chunk-quality gates using available retrieval metrics.",
+    "selected_metrics": {
+      "strategy": "semantic",
+      "chunks": 8,
+      "mean_chars": 781.9,
+      "median_chars": 733.5,
+      "under_100_chars": 0,
+      "recall_at_1": 0.7619047619047619,
+      "recall_at_3": 0.8571428571428571,
+      "recall_at_5": 0.8571428571428571,
+      "mrr": 0.8231292517006803
+    },
+    "candidates": [
+      {
+        "strategy": "semantic",
+        "score": 0.816667,
+        "metrics": {
+          "strategy": "semantic",
+          "chunks": 8,
+          "mean_chars": 781.9,
+          "median_chars": 733.5,
+          "under_100_chars": 0,
+          "recall_at_1": 0.7619047619047619,
+          "recall_at_3": 0.8571428571428571,
+          "recall_at_5": 0.8571428571428571,
+          "mrr": 0.8231292517006803
+        },
+        "under_100_ratio": 0.0
+      },
+      {
+        "strategy": "recursive",
+        "score": 0.794048,
+        "metrics": {
+          "strategy": "recursive",
+          "chunks": 7,
+          "mean_chars": 893.6,
+          "median_chars": 933.0,
+          "under_100_chars": 0,
+          "recall_at_1": 0.7142857142857143,
+          "recall_at_3": 0.8571428571428571,
+          "recall_at_5": 0.8571428571428571,
+          "mrr": 0.7993197278911565
+        },
+        "under_100_ratio": 0.0
+      },
+      {
+        "strategy": "fixed",
+        "score": 0.752183,
+        "metrics": {
+          "strategy": "fixed",
+          "chunks": 7,
+          "mean_chars": 979.3,
+          "median_chars": 1200.0,
+          "under_100_chars": 0,
+          "recall_at_1": 0.6190476190476191,
+          "recall_at_3": 0.8571428571428571,
+          "recall_at_5": 0.9047619047619048,
+          "mrr": 0.7409297052154195
+        },
+        "under_100_ratio": 0.0
+      },
+      {
+        "strategy": "structural",
+        "score": 0.749881,
+        "metrics": {
+          "strategy": "structural",
+          "chunks": 14,
+          "mean_chars": 446.8,
+          "median_chars": 228.0,
+          "under_100_chars": 5,
+          "recall_at_1": 0.7142857142857143,
+          "recall_at_3": 0.7142857142857143,
+          "recall_at_5": 0.8571428571428571,
+          "mrr": 0.7547619047619047
+        },
+        "under_100_ratio": 0.3571
+      }
+    ],
+    "rejected_candidates": []
+  },
+  "per_question": {
+    "fixed": [
+      {
+        "question": "Which award had Julius Baer recently won for digital innovation, according to the article?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "ebb45b360c552278"
+      },
+      {
+        "question": "How many days of work did Julius Baer’s robots handle in 2020?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "ebb45b360c552278"
+      },
+      {
+        "question": "What does Julius Baer use to help clients navigate unpredictable market environments?",
+        "expected_page": 1,
+        "hit_rank": 7,
+        "hit_page": 1,
+        "hit_chunk_id": "dce6174cbc524ca4"
+      },
+      {
+        "question": "What is SPARK?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "dce6174cbc524ca4"
+      },
+      {
+        "question": "What does SPARK harness?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "dce6174cbc524ca4"
+      },
+      {
+        "question": "What does Julius Baer’s Digital Advisory Suite (DiAS) automate for relationship managers?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "2a0f13bde115e4da"
+      },
+      {
+        "question": "How much of a relationship manager’s time can compliance with MiFID II or the Swiss Financial Services Act demand?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "2a0f13bde115e4da"
+      },
+      {
+        "question": "How many relationship managers currently use DiAS?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "2a0f13bde115e4da"
+      },
+      {
+        "question": "How much do DiAS users trade through the platform each month?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "2a0f13bde115e4da"
+      },
+      {
+        "question": "What greener alternative do e-signatures and video identification offer?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "99915d91ed72c1ab"
+      },
+      {
+        "question": "What can clients and intermediaries access through the Julius Baer Investment Insights App?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "99915d91ed72c1ab"
+      },
+      {
+        "question": "What process must clients complete before chatting with relationship managers via WhatsApp?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "99915d91ed72c1ab"
+      },
+      {
+        "question": "What two work methodologies does the article say minimise time-to-market for digital innovations?",
+        "expected_page": 2,
+        "hit_rank": 4,
+        "hit_page": 2,
+        "hit_chunk_id": "99915d91ed72c1ab"
+      },
+      {
+        "question": "What did Julius Baer develop with leading specialists to support software engineers’ workplace and working model?",
+        "expected_page": 2,
+        "hit_rank": 3,
+        "hit_page": 2,
+        "hit_chunk_id": "6db754ba89652d81"
+      },
+      {
+        "question": "How many developers did the initial cloud-framework pilot project support?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "6db754ba89652d81"
+      },
+      {
+        "question": "How many users and vendors currently collaborate in the cloud framework, and across how many projects?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "6db754ba89652d81"
+      },
+      {
+        "question": "What does the EPIC platform allow asset managers to do with their actively managed certificate portfolios?",
+        "expected_page": 3,
+        "hit_rank": 3,
+        "hit_page": 3,
+        "hit_chunk_id": "1aca4ec97ceaa4ce"
+      },
+      {
+        "question": "What did Julius Baer’s Thinkathon challenge teams around the globe to develop?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "1aca4ec97ceaa4ce"
+      },
+      {
+        "question": "What happened to Thinkathon projects after they were assessed and mapped out?",
+        "expected_page": 3,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "By approximately how much were investments in technology to power human advice increased in 2020 and 2021 compared with 2019?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "b41c0da98920342d"
+      },
+      {
+        "question": "Which areas are the focus of Julius Baer’s technology investments going forward?",
+        "expected_page": 3,
+        "hit_rank": 2,
+        "hit_page": 3,
+        "hit_chunk_id": "b41c0da98920342d"
+      }
+    ],
+    "recursive": [
+      {
+        "question": "Which award had Julius Baer recently won for digital innovation, according to the article?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "1044ebe616ee2d26"
+      },
+      {
+        "question": "How many days of work did Julius Baer’s robots handle in 2020?",
+        "expected_page": 1,
+        "hit_rank": 7,
+        "hit_page": 1,
+        "hit_chunk_id": "799bb5cef299ac8d"
+      },
+      {
+        "question": "What does Julius Baer use to help clients navigate unpredictable market environments?",
+        "expected_page": 1,
+        "hit_rank": 7,
+        "hit_page": 1,
+        "hit_chunk_id": "799bb5cef299ac8d"
+      },
+      {
+        "question": "What is SPARK?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "799bb5cef299ac8d"
+      },
+      {
+        "question": "What does SPARK harness?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "799bb5cef299ac8d"
+      },
+      {
+        "question": "What does Julius Baer’s Digital Advisory Suite (DiAS) automate for relationship managers?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "c92de5e7b642cde5"
+      },
+      {
+        "question": "How much of a relationship manager’s time can compliance with MiFID II or the Swiss Financial Services Act demand?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "c92de5e7b642cde5"
+      },
+      {
+        "question": "How many relationship managers currently use DiAS?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "c92de5e7b642cde5"
+      },
+      {
+        "question": "How much do DiAS users trade through the platform each month?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "c92de5e7b642cde5"
+      },
+      {
+        "question": "What greener alternative do e-signatures and video identification offer?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "54e6ed4d8cd6749d"
+      },
+      {
+        "question": "What can clients and intermediaries access through the Julius Baer Investment Insights App?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "54e6ed4d8cd6749d"
+      },
+      {
+        "question": "What process must clients complete before chatting with relationship managers via WhatsApp?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "54e6ed4d8cd6749d"
+      },
+      {
+        "question": "What two work methodologies does the article say minimise time-to-market for digital innovations?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "54e6ed4d8cd6749d"
+      },
+      {
+        "question": "What did Julius Baer develop with leading specialists to support software engineers’ workplace and working model?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "cfd824cc2b0985ae"
+      },
+      {
+        "question": "How many developers did the initial cloud-framework pilot project support?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "cfd824cc2b0985ae"
+      },
+      {
+        "question": "How many users and vendors currently collaborate in the cloud framework, and across how many projects?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "cfd824cc2b0985ae"
+      },
+      {
+        "question": "What does the EPIC platform allow asset managers to do with their actively managed certificate portfolios?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "eb1a413bd492319a"
+      },
+      {
+        "question": "What did Julius Baer’s Thinkathon challenge teams around the globe to develop?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "eb1a413bd492319a"
+      },
+      {
+        "question": "What happened to Thinkathon projects after they were assessed and mapped out?",
+        "expected_page": 3,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "By approximately how much were investments in technology to power human advice increased in 2020 and 2021 compared with 2019?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "c21b217b2b246505"
+      },
+      {
+        "question": "Which areas are the focus of Julius Baer’s technology investments going forward?",
+        "expected_page": 3,
+        "hit_rank": 2,
+        "hit_page": 3,
+        "hit_chunk_id": "c21b217b2b246505"
+      }
+    ],
+    "semantic": [
+      {
+        "question": "Which award had Julius Baer recently won for digital innovation, according to the article?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "d8880ac596a227ec"
+      },
+      {
+        "question": "How many days of work did Julius Baer’s robots handle in 2020?",
+        "expected_page": 1,
+        "hit_rank": 7,
+        "hit_page": 1,
+        "hit_chunk_id": "7bc9a9f8262d9a07"
+      },
+      {
+        "question": "What does Julius Baer use to help clients navigate unpredictable market environments?",
+        "expected_page": 1,
+        "hit_rank": 7,
+        "hit_page": 1,
+        "hit_chunk_id": "7bc9a9f8262d9a07"
+      },
+      {
+        "question": "What is SPARK?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "7bc9a9f8262d9a07"
+      },
+      {
+        "question": "What does SPARK harness?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "7bc9a9f8262d9a07"
+      },
+      {
+        "question": "What does Julius Baer’s Digital Advisory Suite (DiAS) automate for relationship managers?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "8e1b97e69daeca99"
+      },
+      {
+        "question": "How much of a relationship manager’s time can compliance with MiFID II or the Swiss Financial Services Act demand?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "213138c66d778ebf"
+      },
+      {
+        "question": "How many relationship managers currently use DiAS?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "213138c66d778ebf"
+      },
+      {
+        "question": "How much do DiAS users trade through the platform each month?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "213138c66d778ebf"
+      },
+      {
+        "question": "What greener alternative do e-signatures and video identification offer?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "e57a318b4f9b9825"
+      },
+      {
+        "question": "What can clients and intermediaries access through the Julius Baer Investment Insights App?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "e57a318b4f9b9825"
+      },
+      {
+        "question": "What process must clients complete before chatting with relationship managers via WhatsApp?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "e57a318b4f9b9825"
+      },
+      {
+        "question": "What two work methodologies does the article say minimise time-to-market for digital innovations?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "e57a318b4f9b9825"
+      },
+      {
+        "question": "What did Julius Baer develop with leading specialists to support software engineers’ workplace and working model?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "92af4f2017f12d70"
+      },
+      {
+        "question": "How many developers did the initial cloud-framework pilot project support?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "92af4f2017f12d70"
+      },
+      {
+        "question": "How many users and vendors currently collaborate in the cloud framework, and across how many projects?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "92af4f2017f12d70"
+      },
+      {
+        "question": "What does the EPIC platform allow asset managers to do with their actively managed certificate portfolios?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "ffc3520e37c899f3"
+      },
+      {
+        "question": "What did Julius Baer’s Thinkathon challenge teams around the globe to develop?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "ffc3520e37c899f3"
+      },
+      {
+        "question": "What happened to Thinkathon projects after they were assessed and mapped out?",
+        "expected_page": 3,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "By approximately how much were investments in technology to power human advice increased in 2020 and 2021 compared with 2019?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "7b2f2ce66957d50b"
+      },
+      {
+        "question": "Which areas are the focus of Julius Baer’s technology investments going forward?",
+        "expected_page": 3,
+        "hit_rank": 2,
+        "hit_page": 3,
+        "hit_chunk_id": "7b2f2ce66957d50b"
+      }
+    ],
+    "structural": [
+      {
+        "question": "Which award had Julius Baer recently won for digital innovation, according to the article?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "0a2db9a3269cc47f"
+      },
+      {
+        "question": "How many days of work did Julius Baer’s robots handle in 2020?",
+        "expected_page": 1,
+        "hit_rank": 10,
+        "hit_page": 1,
+        "hit_chunk_id": "8437f59fc71cdcfa"
+      },
+      {
+        "question": "What does Julius Baer use to help clients navigate unpredictable market environments?",
+        "expected_page": 1,
+        "hit_rank": 10,
+        "hit_page": 1,
+        "hit_chunk_id": "8437f59fc71cdcfa"
+      },
+      {
+        "question": "What is SPARK?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "8437f59fc71cdcfa"
+      },
+      {
+        "question": "What does SPARK harness?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "8437f59fc71cdcfa"
+      },
+      {
+        "question": "What does Julius Baer’s Digital Advisory Suite (DiAS) automate for relationship managers?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "745800210bdfd1fd"
+      },
+      {
+        "question": "How much of a relationship manager’s time can compliance with MiFID II or the Swiss Financial Services Act demand?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "745800210bdfd1fd"
+      },
+      {
+        "question": "How many relationship managers currently use DiAS?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "745800210bdfd1fd"
+      },
+      {
+        "question": "How much do DiAS users trade through the platform each month?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "745800210bdfd1fd"
+      },
+      {
+        "question": "What greener alternative do e-signatures and video identification offer?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "745800210bdfd1fd"
+      },
+      {
+        "question": "What can clients and intermediaries access through the Julius Baer Investment Insights App?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "8f24ab0a49eb11b1"
+      },
+      {
+        "question": "What process must clients complete before chatting with relationship managers via WhatsApp?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "8f24ab0a49eb11b1"
+      },
+      {
+        "question": "What two work methodologies does the article say minimise time-to-market for digital innovations?",
+        "expected_page": 2,
+        "hit_rank": 4,
+        "hit_page": 2,
+        "hit_chunk_id": "8f24ab0a49eb11b1"
+      },
+      {
+        "question": "What did Julius Baer develop with leading specialists to support software engineers’ workplace and working model?",
+        "expected_page": 2,
+        "hit_rank": 5,
+        "hit_page": 2,
+        "hit_chunk_id": "ae19dcf6c41691fe"
+      },
+      {
+        "question": "How many developers did the initial cloud-framework pilot project support?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "ae19dcf6c41691fe"
+      },
+      {
+        "question": "How many users and vendors currently collaborate in the cloud framework, and across how many projects?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "ae19dcf6c41691fe"
+      },
+      {
+        "question": "What does the EPIC platform allow asset managers to do with their actively managed certificate portfolios?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "e207e06fbf2f274e"
+      },
+      {
+        "question": "What did Julius Baer’s Thinkathon challenge teams around the globe to develop?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "e207e06fbf2f274e"
+      },
+      {
+        "question": "What happened to Thinkathon projects after they were assessed and mapped out?",
+        "expected_page": 3,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "By approximately how much were investments in technology to power human advice increased in 2020 and 2021 compared with 2019?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "4e9155f0a03a78e4"
+      },
+      {
+        "question": "Which areas are the focus of Julius Baer’s technology investments going forward?",
+        "expected_page": 3,
+        "hit_rank": 5,
+        "hit_page": 3,
+        "hit_chunk_id": "4e9155f0a03a78e4"
+      }
+    ]
+  }
+}

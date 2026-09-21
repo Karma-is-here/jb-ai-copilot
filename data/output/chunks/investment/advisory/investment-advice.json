@@ -1,0 +1,1088 @@
+{
+  "schema_version": "1.0",
+  "document": "data\\normalized\\investment\\advisory\\investment-advice.jsonl",
+  "strategy": "structural",
+  "chunks": [
+    {
+      "chunk_id": "0821f5d82e9b1388",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 1,
+        "page_end": 1,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 218
+        }
+      },
+      "text": "Information for consumers pursuant to the Law of 8 March 2023\non the accessibility for products and services, as amended\nBank Julius Baer Europe S.A.\n14, rue Edward Steichen, 2540 Luxembourg,\nGrand Duchy of Luxembourg\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 0
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 218
+      }
+    },
+    {
+      "chunk_id": "95c42c70d36e5ec3",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 1,
+        "page_end": 1,
+        "section": "Phone: +352 4760 1",
+        "offsets": {
+          "start": 218,
+          "end": 237
+        }
+      },
+      "text": "Phone: +352 4760 1\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 1
+      },
+      "metadata": {
+        "start_offset": 218,
+        "end_offset": 237
+      }
+    },
+    {
+      "chunk_id": "dd68d0e753a1e9e7",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 1,
+        "page_end": 1,
+        "section": "E-mail: info@juliusbaer.com",
+        "offsets": {
+          "start": 237,
+          "end": 265
+        }
+      },
+      "text": "E-mail: info@juliusbaer.com\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 2
+      },
+      "metadata": {
+        "start_offset": 237,
+        "end_offset": 265
+      }
+    },
+    {
+      "chunk_id": "e901b297b1405f2a",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 1,
+        "page_end": 1,
+        "section": "www.juliusbaer.com",
+        "offsets": {
+          "start": 265,
+          "end": 1400
+        }
+      },
+      "text": "www.juliusbaer.com\nWith this information Bank Julius Baer Europe S.A. (the “Bank”,\n“we”, “our”) meet the requirements of section 15 (2) of the Luxem­\nbourg Law of 8 March 2023 on the accessibility for products and\nservices, as amended (the “Accessibility Act”). This law is trans­\nposing Directive (EU) 2019/882 of the European Parliament and\nof the Council of 17 April 2019 on the accessibility requirements\nfor products and services into Luxembourg law. The Accessibility\nAct aims to ensure accessibility of products and services offered\nby companies. This means that companies must enable all con­\nsumers to access the products and services offered. The goal is to\nensure that all consumers can equally participate in society.\nPlease note: This information is intended to explain our invest­\nment advice service in a clear manner. It is not legally binding. On­\nly your contract documents are legally binding.\nThis information is divided into four parts:\nPart 1 contains specific information.\nHere we explain investment advice and our services in con­\nnection with investment advice.\nParts 2, 3 and 4 contain general information.\n–\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 3
+      },
+      "metadata": {
+        "start_offset": 265,
+        "end_offset": 1400
+      }
+    },
+    {
+      "chunk_id": "a612db873bbd654e",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 1,
+        "page_end": 1,
+        "section": "Are you not satisfied with our services?",
+        "offsets": {
+          "start": 1400,
+          "end": 1584
+        }
+      },
+      "text": "Are you not satisfied with our services?\nIn Part 2, we will inform you about the options you have if\nyou have a complaint.\n–\nWould you like to know how we meet the requirements of the\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 4
+      },
+      "metadata": {
+        "start_offset": 1400,
+        "end_offset": 1584
+      }
+    },
+    {
+      "chunk_id": "0a71feb1549f2d5e",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 1,
+        "page_end": 1,
+        "section": "Accessibility Act with our services?",
+        "offsets": {
+          "start": 1584,
+          "end": 1698
+        }
+      },
+      "text": "Accessibility Act with our services?\nIn Part 3, we inform you about the accessibility features of\nour services.\n–\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 5
+      },
+      "metadata": {
+        "start_offset": 1584,
+        "end_offset": 1698
+      }
+    },
+    {
+      "chunk_id": "cb305d719ca8af04",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 1,
+        "page_end": 1,
+        "section": "Do you have problems with the accessibility of our services?",
+        "offsets": {
+          "start": 1698,
+          "end": 1893
+        }
+      },
+      "text": "Do you have problems with the accessibility of our services?\nIn Part 4, we tell you who you can contact in this case. Here\nyou will find details of the responsible market surveillance\nauthority.\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 6
+      },
+      "metadata": {
+        "start_offset": 1698,
+        "end_offset": 1893
+      }
+    },
+    {
+      "chunk_id": "98944c2d613b4209",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 1,
+        "page_end": 1,
+        "section": "CONTENTS",
+        "offsets": {
+          "start": 1893,
+          "end": 2474
+        }
+      },
+      "text": "CONTENTS\n1\nExplanation of our services\b\n2\n1.1\nWhat is investment advice?\b\n2\n1.2\nWhat are financial instruments?\b\n2\n1.3\nWhat is the investment advice process?\b\n2\n1.4\nWhat costs do you incur for investment advice?\b\n2\n1.5\nIs there a contract term?\b\n2\n1.6\nIs there a right to withdrawal?\b\n3\n2\nYour options for providing feedback\nor filing a complaint\b\n3\n3\nCharacteristics of accessibility of our services\b\n3\n3.1\nAccessibility of services\b\n3\n3.2 Accessibility of this information\b\n4\n3.3\nAccessibility of documents related to our services\b\n4\n4\nCompetent market surveillance authority\b\n4\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 7
+      },
+      "metadata": {
+        "start_offset": 1893,
+        "end_offset": 2474
+      }
+    },
+    {
+      "chunk_id": "05f50a2998e34a28",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 1,
+        "page_end": 1,
+        "section": "INVESTMENT ADVICE",
+        "offsets": {
+          "start": 2474,
+          "end": 2502
+        }
+      },
+      "text": "INVESTMENT ADVICE\n20250717\n\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 8
+      },
+      "metadata": {
+        "start_offset": 2474,
+        "end_offset": 2502
+      }
+    },
+    {
+      "chunk_id": "f91fc165cc50f80c",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 1,
+        "page_end": 1,
+        "section": "LU-02510-EN 1-1313 EN_LU_00",
+        "offsets": {
+          "start": 2502,
+          "end": 2628
+        }
+      },
+      "text": "LU-02510-EN 1-1313 EN_LU_00\nBANK JULIUS BAER EUROPE S.A., 14, RUE EDWARD STEICHEN, L-2540 LUXEMBOURG, R.C.S. LUXEMBOURG B 8495",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 9
+      },
+      "metadata": {
+        "start_offset": 2502,
+        "end_offset": 2628
+      }
+    },
+    {
+      "chunk_id": "c362077b3256dabf",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 2
+        }
+      },
+      "text": "1\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 10
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 2
+      }
+    },
+    {
+      "chunk_id": "c758f2be171f7d3e",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": "EXPLANATION OF OUR SERVICES",
+        "offsets": {
+          "start": 2,
+          "end": 187
+        }
+      },
+      "text": "EXPLANATION OF OUR SERVICES\nIn this section, we explain investment advice and our associated\nservices. We will inform you about the main features and how in­\nvestment advice works.\n1.1\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 11
+      },
+      "metadata": {
+        "start_offset": 2,
+        "end_offset": 187
+      }
+    },
+    {
+      "chunk_id": "ea304afdaef4ee89",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": "What is investment advice?",
+        "offsets": {
+          "start": 187,
+          "end": 1228
+        }
+      },
+      "text": "What is investment advice?\nIn our investment advice, we give you recommendations on finan­\ncial instruments.\nThe following options are available:\n–\nBuy: We recommend that you buy a financial instrument.\n–\nSale: We recommend that you sell a financial instrument.\n–\nHold: We recommend that you do not sell a financial instru­\nment (but continue to hold it).\n–\nDo not buy: We recommend that you do not buy a financial\ninstrument.\nAs part of our investment advice, we take your financial situation\nand your personal ideas into account. You will receive a declaration\nof suitability from us with every consultation. This is a document in\nwhich we explain how our recommendation suits you. In the end, you\ndecide for yourself whether you want to follow our recommendation.\nPlease note: Our recommendation is only valid at the time of the\nconsultation. We will only review the recommendation later if we\nhave agreed this with you in advance. If you have purchased finan­\ncial instruments, you must therefore monitor their performance\nyourself.\n1.2\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 12
+      },
+      "metadata": {
+        "start_offset": 187,
+        "end_offset": 1228
+      }
+    },
+    {
+      "chunk_id": "2096eda1f2fdc9c8",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": "What are financial instruments?",
+        "offsets": {
+          "start": 1228,
+          "end": 1550
+        }
+      },
+      "text": "What are financial instruments?\nThe term “financial instruments” is used in laws relating to banks.\nFor example, it appears in the Luxembourg Law of 5 April 1993 on\nthe financial sector. Financial instruments i.a. include:\n–\nSecurities, for example shares, bonds, certificates\nand warrants,\n–\nShares in investment funds\n–\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 13
+      },
+      "metadata": {
+        "start_offset": 1228,
+        "end_offset": 1550
+      }
+    },
+    {
+      "chunk_id": "7fc85edda7ba7503",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": "Derivatives",
+        "offsets": {
+          "start": 1550,
+          "end": 1566
+        }
+      },
+      "text": "Derivatives\n1.3\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 14
+      },
+      "metadata": {
+        "start_offset": 1550,
+        "end_offset": 1566
+      }
+    },
+    {
+      "chunk_id": "0589ac5ef36cbad4",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": "What is the investment advice process?",
+        "offsets": {
+          "start": 1566,
+          "end": 2335
+        }
+      },
+      "text": "What is the investment advice process?\nInvestment advice usually comprises four steps:\n1.\n\u0007Agreement: Before the Bank is able to provide you invest­\nment advice, you need to agree an Advisory Contract with us.\n2.\n\u0007Collection of information: We need certain information\nfrom you in order to provide you with investment advice. We\nask you for certain personal data and your wishes regarding the\ninvestment of your assets. This is required by law: We are not\nallowed to advise you without your details. The information you\nprovide helps us to understand your interests and needs.\nWe need the following information from you:\n–\nFinancial situation (What is your income? What are\nyour expenses? What are your assets?)\n–\nLoss-bearing capacity (What financial losses could you\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 15
+      },
+      "metadata": {
+        "start_offset": 1566,
+        "end_offset": 2335
+      }
+    },
+    {
+      "chunk_id": "546176047bf14212",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": "bear?)",
+        "offsets": {
+          "start": 2335,
+          "end": 2446
+        }
+      },
+      "text": "bear?)\n–\nInvestment goals (What do you want to achieve by\ninvesting your assets? For example: long-term wealth\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 16
+      },
+      "metadata": {
+        "start_offset": 2335,
+        "end_offset": 2446
+      }
+    },
+    {
+      "chunk_id": "5ab9df99eb815316",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": "creation)",
+        "offsets": {
+          "start": 2446,
+          "end": 2531
+        }
+      },
+      "text": "creation)\n–\nInvestment horizon (For what period do you want to\ninvest your money?)\n–\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 17
+      },
+      "metadata": {
+        "start_offset": 2446,
+        "end_offset": 2531
+      }
+    },
+    {
+      "chunk_id": "435d634827e3520f",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": "Risk appetite (What financial risks do you want to take?",
+        "offsets": {
+          "start": 2531,
+          "end": 2691
+        }
+      },
+      "text": "Risk appetite (What financial risks do you want to take?\nFor example: fluctuations in value, losses)\n–\nSustainability preferences (Should sustainability crite­\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 18
+      },
+      "metadata": {
+        "start_offset": 2531,
+        "end_offset": 2691
+      }
+    },
+    {
+      "chunk_id": "1d2d3f23d97dc3f3",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": "ria be taken into account when investing your assets?",
+        "offsets": {
+          "start": 2691,
+          "end": 3844
+        }
+      },
+      "text": "ria be taken into account when investing your assets?\nFor example: investments that contribute to achieving\nan environmental goal)\n–\nExperience and knowledge in investing assets in finan­\ncial instruments / Experience and knowledge in servic­\nes related to financial instruments\n3.\n\u0007Recommendation: Based on your information, we will give\nyou recommendations on financial instruments. However,\nwe will only give you a recommendation if it matches your\ninformation.\nWe will provide you with information about the recommend­\ned financial instruments, either verbally or through informa­\ntion sheets. Examples of information sheets are the product\ninformation sheet for shares and bonds or key information\nsheets for investment funds.\n4.\n\u0007Documentation: In the final step, you will receive a written\nsummary of our recommendation, the suitability statement.\nThis summary includes our recommendation and an expla­\nnation of how it suits you.\nIn the end, it is up to you to decide whether you want to follow our\nrecommendation.\nIn addition, before you buy or sell a financial product, we need\nto make sure you are able to understand the nature and risks as­\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 19
+      },
+      "metadata": {
+        "start_offset": 2691,
+        "end_offset": 3844
+      }
+    },
+    {
+      "chunk_id": "17cc90c9f3b7b58b",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": "ria be taken into account when investing your assets?",
+        "offsets": {
+          "start": 3844,
+          "end": 4492
+        }
+      },
+      "text": "sociated with a financial instrument before placing the order. If a\nfinancial instrument for which you have placed an order is deemed\nto be inappropriate for you, or if the necessary information to as­\nsess the appropriateness is missing, we will warn you accordingly.\nIt is at your discretion to refrain from making the trade or to pro­\nceed in spite of the warning. We reserve the right to decline to\nproceed if we deem such action necessary in your best interest of\nthe client. With regard to checking knowledge and experience, the\nassessment will be based on the information given by the person\ngiving an order or receiving the recommendation.\n",
+      "chunking": {
+        "strategy": "size_fallback",
+        "chunk_index": 20
+      },
+      "metadata": {
+        "start_offset": 3844,
+        "end_offset": 4492
+      }
+    },
+    {
+      "chunk_id": "3b894034d249ae3c",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": "1.4 What costs do you incur for investment advice?",
+        "offsets": {
+          "start": 4492,
+          "end": 5061
+        }
+      },
+      "text": "1.4 What costs do you incur for investment advice?\nFor investment advice you pay us fees which are outlined in the\nSchedule of Prices and Services of the Bank. Moreover, you will\nusually receive cost information from us. This contains an over­\nview of the costs and follow-up costs associated with buying, hold­\ning and selling a financial instrument. The cost information may\nalso contain information that we receive a payment from third par­\nties in connection with the purchase of a financial instrument. This\nmay, for example, be a payment from a fund company.\n1.5\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 21
+      },
+      "metadata": {
+        "start_offset": 4492,
+        "end_offset": 5061
+      }
+    },
+    {
+      "chunk_id": "94be8b5e87987c9d",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": "Is there a contract term?",
+        "offsets": {
+          "start": 5061,
+          "end": 5539
+        }
+      },
+      "text": "Is there a contract term?\nThe Advisory Agreement is concluded for an indefinite period of\ntime. It can be terminated from you and the Bank at any time with­\nout the need provide any reasons.\nYou furthermore conclude the deposit agreement with us for an\nindefinite period. You can terminate the deposit agreement at any\ntime without providing any reasons with a notice period of one\nmonth. Further information can be gathered in the Bank’s General\nBusiness Conditions.\n20250717\n\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 22
+      },
+      "metadata": {
+        "start_offset": 5061,
+        "end_offset": 5539
+      }
+    },
+    {
+      "chunk_id": "7b73a9221af54fee",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": "LU-02510-EN 1-1313 EN_LU_00",
+        "offsets": {
+          "start": 5539,
+          "end": 5665
+        }
+      },
+      "text": "LU-02510-EN 1-1313 EN_LU_00\nBANK JULIUS BAER EUROPE S.A., 14, RUE EDWARD STEICHEN, L-2540 LUXEMBOURG, R.C.S. LUXEMBOURG B 8495",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 23
+      },
+      "metadata": {
+        "start_offset": 5539,
+        "end_offset": 5665
+      }
+    },
+    {
+      "chunk_id": "2ca09aa7121b45a6",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 3,
+        "page_end": 3,
+        "section": "1.6 Is there a right to withdrawal?",
+        "offsets": {
+          "start": 0,
+          "end": 544
+        }
+      },
+      "text": "1.6 Is there a right to withdrawal?\nYou can revoke the Advisory Agreement within 14 days. However,\nthis only applies if the contract was concluded as a distance sell­\ning transaction, for example via the Internet or telephone, or as an\nout-of-home transaction. In this case, you will receive certain le­\ngal information from us. The cancellation period begins after you\nhave concluded the contract and have received all legal informa­\ntion on it.\nPlease note: There is no right of cancellation when buying or sell­\ning financial instruments.\n2\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 24
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 544
+      }
+    },
+    {
+      "chunk_id": "1071efa8d46c4f69",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 3,
+        "page_end": 3,
+        "section": "YOUR OPTIONS FOR PROVIDING FEEDBACK",
+        "offsets": {
+          "start": 544,
+          "end": 580
+        }
+      },
+      "text": "YOUR OPTIONS FOR PROVIDING FEEDBACK\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 25
+      },
+      "metadata": {
+        "start_offset": 544,
+        "end_offset": 580
+      }
+    },
+    {
+      "chunk_id": "57c16e066b26c2ed",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 3,
+        "page_end": 3,
+        "section": "OR FILING A COMPLAINT",
+        "offsets": {
+          "start": 580,
+          "end": 1176
+        }
+      },
+      "text": "OR FILING A COMPLAINT\nWe would be pleased to receive your feedback. Please address\nyour feedback directly to your relationship manager, he is glad to\nbe at your disposal. He is your direct contact person especially in\ncase of further enquiries concerning advisory services, portfolio\nperformance, transactions, banking services, pricing schedule,\nIT-systems etc. Many things can be solved non-bureaucratic and\nsatisfying that way. Alternatively, if you have a complaint, please\naddress it in written form to us by using one of the following com­\nmunication channels:\nBank Julius Baer Europe S.A.\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 26
+      },
+      "metadata": {
+        "start_offset": 580,
+        "end_offset": 1176
+      }
+    },
+    {
+      "chunk_id": "e721bb8e46694588",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 3,
+        "page_end": 3,
+        "section": "Attn. Complaint Management",
+        "offsets": {
+          "start": 1176,
+          "end": 1228
+        }
+      },
+      "text": "Attn. Complaint Management\n14, rue Edward Steichen,\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 27
+      },
+      "metadata": {
+        "start_offset": 1176,
+        "end_offset": 1228
+      }
+    },
+    {
+      "chunk_id": "f2d3905a284e0495",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 3,
+        "page_end": 3,
+        "section": "L-2540 Luxembourg",
+        "offsets": {
+          "start": 1228,
+          "end": 1663
+        }
+      },
+      "text": "L-2540 Luxembourg\nE-Mail: ComplaintManagement.Lux@juliusbaer.com\nFurthermore, it is your discretion to address your complaint di­\nrectly for the attention of our management board. In any case,\nplease take care to communicate the following information to­\ngether with your complaint:\n–\nThe reason for your complaint or a description of the identi­\nfied mistake respectively\n–\nYour contact data (name and address as well as your account\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 28
+      },
+      "metadata": {
+        "start_offset": 1228,
+        "end_offset": 1663
+      }
+    },
+    {
+      "chunk_id": "1c61a4f63aa23f69",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 3,
+        "page_end": 3,
+        "section": "number)",
+        "offsets": {
+          "start": 1663,
+          "end": 2844
+        }
+      },
+      "text": "number)\nWe will confirm the receipt of your written complaint within a max­\nimum of 10 business days and we will take care of an answer as\nfast as possible, but not later than one month. If in particular cases\nit takes us more than one month to respond, we will inform you\nabout this. If your complaint is relating to payment services, the\nBank will provide feedback within 15 days.\nIf you are not satisfied with our response, you may refer your com­\nplaint directly to the Commission de Surveillance du Secteur Fi­\nnancier (CSSF):\nThe CSSF is competent to receive complaints from customers\n(natural or legal persons) of the professionals subject to its super­\nvision and to act as an intermediary in order to seek an amicable\nsettlement of these complaints. The CSSF acts in its capacity as\nalternative dispute resolution (“ADR”) entity, notably pursuant to\nthe European legislation relating to the out-of-court resolution of\nconsumer disputes that was transposed into Luxembourg law and\nintroduced into the Consumer Code in 2016. The CSSF is regis­\ntered on the list of ADR entities within the meaning of Article L.\n431-1 of the Consumer Code and on the list of ADR entities es­\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 29
+      },
+      "metadata": {
+        "start_offset": 1663,
+        "end_offset": 2844
+      }
+    },
+    {
+      "chunk_id": "ef4a2caf83cf385d",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 3,
+        "page_end": 3,
+        "section": "number)",
+        "offsets": {
+          "start": 2844,
+          "end": 3452
+        }
+      },
+      "text": "tablished and published by the European Commission. The com­\nplaints that are sent to the CSSF are handled by its legal depart­\nment: “Legal Department Consumer Protection/Financial Crime”\nof the CSSF. The out-of-court resolution of disputes takes place\non a voluntary basis and is free of charge. In order to facilitate the\nfiling of a complaint, the CSSF publishes a complaint form on its\nwebsite: https://www.cssf.lu/en/customer-complaints/. The com­\nplaint form can either be filed online or sent by mail, fax or email:\n–\nby mail to the following address:\nCommission de Surveillance du Secteur Financier\n",
+      "chunking": {
+        "strategy": "size_fallback",
+        "chunk_index": 30
+      },
+      "metadata": {
+        "start_offset": 2844,
+        "end_offset": 3452
+      }
+    },
+    {
+      "chunk_id": "85a4e4ed233e66d6",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 3,
+        "page_end": 3,
+        "section": "Département Juridique CC",
+        "offsets": {
+          "start": 3452,
+          "end": 3496
+        }
+      },
+      "text": "Département Juridique CC\n283, route d’Arlon\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 31
+      },
+      "metadata": {
+        "start_offset": 3452,
+        "end_offset": 3496
+      }
+    },
+    {
+      "chunk_id": "fa940434e583ecbe",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 3,
+        "page_end": 3,
+        "section": "L-2991 Luxembourg",
+        "offsets": {
+          "start": 3496,
+          "end": 3551
+        }
+      },
+      "text": "L-2991 Luxembourg\n–\nby fax using the following number:\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 32
+      },
+      "metadata": {
+        "start_offset": 3496,
+        "end_offset": 3551
+      }
+    },
+    {
+      "chunk_id": "5c8fa369b05f6e54",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 3,
+        "page_end": 3,
+        "section": "(+352) 26 25 1-2601",
+        "offsets": {
+          "start": 3551,
+          "end": 3608
+        }
+      },
+      "text": "(+352) 26 25 1-2601\n–\nby email to the following address:\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 33
+      },
+      "metadata": {
+        "start_offset": 3551,
+        "end_offset": 3608
+      }
+    },
+    {
+      "chunk_id": "22254c5b207c41b9",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 3,
+        "page_end": 3,
+        "section": "reclamation@cssf.lu",
+        "offsets": {
+          "start": 3608,
+          "end": 3630
+        }
+      },
+      "text": "reclamation@cssf.lu\n3\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 34
+      },
+      "metadata": {
+        "start_offset": 3608,
+        "end_offset": 3630
+      }
+    },
+    {
+      "chunk_id": "7ba665098619c2ca",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 3,
+        "page_end": 3,
+        "section": "CHARACTERISTICS OF ACCESSIBILITY",
+        "offsets": {
+          "start": 3630,
+          "end": 3663
+        }
+      },
+      "text": "CHARACTERISTICS OF ACCESSIBILITY\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 35
+      },
+      "metadata": {
+        "start_offset": 3630,
+        "end_offset": 3663
+      }
+    },
+    {
+      "chunk_id": "f54df10dae735ba5",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 3,
+        "page_end": 3,
+        "section": "OF OUR SERVICES",
+        "offsets": {
+          "start": 3663,
+          "end": 4832
+        }
+      },
+      "text": "OF OUR SERVICES\nYou would like to know how we meet the requirements of the Ac­\ncessibility Act with regard to our services? In this section, we will\ninform you about the characteristics of the accessibility of our ser­\nvices.\nBackground:\nThe Accessibility Act obliges us, among other things, to adhere\nto guidelines for accessible web content. These guidelines are in­\ntended to enable all people, especially those with disabilities, to\naccess web content. The guidelines are based on four principles\nof accessibility:\n–\nPerceivability: As many people as possible should be able\nto perceive information and IT functions. This means, that\nwe, for example, ensure that for each image or graphic there\nis an alternative means of perception available, such as writ­\nten text.\n–\nOperability: As many people as possible should be able to\nuse the IT functions. This means, for example, that we en­\nsure our web content can be operated using an ordinary key­\nboard.\n–\nUnderstandability: As many people as possible should be\nable to read and understand the web content clearly. For ex­\nample, we offer our web content in simple and understand­\nable language whenever possible\n–\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 36
+      },
+      "metadata": {
+        "start_offset": 3663,
+        "end_offset": 4832
+      }
+    },
+    {
+      "chunk_id": "c45d334456ebbafe",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 3,
+        "page_end": 3,
+        "section": "OF OUR SERVICES",
+        "offsets": {
+          "start": 4832,
+          "end": 5731
+        }
+      },
+      "text": "Robustness: The web content must be compatible with\nso-called assistive technologies as far as possible. Assistive\ntechnologies include, for example, programmes for reading\nout or enlarging web content, but also for converting speech\ninto text. This means, for example, that we ensure important\nstandards for the use of assistive technologies are observed,\nsuch as the technical structure and labelling of the content.\nWe meet the requirements of the Accessibility Act by implement­\ning these principles in our services.\n3.1\nAccessibility of services\nThe following describes the characteristics of the accessibility of\nour services in combination with investment advice:\n–\nWe can send you the Advisory Agreement by post or elec­\ntronically as a PDF via email. Please contact your relation­\nship manager and request that it will be sent to you through\nyour preferred communication channel.\n20250717\n\n",
+      "chunking": {
+        "strategy": "size_fallback",
+        "chunk_index": 37
+      },
+      "metadata": {
+        "start_offset": 4832,
+        "end_offset": 5731
+      }
+    },
+    {
+      "chunk_id": "68fad97da1f327cb",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 3,
+        "page_end": 3,
+        "section": "LU-02510-EN 1-1313 EN_LU_00",
+        "offsets": {
+          "start": 5731,
+          "end": 5857
+        }
+      },
+      "text": "LU-02510-EN 1-1313 EN_LU_00\nBANK JULIUS BAER EUROPE S.A., 14, RUE EDWARD STEICHEN, L-2540 LUXEMBOURG, R.C.S. LUXEMBOURG B 8495",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 38
+      },
+      "metadata": {
+        "start_offset": 5731,
+        "end_offset": 5857
+      }
+    },
+    {
+      "chunk_id": "488c7d3575d60713",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 4,
+        "page_end": 4,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 1163
+        }
+      },
+      "text": "–\nAdditionally, we can also hand over the Advisory Agreement\nto you in person.\n–\nFor transmitting orders to buy or sell financial instruments to\nthe Bank you either call your relationship manager or send an\nemail, depending on which communication channel you have\nagreed with the Bank during the account opening process.\n3.2 Accessibility of this information\nThe characteristics of accessibility of this information are as follows:\n–\nWe provide you with this information through various access\nchannels, namely via a personal handover by your relation­\nship manager or via the Bank’s website (www.juliusbaer.com).\n–\nThe content of this information is written in clear language.\nThe B2 level of the Common European Framework of Refer­\nence for languages (CEFR) is not exceeded.\nNote: This does not apply to the actual service contract or the\nGeneral Business Conditions (GBC) and pre-contractual infor­\nmation that are connected to the service contract.\n–\nThe layout of this information has a specific design, and the\ndescription of the typography used, e.g. the font, line length,\nline spacing and highlighting of important texts were chosen\nto be user-friendly.\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 39
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 1163
+      }
+    },
+    {
+      "chunk_id": "c5855fdd827519e0",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 4,
+        "page_end": 4,
+        "section": null,
+        "offsets": {
+          "start": 1163,
+          "end": 1700
+        }
+      },
+      "text": "3.3 Accessibility of documents related to our services\nThe characteristics of accessibility of documents related to our\nservices (including this information) are as follows:\nDocuments are perceivable. This means:\n–\nDocuments have partly the format PDF-UA and/or are webbased. This format can be converted into other formats.\nThey can be enlarged for better readability. Screen-readers\ncan interpret the documents and read aloud the content on\nthe screen. Therefore, the documents are available to you\nthrough several sensory channels.\n4\n",
+      "chunking": {
+        "strategy": "size_fallback",
+        "chunk_index": 40
+      },
+      "metadata": {
+        "start_offset": 1163,
+        "end_offset": 1700
+      }
+    },
+    {
+      "chunk_id": "85b97badd4d4c3c6",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 4,
+        "page_end": 4,
+        "section": "COMPETENT MARKET SURVEILLANCE AUTHORITY",
+        "offsets": {
+          "start": 1700,
+          "end": 2669
+        }
+      },
+      "text": "COMPETENT MARKET SURVEILLANCE AUTHORITY\nDo you have problems concerning the accessibility of our servic­\nes? In this section we will inform you about who you can contact.\nThe competent authority in Luxembourg is called «Office de la\nsurveillance de l’accessibilité des produits et services » (OSAPS)\nOSAPS will, among other things, act as a reference point for ac­\ncessibility. OSAPS will provide companies with guidelines, tools\nand advice to help them improve the accessibility of their products\nand/or services. In addition, any person can inform OSAPS of the\nnon-compliance of a product or service.\nIf you have problems with our service, you can submit a complaint\nto the OSAPS. The OSAPS may then initiate legal measures\nagainst us. In your complaint, you can claim that we are violating\na requirement of the Accessibility Act The contact details of the\nOSAPS are:\nSurveillance authority for the accessibility\nof products and services (OSAPS)\n13c, rue de Bitbourg\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 41
+      },
+      "metadata": {
+        "start_offset": 1700,
+        "end_offset": 2669
+      }
+    },
+    {
+      "chunk_id": "33a135a2dac4af73",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 4,
+        "page_end": 4,
+        "section": "L -1273 Luxembourg-Hamm",
+        "offsets": {
+          "start": 2669,
+          "end": 2693
+        }
+      },
+      "text": "L -1273 Luxembourg-Hamm\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 42
+      },
+      "metadata": {
+        "start_offset": 2669,
+        "end_offset": 2693
+      }
+    },
+    {
+      "chunk_id": "8a8a48c9f6e0db36",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 4,
+        "page_end": 4,
+        "section": "Luxembourg",
+        "offsets": {
+          "start": 2693,
+          "end": 2704
+        }
+      },
+      "text": "Luxembourg\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 43
+      },
+      "metadata": {
+        "start_offset": 2693,
+        "end_offset": 2704
+      }
+    },
+    {
+      "chunk_id": "f83a4835045e3db2",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 4,
+        "page_end": 4,
+        "section": "E-Mail: info@osaps.etat.lu",
+        "offsets": {
+          "start": 2704,
+          "end": 2731
+        }
+      },
+      "text": "E-Mail: info@osaps.etat.lu\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 44
+      },
+      "metadata": {
+        "start_offset": 2704,
+        "end_offset": 2731
+      }
+    },
+    {
+      "chunk_id": "44ef65eeb99b97b2",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 4,
+        "page_end": 4,
+        "section": "Phone: +352 2477-6565",
+        "offsets": {
+          "start": 2731,
+          "end": 2763
+        }
+      },
+      "text": "Phone: +352 2477-6565\n20250717\n\n",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 45
+      },
+      "metadata": {
+        "start_offset": 2731,
+        "end_offset": 2763
+      }
+    },
+    {
+      "chunk_id": "2c1ae22cc17743c2",
+      "document_id": "investment/advisory/investment-advice",
+      "source": {
+        "file": "investment-advice.pdf",
+        "page_start": 4,
+        "page_end": 4,
+        "section": "LU-02510-EN 1-1313 EN_LU_00",
+        "offsets": {
+          "start": 2763,
+          "end": 2889
+        }
+      },
+      "text": "LU-02510-EN 1-1313 EN_LU_00\nBANK JULIUS BAER EUROPE S.A., 14, RUE EDWARD STEICHEN, L-2540 LUXEMBOURG, R.C.S. LUXEMBOURG B 8495",
+      "chunking": {
+        "strategy": "structural",
+        "chunk_index": 46
+      },
+      "metadata": {
+        "start_offset": 2763,
+        "end_offset": 2889
+      }
+    }
+  ]
+}

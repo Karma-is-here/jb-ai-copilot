@@ -1,0 +1,412 @@
+{
+  "schema_version": "1.0",
+  "document": "data\\normalized\\technology\\ml-engg.jsonl",
+  "strategy": "semantic",
+  "chunks": [
+    {
+      "chunk_id": "5004749a9b16285d",
+      "document_id": "technology/ml-engg",
+      "source": {
+        "file": "ml-engg.pdf",
+        "page_start": 1,
+        "page_end": 1,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 1147
+        }
+      },
+      "text": "ML engineers at Julius Baer: Meet the humans behind the machines | Julius Baer\n\nJulius Bar\n\nML engineers at Julius Baer: Meet the\nhumans behind the machines\n\nFebruary 11, 2025 by Andrew Loan oO) 7 min\n\nAs well as introducing a dizzying array of new applications and possibilities, the\nfield of machine learning (ML) is also opening up many new roles in banking and\nother sectors. We talk to ML engineers Dominik, Marine, and Paul to discover\ntheir pathway into this frontier-busting field and learn that, contrary to widely\nheld assumptions, their role is one that depends heavily on people.\n\nML engineers are in high demand - and the reasons are clear. Artificial intelligence, of which ML is one\nof the core techniques, offers apparently infinite potential to simplify and enhance tasks usually\nperformed by humans, such as text understanding and generation, speech recognition, and image\nprocessing. For those who're technically inclined and have a background in computer science or\n\nsoftware programming, this opens up an exciting range of new career opportunities.\n\nBut what exactly does the role entail at a wealth manager like Julius Baer? ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 0
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 1147,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "ebdeb21559e59cfc",
+      "document_id": "technology/ml-engg",
+      "source": {
+        "file": "ml-engg.pdf",
+        "page_start": 1,
+        "page_end": 1,
+        "section": null,
+        "offsets": {
+          "start": 1147,
+          "end": 1948
+        }
+      },
+      "text": "“I would phrase it as\ntransforming ideas into innovations,” says Dominik. “We apply Al technology to the bank’s data to find\nways of enhancing our daily work.” Recently, Dominik has been working with some of the bank’s own\ndata, such as publications, to make it usable for large language models. “We’re teaching the model the\n\nJulius Baer ‘lingo’.”\n\nDominik believes the value of his work lies in reducing routine tasks so that colleagues can focus on\nmore value-adding activities. “In wealth management, especially at Julius Baer, personal relationships\n\nare central,” says Dominik, “and that’s an area where Al will never be able to outdo humans. But it does\n\nhttps://www.juliusbaer.com/en/our-people/business-navigator/technology/ml-engineers-at-julius-baer-meet-the-humans-behind-the-machines/ 1/6",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 1
+      },
+      "metadata": {
+        "start_offset": 1147,
+        "end_offset": 1948,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "2c10482ad2da8ee1",
+      "document_id": "technology/ml-engg",
+      "source": {
+        "file": "ml-engg.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 323
+        }
+      },
+      "text": "ML engineers at Julius Baer: Meet the humans behind the machines | Julius Baer\noffer the potential to enhance these relationships by enriching the interaction and decision basis, for\n\nexample by retrieving, preparing, or summarising, data.”\n\no\n-\n\na\n—\n\nae\n\nDominik, ML engineer\n\nA prize-winning introduction to Julius Baer\n\n",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 2
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 323,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "423e7074dfbe4862",
+      "document_id": "technology/ml-engg",
+      "source": {
+        "file": "ml-engg.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": null,
+        "offsets": {
+          "start": 323,
+          "end": 1480
+        }
+      },
+      "text": "Dominik’s fascination with Al evolved out of his teenage interest in video editing. He says he was\nparticularly excited by GenAl’s potential when it came to text to image processing, particularly the\ncreations of media artist,\n\nRefik Anadol (https://www.juliusbaer.com/en/insights/our-commitments/refik-anadol-at-theintersection-of-art-science-and-technology/)\n\n, who has also partnered with Julius Baer as part of the bank’s NEXT initiative. “He’s an idol of mine. |\nasked my Data Sciences professor at university if it was possible to do something similar as part of my\ncourse and she taught me the fundamentals.” Dominik made the move to Julius Baer after winning\nJulius Baer’s annual Best Master’s Thesis in Business Information Technology prize at\n\nZHAW School of Management and Law (https://www.zhaw.ch/en/sml). “It was clearly meant to be,” he\nsays. “When | won the prize, my grandmother told me that my uncle’s godfather was former Executive\n\nBoard member Fritz Laager, who served alongside former Chairman Hans J. Bar.”\n\nDominik’s route into machine learning highlights the different career paths open to computer\n\nprogrammers and data scientists. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 3
+      },
+      "metadata": {
+        "start_offset": 323,
+        "end_offset": 1480,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "5c0df124aef09d70",
+      "document_id": "technology/ml-engg",
+      "source": {
+        "file": "ml-engg.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": null,
+        "offsets": {
+          "start": 1480,
+          "end": 1784
+        }
+      },
+      "text": "“As | was more interested in working with my hands, | began my\n\nprofessional career with an apprenticeship with a rail manufacturing company and obtained a Federal\n\nhttps://www.juliusbaer.com/en/our-people/business-navigator/technology/ml-engineers-at-julius-baer-meet-the-humans-behind-the-machines/ 2/6",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 4
+      },
+      "metadata": {
+        "start_offset": 1480,
+        "end_offset": 1784,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "64c72c5d67c62583",
+      "document_id": "technology/ml-engg",
+      "source": {
+        "file": "ml-engg.pdf",
+        "page_start": 3,
+        "page_end": 3,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 1108
+        }
+      },
+      "text": "https://www.juliusbaer.com/en/our-people/business-navigator/technology/ml-engineers-at-julius-baer-meet-the-humans-behind-the-machines/\n\nML engineers at Julius Baer: Meet the humans behind the machines | Julius Baer\nVocational Baccalaureate (Berufsmatura) before enrolling in university.” He believes this broadened his\nview of the working world, even if banking was still uncharted territory for him when he joined. “| was\nsurprised to discover that, like any other company, there are so many different departments with\n\ndifferent functions.”\n\nUsing curiosity for career growth\n\nPerhaps unsurprisingly for somebody with a scientific interest, Dominik’s fellow ML engineer Marine\ntook an empirical route into her role. “My first year at university was largely a case of ‘try it and see’.\nDuring her studies in mathematics and computer science, she chanced upon machine learning when a\ngroup of tech-savvy friends began studying it and enjoyed the hands-on, minds-on approach. “What\nattracted me about ML is that it’s very applied. You need maths to understand the theory, but\n\nprogramming to implement it.”\n\n",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 5
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 1108,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "a5d9b9f727cf2158",
+      "document_id": "technology/ml-engg",
+      "source": {
+        "file": "ml-engg.pdf",
+        "page_start": 3,
+        "page_end": 3,
+        "section": null,
+        "offsets": {
+          "start": 1108,
+          "end": 1647
+        }
+      },
+      "text": "Marine initially arrived at Julius Baer by applying for a working student position and meanwhile moved\ninto a permanent role. She is currently working on a use case for one of the bank’s units using large\nlanguage models. “Basically, we’re taking the data created by our Investment Research team and train\nthe models behind our in-house GenAl tool with it, in order to help users find answers to their\nquestions more easily.” Naturally curious, Marine is clearly somebody who spends a lot of time seeking\nout answers to her own questions. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 6
+      },
+      "metadata": {
+        "start_offset": 1108,
+        "end_offset": 1647,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "7881cea81e602f57",
+      "document_id": "technology/ml-engg",
+      "source": {
+        "file": "ml-engg.pdf",
+        "page_start": 3,
+        "page_end": 3,
+        "section": null,
+        "offsets": {
+          "start": 1647,
+          "end": 2396
+        }
+      },
+      "text": "“When | hear in the media about a new technology, | want to find out\nhow it works. | dive into the research papers behind it to understand how it’s possible and what's\n\nhappening in the background.”\n\nTraditionally, women have been underrepresented in STEM (Science, Technology, Engineering, and\nMathematics) careers - Marine says fewer than ten per cent of her fellow Data Science classmates at\nETH Zurich were women. She believes that giving girls greater exposure to technical and engineering\nsubjects at an early age — such as the Julius Baer’s annual Kids4IT day in Switzerland — could help to\nspark their interest. “I think giving young people the chance to try out computer science in high school\n\ncould attract more women to roles like this.”",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 7
+      },
+      "metadata": {
+        "start_offset": 1647,
+        "end_offset": 2396,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "e3cee5b83a4edd36",
+      "document_id": "technology/ml-engg",
+      "source": {
+        "file": "ml-engg.pdf",
+        "page_start": 4,
+        "page_end": 4,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 716
+        }
+      },
+      "text": "ML engineers at Julius Baer: Meet the humans behind the machines | Julius Baer\n\nMarine, ML engineer\n\nEarly strategic choices reap rewards\n\nPaul took a more targeted route into the role. “The university where | studied for my bachelor’s degree\nin biomedical engineering didn’t offer any machine learning courses at that time, so | had to study\nextracurricularly. | enrolled in online courses in machine learning and then did a master’s degree in Al at\n\nthe University of Zurich to learn more about the theoretical, underlying concepts.”\n\nPaul’s responsibility in the team is to orchestrate the landscape of machine learning and large language\nmodels used by the bank and make sure that they run reliably and quickly. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 8
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 716,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "659651e0d2d11c6a",
+      "document_id": "technology/ml-engg",
+      "source": {
+        "file": "ml-engg.pdf",
+        "page_start": 4,
+        "page_end": 4,
+        "section": null,
+        "offsets": {
+          "start": 716,
+          "end": 1786
+        }
+      },
+      "text": "Despite growing up near\nGermany’s banking capital Frankfurt, like the others the world of banking was new territory for him.\nWhat motivated him to join Julius Baer was the bank’s strategic focus on leveraging the potential of Al\nas an early mover in this area. “Julius Baer employs very smart people in wealth management and | can\nmake their lives easier by developing tools that let them focus on their core business,” he says, adding\nthat, “Thanks to the decisions the bank has made in recent years in this area, the applications we’re\n\nworking on are advanced and close to the state-of-the-art in their technical implementation.”\n\nHe puts this advantage down to the Julius Baer’s decision to host its hardware on its own premises. “By\nkeeping data in-house, we’ve opened up innovative and safe ways for data utilisation. Since the data\nremains within our secure environment, it’s protected from external access. It was a smart decision to\nwork in this way. Now it’s on my colleagues and | to help ensure we keep that competitive advantage, or\n\nideally increase it!”\n\n",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 9
+      },
+      "metadata": {
+        "start_offset": 716,
+        "end_offset": 1786,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "a7f764ac88eec21c",
+      "document_id": "technology/ml-engg",
+      "source": {
+        "file": "ml-engg.pdf",
+        "page_start": 4,
+        "page_end": 4,
+        "section": null,
+        "offsets": {
+          "start": 1786,
+          "end": 1925
+        }
+      },
+      "text": "https://www.juliusbaer.com/en/our-people/business-navigator/technology/ml-engineers-at-julius-baer-meet-the-humans-behind-the-machines/ 4/6",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 10
+      },
+      "metadata": {
+        "start_offset": 1786,
+        "end_offset": 1925,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "a3da2a51881cc0ee",
+      "document_id": "technology/ml-engg",
+      "source": {
+        "file": "ml-engg.pdf",
+        "page_start": 5,
+        "page_end": 5,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 1171
+        }
+      },
+      "text": "ML engineers at Julius Baer: Meet the humans behind the machines | Julius Baer\n\nPaul, ML engineer\n\nA culture of openness and experimentation\n\nAlthough their role revolves around designing algorithms that allow machines to function without\ndirect human assistance, all three ML engineers cite working together as one of their most important\njob motivations. “It’s always fun coming in to work beside the team,” says Dominik. Communication\nskills are a key part of an ML engineer's skillset because, ultimately, they need to be able to collaborate\nwith experts from different areas in order to make a machine learning model that serves the bank’s\npurpose-driven, client-focused approach. “The relationship managers are interested and open enough\nto let us explain how we can help them and to explain their daily tasks to us,” says Dominik. “It’s a winwin.”\n\nTrue to her inclination to “try things out and see”, Marine says that, in a field like Al and machine\nlearning, the bank’s emphasis on a bottom-up culture is also essential. “Al is a really fast field - things\nare changing constantly. To foster innovation, it’s important to give people the space to experiment. A\n\n",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 11
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 1171,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "190c1889cf4010f2",
+      "document_id": "technology/ml-engg",
+      "source": {
+        "file": "ml-engg.pdf",
+        "page_start": 5,
+        "page_end": 5,
+        "section": null,
+        "offsets": {
+          "start": 1171,
+          "end": 1650
+        }
+      },
+      "text": "top-down approach would be too slow for us in order to stay ahead.”\n\nJulius Baer offers opportunities to grow, outside of the box\n\nThis openness to experimentation also brings benefits for the three ML engineers in terms of their own\n\nopportunities for development, especially in such a fledgling field. “Even within our own team, we have\n\nhttps://www.juliusbaer.com/en/our-people/business-navigator/technology/ml-engineers-at-julius-baer-meet-the-humans-behind-the-machines/ 5/6",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 12
+      },
+      "metadata": {
+        "start_offset": 1171,
+        "end_offset": 1650,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "916c923a707063e8",
+      "document_id": "technology/ml-engg",
+      "source": {
+        "file": "ml-engg.pdf",
+        "page_start": 6,
+        "page_end": 6,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 511
+        }
+      },
+      "text": "https://www.juliusbaer.com/en/our-people/business-navigator/technology/ml-engineers-at-julius-baer-meet-the-humans-behind-the-machines/\n\nML engineers at Julius Baer: Meet the humans behind the machines | Julius Baer\nflexibility to shape our own careers,” says Paul. “We can choose to go down the computer science route\nwhere we can dive into cutting-edge computational techniques, or the data science career path,\nexploring how data distributions, probability, and statistical analysis can reveal new insights. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 13
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 511,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "97bc62e22eb95fc1",
+      "document_id": "technology/ml-engg",
+      "source": {
+        "file": "ml-engg.pdf",
+        "page_start": 6,
+        "page_end": 6,
+        "section": null,
+        "offsets": {
+          "start": 511,
+          "end": 1658
+        }
+      },
+      "text": "The doors\nare also open for us to rotate into different teams, such as the investment or governance teams, to\n\nbroaden our horizons.”\n\nAccording to the World Economic Forum, an impressive 97 million new roles are projected to emerge by\n2025 as a result of Al. Looking beyond the now, what does the future hold for those pursuing a career in\nthis frontier-busting field? “For ML engineers like us, this is likely to create opportunities as employers\n\nseek a combination of people with the business insights to understand what the market needs and how\n\nthey can best leverage advancements in machine learning.”\n\nDominik believes this tradition of embracing new technology is simply part of the inevitable march of\nprogress. “Al is something that at some point in the future every company will embrace.” He’s excited\nabout the technology’s potential. “It’s not just facilitating the lives of humans in the workplace but also\nona really advanced and broader scale, through autonomous driving and flying or maintaining\n\ninfrastructure — all things that are going to have a real impact on human lives.”\n\nRELATED TOPICS\n\nCareer Starters\n\nRELATED ARTICLES",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 14
+      },
+      "metadata": {
+        "start_offset": 511,
+        "end_offset": 1658,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    }
+  ]
+}

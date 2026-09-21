@@ -1,0 +1,1195 @@
+{
+  "schema_version": "1.0",
+  "document": "data\\normalized\\investment\\advisory\\finsa.jsonl",
+  "strategy": "semantic",
+  "chunks": [
+    {
+      "chunk_id": "8d58439b0d9ffbd3",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 1,
+        "page_end": 1,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 68
+        }
+      },
+      "text": "Julius Bar\n\nFINANCIAL\nSERVICES ACT (FINSA)\n\nInformat ion for clients",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 0
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 68,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "21b0a48a77957a58",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 10
+        }
+      },
+      "text": "Julius Bar",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 1
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 10,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "7e805bcedea8f8a3",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 3,
+        "page_end": 3,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 443
+        }
+      },
+      "text": "Financial Services Act (FinSA)\n3\nThis brochure provides essential information about the Swiss Financial\nServices Act (FinSA), which entered into force on 1 January 2020.\nFinSA aims to strengthen investor protection and establish comparable\nstandards for financial service providers.\nThe brochure also contains information on the implementation of the\nregulatory standards applied to clients served by Bank Julius Baer\n& Co. Ltd., Switzerland. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 2
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 443,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "b1c4fd967103b96f",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 3,
+        "page_end": 3,
+        "section": null,
+        "offsets": {
+          "start": 443,
+          "end": 1196
+        }
+      },
+      "text": "This includes general information, such as the\nregulatory licence status, the available investment universe, suitability and appropriateness, client classification, best execution, conflicts of\ninterest, compensation, general risks, and complaints handling.\nFurther information can be obtained from the client’s relationship manager, who will be happy to answer any questions.\nThis brochure is provided for information and regulatory purposes only\nand should not be considered as marketing material. It is not a solicitation\nor an offer for a financial service, or a recommendation to buy or sell\nany financial instrument.\nThe brochure reflects the status as of August 2025. The most recent\nversion can be found at www.juliusbaer.com/finsa.\nIntroduction",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 3
+      },
+      "metadata": {
+        "start_offset": 443,
+        "end_offset": 1196,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "03aca6bb81681517",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 5,
+        "page_end": 5,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 384
+        }
+      },
+      "text": "5\nFinancial Services Act (FinSA)\nIntroduction\b\n3\nGeneral information\b\n6\nJulius Baer’s investment universe\b\n7\nSuitability and appropriateness assessment\b\n8\nClient classification\b\n10\nBest execution framework\b\n12\nConflicts of interest\b\n13\nCompensation\b\n15\nRisks in financial instruments trading\b\n16\nProduct information\b\n16\nComplaints handling\b\n16\nImportant legal information\b\n17\nContents",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 4
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 384,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "cecb755ad2f3af82",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 6,
+        "page_end": 6,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 301
+        }
+      },
+      "text": "6\nFinancial Services Act (FinSA)\n\nAbout Julius Baer\nJulius Baer is the leading Swiss wealth management\ngroup and a premium brand in this global sec­tor, with\na focus on servicing and advising sophisticated private clients. In all we do, we are inspired by our pur-\npose: creating value beyond wealth. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 5
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 301,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "a09bbcaacc505619",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 6,
+        "page_end": 6,
+        "section": null,
+        "offsets": {
+          "start": 301,
+          "end": 1476
+        }
+      },
+      "text": "Bank ­Julius Baer\n& Co. Ltd., the renowned Swiss private bank with\norigins dating back to 1890, is the principal operating\ncompany of Julius Baer Group Ltd., whose shares\nare listed on the SIX Swiss Exchange (ticker symbol:\nBAER) and are included in the Swiss Leader Index\n(SLI), com­prising the 30 largest and most liquid\nSwiss stocks.\nJulius Baer is present in around 25 countries and 60\nlocations. Headquartered in Zurich, we have offices\nin key locations including Bangkok, Dubai, Dublin,\nFrankfurt, Geneva, Hong Kong, London, Luxembourg, Madrid, Mexico City, Milan, Monaco, Mumbai,\nSantiago de Chile, Shanghai, Singapore, Tel Aviv,\nand Tokyo.\nContact and licence information\nBelow are the contact details of Bank Julius Baer\n& Co. Ltd. (hereinafter ‘Julius Baer’), its regulatory\nstatus, and the contact details of its supervisory\nauthority:\nBANK JULIUS BAER & CO. LTD.\nBahnhofstrasse 36\nP.O. Box\n8010 Zurich\nSwitzerland\nTelephone +41 (0) 58 888 1111\nFax +41 (0) 58 888 1122\nwww.juliusbaer.com\nJulius Baer is authorised and regulated by the Swiss\nFinancial Market Supervisory Authority FINMA,\nLaupenstrasse 27, 3003 Berne, and is licensed as a\nbank and securities firm. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 6
+      },
+      "metadata": {
+        "start_offset": 301,
+        "end_offset": 1476,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "e9d7323962476f2a",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 6,
+        "page_end": 6,
+        "section": null,
+        "offsets": {
+          "start": 1476,
+          "end": 1989
+        }
+      },
+      "text": "It may therefore provide\nthe full range of wealth management and banking\nservices, including Advisory or Discretionary Mandates, and the purchase, sale, and safekeeping of securities and other financial instruments. Julius Baer\nalso conducts brokerage and payment services, and\nprovides credit and securities financing.\nJulius Baer’s product and service offering depends on\nthe regulations applicable in each client’s country of\ndomicile and may not (or not fully) be available to all\nclients.\nGeneral information",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 7
+      },
+      "metadata": {
+        "start_offset": 1476,
+        "end_offset": 1989,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "b91988fb9554b866",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 7,
+        "page_end": 7,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 594
+        }
+      },
+      "text": "7\nFinancial Services Act (FinSA)\nJulius Baer’s investment universe\nWhen Julius Baer selects financial instruments for\n­its wealth management services (Advisory or Dis­\ncretionary Mandates), it does so based on financial\ninstruments from entities of the Julius Baer Group\nand financial instruments from a large range of thirdparty providers with whom Julius Baer may have\nbusiness affiliations based on which the Bank may\nbe credited or receive and retain compensation.\nCompensation is a monetary benefit of any kind\n(e.g. sales commission) that Julius Baer may receive from third parties (e.g. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 8
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 594,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "4433f68c3c0c4135",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 7,
+        "page_end": 7,
+        "section": null,
+        "offsets": {
+          "start": 594,
+          "end": 1298
+        }
+      },
+      "text": "product suppliers)\nand/or Julius Baer Group entities (for details on\ncompensation see the section ‘Compensation’).\nJulius Baer’s investment ­fund universe is predominantly based on the financial instruments of more\nthan ­100 third-party fund providers, complemented\nby a number of financial instruments from entities\nof the Julius Baer Group.\nFunds ‘from entities of the Julius Baer Group’ means\nthat at least one of the following constellations is\nmet:\n• Fund management: Various entities within the\nJulius Baer Group manage a range of investment\nfunds, which are used as core building blocks for\nan effective way to implement Julius Baer’s investment policy in a diversified and cost-efficient\nmanner. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 9
+      },
+      "metadata": {
+        "start_offset": 594,
+        "end_offset": 1298,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "6b8b26196becca96",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 7,
+        "page_end": 7,
+        "section": null,
+        "offsets": {
+          "start": 1298,
+          "end": 2498
+        }
+      },
+      "text": "Julius Baer receives a management fee\nfor this service.\n• Fund administration: Julius Baer Group entities\nmay also act as the fund management company\nfor some investment funds managed by third\nparty asset managers or Julius Baer and in this\ncapacity the respective Julius Baer entity receives a fee for the services provided to the fund.\n• Custody/paying agent services: Julius Baer has\nbeen appointed ­as ­the custodian bank and/or\npaying agent of some funds and receives a custody and/or paying agent service fee for these\nservices.\nFor investments in closed ended private equity funds,\nJulius Baer may rely predominantly or even exclusively on financial instruments from entities of the\nJulius Baer Group. Such financial instruments are\ntypically (but not exclusively) structured as feeder\nfunds, which then invest in a master fund, managed\nby third parties. This structure is required to enable\naccess to the underlying third-party private equity\nmaster fund at improved terms and conditions (e.g.\nlower minimum investment requirements, liquidity\nand/or redemptions terms).\nJulius Baer’s structured product investment universe\nfocuses on structured products issued by Julius Baer\nGroup entities. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 10
+      },
+      "metadata": {
+        "start_offset": 1298,
+        "end_offset": 2498,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "83dd091d996af399",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 7,
+        "page_end": 7,
+        "section": null,
+        "offsets": {
+          "start": 2498,
+          "end": 3199
+        }
+      },
+      "text": "The structured products are made\navailable to clients of Julius Baer as well as third-party\ninvestment firms.\nTo meet individual client needs, Julius Baer provides\nstructured products and derivatives with various\nunderlyings. They are either tailor-made by one of\nJulius Baer’s real-time derivatives creation tools or\nmay be sourced from selected third-party issuers, in\ncase a certain investment amount is reached.\nIf the properties (e.g. risk structure, strategic fit,\nmaturity) of financial instruments from entities of\nthe Julius Baer Group are similar to the financial\ninstruments of third parties, Julius Baer may recommend or select financial instruments from entities\nof the Julius Baer Group.",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 11
+      },
+      "metadata": {
+        "start_offset": 2498,
+        "end_offset": 3199,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "3746647dbebc3a00",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 8,
+        "page_end": 8,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 635
+        }
+      },
+      "text": "8\nFinancial Services Act (FinSA)\nSuitability and appropriateness assessment\nImplementation\nBefore providing wealth management services\n­(Advisory or Discretionary Mandates), Julius Baer\nhas a legal obligation to consider whether the\n­investment strategy and financial instruments are\nsuitable for the client. The suitability and appro-\npriateness assessment ­validates that a client has\nthe required knowledge and experience to be able\nto adequately under­stand the underlying nature\nand risk of the offered financial service or instrument, and that the client has the ability to bear any\nrelated financial risk (e.g. financial loss). ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 12
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 635,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "2046aa4e844059d2",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 8,
+        "page_end": 8,
+        "section": null,
+        "offsets": {
+          "start": 635,
+          "end": 987
+        }
+      },
+      "text": "In addition,\nJulius Baer ­assesses if the investment strategy and\nfinancial instruments suit the client’s investment ob-\njectives.\nClient Investment Profile and\nKnowledge and Experience\nIn order to perform a suitability and appropriateness\nassessment, ­Julius Baer requires specific information\nabout the client’s personal and financial circumstances. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 13
+      },
+      "metadata": {
+        "start_offset": 635,
+        "end_offset": 987,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "eb7a6c7cf87ebe65",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 8,
+        "page_end": 8,
+        "section": null,
+        "offsets": {
+          "start": 987,
+          "end": 1936
+        }
+      },
+      "text": "For ­this purpose, the client needs to complete the Client Investment Profile (CIP) and the\nKnowledge & Experience form (K&E form), which\nare de­signed to gather the necessary information\non the client’s:\n• investment objectives, including investment\n­horizon;\n• financial situation, including financial risk ability\nand risk tolerance; and\n• Knowledge and Experience (K&E) with regard to\nfinancial instruments.\nJulius Baer will rely on the information provided, and\nclients are strongly advised to immediately inform\nJulius Baer if any of their circumstances change and\nno longer match the information provided, whether\nin the CIP, the K&E form, or otherwise.\nThe suitability and appropriateness assessment\ncarried out at Julius Baer is performed as described\nin the following paragraphs.\nSuitability of investment strategies\nBased on the client information collected in the CIP,\na suitable overall investment strategy is ­defined\n­for the client. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 14
+      },
+      "metadata": {
+        "start_offset": 987,
+        "end_offset": 1936,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "a179c1022e73de5c",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 8,
+        "page_end": 8,
+        "section": null,
+        "offsets": {
+          "start": 1936,
+          "end": 2434
+        }
+      },
+      "text": "This serves as the basis for selecting\n­a suitable investment strategy for an Advisory or\nDiscretionary Mandate with a client.\nSuitability within Discretionary Mandates\nIn a Discretionary Mandate, the client delegates the\ninvestment decision to Julius Baer. All in­vestments\nmade within a Discretionary Mandate are suitable as\nthey are in line with the agreed and appropriate investment strategy. Compliance with the investment\nstrategy is monitored and ensured by the inde­pend­\nent risk function.",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 15
+      },
+      "metadata": {
+        "start_offset": 1936,
+        "end_offset": 2434,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "a4877cbdccaac353",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 9,
+        "page_end": 9,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 546
+        }
+      },
+      "text": "9\nFinancial Services Act (FinSA)\nSuitability and appropriateness within\nAdvisory Mandates\nClients with an Advisory Mandate receive investment advice from Julius Baer. Julius Baer assesses\n­the suitability and appropriateness of all investment ad­vice before it is provided to the client.\nIf a client requests advice on a financial instrument\ndeemed unsuitable or inappropriate, Julius Baer will\ninform the ­client accordingly. If a client wishes to\nproceed regardless, the transaction will be considered\nto be done against Julius Baer’s advice.\n\n",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 16
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 546,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "49049d4c536b9554",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 9,
+        "page_end": 9,
+        "section": null,
+        "offsets": {
+          "start": 546,
+          "end": 1235
+        }
+      },
+      "text": "Appropriateness of non-advised transactions\nFor non-advised transactions (execution-only),\n­Julius Baer assesses whether the client is able to understand the nature and risks associated with a financial instrument before placing the order (appropriateness assessment).\nIf a financial instrument is deemed inappropriate,\nJulius Baer warns the client that their K&E is not\nsufficient to understand the risks as­sociated with\nthe financial instrument.\nIn order to assess the appropriateness of a trans­\naction, Julius Baer verifies the K&E of the person\n­placing the order, which might be the account\nholder, a joint account holder, a representative, or\nan authorised signatory for a company.",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 17
+      },
+      "metadata": {
+        "start_offset": 546,
+        "end_offset": 1235,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "34ed211d46036e6b",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 10,
+        "page_end": 10,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 324
+        }
+      },
+      "text": "10\nFinancial Services Act (FinSA)\nClient classification\nInformation on client classification\nFinSA defines the following classes for clients of\n­financial service providers: ‘private clients’, ‘pro­\nfessional clients’, and ‘institutional clients’. Each cat­\negory is assigned a different level of investor\n­protection (e.g. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 18
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 324,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "391df7a39d4b7796",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 10,
+        "page_end": 10,
+        "section": null,
+        "offsets": {
+          "start": 324,
+          "end": 796
+        }
+      },
+      "text": "with regard to information duties,\nsuitability and appropriateness obligations, and\n­documentation and accountability duties).\nPrivate client status\nJulius Baer will treat clients as private clients unless\nclients are informed otherwise. Private clients re­ceive\nthe highest level of investor protection. They must\n­be given extensive information regarding ­product risk,\ne.g. Key Information Document (KID), before a service can be provided or a trade can ­be ­executed. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 19
+      },
+      "metadata": {
+        "start_offset": 324,
+        "end_offset": 796,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "2adf95282b388384",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 10,
+        "page_end": 10,
+        "section": null,
+        "offsets": {
+          "start": 796,
+          "end": 1297
+        }
+      },
+      "text": "The\nrange of financial instruments avail­able is generally\nlimited to products targeted at ­private clients or to\nproducts explicitly registered for distri­bution to private clients.\nProfessional client status\nProfessional clients are treated as sophisticated investors who have a lower level of investor pro­\ntection than private clients, based on their level ­of\nknowledge and experience, and their ability to\n­bear financial losses.\nSome rules of conduct do not apply to professional\nclients (e.g. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 20
+      },
+      "metadata": {
+        "start_offset": 796,
+        "end_offset": 1297,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "0086f95b277e2fa8",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 10,
+        "page_end": 10,
+        "section": null,
+        "offsets": {
+          "start": 1297,
+          "end": 2466
+        }
+      },
+      "text": "provisions of KID). Professional clients\nare eligible for a larger investment universe, including financial instruments targeted at profes­sional\nclients only or instruments not registered for distri-\nbu­tion to private clients.\nHow to become a professional client\nEither the client is already classified by law as a pro-\nfessional client (‘per-se professional client’) or they\ncan apply for a change of classification (‘opting out’).\nThe following are defined by law as per-se professional clients:\n• financial intermediaries as defined in the Swiss\nBanking Act (BA), the Swiss Financial Institutions\nAct (FinIA), and the Swiss Collective Investment\nSchemes Act (CISA);\n• insurance companies as defined in the\nSwiss Insurance Supervision Act (ISA);\n• foreign clients subject to prudential supervision;\n• central banks;\n• public entities with professional treasury\noperations;\n• pension funds and institutions dedicated to\noccupational pension provision with professional\ntreasury;\n• companies with professional treasury operations;\n• large companies; and\n• private investment structures with professional\ntreasury operations created for high-net-worth\nprivate clients.",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 21
+      },
+      "metadata": {
+        "start_offset": 1297,
+        "end_offset": 2466,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "2daf80464b0b639f",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 11,
+        "page_end": 11,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 1090
+        }
+      },
+      "text": "11\nFinancial Services Act (FinSA)\nHigh-net-worth private clients may request to be reclassified as professional clients (opting out). To\n­become a professional client, the client must meet at\nleast one of the following legal requirements:\n• the client has the necessary knowledge based on\ntraining, education, and professional experience,\nor on the basis of comparable experience in the financial sector to understand the risks associated\nwith the investments and has eligible assets of at\nleast CHF 500 000; or\n• the client has eligible assets of at least\nCHF 2 million.\nDirect investments in real estate and claims from\nsocial insurance schemes as well as occupational\npension assets do not qualify as eligible financial\ninvestments.\nPrivate clients wishing to be reclassified as professional clients may do so by submitting the form Application for Classification as FinSA Professional Client.\nHowever, it is not possible to opt out of individual\nservices or particular classes of financial products only;\nclients must opt out of the full ­range of their relationship with ­Julius Baer. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 22
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 1090,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "c9f847151d4777d0",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 11,
+        "page_end": 11,
+        "section": null,
+        "offsets": {
+          "start": 1090,
+          "end": 2116
+        }
+      },
+      "text": "Clients must confirm that\nthey meet the necessary re­quirements in all aspects\nbefore they can become professional clients. Clients\nwill be informed in ­writing when ­Julius Baer con­\nsiders the conditions to be fulfilled. Once this confirm­\nation is sent out, ­Julius Baer will henceforth treat\nsuch clients as professional clients.\nRegarding the offering of collective investment\nschemes, professional clients as well as private clients\nwho have entered into a Discretionary or Advisory\nMandate Agreement are by law considered as qualified investors. This allows these clients to invest\nin collective investment schemes that are offered to\nqualified investors only. However, clients with an\n­Advisory Mandate Agreement need to be classified\nas professional clients – according to the aforementioned opting-out process – to be able to invest in such\ncollective investment schemes.\nOpting in\nClients who have been reclassified as professional\nclients can decide at any time to opt into the private\nclient classification again.",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 23
+      },
+      "metadata": {
+        "start_offset": 1090,
+        "end_offset": 2116,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "99cbe9c1224eafb6",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 12,
+        "page_end": 12,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 1200
+        }
+      },
+      "text": "12\nFinancial Services Act (FinSA)\nBest execution framework\nBest execution\nBest execution is the obligation to take all necessary\nsteps to obtain the best possible result for clients on\na consistent basis when executing transactions on\ntheir behalf (including use of third-party financial institutions to execute transactions).\nBest execution factors\nJulius Baer takes into consideration the following execution factors to determine the best possible result\nfor its clients:\n• price – this is the price a financial instrument is\nexecuted at\n• cost – this includes implicit costs, such as the possible market impact; explicit external costs, such\nas execution venue or clearing and settlement fees;\nand explicit internal costs (Julius Baer’s own commissions and fees)\n• speed – this is the time it takes to execute a client\ntransaction\n• likelihood of execution and settlement – this is\nthe likelihood that Julius Baer will be able to complete a client transaction\n• size – this is the size of the transaction executed for\na client, accounting for how this affects the price\nof execution\n• nature of the transaction or any other consider­\nation relevant to the execution of the transaction\n(such as mar",
+      "chunking": {
+        "strategy": "size_fallback",
+        "chunk_index": 24
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 1200,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "c7545338694eb02c",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 12,
+        "page_end": 12,
+        "section": null,
+        "offsets": {
+          "start": 1200,
+          "end": 1537
+        }
+      },
+      "text": "ket impact) – this is how the particular characteristics of a client transaction can affect\nhow best execution is achieved\nAs a general rule, the price of the financial instrument\nand the costs relating to the execution of the order\n(total consideration) will merit the highest relative importance in obtaining the best possible result. ",
+      "chunking": {
+        "strategy": "size_fallback",
+        "chunk_index": 25
+      },
+      "metadata": {
+        "start_offset": 1200,
+        "end_offset": 1537,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "269907297b70aa01",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 12,
+        "page_end": 12,
+        "section": null,
+        "offsets": {
+          "start": 1537,
+          "end": 1640
+        }
+      },
+      "text": "However, the overall result of a particular transaction for\na client may be affected by other factors. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 26
+      },
+      "metadata": {
+        "start_offset": 1537,
+        "end_offset": 1640,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "d128d80f0bb1d7c7",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 12,
+        "page_end": 12,
+        "section": null,
+        "offsets": {
+          "start": 1640,
+          "end": 2573
+        }
+      },
+      "text": "Therefore,\nJulius Baer may in specific cases attach a higher importance to other execution factors than the immediate price and cost.\nBest execution governance framework\nJulius Baer has implemented an internal govern­\nance framework, including a best execution policy,\nthrough which it defines its best execution prin­\nciples and ­arrangements. This framework also includes control, monitoring, and review processes,\n­as well as a reporting infrastructure with regard to\nan effective order execution.\nAn overall review of the best execution policy, and ­of\norder handling and execution arrangements, is performed on an annual basis with regard to the completeness and effectiveness of the framework (e.g.\nwhether the selection criteria still lead to the same\nselection of brokers) or whenever a material change\noccurs that could affect Julius Baer’s ability to obtain the best possible results for its clients on a\n­consistent basis.",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 27
+      },
+      "metadata": {
+        "start_offset": 1640,
+        "end_offset": 2573,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "f52fa23daa8cf62a",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 13,
+        "page_end": 13,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 1062
+        }
+      },
+      "text": "13\nFinancial Services Act (FinSA)\nConflicts of interest\nDescription\nConflicts of interest may occur when business and/or\npersonal interests of one or several parties are contrary to one another. If not mitigated, they may result\nin a financial disadvantage for the client.\nJulius Baer’s overall approach to handling (potential)\nconflicts of interest consists of four key steps: identification, avoidance, mitigation, and disclosure of\n(potential) conflicts of interest.\nExamples of conflict of interest\nThe following is a non-exhaustive list of exemplary\nsituations ­in which conflicts of interest may occur in\nconnection with:\n• Julius Baer’s own (revenue) interest in selling and\ntrading financial instruments, including instruments\nissued by a Julius Baer entity or another affiliated\nentity;\n• the receipt of compensation from third parties\n(for details on compensation see the section\n‘Compensation’);\n• performance-based compensation of employees\nand compensation granted to financial intermediaries (where applicable and permitted);\n• relationships (e.g. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 28
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 1062,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "ffafbe9cc750128b",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 13,
+        "page_end": 13,
+        "section": null,
+        "offsets": {
+          "start": 1062,
+          "end": 2255
+        }
+      },
+      "text": "service, collaboration, or revenue-­\nsharing agreements) that Julius Baer may have\nwith issuers of financial instruments that are offered or recommended to clients;\n• fees received by Julius Baer for the management\nand/or administration of funds or the custody of\nfunds that Julius Baer also recommends to clients\nor includes in Discretionary Mandates.\nMeasures established by Julius Baer\nto identify conflicts of interest\nIn a first step, Julius Baer endeavours to properly\nidentify potential conflicts of interest in order to\nmanage them. Therefore, Julius Baer keeps a register of all identified situations in which an involved\nparty:\n• is likely to make a financial gain, or avoid a financial loss, at the expense of the client;\n• has an interest in the outcome of a service provided to a client or of a transaction carried out on\nbehalf of a client that is distinct from the client’s\ninterest in that outcome;\n• has a financial or other incentive to favour the interest of a client or group of clients over the\n­interests of another client or group of clients; or\n• carries on the same business as the client and/or\nreceives a compensation in relation to a service\nprovided to the client.",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 29
+      },
+      "metadata": {
+        "start_offset": 1062,
+        "end_offset": 2255,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "2bfb3c950830784c",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 14,
+        "page_end": 14,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 652
+        }
+      },
+      "text": "14\nFinancial Services Act (FinSA)\nMeasures established by Julius Baer to avoid,\nmanage, or mitigate conflicts of interest\nIt is Julius Baer’s aspiration to act with professional\nexpertise and integrity. With regard to conflicts of\ninterest, Julius Baer has implemented a separate policy with minimum standards. Employees are obliged\nto comply with this policy at all times.\nFurthermore, Julius Baer has put a broad range of\norganisational measures in place in order to best\nidentify, avoid, and mitigate conflicts of interest, as\nillustrated by the following, non-exhaustive\noverview:\n• organisational procedures to safeguard clients’\n­interests (e.g. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 30
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 652,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "9fa160e0fed7ef3f",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 14,
+        "page_end": 14,
+        "section": null,
+        "offsets": {
+          "start": 652,
+          "end": 1312
+        }
+      },
+      "text": "confidentiality areas, information\nbarriers, separation of responsibilities, technical\nseparation);\n• rules on accepting, giving, and disclosing compensation (including gifts and/or entertainment);\n• rules with regard to employee account transactions;\n• approval and review process for external mandates, secondary employment, and substantial\nshareholdings of employees.\nControls established by Julius Baer\nregarding conflicts of interest\nJulius Baer has implemented a number of controls at\nthe level of business units as well as independent\ncontrol functions to ensure that its measures and\npolicy regarding conflicts of interest are adequate\nand adhered to. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 31
+      },
+      "metadata": {
+        "start_offset": 652,
+        "end_offset": 1312,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "3b07e8719c3fa456",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 14,
+        "page_end": 14,
+        "section": null,
+        "offsets": {
+          "start": 1312,
+          "end": 2361
+        }
+      },
+      "text": "Such controls include, among others:\n• an independent compliance department that is\ndirectly responsible to management without reporting into the business divisions and whose duty\nit is to monitor the identification, avoidance, and\nmanagement of conflicts of interest; and\n• a trade surveillance and reporting framework,\nsupported by automated rule engines, to identify\ninappropriate trading patterns.\nDisclosure of conflicts of interest\nand consent to proceed\nJulius Baer takes all necessary and reasonable\nmeasures to identify, avoid, or mitigate any conflicts\nof interest that may arise in connection with the\nservices offered to clients.\nIf the measures implemented cannot prevent disadvantages for clients, or only with a dispropor­\ntionate amount of effort, Julius Baer discloses the\nconflict in an adequate manner.\nFurther information is available in the publication\n‘Information on the treatment of conflicts of interest\nby the Julius Baer Group’, which can be downloaded from www.juliusbaer.com/fileadmin/legal/\nconflict-of-interest-en.pdf.",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 32
+      },
+      "metadata": {
+        "start_offset": 1312,
+        "end_offset": 2361,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "6db0cb6d25634e12",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 15,
+        "page_end": 15,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 240
+        }
+      },
+      "text": "15\nFinancial Services Act (FinSA)\nCompensation\nDescription\nCompensation is a monetary benefit of any kind\n(e.g. sales commission) that Julius Baer may re­ceive\nfrom third parties (e.g. product suppliers) and/or\n­Julius Baer Group entities. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 33
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 240,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "ddf1bf2b27ba71f3",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 15,
+        "page_end": 15,
+        "section": null,
+        "offsets": {
+          "start": 240,
+          "end": 1313
+        }
+      },
+      "text": "Charges paid ­directly by\na client to Julius Baer, such as advisory fees, custody\nfees, or transaction fees ­(including fees that are part\nof the issue price of an instrument), are not con-\nsidered as compensation.\nThe most common form of compensation occurs\n­between providers and distributors of financial instruments, whereby providers forward part of their rev­\nenues from financial instruments to the distributor in\nexchange for distribution services.\nFor example, in the area of investment funds, the\nfund provider charges the investor a management\nfee for managing the fund assets, which is disclosed\n­in the fund prospectus. The fund provider may use\npart of the revenues generated with this management fee to remunerate distributors such as banks\nor financial advisors on an ongoing basis for access\nto their distribution ­network, or for the administrative\nefforts they need to undertake when distributing\nthe fund provider’s products. Fund providers may also\npay one-off fees for the placement of investment\nfunds to remunerate the above-mentioned distributors. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 34
+      },
+      "metadata": {
+        "start_offset": 240,
+        "end_offset": 1313,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "a65ccde56ddb8b4b",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 15,
+        "page_end": 15,
+        "section": null,
+        "offsets": {
+          "start": 1313,
+          "end": 1607
+        }
+      },
+      "text": "Such fees are typically not paid directly out of\nthe revenues generated from the management fee on\nthe fund level but directly from the fund provider.\nRegulation of compensation\nBecause compensation may lead to potential conflicts of interest, its reception and payment are strictly\nregulated. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 35
+      },
+      "metadata": {
+        "start_offset": 1313,
+        "end_offset": 1607,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "b751304ababb2b1f",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 15,
+        "page_end": 15,
+        "section": null,
+        "offsets": {
+          "start": 1607,
+          "end": 2771
+        }
+      },
+      "text": "Clients must either be properly informed\nabout the existence of such compensation and waive\nthe right to have such compensation passed on, or\nJulius Baer needs to pass on the compensation received to the client.\nCompensation received by Julius Baer\nJulius Baer discloses to the client any com­pensation\nreceived, as required under appli­cable laws. Within\nthe scope of Advisory Mandates, Julius Baer endeav-\nours to recommend best-in-class investment products\n(both compensation-free and compensation-­loaded\nproducts), always taking into account suit­ability and\nappropriateness as well as potential invest­ment restrictions by the investment product itself.\nCalculation of compensation\nThe amount of compensation depends on the financial instrument, its provider, and the volume of assets\ninvested in the financial instrument.\nThe client explicitly accepts that Julius Baer is en­\ntitled to receive and retain such compensation\n­according to the conditions set out in the relevant\nservice agree­ments and/or other bank forms.\nCompensation paid by Julius Baer to third parties\nIf Julius Baer has established a business or account\nrelationship with a client (e.g. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 36
+      },
+      "metadata": {
+        "start_offset": 1607,
+        "end_offset": 2771,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "52f89335782056c3",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 15,
+        "page_end": 15,
+        "section": null,
+        "offsets": {
+          "start": 2771,
+          "end": 3619
+        }
+      },
+      "text": "through a third party\nacting as a financial intermediary), Julius Baer may\npay the third party a respective fee (revenue, trans­\naction, ­or asset-­based) on a one-off and/or ongoing\nbasis. Whenever a client is served by a financial\ninter­me­di­ary while using Julius Baer for custody and\nthe ­execution of trades, Julius Baer may pay such financial intermediary a ­collaboration fee on a one-off\nand/or ongoing basis.\nJulius Baer informs its clients about the existence\nand nature of such payments to third parties if such\nrelationships exist. In addition, any such party must\ncomply with its own obligations associated with compensation, particularly regarding restrictions on\n­receipt, disclosure obligations, and the handling of\nconflicts of interest, in accordance with the financial\nintermediary’s own business relationship with the\n­client. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 37
+      },
+      "metadata": {
+        "start_offset": 2771,
+        "end_offset": 3619,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "162b6915086db4c9",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 15,
+        "page_end": 15,
+        "section": null,
+        "offsets": {
+          "start": 3619,
+          "end": 3712
+        }
+      },
+      "text": "Julius Baer assumes no responsibility for the\nobligations ­of ­a third party in this respect.",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 38
+      },
+      "metadata": {
+        "start_offset": 3619,
+        "end_offset": 3712,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "80267bef417a5962",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 16,
+        "page_end": 16,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 1103
+        }
+      },
+      "text": "16\nFinancial Services Act (FinSA)\nRisks in financial instruments trading\nInvestments in financial instruments (e.g. equities,\nbonds, funds, structured products) contain oppor­\ntunities but also bear risks. It is of utmost importance\nthat clients understand the risks of the financial\ninstruments they are investing in. The brochure ‘Risks\n­Involved in Trading Financial Instruments’ of the\nSwiss Bankers Association (SBA) contains general\ninformation on typical financial services and on\nthe characteristics and risks of financial instruments.\nThe brochure ‘Risks Involved in Trading Financial\n­Instruments’ can be downloaded from ­\nwww.juliusbaer.com/finsa or obtained through the\nclient’s relationship manager or contact person.\nProduct information\nIn addition to the brochure ‘Risks Involved in Trading\nFinancial Instruments’, corresponding product information sheets are available for many financial instruments, if they are provided by the manufacturer.\nThese Key Information Documents (KIDs) contain\n­information on the characteristics of the respective\nproducts as well as their risks and costs. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 39
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 1103,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "e1334ceea30deb76",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 16,
+        "page_end": 16,
+        "section": null,
+        "offsets": {
+          "start": 1103,
+          "end": 1914
+        }
+      },
+      "text": "If available,\nthe KIDs can be accessed at www.juliusbaer.com/\nproduct-information.\nComplaints handling\nClient feedback and complaints are best addressed\ndirectly to the client’s dedicated relationship manager or contact person.\nClients should include the reason as well as their\ncontact details and account number in their written\ncomplaint. Julius Baer will endeavour to handle all\nfeedback and concerns as quickly as possible.\nIf a client perceives a response to be inadequate,\n­Julius Baer would like to be informed so that the\n­situation can be rectified. Should a client be dissatisfied with the way Julius Baer has dealt with their\n­concern, the client may contact the Swiss Banking\nOmbudsman.\nContact details\nSwiss Banking Ombudsman\nBahnhofplatz 9\nP.O. Box\n8021 Zurich\nSwitzerland\nwww.bankingombudsman.ch",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 40
+      },
+      "metadata": {
+        "start_offset": 1103,
+        "end_offset": 1914,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "4cb1857d7ad7bdaa",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 17,
+        "page_end": 17,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 592
+        }
+      },
+      "text": "17\nFinancial Services Act (FinSA)\nImportant legal information\nThis brochure was created exclusively for clients of Bank Julius Baer & Co. Ltd., Switzerland.\nAlthough it has been thoroughly checked, Julius Baer does not accept any liability for the adequacy, accuracy,\ncompleteness, or correctness of the content of this brochure as, in particular, specific details may have changed\nfollowing its publication.\nThe General Banking Conditions (GBC) of Julius Baer or any other special agreement concluded between\nthe client and Julius Baer shall always apply.\n© Bank Julius Baer & Co. Ltd., 2025",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 41
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 592,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "bfed763bae9fb946",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 19,
+        "page_end": 19,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 10
+        }
+      },
+      "text": "Julius Bar",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 42
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 10,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "7cda7a40aeecc590",
+      "document_id": "investment/advisory/finsa",
+      "source": {
+        "file": "finsa.pdf",
+        "page_start": 20,
+        "page_end": 20,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 591
+        }
+      },
+      "text": "BANK JULIUS BAER & CO. LTD.\nBahnhofstrasse 36\nP.O. Box\n8010 Zurich\nSwitzerland\nTelephone +41 (0) 58 888 1111\nFax +41 (0) 58 888 1122\nwww.juliusbaer.com\nCompetent supervisory authority:\nFinancial Market Supervisory Authority\nFINMA\nLaupenstrasse 27\n3003 Berne\nSwitzerland\nThe Julius Baer Group is present in around\n60 locations worldwide, including Zurich\n(Head Office), Bangkok, Dubai, Dublin,\nFrankfurt, Geneva, Hong Kong, London,\nLuxembourg, Madrid, Mexico City, Milan,\nMonaco, Mumbai, Santiago de Chile,\nShanghai, Singapore, Tel Aviv, and Tokyo.\n08.2025\n© BANK JULIUS BAER & CO. LTD., 2025",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 43
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 591,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    }
+  ]
+}

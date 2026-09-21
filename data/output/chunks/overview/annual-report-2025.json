@@ -1,0 +1,3679 @@
+{
+  "schema_version": "1.0",
+  "document": "data\\normalized\\overview\\annual-report-2025.jsonl",
+  "strategy": "semantic",
+  "chunks": [
+    {
+      "chunk_id": "3b69db928646c996",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 1,
+        "page_end": 1,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 43
+        }
+      },
+      "text": "Julius Bar\n\nFOUNDATION\n\nANNUAL REPORT\n\n2025",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 0
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 43,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "dec367c98c2d9fc6",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 747
+        }
+      },
+      "text": "Editorial\nTable of contents\nEditor and concept: Kathrin Benz, Julius Baer Foundation\nConcept, design and illustrations: Hej AG, Zurich\nText: Livia Gerber, Zurich; Balz Chen, Zurich; Kathrin Benz\nPictures: Impact Hub Mexico: cover, pages 2, 23; Johnny\nMiller, Baan Dek Foundation: page 11; Forge Foundation:\npages 14, 20; Johnny Miller, CODESPA Foundation: pages\n15 20; Camfed: pages 18, 20, 20; MEET: pages 19, 21; YEFI:\npage 25; Jojoba for Namibia: page 33.\nIn Puebla, one of Mexico’s poorest regions,\nFlor (middle) founded Sabor del Fuego, bringing\nindigenous culture to life for tourists while\ncreating local jobs. She works alongside her\nsister Guadalupe (2nd from right, trained\nin alternative tourism) and her mother Estela\n(2nd from left). ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 1
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 747,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "1bc95e334d3637d5",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": null,
+        "offsets": {
+          "start": 747,
+          "end": 1919
+        }
+      },
+      "text": "Supported by Impact Hub\nMexico, with coordinators Gustavo (left) and\nGenaro (right), the venture continues to grow,\nexpanding opportunities in their community.\nThe Julius Baer Foundation\n03\n\u0007Editorial\n04\n\u0007Our mission\n06\nOur partner organisations\n12\nInterview with the Chairman\n\u0007Wealth Inequality\n14\nOur work in practice\n18\nVoices of transformation\n20\nOur partner organisation: Impacthub Mexico\n22\nOur partner organisation: YEFI\n24\n\u0007Our partner organisation: COES\n26\nSixty years of Julius Baer Foundation\n28\nConvening with clients\n30\nConvening with foundations\n32\nCovening with employees\nGovernance and Finances\n34\nGovernance\n36\nBalance sheet\n37\nStatement of operations\n38\nCash flow statement\n39\nReview report\n40\n\u0007Farewells and welcomes\n41\nWealth Inequality Initiative\nCreating opportunities through connection\n3\nNoel Quinn\nChairman\nJulius Baer Foundation\nLaura Hemrika\nCEO\nJulius Baer Foundation\nDear reader,\nCreating opportunity requires more than intent –\nit is shaped by connection. For the Foundation,\nthis means bringing together people, knowledge\nand resources in ways that open pathways and\nreduce barriers.\nWealth inequality is often described in terms of\nassets. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 2
+      },
+      "metadata": {
+        "start_offset": 747,
+        "end_offset": 1919,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "c0aba255ed8ec16a",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": null,
+        "offsets": {
+          "start": 1919,
+          "end": 2177
+        }
+      },
+      "text": "Yet what emerges through the Foundation’s\nwork is that it is fundamentally about access to\neducation, employment, networks and infrastructure.\nWhere access is uneven, opportunity cannot flourish.\nEffective interventions require more than individual\nefforts. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 3
+      },
+      "metadata": {
+        "start_offset": 1919,
+        "end_offset": 2177,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "9dff4be9b69bf484",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": null,
+        "offsets": {
+          "start": 2177,
+          "end": 2844
+        }
+      },
+      "text": "They call for collaboration across sectors,\nperspectives and levels of wealth.\nThe Foundation’s 60th anniversary year was not just\na moment of reflection on the success and learnings\nof our work and approach to date. At a time when\ndivision and inequality in the world are becoming\nincreasingly visible and complex, it was also a year of\naction, focused on delivering tangible outcomes.\nWith ‘The Future of Social Mobility’ Conference in\nChile, co-hosted with COES, the Foundation brought\ntogether leading thinkers and practitioners on social\nmobility – enabling new relationships, advancing the\ndialogue and laying the groundwork for new solutions\nand partnerships. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 4
+      },
+      "metadata": {
+        "start_offset": 2177,
+        "end_offset": 2844,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "d48cde422629e083",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": null,
+        "offsets": {
+          "start": 2844,
+          "end": 3666
+        }
+      },
+      "text": "Elsewhere, collaboration with\npartners deepened, with an increasing emphasis on\nco-funding with others, recognising that complex\nchallenges are best addressed together.\nThe projects featured in this report illustrate the\noutcomes of our grant work: supporting young\nentrepreneurs in Mexico through access to skills and\nmentorship, and enabling young farmers in Zambia\nto adopt sustainable practices while connecting\nthem to markets. Different contexts, but the principles remain the same: creating pathways by linking\nthose with opportunities to those who can benefit\nfrom them.\nThe anniversary year also brought renewed engagement through client and employee initiatives, project\npartnerships and the Wealth Inequality Initiative,\nincluding the launch of a ‘Knowledge Hub’ and the\n‘60 facts on wealth inequality’ series. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 5
+      },
+      "metadata": {
+        "start_offset": 2844,
+        "end_offset": 3666,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "5b7aec7c502c89fb",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": null,
+        "offsets": {
+          "start": 3666,
+          "end": 4622
+        }
+      },
+      "text": "By continuing\nto open spaces for dialogue and shared learning,\nthe Foundation reinforces a simple belief: progress\nbegins with understanding, but is sustained\nthrough connection.\nThe year also brought changes within the Foundation’s governance. Noel Quinn has assumed the role\nof Chairman of the Foundation and in the interview\nfeatured in this report, he shares his perspective on\nwealth inequality and the role the Foundation can play\nin opening pathways to opportunity. Following her\ntransition out of the company, Larissa Alghisi Rubner\nstepped down from the Board. The Foundation\nextends its sincere thanks for her contribution.\nLooking ahead, the focus remains on strengthening\nthese connections – between people, ideas and\nresources. Philanthropy has a distinct role to play:\nembracing the risk and opportunity that comes with\nacting early, bringing together actors who would\nnot otherwise meet and supporting approaches others\nmay not yet take on. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 6
+      },
+      "metadata": {
+        "start_offset": 3666,
+        "end_offset": 4622,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "ee71d6c51a64e996",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": null,
+        "offsets": {
+          "start": 4622,
+          "end": 4941
+        }
+      },
+      "text": "Across projects and partner-\nships alike, one thing becomes clear: change does not\nhappen in isolation. It takes time, trust and collaboration. The Foundation thanks its partners, clients,\nemployees and peer organisations for shaping this\nwork together – and for continuing to expand what\nis possible.\nYours faithfully,",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 7
+      },
+      "metadata": {
+        "start_offset": 4622,
+        "end_offset": 4941,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "328947c288a986a5",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 3,
+        "page_end": 3,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 1019
+        }
+      },
+      "text": "Convening\nNetworks\nand events\nStrategic\ncollaboration\nShared research\nand learning\nSupporting\ninnovative projects\nStrengthening\ncommunity\ninfrastructure\nInvesting in income\ngeneration and enterprise\ndevelopment\nFunding inclusive\neducation and\nskills development\nWorking across the wealth divide\nCreating opportunities, opening pathways\n4\nThe Julius Baer Foundation\nWealth inequality is a structural challenge with\nfar-reaching consequences. It restricts access to\neducation, healthcare, technology and income\ngeneration – the very things that are needed to\nreduce wealth inequality and enable social mobility –\ntrapping individuals and communities in cycles\nof disadvantage. It intersects with many of today’s\nmost pressing challenges – declining education\nand income opportunities, inequality in gender and\nin health outcomes, as well as increasing environmental vulnerability. Within these and many\nother spheres, unequal starting conditions reinforce\none another over time, narrowing opportunity\nacross generations. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 8
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 1019,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "52d87abd13fb65a1",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 3,
+        "page_end": 3,
+        "section": null,
+        "offsets": {
+          "start": 1019,
+          "end": 1882
+        }
+      },
+      "text": "The knock-on effects are significant and ultimately affect all: Research shows\nthat high levels of wealth inequality slows economic\ngrowth, weakens household resilience and places\nstrain on democratic institutions. When large parts\nof society lack access to opportunity, trust declines\nand social tensions rise.\nBut the drivers of inequality can also become levers\nfor change. Addressing wealth inequality requires\ndialogue and collaboration across sectors, disciplines\nand geographies – and meaningful cooperation\nbetween actors across the wealth spectrum.\nThe Foundation’s approach\nThe Foundation works across the wealth divide\nto bring together actors to collaborate and expand\nopportunity. As the philanthropic arm of a global\nwealth manager, the Foundation is uniquely posi-\ntioned to bridge perspectives and mobilise actors\nfrom different parts of society. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 9
+      },
+      "metadata": {
+        "start_offset": 1019,
+        "end_offset": 1882,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "30a419373292a27b",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 3,
+        "page_end": 3,
+        "section": null,
+        "offsets": {
+          "start": 1882,
+          "end": 2783
+        }
+      },
+      "text": "To put this principle\ninto practice, the Foundation supports innovative\nprojects and convenes stakeholders to foster that\ncollaboration and collective action.\nAs a funder, the Foundation invests in courageous\nideas and visionary, mostly local, organisations active\nin three areas:\n• Income generation and enterprise development\n• Inclusive education and skills development\n• Strengthening community infrastructure\nAs a convener, the Foundation uses its position\nto connect stakeholders who do not typically collaborate: clients, employees, peer foundations, philan-\nthropists, and academics. Each contribute expertise,\nresources and experience from different angles.\nBy combining capital, evidence and networks, different\nperspectives translate into actionable solutions.\nThrough curated exchange we co-design, -fund and\n-measure pilot ventures for pathways and opport-\nunities previously unexplored. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 10
+      },
+      "metadata": {
+        "start_offset": 1882,
+        "end_offset": 2783,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "f04b3f2b0ffae35f",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 3,
+        "page_end": 3,
+        "section": null,
+        "offsets": {
+          "start": 2783,
+          "end": 3107
+        }
+      },
+      "text": "We aim to foster agency\nfor people of all levels of wealth who want to be part\nof the solution.\nOur mission: opening pathways\nOpportunity is the foundation of prosperous and stable societies.\nWhen talent, effort and ambition can translate into real opportunities, individuals advance, communities thrive and economies\ngrow. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 11
+      },
+      "metadata": {
+        "start_offset": 2783,
+        "end_offset": 3107,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "bc2bdf01521665e7",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 3,
+        "page_end": 3,
+        "section": null,
+        "offsets": {
+          "start": 3107,
+          "end": 3458
+        }
+      },
+      "text": "Yet when access to education, technology, networks and\ncapital is uneven, this link weakens. Merit no longer determines\noutcomes and individual efforts yield diminishing reward. Expanding\naccess to these resources and strengthening fair starting conditions\nis key to rebuilding trust in society and to sustaining prosperity.\nReducing Wealth Inequality",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 12
+      },
+      "metadata": {
+        "start_offset": 3107,
+        "end_offset": 3458,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "c4ae41b4b9277350",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 4,
+        "page_end": 4,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 1098
+        }
+      },
+      "text": "4\n1\n7\n6\nThe Julius Baer Foundation\nChile\n• COES\nTanzania\n• Tanzania Women Architects for Humanity\nOur partner organisations\nthe project is co-funded\nglobal programme with the first cohort in Asia\nMexico\n• Forge Foundation\n• Impact Hub Ciudad de México\nColombia\n• Fundamental\n• Rainforest Alliance\nPeru\n• Rainforest Alliance\nBrazil\n• FA.VELA\n• FICA\nGermany\n• Joblinge\nIsrael\n• MEET\nNamibia\n• Jojoba for Namibia Trust\n• Wolwedans Foundation,\nRuralRevive\nZambia\n• Young Emerging Farmers\nInitiative (YEFI)\nSouth Africa\n• Christel House\n• Harambee\n• One to One Africa\nZimbabwe\n• Camfed\nMalawi\n• Partners In Health\nIndia\n• IIHS\n• ISRD Manipur\nThe Philippines\n• Fundación CODESPA\nCambodia\n• ISF Cambodia\nSingapore\n• ChangemakerXchange\nThailand\n• Baan Dek Foundation\nNETWORK PARTNERS\n• AVPN\n• Confluentes\n• Friends of Education\n• Latimpacto\n• SwissFoundations\nGLOBAL STAKEHOLDER INITIATIVE\n• Wealth Inequality Initiative\n24\npartner organisations\nin 18 countries as of\n31 December 2025\nCHF\n4.40\nmillion\nin donations spent\nin 2025\nCHF\n1.46\nmillion\nin donations received\nfrom employees, clients and\nco-funders",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 13
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 1098,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "bb84f8d09d32b4f4",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 5,
+        "page_end": 5,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 203
+        }
+      },
+      "text": "8\n9\nThe Julius Baer Foundation – our partner organisations\nThe Julius Baer Foundation – our partner organisations\nBaan Dek Foundation, Thailand\nProject support 2023–2028 | Total commitment: CHF 480,000\n\n",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 14
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 203,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "00853d5e76842eb7",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 5,
+        "page_end": 5,
+        "section": null,
+        "offsets": {
+          "start": 203,
+          "end": 1127
+        }
+      },
+      "text": "Building futures through education in construction camps\nProviding access to education and early development for children\nliving in construction camps, in partnership with companies\nto promote children’s rights.\n\u0007Camfed, Zimbabwe\nProject support 2024–2027 | Total commitment: CHF 300,000\n\nEducation and mentoring for girls\nEmpowering girls in rural Zimbabwe through sustainable access to\nquality education, vocational training, experiences and mentoring,\nenabling them to break cycles of poverty and reach new horizons.\nChangemakerXchange,\nSingapore & global\nProject support 2024–2028 | Total commitment: CHF 617,000\n\nEmpowering education changemakers\nConnecting and enabling young social entrepreneurs through\ntailored capacity building and collaboration funding, helping them\nscale their impact and adopt a more strategic approach.\nChristel House, South Africa\nProject support 2020–2030 | Total commitment: CHF 1,620,000\n\n",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 15
+      },
+      "metadata": {
+        "start_offset": 203,
+        "end_offset": 1127,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "eee35a1a8cf79424",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 5,
+        "page_end": 5,
+        "section": null,
+        "offsets": {
+          "start": 1127,
+          "end": 1461
+        }
+      },
+      "text": "Simunye: Connections between children across the\nwealth divide\nProviding holistic education scholarships and bringing together\nchildren to create long-lasting relationships across the wealth divide,\nimproving social and economic connectedness and mutual respect.\nCOES, Chile\nProject support 2022–2025 | Total commitment: CHF 450,000\n\n",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 16
+      },
+      "metadata": {
+        "start_offset": 1127,
+        "end_offset": 1461,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "be1a5b8bc759d9b0",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 5,
+        "page_end": 5,
+        "section": null,
+        "offsets": {
+          "start": 1461,
+          "end": 2070
+        }
+      },
+      "text": "Research on social mobility trajectories\nStudying successful social mobility pathways in Chile through\nglobal research, cross-country comparison and empirical data,\nto be presented at an international conference.\nFA.VELA, Brazil\nProject support 2021–2026 | Total commitment: CHF 850,000\n\nEducation and mentorship for young entrepreneurs\nFostering collaboration between diverse socio-economic groups\nto develop entrepreneurial culture, skills and resources for resilient\nbusinesses and fairer, more inclusive local and digital economies.\nFICA, Brazil\nProject support 2020–2026 | Total commitment: CHF 840,000\n\n",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 17
+      },
+      "metadata": {
+        "start_offset": 1461,
+        "end_offset": 2070,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "f50d1736c2295cd2",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 5,
+        "page_end": 5,
+        "section": null,
+        "offsets": {
+          "start": 2070,
+          "end": 2444
+        }
+      },
+      "text": "Alternative ownership models for fair housing\nEstablishing alternative ownership models to acquire and transform\nexploitatively priced real estate in central São Paulo into afford-\nable quality housing for low-income tenants, financially supported\nby an innovative impact investment model.\nForge Foundation, Mexico\nProject support 2024–2026 | Total commitment: CHF 450,000\n\n",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 18
+      },
+      "metadata": {
+        "start_offset": 2070,
+        "end_offset": 2444,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "8b1527687df3fdf6",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 5,
+        "page_end": 5,
+        "section": null,
+        "offsets": {
+          "start": 2444,
+          "end": 2796
+        }
+      },
+      "text": "Boosting youth employability, fostering cross-social connections\nEquipping Mexican youth from underserved communities\nwith the skills and confidence to navigate in a rapidly changing job\nmarket, connecting them to better employment opportunities\nand a brighter future.\nFundamental, Colombia\nProject support 2020–2028 | Total commitment: CHF 2,025,000\n\n",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 19
+      },
+      "metadata": {
+        "start_offset": 2444,
+        "end_offset": 2796,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "b1bdc83210cfaf0b",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 5,
+        "page_end": 5,
+        "section": null,
+        "offsets": {
+          "start": 2796,
+          "end": 3122
+        }
+      },
+      "text": "Transforming livelihoods and cities through recycling\nIntegrating the waste pickers of Cartagena economically and\nsocially by establishing a collaborative ecosystem with all the\nactors of the city’s informal recycling supply chain.\nFundación CODESPA, The Philippines\nProject support 2021–2026 | Total commitment: CHF 620,000\n\n",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 20
+      },
+      "metadata": {
+        "start_offset": 2796,
+        "end_offset": 3122,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "94e000889a061297",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 5,
+        "page_end": 5,
+        "section": null,
+        "offsets": {
+          "start": 3122,
+          "end": 3442
+        }
+      },
+      "text": "Inclusive and equitable seaweed value chains\nAdvancing economically, socially and environmentally sustainable\naquaculture through entrepreneurial collaborations between sea-\nweed harvesters and processing companies in Hinatuan, Mindanao.\nHarambee, South Africa\nProject support 2024–2027 | Total commitment: CHF 300,000\n\n",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 21
+      },
+      "metadata": {
+        "start_offset": 3122,
+        "end_offset": 3442,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "c85163330c80657a",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 5,
+        "page_end": 5,
+        "section": null,
+        "offsets": {
+          "start": 3442,
+          "end": 3816
+        }
+      },
+      "text": "Corporate connections: Integration of excluded youth\ninto corporate careers\nWorking with established corporates and their recruiting and\nonboarding processes to ensure young South Africans both gain\naccess and thrive in corporate contexts early in their careers.\nIIHS (Indian Institute for Human Settlement), India\nProject support 2023–2028 | Total commitment: CHF 750,000\n\n",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 22
+      },
+      "metadata": {
+        "start_offset": 3442,
+        "end_offset": 3816,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "e577dfd2c24a0055",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 5,
+        "page_end": 5,
+        "section": null,
+        "offsets": {
+          "start": 3816,
+          "end": 4168
+        }
+      },
+      "text": "Empowering women in the informal sector through childcare\nProviding much-needed childcare institutions for the children\nof mothers working in India’s informal sector and establishing best\npractice scenarios for scaling these institutions in key industries.\nImpact Hub Ciudad de México, Mexico\nProject support 2024–2026 | Total commitment: CHF 330,000\n\n",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 23
+      },
+      "metadata": {
+        "start_offset": 3816,
+        "end_offset": 4168,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "18998e1d55df1c0a",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 5,
+        "page_end": 5,
+        "section": null,
+        "offsets": {
+          "start": 4168,
+          "end": 4808
+        }
+      },
+      "text": "Training, networks and seed capital for young entrepreneurs\nFostering entrepreneurship among Puebla’s underserved youth,\npairing them with startup experts to create innovative businesses\nand stimulate local economic development.\nISF Cambodia, Cambodia\nProject support 2024–2026 | Total commitment: CHF 240,000\n\nIntegrating vulnerable children into the school system\nBreaking the poverty cycle with a holistic community-based educa-\ntion programme enabling underserved youth to complete their\nsecondary schooling and go to university or find stable employment.\n\nISRD Manipur, India\nProject support 2023–2025 | Total commitment: CHF 150,000\n\n",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 24
+      },
+      "metadata": {
+        "start_offset": 4168,
+        "end_offset": 4808,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "eaddaa452db3d667",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 5,
+        "page_end": 5,
+        "section": null,
+        "offsets": {
+          "start": 4808,
+          "end": 5797
+        }
+      },
+      "text": "A community-led approach for girls education\nEnabling tribal girls in four Manipur villages, where up to 80%\ndrop out or never attend school, to (re)integrate into formal edu-\ncation through a multi-stakeholder approach.\nJOBLINGE, Germany\nProject support 2019–2025 | Total commitment: CHF 450,000\n\nJob market integration of marginalised youth\nGuiding and supporting marginalised young people and young\nrefugees in entering the job market by acquiring necessary\nskills through vocational training to integrate local and global\nsupply chains.\nJojoba for Namibia Trust, Namibia\nProject support 2019–2028 | Total commitment: CHF 1,690,000\nEmpowering indigenous communities through value creation\nStrengthening sustainable livelihoods among San communities\nby supporting their participation in oil value chains, building\nskills in harvesting, processing and enterprise development, and\nimproving access to stable markets.\nMEET, Israel\nProject support 2022–2027 | Total commitment: CHF 750,000\n\n",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 25
+      },
+      "metadata": {
+        "start_offset": 4808,
+        "end_offset": 5797,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "8f088fa3476a310b",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 5,
+        "page_end": 5,
+        "section": null,
+        "offsets": {
+          "start": 5797,
+          "end": 6549
+        }
+      },
+      "text": "Connecting Palestinian and Israeli youth through technology\nBridging the economic gap and building social capital and\ntrust among young Palestinians and Israelis through hybrid STEM\nand leadership education.\nOne to One Africa, South Africa\nProject support 2024–2029 | Total commitment: CHF 2,700,000*\n\nEmpowering rural women through community,\neducation and dialogue\nEstablishing a community hub in the Eastern Cape, South Africa’s\npoorest province, offering job training, income-generating\nactivities for women and early childhood development programmes\nfor caregivers while fostering dialogue between community\nmembers, academics, government and business leaders.\nPartners In Health, Malawi\nProject support 2022–2026 | Total commitment: CHF 900,000\n\n",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 26
+      },
+      "metadata": {
+        "start_offset": 5797,
+        "end_offset": 6549,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "e8fbc6d111b0ea70",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 5,
+        "page_end": 5,
+        "section": null,
+        "offsets": {
+          "start": 6549,
+          "end": 7698
+        }
+      },
+      "text": "Care, learning and job opportunities for HIV positive youth\nTackling health education in Malawi by developing a new teen\nclub model for children and adolescents with HIV and creating\nopportunities for them to develop skills and set them up for\nsuccess in life beyond managing their disease.\nRainforest Alliance, Colombia & Peru\nProject support 2025–2028 | Total commitment: CHF 600,000\nClimate-resilient cacao and coffee farming for an inclusive\neconomy\nBuilding skills and resilience among coffee and cocoa farmers –\nwith a focus on women, youth and indigenous communities –\nthrough training in sustainable agriculture that improves productivity, restores ecosystems and strengthens access to markets\nfor more stable incomes.\nTanzania Women Architects for Humanity, Tanzania\nProject support 2021–2027 | Total commitment: CHF 1,405,000\n\nEnabling rural women through sustainable\ncommunity construction\nPromoting employment and income generation through sustainable building materials production and home construction among\nwomen and girls in Tanzania.\nWealth Inequality Initiative, Global\nProject support 2022–2027 | Total commitment: CHF 1,650,000\n\n",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 27
+      },
+      "metadata": {
+        "start_offset": 6549,
+        "end_offset": 7698,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "16c31e8196e11b11",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 5,
+        "page_end": 5,
+        "section": null,
+        "offsets": {
+          "start": 7698,
+          "end": 8148
+        }
+      },
+      "text": "An initiative driving action on wealth inequality\nThe Wealth Inequality Initiative aims to shed light on the global\nchallenge of wealth inequality and follows a multi-stakeholder\napproach targeting four key goals: awaken interest in wealth in-\nequality, circulate knowledge, mobilise stakeholders and drive\naction towards more equitable societies.\nWolwedans Foundation, RuralRevive, Namibia\nProject support 2021–2026 | Total commitment: CHF 400,000\n\n",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 28
+      },
+      "metadata": {
+        "start_offset": 7698,
+        "end_offset": 8148,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "7d9bba06d581413f",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 5,
+        "page_end": 5,
+        "section": null,
+        "offsets": {
+          "start": 8148,
+          "end": 8960
+        }
+      },
+      "text": "Strengthening communities through desert-based economies\nCreating learning, employment and entrepreneurial opportunities\nwithin sustainable tourism for residents of Maltahöhe, near the\nNamibRand Nature Reserve.\nYEFI (Young Emerging Farmers Initiative), Zambia\nProject support 2025–2028 | Total commitment: CHF 300,000\nEmpowering a new generation of climate-resilient\nyoung farmers\nBuilding skills and opportunities for youth and women smallholder\nfarmers through agroecology training that restores soils, reduces\ncosts and strengthens resilience, while connecting them to markets\nand community networks to support sustainable livelihoods and\nlong‐term income generation\n* Amount(s) are subject to change due to fluctuations in foreign\nexchange rates.\nLearn more about the initiatives we support\naround the globe.",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 29
+      },
+      "metadata": {
+        "start_offset": 8148,
+        "end_offset": 8960,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "05d3b78d1fff172b",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 6,
+        "page_end": 6,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 1044
+        }
+      },
+      "text": "Chapter title Equam crit vitest\n10\nThe Julius Baer Foundation – our partner organisations\nProject, country\nCategories\nClimate\nEducation & skills\ndevelopment\nGender\nInclusive\nsupply chain\nIncome\ngeneration &\nentrepreneurship\nHousing &\ninfrastructure\nTechnology\nAfrica\nCAMFED\nZimbabwe\nChristel House\nSouth Africa\nHarambee\nSouth Africa\nJojoba for Namibia\nNamibia\nOne to One Africa\nSouth Africa\nPartners in Health\nMalawi\nTAWAH\nTanzania\nWolwedans Foundation/\nRuralRevive, Namibia\nYEFI\nZambia\nAsia\nBaan Dek Foundation\nThailand\nChangemakerXchange\nAsia\nFundación Codespa\nThe Philippines\nIIHS\nIndia\nISF Cambodia\nCambodia\nEurope and the Middle East\nJoblinge\nGermany\nMEET\nIsrael\nLatin America\nFA.VELA\nBrazil\nFICA\nBrazil\nForge Foundation\nMexico\nFundamental/Trófica\nColombia\nImpact Hub CDM\nMexico\nRainforest Alliance\nColombia & Peru\nAddressing wealth inequality across different spheres\nThe Julius Baer Foundation supports the United Nations Sustainable Development Agenda and recognises\nthe importance of collective action in addressing global challenges. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 30
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 1044,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "2449224de25248b7",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 6,
+        "page_end": 6,
+        "section": null,
+        "offsets": {
+          "start": 1044,
+          "end": 1476
+        }
+      },
+      "text": "With its focus on reducing wealth\ninequality, the Foundation primarily contributes to SDG 10: Reduced Inequalities. As wealth inequality spans\nmultiple spheres of life, the Foundation, through its partner organisations, also supports progress towards\nSDG 1: No Poverty, SDG 4: Quality Education, SDG 5: Gender Equality, SDG 8: Decent Work and Economic\nGrowth, SDG 11: Sustainable Cities and Communities, and SDG 15: Life on Land.\n11",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 31
+      },
+      "metadata": {
+        "start_offset": 1044,
+        "end_offset": 1476,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "83e76dac6146033c",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 7,
+        "page_end": 7,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 794
+        }
+      },
+      "text": "12\n13\nThe Julius Baer Foundation – Interview with the Chairman\nIn a conversation with the Foundation’s CEO Laura Hemrika,\nNoel Quinn, the Chairman of both the Julius Baer Foundation and\nthe Julius Baer Group, reflects on how opportunity has shaped\nhis own path, and shares his perspective on wealth inequality and\nphilanthropy. He highlights the role employment, mentorship\nand community infrastructure can play in easing social tensions,\nand why philanthropic engagement often provides the crucial spark\nfor initiatives and solutions that might otherwise never take shape.\n“We have been given opportunity”\nAs one of the leading wealth management firms, addressing wealth inequality\nthrough its Foundation might seem\nlike a contradiction. Yet to chairman Noel\nQuinn, it is a clear opportunity. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 32
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 794,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "87d62a3212b6f0f0",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 7,
+        "page_end": 7,
+        "section": null,
+        "offsets": {
+          "start": 794,
+          "end": 1571
+        }
+      },
+      "text": "Many\nof the Bank’s clients do not necessarily\ncome from wealth. They – himself\nincluded – have created their own wealth\nthrough hard work and dedication, and\nthanks to opportunities they were able to\naccess. Guiding others through that\nvery journey is a natural linkage between\nwealth management and the creation\nof opportunities – a connection the Foun-\ndation seeks to extend to others.\nWealth is often reduced to assets. More\nfundamentally though, it refers to a wealth\nof opportunities, to safe living, access\nto quality basic services such as education\nand healthcare, and a supportive environment and network. Without realising\nat the time, Noel now recalls the decisive\nmoments in his career when people in\nhis environment were quietly mentoring\nhim in his development. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 33
+      },
+      "metadata": {
+        "start_offset": 794,
+        "end_offset": 1571,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "11d38693a3058822",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 7,
+        "page_end": 7,
+        "section": null,
+        "offsets": {
+          "start": 1571,
+          "end": 2675
+        }
+      },
+      "text": "Such stewardship\ncan shape careers and even change the\ncourse of a life.\nAccess as the make-or-break asset\nWealth inequality is less about the\ndistribution of assets than about access\nWhile the divide is becoming increasingly\napparent, there are commonalities\nbetween the groups to build upon.\nEmerging markets are eager to create\nemployment in their own markets\nand follow the successful road others\nhave been able to pursue over the\npast century through access to energy\nand resources.\n“I actually think there’s a role for those\nthat have enjoyed developments in\ntheir markets to try and bring solutions\nfor the emerging markets.” Access\nto water and energy at affordable rates\nis critical for sustainable agriculture\nand income generation activities. When\naccess is unavailable, opportunities\nacross the various spheres of life are\nlimited. Climate resilience, sustainability\nand employability are not isolated\ntopics but rather interrelated.\nDifferent kinds of capital at work\nPhilanthropy has a crucial role to play in\nthis process. It can be that first dollar\ntoward a blueprint others can follow. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 34
+      },
+      "metadata": {
+        "start_offset": 1571,
+        "end_offset": 2675,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "a4f318ae340fbcfc",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 7,
+        "page_end": 7,
+        "section": null,
+        "offsets": {
+          "start": 2675,
+          "end": 3457
+        }
+      },
+      "text": "“It’s\nhaving somebody who has good intent,\na vision for how a change can have a\npositive impact on people and is willing\nto share part of their wealth and be\nthe founding donation to start a journey.”\nThe Julius Baer Foundation frequently\ninvests in very-early-stage projects\nto create momentum, leading to more\nself-sustaining solutions at a later point.\nPhilanthropic support might be replaced\nthrough the project’s own momentum,\ngovernment support or other economic\ninstitutions. Yet, without that first\ndonation, energy and work, these initia-\ntives would not get off the ground.\nThreefold power as a roadmap\nThe magic happens when connecting\nthree powerful resources: the work of our\npartner organisations on the ground,\nthe Foundation’s expertise and, often,\nclients’ intent. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 35
+      },
+      "metadata": {
+        "start_offset": 2675,
+        "end_offset": 3457,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "9a58ac73afbb5403",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 7,
+        "page_end": 7,
+        "section": null,
+        "offsets": {
+          "start": 3457,
+          "end": 3894
+        }
+      },
+      "text": "This triangle of action\nis the Foundation’s biggest opportunity.\nNoel Quinn\nChairman of the Julius Baer Foundation and Julius\nBaer Group, is committed to fostering trust-based\npartnerships and inspiring clients, employees, fellow\nphilanthropists and other foundations to join the\nFoundation’s mission.\nto education, employment, networks and\neven basics such as electricity or food.\nWhere access is missing, potential remains\nunrealised. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 36
+      },
+      "metadata": {
+        "start_offset": 3457,
+        "end_offset": 3894,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "52bf0e7f57a36bde",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 7,
+        "page_end": 7,
+        "section": null,
+        "offsets": {
+          "start": 3894,
+          "end": 4826
+        }
+      },
+      "text": "What may appear as individual\ndisadvantage can, at scale, contribute\nto wider social divides, growing tensions\nand a sense of injustice across communities and societies.\nConnecting “those who can create\nopportunity with those who need opportunity” is essential to lower tensions\nbetween the different parts of society.\nThis pioneering type of collaboration\nmight bring challenges, but to Noel it is\nthe right way forward. “I don’t think\n[this collaboration] should be put off by\ntension. I think you try and bring dialogue,\nbring connectivity, use networks and\ntry to remove the tension through collaboration, networking and support. If we\ndon’t do that, the tension will be even\ngreater.”\n“Connecting those who can\ncreate opportunity with\nthose who need it is how we\nbegin to bridge the divide.”\nNoel Quinn\nMany of the Bank’s clients are genuinely\ninterested in recycling some of the\nbenefits they have accumulated to help\nothers. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 37
+      },
+      "metadata": {
+        "start_offset": 3894,
+        "end_offset": 4826,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "01db672741e54d37",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 7,
+        "page_end": 7,
+        "section": null,
+        "offsets": {
+          "start": 4826,
+          "end": 5535
+        }
+      },
+      "text": "Including this group enables\nthe Foundation to kickstart bigger projects\nand more initiatives, a clear ambition\nof Noel as chair and current custodian of\nthe Foundation originally founded by\nthe Baer family.\nHaving witnessed the lasting positive\nimpact on communities that the Foundation, its partner organisations and\nclients can achieve together, Noel sees\nthe next five years as an opportunity\nto scale this collaborative model. “Now,\nthe challenge for us is to do more of that,\nstart new initiatives, help initiate new\nideas in different markets around the\nworld [...]. That, for me, is a roadmap that\nwe can deliver, and hopefully, other\nfoundations will follow as well.”\nScan to watch the\nfull interview",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 38
+      },
+      "metadata": {
+        "start_offset": 4826,
+        "end_offset": 5535,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "57f0684e73622831",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 8,
+        "page_end": 8,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 454
+        }
+      },
+      "text": "Chapter title Equam crit vitest\n14\n15\nOur work in practice\n900\nsmall-scale farmers are\nempowered to increase\ntheir income by 50%\nthrough the established\ncollaboration.\n840\nyoung people will be\ntrained and an esti-\nmated 70% of gradu-\nates will stay in education and find quality\nemployment.\nThe\nPhilippines\nFundación\nCODESPA\nMexico\nForge Foundation\nBeyond education and skills, today’s reality demands another equally\nimportant asset: the right network. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 39
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 454,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "f8043144fa11c634",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 8,
+        "page_end": 8,
+        "section": null,
+        "offsets": {
+          "start": 454,
+          "end": 1560
+        }
+      },
+      "text": "Even the most dedicated and\ntalented graduates, entrepreneurs or producers face adversity when\napplying for jobs, securing seed funding or building relationships\nwith distributors without proper connections. The Foundation’s pro-\njects are designed to connect talent with experienced individuals\nwho have strong networks to open new pathways for growth. The\nfollowing four examples highlight the importance of creating value\nthrough personal connection.\nWorking across the\nwealth spectrum\nFor some of Mexico’s youth, advancing\ninto decent employment stays out of\nreach due to persistent stigmas. Despite\nstrong credentials, they are unfairly\nperceived as less trustworthy and disen-\ngaged when stemming from disadvantaged areas with higher violence, unemployment and poor infrastructure. But\nthis group does not lack perseverance or\nskills. They lack access and a professional\nnetwork.\nThe Julius Baer Foundation supports\nForge’s programme “Tu Huella Digital”\n(Your Digital Footprint) where stu-\ndents from private universities collaborate\nwith youth that is excluded from valu-\nable networks and capital. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 40
+      },
+      "metadata": {
+        "start_offset": 454,
+        "end_offset": 1560,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "0d652837b580e5e9",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 8,
+        "page_end": 8,
+        "section": null,
+        "offsets": {
+          "start": 1560,
+          "end": 2440
+        }
+      },
+      "text": "Guided by a\nteam of experts, they co-develop a\ncreative advertising campaign together.\nWhile the goal of the campaign is to\nraise awareness among their peers about\nthe importance of managing their digital\nfootprint, the collaboration itself aims at\nsomething even bigger: young people\nfrom all backgrounds across the country\nlearn to work together as a team, co-gen-\nerating ideas, facing challenges, making\ndecisions and consolidating a project.\nIt allows them to build bonds of trust and\nfind common ground before present-\ning their proposal to a jury of experts who\nselects a winning idea to be developed\ninto a high-impact social advertising cam-\npaign.\nThe project offers a safe space for an\nenriching peer exchange where individual\nbackgrounds become irrelevant in the\nface of creativity and talent. Michel Lemus\nillustrates: “The collaboration let me\ncreate a new network. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 41
+      },
+      "metadata": {
+        "start_offset": 1560,
+        "end_offset": 2440,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "44af9bc2b16ac7bb",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 8,
+        "page_end": 8,
+        "section": null,
+        "offsets": {
+          "start": 2440,
+          "end": 2769
+        }
+      },
+      "text": "It was a great expe-\nrience that allowed me to challenge\nmyself, step out of my comfort zone and\napply all my skills in teamwork to solve\na real-world problem.”\nTraditionally, structural barriers have\nexcluded small-scale seaweed producers\nin remote island communities from fair\nand direct participation in higher-value\nmarkets. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 42
+      },
+      "metadata": {
+        "start_offset": 2440,
+        "end_offset": 2769,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "74c74a73986e7214",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 8,
+        "page_end": 8,
+        "section": null,
+        "offsets": {
+          "start": 2769,
+          "end": 3791
+        }
+      },
+      "text": "Despite their earnest efforts,\npoor access to information and finance\ncreated dependency on intermedi-\naries to connect their supply with existing\ndemand.\nThe Julius Baer Foundation supports\nFundación CODESPA’s project that brings\nthe small-scale farmers together with\nmultinational companies to jointly design\na business model that reduces trans-\naction costs, increases economic efficiency\nand improves profitability for both.\nThrough in-person field visits between\ncompany managers and producer groups,\nthey developed a more efficient com-\nmercial model. The farmers now produce,\ndry and pack seaweed to market speci-\nfications, while multinational buyers offer\nprices aligned with international standards, eliminating intermediary costs.\nThe repeated interaction between the two\nparties fostered the trust crucial to a\nmore profitable and sustainable business\nrelationship. This reliable link motivated\nmicrofinance institutions to recognise sea-\nweed farmers as commercially viable,\nrather than as high-risk clients. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 43
+      },
+      "metadata": {
+        "start_offset": 2769,
+        "end_offset": 3791,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "28dbc4b7f87bc9f4",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 8,
+        "page_end": 8,
+        "section": null,
+        "offsets": {
+          "start": 3791,
+          "end": 4248
+        }
+      },
+      "text": "A specifically designed credit product allows\nthese communities to expand their oper-\nations and increase their income, while\nthe microfinanciers benefit from profitable\nlending portfolios.\nCODESPA’s project is demonstrating\na replicable approach with its inclusive\nsourcing model. Seaweed producers\nbeyond the project’s scope are copying\nthe framework, creating a cascading\neffect that gradually shifts institutional\nnorms in the local seaweed value chain.",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 44
+      },
+      "metadata": {
+        "start_offset": 3791,
+        "end_offset": 4248,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "e49c8457ef6aef29",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 9,
+        "page_end": 9,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 162
+        }
+      },
+      "text": "Chapter title Equam crit vitest\n16\n17\nOur work in practice\n100+\nstudents recruited every\nyear from different\nsocial, cultural and eco-\nnomic segments of\nsociety. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 45
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 162,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "1f180c3411f13f14",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 9,
+        "page_end": 9,
+        "section": null,
+        "offsets": {
+          "start": 162,
+          "end": 1103
+        }
+      },
+      "text": "More than 80%\nof MEET graduates\nbecome successful social\nentrepreneurs and\ncommunity leaders.\nZimbabwe\nCAMFED\nIsrael\nMEET\nX3\nEach CAMFED grad-\nuate typically supports\nthree more girls to go\nto school with her own\nresources, fuelling a\npowerful multiplier\neffect.\nAfter graduating, girls in rural Zimbabwe\nhave few job opportunities. Despite\nhard work, they face limited options to\ngenerate income and professional net-\nworks, remaining vulnerable to exploitative\nlabour and early marriage.\nThe Julius Baer Foundation supports two\nprogrammes: CAMFED’s new national\nleadership training programme connects\n86 selected girls across the country\nwith professionals for leadership guidance.\nThe existing Learner and Transition\nGuides Programme supports girls while\nin and after graduating secondary school,\ncreating connections between girls\nfrom rural communities and professionals\nand government officials who hold eco-\nnomic and social capital. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 46
+      },
+      "metadata": {
+        "start_offset": 162,
+        "end_offset": 1103,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "8c127db98c17108a",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 9,
+        "page_end": 9,
+        "section": null,
+        "offsets": {
+          "start": 1103,
+          "end": 1579
+        }
+      },
+      "text": "Guided by a Tran-\nsition Guide – a CAMFED graduate\nmentoring younger peers – the secondary\nschool graduates learn about possible\ncareers, sexual and reproductive health,\nand core business and financial skills.\nStudents are supported to visit tertiary\ninstitutions and professional settings.\nFor many, this is the first time traveling\nbeyond their rural villages to visit banks,\nhospitals, law firms, magistrates courts,\ngovernment departments and vocational\ntraining centres. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 47
+      },
+      "metadata": {
+        "start_offset": 1103,
+        "end_offset": 1579,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "dc66d7b1e413f70c",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 9,
+        "page_end": 9,
+        "section": null,
+        "offsets": {
+          "start": 1579,
+          "end": 2289
+        }
+      },
+      "text": "The interactions with\nprofessionals from the other end of the\nwealth spectrum demystify pathways\nusually perceived as inaccessible. As one\nstudent recalls: “Interacting directly with\na doctor helped me understand the aca-\ndemic path and personal commitment\nrequired to pursue medicine. It motivated\nme to focus on chemistry, biology and\nmathematics and to remain determined.”\nThe Zimbabwe Ministry of Primary and\nSecondary Education decided to co-deliver\nthe successful Transition Guide Pro-\ngramme in several districts, significantly\namplifying its impact.\nPalestinian and Israeli youth often grow\nup in environments where their lives are\nlargely separate, which can limit con-\ntact and mutual understanding. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 48
+      },
+      "metadata": {
+        "start_offset": 1579,
+        "end_offset": 2289,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "489034f476fd46ab",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 9,
+        "page_end": 9,
+        "section": null,
+        "offsets": {
+          "start": 2289,
+          "end": 2773
+        }
+      },
+      "text": "Young\npeople from resource weak regions,\nespecially non-Israeli youth, also face\ngreater barriers when entering the\nregion’s high growth tech sector, which is\na major driver of economic opportunity.\nThe Julius Baer Foundation supports\nMEET (Middle East Entrepreneurs\nof Tomorrow) in their work to connect\nyoung Jewish Israelis, Arab Israelis,\nPalestinians, young women and other mi-\nnorities to co-learn, co-develop and\nco-implement start-up ventures through\na three-year curriculum. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 49
+      },
+      "metadata": {
+        "start_offset": 2289,
+        "end_offset": 2773,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "964ca4aafdddbf11",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 9,
+        "page_end": 9,
+        "section": null,
+        "offsets": {
+          "start": 2773,
+          "end": 3863
+        }
+      },
+      "text": "The partici-\npants receive a top-notch, MIT-backed\nSTEM education and binational leadership programme including professional\nnetworks to foster innovation and\ncollaboration. By engaging with each\nother, students, alumni, mentors and staff\nundergo a transformative journey, gradually building a cadre uniquely positioned\nto drive positive social, economic and\npolitical change.\nFor many students, it is the first time\nto interact, learn and innovate with such\na diverse group of youth. Not always\nan easy undertaking, as this testimonial\nproves: “When things got difficult,\nI learned that I’m not giving up and walk-\ning away, instead I’m staying and able\nto challenge myself.” At the end of the\nthree-year period, the students design\nsocial enterprises in bi-national and mixed\ngender teams. This year’s Israeli-Pales-\ntinian winner team that qualified for seed\nfunding is the project BridgeIt. It connects\ninternational employers with skilled but\nunderemployed Palestinians in the West\nBank, unlocking access to global opportunities for a region where skilled youth\nface high unemployment.",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 50
+      },
+      "metadata": {
+        "start_offset": 2773,
+        "end_offset": 3863,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "adc0088d86a0b766",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 10,
+        "page_end": 10,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 959
+        }
+      },
+      "text": "18\n19\nOur work in practice\nResalito Mamayabay\nproject participant\nFundación CODESPA and\nChairperson, Hinatuan\nSeaweed Farmers and\nFishermen Cooperative\n(HISFA-CO)\nMadian Marana\nProject participant of\nMEET, Palestinian Arab\ncitizen of Isreal, lives\nin Arara, Wadi Ara\nXimena Arevalo\nProject participant of\nForge Foundation, lives in\nVenustiano Carranza,\na district of Mexico City.\nRakan Darwish\nmentor at MEET and\nProgramme Manager\nat DeserTech Ventures\nin Abu Dhabi\nTendaishe\nparticipant in Camfed’s\nLeadership Training\nProgramme, Zimbabwe\nRebecca\nparticipant in Camfed’s\nLeadership Training\nProgramme, Zimbabwe\nOur work in practice\nVoices of transformation\n“Before we were organised [through\nCodespa], our community relied mainly\non fishing and resorted to cutting man-\ngroves and even illegal fishing during diffi-\ncult times, with little knowledge of\nproper waste management and sanitation.\nWe had no access to fair buyers who\nvalued our seaweed properly. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 51
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 959,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "d34bfa38dc2d53c7",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 10,
+        "page_end": 10,
+        "section": null,
+        "offsets": {
+          "start": 959,
+          "end": 1522
+        }
+      },
+      "text": "Through\nthe programme we professionalised\nour cooperative, earning recognition for\nhigh-quality seaweed from the Spanish\nseaweed processor CEAMSA and through-\nout the Caraga region. Now we are\ntrainers in seaweed production and advo-\ncates of environmentally responsible\nseaweed farming. By organising our oper-\n“As the sole mentor across seven start-ups,\nmy experience with MEET was both\nchallenging and a genuine opportunity for\ngrowth. It was a chance to build rela-\ntionships with the students, which could\ndevelop over time, even outside the\nMEET programme. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 52
+      },
+      "metadata": {
+        "start_offset": 959,
+        "end_offset": 1522,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "94915f1d8f461301",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 10,
+        "page_end": 10,
+        "section": null,
+        "offsets": {
+          "start": 1522,
+          "end": 2048
+        }
+      },
+      "text": "And I learned a lot.\nOne of the most meaningful aspects\nof this experience was being in roles where\nboth mentor and mentee learned from\none another. Some taught me patience,\n“Through the leadership training, I learnt\nabout self-awareness, public speaking,\ndecision making and conflict resolution.\nThis has shaped my confidence and\nmindset, and I try to carry it beyond school\ninto my community. I mentor partic-\nularly the girls at risk of dropping out and\nencourage others to re-enroll by sup-\nporting them in their studies. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 53
+      },
+      "metadata": {
+        "start_offset": 1522,
+        "end_offset": 2048,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "90531b11809db933",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 10,
+        "page_end": 10,
+        "section": null,
+        "offsets": {
+          "start": 2048,
+          "end": 2579
+        }
+      },
+      "text": "I formed\nstudy groups at school and in the com-\nmunity to emphasise the importance of\nlearning by contributing my spare time\nations, we transformed into a stable, tax-\npaying enterprise that consolidates\n12,000 kilograms of seaweed per month,\ngenerating community-wide economic\nbenefits and empowering families, espe-\ncially women, to contribute actively\nto household income. Collaborating with\ninstitutional partners transformed our\nmindset and ambition: from survival-based\nfishing practices to value-added sea-\nweed processing. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 54
+      },
+      "metadata": {
+        "start_offset": 2048,
+        "end_offset": 2579,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "85b1cbc4ca6d6a1e",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 10,
+        "page_end": 10,
+        "section": null,
+        "offsets": {
+          "start": 2579,
+          "end": 3176
+        }
+      },
+      "text": "We are recognised as\n“National Winner for Best Implementation\nof Livelihood Program” at the 2025\nKabuhayan Awards by the Department\nof Labor and Employment.”\nsome gave me a new lens for looking at\nproblems and conflicts, and some reminded me that these participants know\nmore about market trends than I do,\nbecause they set the trends. I witnessed\nhow collaboration across differences\nproduces stronger outcomes than isolated\neffort, and saw how providing equitable\naccess to networks, mentorship and collaborative spaces unlocked potential that\nmight otherwise remain untapped.”\nto tutor others. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 55
+      },
+      "metadata": {
+        "start_offset": 2579,
+        "end_offset": 3176,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "a32110b50ca7649c",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 10,
+        "page_end": 10,
+        "section": null,
+        "offsets": {
+          "start": 3176,
+          "end": 4169
+        }
+      },
+      "text": "It made me proud to be\nselected to represent learners from my\nprovince at CAMFED’s National Annual\nStakeholders Meeting and to meet the\nPermanent Secretaries for the Ministry of\nPrimary and Secondary Education and\nthe Ministry of Youth and Vocational Train-\ning. The leadership programme has\nexpanded my horizons, and it fuels me\nto see how purposeful leadership can\ntransform the lives of the girls around me.”\n“MEET reshaped my trajectory in ways\nI could not have imagined. I built strong\npartnerships with exceptional Israeli\nand Palestinian peers and co-founded\nBridge-it, a start-up that integrates\ntalented young Palestinians into the glob-\nal remote workforce. I deepened my\nunderstanding of the conflict and learned\nto approach it through dialogue, empathy, and problem-solving rather than frus-\ntration. My approach to challenges\nshifted from anger to action. I now dream\nbigger with the belief that there is al-\nways a way to mobilise skills, people, and\nresources to create change. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 56
+      },
+      "metadata": {
+        "start_offset": 3176,
+        "end_offset": 4169,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "efde68b48c740b2a",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 10,
+        "page_end": 10,
+        "section": null,
+        "offsets": {
+          "start": 4169,
+          "end": 5285
+        }
+      },
+      "text": "MEET was\none of the few spaces where I felt both\n“Being a leader has taught me patience,\nempathy and responsibility. I have learnt\nto listen to others, guide them with\nencouragement and take initiative in solv-\ning problems. My role has also inspired\nmy peers to work together positively and\nrespect each other’s opinions. I noticed\nthat others are more motivated to partici-\npate in school activities and support\neach other because they saw leadership\nas a shared responsibility rather than\na position of authority. One of the most\ninteresting experiences I had as a leader\nsafe and challenged. Safe to express and\ncelebrate my identity; and challenged\nto genuinely hear the other. My participation introduced my family to networks\nand environments they had never accessed\nbefore. It shifted our understanding of\nwhat collaboration could look like. Engaging with peers from diverse socio-economic backgrounds shifted my leadership\nfrom advocacy to action. It allowed\nme to see others through a lens of shared\nhumanity and to understand the lay-\nered nature of inequality in our region.\nMEET normalized cooperation. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 57
+      },
+      "metadata": {
+        "start_offset": 4169,
+        "end_offset": 5285,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "799a1806ceb19126",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 10,
+        "page_end": 10,
+        "section": null,
+        "offsets": {
+          "start": 5285,
+          "end": 6032
+        }
+      },
+      "text": "The ‘other’\nbecame a teammate, a co-founder,\na friend.”\nwas organising a small initiative at school\nwhere we encouraged younger stu-\ndents to share their ideas and voice their\nconcerns. Seeing their confidence grow\nand hearing them take part in decision-making made me realise that leadership is not about giving orders but\nabout empowering others to shine and\nachieve their goals. My own leader-\nship journey with CAMFED has shown\nme that support and encouragement\ncan transform a person’s life.”\n“Forge’s programme marked a before and\nafter in my life. In the Huella Digital\nproject I learned to be more aware of what\nI share on social networks and to understand that my digital presence is part\nof my personal brand and my professional\nfuture. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 58
+      },
+      "metadata": {
+        "start_offset": 5285,
+        "end_offset": 6032,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "afbb6c3038c0f446",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 10,
+        "page_end": 10,
+        "section": null,
+        "offsets": {
+          "start": 6032,
+          "end": 6909
+        }
+      },
+      "text": "Now I think before I publish\nsomething that could affect me in the\nlong term. In addition, I developed\nfundamental skills such as communication,\nteamwork, leadership and organisation.\nMy mindset changed completely: I went\nfrom feeling insecure to feeling capable.\nI expanded my network of contacts and\nmet incredible people who today are\nvaluable friendships and constant support.\nI feel more confident and equipped with\nreal tools to face the world of work.\nInteracting with classmates from different backgrounds was an enriching\nexperience that allowed me to broaden\nmy perspective and understand realities\ndifferent from my own. Despite our\ndifferences, our shared goals brought us\ntogether quickly. This diversity made\nme realise that talent does not depend\non the context, but on determination\nand opportunities. That strengthened my\nambitions and pushed me to think big.”",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 59
+      },
+      "metadata": {
+        "start_offset": 6032,
+        "end_offset": 6909,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "b09e7b74102b3860",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 11,
+        "page_end": 11,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 1131
+        }
+      },
+      "text": "21\nOur partner organisation – Impact Hub Mexico\nConnecting talent with expertise\nIn a programme designed in partnership with the Julius Baer Foundation, Impact Hub Mexico equips young aspiring entrepreneurs\nwith skills and seed funding while connecting them with high-level\nprofessionals from leading companies who serve as personal\nmentors. For participants Flor de Rocío and Eduardo Gabriel, this\nsupport transformed ideas previously constrained by insufficient\nfunding and skills into thriving ventures.\n20\nFlor shows her mentor, Luis Pablo Perez Torrescano, how to prepare a tortilla on a clay comal in\na traditional smoker kitchen, letting him experience the very activity he had advised her on.\nEduardo Gabriel\nFlor de Rocío\nScan to read more about the project\nThe programme Emprende Juventud Poblana has\na clear mission: create an entrepreneurial ecosystem\nthat is inclusive for young individuals who have\nbeen historically excluded from business opportunities. In Puebla, one of Mexico’s poorest states, it\noffers skills, education and network support for turn-\ning ideas into businesses through a three-step\nprogramme:\n1. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 60
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 1131,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "728109027412b05b",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 11,
+        "page_end": 11,
+        "section": null,
+        "offsets": {
+          "start": 1131,
+          "end": 1577
+        }
+      },
+      "text": "Inspirational events draw 200 young people to\nlearn from success stories and meet successful\nMexican entrepreneurs in person for the first time.\nJavier Larragoiti Kuri, CEO and founder of Creative\nFood Labs and mentor of Eduardo, remembers\nthis moment well: “I had the opportunity to serve\nas a speaker at inspiration events and to meet\npersonally with several entrepreneurs and their\ncommunities. It was undoubtedly an enriching\nexperience.”\n2. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 61
+      },
+      "metadata": {
+        "start_offset": 1131,
+        "end_offset": 1577,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "03309242ac7807db",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 11,
+        "page_end": 11,
+        "section": null,
+        "offsets": {
+          "start": 1577,
+          "end": 2361
+        }
+      },
+      "text": "A five-month incubator provides the participants\nwith the three essential resources: business\neducation and skills, seed funding, and mentorship. Participants apply with concrete business\nideas. Based on financial need and business viability,\nroughly 120 applicants are selected to receive\nsupport for their personal project. For Flor this was\na defining lifeline: “My startup was just an idea,\nand the programme helped me with everything\nfrom understanding the essential aspects of my\nproject to determining if it was profitable and\nviable.”\n3. Finally, professional lawyers, accountants and\ncommunication specialists assist in formalising the\nventures, granting participants legal status to\nissue invoices and access formal business partner-\nships essential for scaling operations. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 62
+      },
+      "metadata": {
+        "start_offset": 1577,
+        "end_offset": 2361,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "454c1b8f83da8937",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 11,
+        "page_end": 11,
+        "section": null,
+        "offsets": {
+          "start": 2361,
+          "end": 2912
+        }
+      },
+      "text": "In a country\nwhere 80% of economic activity is informal,\nthis formalisation is fundamental for the participants’ development.\nWhy does it work?\n• Entrepreneurship as a pathway to opportunity\nIn a region with a world-class industrial centre\nyet limited prospects for much of its young talent,\nthe programme equips entrepreneurial youth\nwith skills to develop business ideas and build\nviable enterprises.\n• Access to networks and partnerships\nMentors, entrepreneurs and experts connect the\nparticipants to Mexico’s broader entrepreneur-\nship ecosystem. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 63
+      },
+      "metadata": {
+        "start_offset": 2361,
+        "end_offset": 2912,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "117e549cf4b1408b",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 11,
+        "page_end": 11,
+        "section": null,
+        "offsets": {
+          "start": 2912,
+          "end": 3899
+        }
+      },
+      "text": "One-on-one mentorships grant\nthem individual support and the necessary connections, partnerships and market access.\n• From raw ideas to viable ventures\nThe young founders follow a structured journey:\nfrom inspirational workshops to business incu-\nbation and seed capital, ultimately turning their\nideas into formalised businesses and generating\nincome locally.\nMentorship that matters\nEduardo, a young farmer and biotechnologist, faced a lack of management skills\nto work legally with larger clients and\ndistinguish his offering from competitors.\nThough equipped with technical expertise,\nhe could not translate it into a business.\nHe was lacking the tools to understand\nthe market and structure his venture.\nThanks to the programme, his startup\nSynergy now produces bio stimulants\nfor agricultural crops improving the local\nfarmers’ productivity and crop resistance.\nThe journey proved rewarding for his\nmentor Javier as well: “Mentoring Eduardo\nwas extremely fun but also a challenge. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 64
+      },
+      "metadata": {
+        "start_offset": 2912,
+        "end_offset": 3899,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "14195c520c4b430d",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 11,
+        "page_end": 11,
+        "section": null,
+        "offsets": {
+          "start": 3899,
+          "end": 4337
+        }
+      },
+      "text": "His\nquestions made me dust off my old\nbooks and notes to support his business.\nTogether, we built an autoclave to sterilise\nlaboratory materials. These machines\nare expensive, but we managed to build\na homemade version with the resources\nhe had available. It was undoubtedly a great\nexperience.”\nMost valuable asset: access to mentors\nFlor had an entrepreneurial spirit but lacked\nthe skills to start a business and considered\nmigrating. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 65
+      },
+      "metadata": {
+        "start_offset": 3899,
+        "end_offset": 4337,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "79789d86b718cd1b",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 11,
+        "page_end": 11,
+        "section": null,
+        "offsets": {
+          "start": 4337,
+          "end": 4714
+        }
+      },
+      "text": "Access to one-on-one mentorship radically changed her options. Experienced entrepreneurs supported her at\nevery stage of her development. “When\nI launched the business, many new doubts\narose, and having my mentors available\nto schedule a call or message them was key.\nThey addressed all my concerns and\ncovered details I didn’t even know I needed\nto consider”, Flor remembers. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 66
+      },
+      "metadata": {
+        "start_offset": 4337,
+        "end_offset": 4714,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "981b2ea6ee3a1577",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 11,
+        "page_end": 11,
+        "section": null,
+        "offsets": {
+          "start": 4714,
+          "end": 5109
+        }
+      },
+      "text": "Today,\nshe runs ‘Sabor del Fuego’, an immersive\nexperience introducing tourists to the\nindigenous cuisine and artisanship, with the\nhighlight of making a tortilla on a clay\ncomal in a traditional smoke kitchen. Thanks\nto her mentors’ connections, Flor has built\nalliances with four tourism agencies,\nbringing primarily international tourists to\nexperience the culinary flavours of her\ncommunity.",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 67
+      },
+      "metadata": {
+        "start_offset": 4714,
+        "end_offset": 5109,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "9b2d8f0775a06f05",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 12,
+        "page_end": 12,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 842
+        }
+      },
+      "text": "22\n23\nScan to read more about the project\nOur partner organisation – YEFI\nCultivating change: young\nfarmers reclaim Zambia’s soil\n100+\nhectares of farmland\ntransitioning to organic\nproduction through\nbokashi, composting\nand regenerative\npractices.\n30–50%\nexpected income increase\nby 2027, as farmers\nreduce input costs and\naccess organic markets.\nIn Zambia, smallholder farmers who grow most of the country’s\nfood are caught in a difficult cycle: dependent on synthetic\nfertilisers that degrade their soil and drain their income, yet excluded from the markets that could offer an alternative. YEFI\nis breaking this cycle – training young farmers in agroecology and\nconnecting them to buyers who value sustainably produced food.\n“Before, I was spending over 1,800\nkwacha every season on syn-\nthetic fertilisers, and my yields\nwere still poor. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 68
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 842,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "94bc90f03ddde2e1",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 12,
+        "page_end": 12,
+        "section": null,
+        "offsets": {
+          "start": 842,
+          "end": 1247
+        }
+      },
+      "text": "After learning how\nto make bokashi with materials\nalready have, I have reduced my\ninput costs to almost zero and\nincreased my groundnut harvest\nfrom 8 to 14 bags per hectare.\nFor the first time in 10 years,\nI expect to have a surplus to sell.”\nMable Lubumbe, 51,\nNakasala Group Leader\nA vicious cycle\nAs in much of sub-Saharan Africa, youth\nand women farmers are at the heart\nof Zambia’s food production. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 69
+      },
+      "metadata": {
+        "start_offset": 842,
+        "end_offset": 1247,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "9b9cedf362a406ce",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 12,
+        "page_end": 12,
+        "section": null,
+        "offsets": {
+          "start": 1247,
+          "end": 2407
+        }
+      },
+      "text": "Yet their\nreturns keep shrinking while their costs\nkeep rising: a single season’s supply\nof synthetic fertiliser can cost over 1,800\nkwacha (around CHF 70), while yields\ncontinue to decline as soils lose their fer-\ntility. To make matters worse, farmers\noften have little voice in the decisions that\nshape their sector – leaving them locked\nin a farming model that harms both land\nand livelihoods.\nFarming with, not against, nature\nWith the support of the Julius Baer Foun-\ndation, the Young Emerging Farmers\nInitiative (YEFI) is changing this through\nits NO AGROCHEM project. Across\nsix districts, YEFI trains young farmers in\nagroecological techniques – replacing\nexpensive chemicals with locally made\nbokashi fertiliser, botanical pesticides,\nand composting methods that restore soil\nhealth. But training alone is not enough.\nYEFI also connects farmers to ethical\nbuyers and retailers, helps them form co-\noperatives for collective savings and\nstronger bargaining power, and is devel-\noping a digital platform that provides\nreal-time access to advisory services and\nmarket opportunities.\nEarly momentum, lasting ambition\nThe results so far are encouraging. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 70
+      },
+      "metadata": {
+        "start_offset": 1247,
+        "end_offset": 2407,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "679c8f3d74222fa5",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 12,
+        "page_end": 12,
+        "section": null,
+        "offsets": {
+          "start": 2407,
+          "end": 2567
+        }
+      },
+      "text": "Within\nfour months, the project surpassed its\ninitial target, reaching over 1,100 farmers\nacross 22 communities – with 54 per\ncent of participants being women. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 71
+      },
+      "metadata": {
+        "start_offset": 2407,
+        "end_offset": 2567,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "8de2f05dfaf4f44c",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 12,
+        "page_end": 12,
+        "section": null,
+        "offsets": {
+          "start": 2567,
+          "end": 2880
+        }
+      },
+      "text": "YEFI\nhas been recognised as a COP30 Impact\nMaker – selected by the UN Climate\nConference presidency for its contribution\nto climate action – and has been invited\nto join the ‘Zambia National Agroecology\nStrategy – Technical Working Group’,\nensuring that youth voices help shape\nthe country’s agricultural future. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 72
+      },
+      "metadata": {
+        "start_offset": 2567,
+        "end_offset": 2880,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "8b3b9429cdfbda4d",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 12,
+        "page_end": 12,
+        "section": null,
+        "offsets": {
+          "start": 2880,
+          "end": 4048
+        }
+      },
+      "text": "The\nambition goes beyond individual farms:\nby building market linkages, influencing\npolicy, and anchoring knowledge in\nlocal communities, YEFI is laying the\ngroundwork for a food system that is both\necologically sound and economically fair.\n“YEFI illustrates how connecting knowledge, resources and opportunity can\ncreate the conditions for young farmers\nto build sustainable livelihoods on their\nown terms.”\nAriane de Lannoy\nJulius Baer Foundation Board Member\nWhy does it work?\n• \u0007Local solutions replace costly inputs\nFarmers learn to produce their own fertiliser and\npesticides from locally available materials, elimi-\nnating dependency on expensive agrochemicals.\n• Market access for marginalised producers\nYEFI connects smallholders to ethical buyers, re-\ntailers and cooperatives – building fair value\nchains where sustainably grown food finds reliable\ndemand.\n• Youth-led change from farm to policy\nAs a youth-led organisation, YEFI ensures that\nyoung farmers are not only practitioners, but\nalso become advocates with a seat at the policy\ntable – shaping Zambia’s national agroecol-\nogy strategy and building a movement for lasting\nfood system transformation.",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 73
+      },
+      "metadata": {
+        "start_offset": 2880,
+        "end_offset": 4048,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "98c041a50d8f2d4d",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 13,
+        "page_end": 13,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 1036
+        }
+      },
+      "text": "24\n25\nOur partner organisation – COES\nCollaborating with our partner organisations – COES\nBringing research into practice\nThe Future of Social Mobility Conference brought together leading\nvoices from academia, the private sector and philanthropic\norganisations to share perspectives on social mobility. Several take-\naways stood out. Education alone is not enough: For people to\nmove upward in society through individual effort, fairer starting points\nare essential. Also, social mobility is a collective process rather\nthan an individual journey. And, strategic philanthropy has a crucial\nrole to play by investing in systems, networks and communities.\nProf. María Luisa Méndez\nCOES Principal Investigator\n“It is important to develop social\nemotional competencies to\ninteract with people that have\ndifferent backgrounds.”\nProf. Mike Savage\nLondon School of Economics and Political\nScience (LSE)\n“The idea of meritocracy comes\nfrom people believing education\nmakes a difference. And the\nevidence is that this promise is\nfraying.”\nProf. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 74
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 1036,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "88f7063f29d20c3f",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 13,
+        "page_end": 13,
+        "section": null,
+        "offsets": {
+          "start": 1036,
+          "end": 1396
+        }
+      },
+      "text": "Jody Agius Vallejo\nProfessor of Sociology, American Studies\nand Ethnicity at USC\n“Wealth, more than income, deter-\nmines whether success can\nbe sustained across generations.”\nProf. María José Álvarez\nProfessor of Sociology at the Universidad\nde los Andes\n“We assume that when we put\npeople of different backgrounds\ntogether, segregation is over.\nBut it’s not. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 75
+      },
+      "metadata": {
+        "start_offset": 1036,
+        "end_offset": 1396,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "afeb033b202db170",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 13,
+        "page_end": 13,
+        "section": null,
+        "offsets": {
+          "start": 1396,
+          "end": 2585
+        }
+      },
+      "text": "It takes work to make\nfriends with people that are dif-\nferent from us.”\nGautam Bhan\nAssociate Dean, Indian Institute for Human\nSettlements (IIHS)\n“If the link between education and\nemployment is breaking, then\nwhat we’re giving to people must\nchange.”\nHear the experts\nScan the QR code and listen\nto our talks with leading voices\nfrom research and practice.\nWatch our video recap of the conference on the Future of Social Mobility.\nAccess and order the Spanish e-Book\nbased on the four-year study online.\nHear the attendees’ key takeaways\nof this two-day convention.\nThe atmosphere was full of energy: 300 international\nparticipants gathered in Santiago de Chile, filled\nwith curiosity, questions and maybe even hesitations.\nPractitioners wondered how they could benefit\nfrom abstract research findings. Researchers experi-\nenced addressing new audiences. Philanthropists\nretreated from the daily hustle for a networking and\nlearning session of a different kind.\nAs the days progressed, questions became answers.\nHesitations gave way to resolve. And a shared\nunderstanding emerged: We must act together. While\ninitially reserved, participants found ease in en-\ngaging across differences. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 76
+      },
+      "metadata": {
+        "start_offset": 1396,
+        "end_offset": 2585,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "550e5d509b748e21",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 13,
+        "page_end": 13,
+        "section": null,
+        "offsets": {
+          "start": 2585,
+          "end": 3405
+        }
+      },
+      "text": "And another key insight\ncrystallised: The promise of meritocracy – that\neffort leads to upward mobility – is increasingly frag-\nile. The link between effort, education and reward\nis eroding. Newly middleclass individuals remain\nhighly vulnerable. And upward mobility requires com-\npetencies beyond technical knowledge, such as\nbehavioural and emotional skills. Or in academic\nterms: socio-economic skills to access essential\nnetworks and build social capital.\nClear call for philanthropy\nSocial mobility rarely happens by chance nor\nthrough individual efforts alone. It is shaped by struc-\ntures, institutions and the strength of relation-\nships across social groups. When those structures\nlimit progress, philanthropy can step forward: taking\nrisks where others cannot, investing patiently and\nsupporting systemically. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 77
+      },
+      "metadata": {
+        "start_offset": 2585,
+        "end_offset": 3405,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "5e5f57da09ba89f2",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 13,
+        "page_end": 13,
+        "section": null,
+        "offsets": {
+          "start": 3405,
+          "end": 3882
+        }
+      },
+      "text": "Wealth creates lasting im-\npact when deployed strategically – grounded in\nevidence, collaboration and long-term commitment\nto expanding opportunity.\nThe Future of Social Mobility Conference discussed\nthe findings of the research project ‘Successful\nTrajectories of Social Mobility: Individual, Territorial, and Structural Dynamics in Tackling Wealth\nInequality’, which was led by the Centre for Social\nConflict and Cohesion Studies (COES) in Chile\nand funded by the Foundation.",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 78
+      },
+      "metadata": {
+        "start_offset": 3405,
+        "end_offset": 3882,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "33f8f8076097fa86",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 14,
+        "page_end": 14,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 993
+        }
+      },
+      "text": "26\n27\nSixty years Julius Baer Foundation\nReady for the future:\n60 years of commitment\nSixty years offer an opportunity to reflect on how commitment\nevolves over time. During our anniversary year, we had the opportunity to engage our peers and partners around the world in\nconversations across the wealth spectrum on how wealth can be\nused to open pathways and reduce barriers. At the same time,\nwe celebrated what enables a foundation to remain relevant across\ngenerations: clear values, sound governance and the ability\nto adapt to changing contexts.\nScan and watch the anniversary video\n60 facts\non wealth inequality\nExplore the full series\nFrom Latimpacto and Building Bridges to Confluentes and\ninternal events, the Foundation continued to share insights,\nlearn from others and connect perspectives across sectors.\nA year of engagement\nOur anniversary year was shaped by reflection\nand exchange. A new film captured the Foundation’s\njourney and its approach to reducing wealth inequality. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 79
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 993,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "717e0140a1636541",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 14,
+        "page_end": 14,
+        "section": null,
+        "offsets": {
+          "start": 993,
+          "end": 1490
+        }
+      },
+      "text": "Client events created space to discuss re-\nsponsibility, opportunity and long-term contribution.\nEmployee sessions – both virtual and in person –\nstrengthened internal understanding of our mission\nand approach.\nWe also contributed to international sector dialogue,\nincluding a session at Latimpacto, a panel discus-\nsion at Building Bridges, participation at AVPN and\nthe SwissFoundations Symposium. We supported\nnewer industry organisations such as Confluentes\nwith their events and development. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 80
+      },
+      "metadata": {
+        "start_offset": 993,
+        "end_offset": 1490,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "00eb9f4205f7dfa9",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 14,
+        "page_end": 14,
+        "section": null,
+        "offsets": {
+          "start": 1490,
+          "end": 2440
+        }
+      },
+      "text": "In addition to\nthese activities, we launched our “60 Facts on Wealth\nInequality” series – one fact for each year since our\nfounding.\nContinuity through change\nOver six decades, the context in which the Foundation\noperates has evolved considerably. Family dy-\nnamics shift across generations, and governance\nstructures become more formalised and professional.\nLeadership transitions have also taken place,\nincluding the moment when family members entrusted\nthe Foundation’s leadership to a carefully selected\ngroup of Bank executives and industry experts along\nside the family executives.\nAs society and contexts evolve, a foundation must\nadjust accordingly. Strategic priorities are refined,\noperational approaches develop and management\nstructures mature. Such evolution is not a depar-\nture from legacy; it is part of preserving it.\n“Our anniversary year highlighted\nthe importance and impact of\nbringing people together across\ndifferent contexts. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 81
+      },
+      "metadata": {
+        "start_offset": 1490,
+        "end_offset": 2440,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "1f3d0d097ae9b751",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 14,
+        "page_end": 14,
+        "section": null,
+        "offsets": {
+          "start": 2440,
+          "end": 2803
+        }
+      },
+      "text": "Over time,\nthe Foundation has evolved in its\nfocus, but its ability to adapt\nand remain engaged has been\ncentral to its continuity.”\nLaura Hemrika\nCEO Julius Baer Foundation\nFrom its early support of science, art and culture to its\npresent focus on reducing wealth inequality, the\nFoundation has responded to the societal questions\nmost relevant at a given time. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 82
+      },
+      "metadata": {
+        "start_offset": 2440,
+        "end_offset": 2803,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "08deed4c714f4f19",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 14,
+        "page_end": 14,
+        "section": null,
+        "offsets": {
+          "start": 2803,
+          "end": 3369
+        }
+      },
+      "text": "While thematic prior-\nities have evolved, the intention to contribute thought-\nfully and responsibly has remained consistent.\nOver time, this has shown that long-term relevance\ndepends on the ability to adapt while remaining\nanchored in clear values. Governance, reflection and\nperiodic reassessment are essential to this process.\nLegacy, in this sense, is not static. It develops gradually – shaped by changing contexts and informed\nby experience. Continuity and evolution are therefore\nnot opposing forces, but closely connected elements\nof sustained contribution.",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 83
+      },
+      "metadata": {
+        "start_offset": 2803,
+        "end_offset": 3369,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "7f17937a891677e7",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 15,
+        "page_end": 15,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 1139
+        }
+      },
+      "text": "28\n29\nConvening with clients\nConvening with clients\nCreating prospects together\nWhen their family situation changed due to the death of their\nfather, the Sollier family turned a long-simmering idea into reality:\nThanks to the Bank’s philanthropy advisory services and the\nFoundation, the family launched its own foundation and is now\nco-funding projects with the Julius Baer Foundation. In an\ninterview, the siblings Sarah Kalder* and Marc Sollier* and their\nrelationship manager Rolf Meyer reflect on wealth inequality,\ntheir philanthropic journey and the value of the co-funding partnership with the Foundation.\nScan and read more\nabout the two\nsupported projects\n* Names used in this interview\nare pseudonyms to protect\nthe individuals’ privacy.\nJojoba for\nNamibia\nChristel House\nSouth Africa\nMrs Kalder, Mr Sollier, what led you to\nbecome active philanthropists without\nany previous experience in this field?\nMrs Kalder: We are very fortunate and live\nprivileged lives, and I had been ponder-\ning philanthropic engagement for some\ntime, and when our father passed away\nleaving us with a substantial inheritance,\nI was prompted to act. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 84
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 1139,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "fe688f149f15e8b8",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 15,
+        "page_end": 15,
+        "section": null,
+        "offsets": {
+          "start": 1139,
+          "end": 2042
+        }
+      },
+      "text": "Around the same\ntime, my mother asked me how to put\nsome of her savings to good use. We want-\ned to share what we have with those who\nneeded it.\nMr Sollier: We were all convinced it was\nthe right thing to do. My sister’s background in finance has been a helpful asset.\nMy one concern – as with any invest-\nment – was that it be sustainable.\nHow do you experience wealth inequality,\nand why does it need addressing?\nMrs Kalder: I just returned from South\nAfrica, where the divide is unimaginably\nwide. Townships as far as the eye can\nsee; it makes you feel utterly helpless. But\neven here in Switzerland, wealth and\nconnections open doors for some that\nremain closed to others. A newspaper\narticle this week noted that 20% of gym-\nnasium students are underperformers.\nTheir parents can afford tutoring and lever-\nprojects that addressed what mattered most to us\nand would have a lasting positive impact. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 85
+      },
+      "metadata": {
+        "start_offset": 1139,
+        "end_offset": 2042,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "6ce2252e188c49f7",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 15,
+        "page_end": 15,
+        "section": null,
+        "offsets": {
+          "start": 2042,
+          "end": 2430
+        }
+      },
+      "text": "The bank’s\nadvisory was instrumental in finding this path.\nMr Meyer, as a relationship manager, how im-\nportant is it that you can link your clients with the\nphilanthropy services of the Bank?\nMr Meyer: As a relationship manager I see myself as\nmy client’s sparring partner, bringing the right peo-\nple to the table to address their financial matters that\nare, essentially, life matters. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 86
+      },
+      "metadata": {
+        "start_offset": 2042,
+        "end_offset": 2430,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "8945514702f88095",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 15,
+        "page_end": 15,
+        "section": null,
+        "offsets": {
+          "start": 2430,
+          "end": 2981
+        }
+      },
+      "text": "Inheritance, retirement,\nfamily planning; these are life situations, where I aim\nto be of holistic service. In those moments, it is\ninvaluable that the Bank goes beyond advising clients\non philanthropic engagement but walks them\nthrough it, backed by our experience from our own\nFoundation.\nMrs Kalder, you decided to co-fund projects with\nthe Julius Baer Foundation. Why was that the\nright path rather than pursuing your own projects?\nMrs Kalder: When we met the Julius Baer Founda-\ntion, we recognised the professionalism and the Bank’s\ncommitment. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 87
+      },
+      "metadata": {
+        "start_offset": 2430,
+        "end_offset": 2981,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "ba90386ba4e22dfe",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 15,
+        "page_end": 15,
+        "section": null,
+        "offsets": {
+          "start": 2981,
+          "end": 4069
+        }
+      },
+      "text": "Partnering with the Foundation\nmeant building on solid ground, which clearly ampli-\nfied the impact we could have. As new philanthropists we were guided every step along the way of the\nphilanthropy journey, which led to a huge learning\ncurve, illustrated by all the insights we were able to\ngain through our partnership with the Foundation.\nThe fact that the Bank matches our donations, effec-\ntively doubles our contribution.\nMr Sollier: We don’t have the resources to manage\nall the reporting and milestone tracking ourselves.\nWorking with the Foundation lifted that burden\nsignificantly.\nMrs Kalder: In the beginning, the Foundation anal-\nysed the project reports together with us, mentoring\nus on every step of the way. Today, I would feel\nconfident supporting projects independently thanks\nto the collaboration with the Foundation.\nage their networks for employment.\nWealth and network are inevitably linked.\nMr Sollier: I think the wider the divide the\nmore dangerous for society. Frustration\nbuilds, carrying a certain explosive potential. We have the means to address\nthis issue. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 88
+      },
+      "metadata": {
+        "start_offset": 2981,
+        "end_offset": 4069,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "1b6a68bccac83078",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 15,
+        "page_end": 15,
+        "section": null,
+        "offsets": {
+          "start": 4069,
+          "end": 4760
+        }
+      },
+      "text": "And I believe it is our moral\nobligation to do so.\nWhy did you approach the Julius Baer\nBank for your mission?\nMrs Kalder: I spent about a year doing\nresearch and talking to people either\nrunning or working for a foundation, as\nwell as various banks. Our relationship\nmanager, Rolf Meyer, at Julius Baer was\nable to offer expertise and hands-on\nsupport, connecting us with the Bank’s\nphilanthropy adviser Caroline Piraud and\nlater with the Foundation itself. This\nproved very valuable to us as a family.\nCaroline guided us through workshops\nand discussions in a very structured way,\nhelping us streamline our thoughts,\ndefine our family values and find our\nfocused approach to grant giving. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 89
+      },
+      "metadata": {
+        "start_offset": 4069,
+        "end_offset": 4760,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "99a2c6edc877e24f",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 15,
+        "page_end": 15,
+        "section": null,
+        "offsets": {
+          "start": 4760,
+          "end": 5060
+        }
+      },
+      "text": "The\noutside perspective helped a lot to\nnavigate this process.\nMr Sollier: The hardest part was finding\nour focus and identifying the specific\nWhich projects are you supporting?\nMr Sollier: We wanted to be active in two fields:\neducation and value creation. We wanted to help\npeople help themselves. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 90
+      },
+      "metadata": {
+        "start_offset": 4760,
+        "end_offset": 5060,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "1374257acc4866fd",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 15,
+        "page_end": 15,
+        "section": null,
+        "offsets": {
+          "start": 5060,
+          "end": 5852
+        }
+      },
+      "text": "This led us to the Simunye\nproject by Christel House in South Africa and the\nJojoba for Namibia Trust in Northern Namibia. Across\nNamibia’s harsh landscapes, this project brings\nwomen hope, dignity and a secure future for their fam-\nilies. With every sustainably grown jojoba plant\nand every fair-trade desert harvest, we support the\neffort of creating opportunities to fight poverty.\nMrs Kalder: Through the Foundation we have been\nable to visit the schools and the people leading\nthe Simunye project and are planning to do the same\nin Namibia. We wanted to see where our money is\ninvested, to witness the professionalism of the people\non the ground and how it impacts the participants.\nSimunye connects grade school children from\nunder-resourced schools with children from private\nschools. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 91
+      },
+      "metadata": {
+        "start_offset": 5060,
+        "end_offset": 5852,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "385cba04d8f6df2b",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 15,
+        "page_end": 15,
+        "section": null,
+        "offsets": {
+          "start": 5852,
+          "end": 6164
+        }
+      },
+      "text": "It is heartwarming to experience how the\nkids greeted each other with hugs and painted wel-\ncome signs because they were so happy to meet\nagain. We could witness how friendships had evolved\nacross the divide, not only between children but\nalso between teachers of the different schools and\neven between parents. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 92
+      },
+      "metadata": {
+        "start_offset": 5852,
+        "end_offset": 6164,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "3fe07714ef273330",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 15,
+        "page_end": 15,
+        "section": null,
+        "offsets": {
+          "start": 6164,
+          "end": 6884
+        }
+      },
+      "text": "If just one child finds employment and new opportunities through our investment,\nit will have been worth it.\nWhy was it essential to have the Bank’s and\nFoundation’s support at the beginning of your\nphilanthropic journey?\nMrs Kalder: The advisory process made clear that\na Swiss charitable foundation was the right vehicle for\nour goals. We weren’t aiming for one-off donations\nbut for a lasting, structural commitment. I was found-\ning a company at the time, so I was familiar with\nsome of the legal requirements. But without Caroline\nPiraud and her team, we would have lacked the\nknowledge, skills and connections to start our foundation. They walked us through every step, from tax\nassessments to legal registration. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 93
+      },
+      "metadata": {
+        "start_offset": 6164,
+        "end_offset": 6884,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "5f17ff03e021fdad",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 15,
+        "page_end": 15,
+        "section": null,
+        "offsets": {
+          "start": 6884,
+          "end": 7372
+        }
+      },
+      "text": "And together with\nthe Julius Baer Foundation, we found projects that\ngave us confidence that our money was making\na difference.\nMr Sollier: The fear that the money would seep away\nwithout effect was dispelled by the Foundation’s\nprofessionalism and due diligence, which provided us\na safe framework to build upon.\n“Everyone needs practical education and\nrole models that especially young people\ncan emulate to find hope and the con-\nviction that their work will be rewarded.”\nMarc Sollier",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 94
+      },
+      "metadata": {
+        "start_offset": 6884,
+        "end_offset": 7372,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "135cfc3837861c00",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 16,
+        "page_end": 16,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 384
+        }
+      },
+      "text": "30\n31\nConvening with foundations\nScaling up with IMS\nThrough a partnership between the Irene M. Staehelin Foundation\n(IMS) and the Julius Baer Foundation, the Jojoba for Namibia\ntrust was able to scale its model and extend its project to a new community, the San in Northern Namibia. This project gives the in-\ndigenous San people an invaluable foothold in local market value\nchains. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 95
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 384,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "cb7c4c60c9c71db5",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 16,
+        "page_end": 16,
+        "section": null,
+        "offsets": {
+          "start": 384,
+          "end": 846
+        }
+      },
+      "text": "Arunima Singh, programme manager at IMS, shares her\ninsights on this co-funding venture, the benefits and challenges of\nsuch collaborations and the role of the Julius Baer Foundation\nwithin the Swiss foundation ecosystem.\nScan to read more about the project\nProcessing Mongongo nuts by hand, members of the San community draw on\nlongstanding knowledge – forming for further development and access to local markets\nand broader value chains.\nIt was a perfect fit. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 96
+      },
+      "metadata": {
+        "start_offset": 384,
+        "end_offset": 846,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "91609b5986d1fa6b",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 16,
+        "page_end": 16,
+        "section": null,
+        "offsets": {
+          "start": 846,
+          "end": 1231
+        }
+      },
+      "text": "IMS, following the vision of late\nIrène M. Staehelin-Schindler, could invest in a project\ndeeply aligned with her values: enabling the in-\ndigenous San Community to become sustainable\nentrepreneurs and oil suppliers to established\npurchasers. As an anthropologist, Irène had personally\nengaged with this community.\nBut personal connection was not the only reason\nfor this partnership. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 97
+      },
+      "metadata": {
+        "start_offset": 846,
+        "end_offset": 1231,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "2d90e4a4fd9c0777",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 16,
+        "page_end": 16,
+        "section": null,
+        "offsets": {
+          "start": 1231,
+          "end": 1923
+        }
+      },
+      "text": "When IMS joined the project, it\ncould build on a successful model initiated by the\nJulius Baer Foundation together with founder Oliver\nRust previously in other parts of Namibia. Inspired\nby these results, the San community approached\nOliver, and together with IMS, an additional private\ndonor, and the Foundation, this expansion is now\nbecoming a reality.\nThe six benefits of co-funding\nAccording to Arunima Singh, co-funding is highly\nvaluable at two stages: the first is when a project\nis ready to scale, and enough data and experience are\navailable through the work of a first donor to make\ninvestments catalytic. The second is when piloting\nhigh-risk projects where data is still scarce. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 98
+      },
+      "metadata": {
+        "start_offset": 1231,
+        "end_offset": 1923,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "99c9ca854de292ad",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 16,
+        "page_end": 16,
+        "section": null,
+        "offsets": {
+          "start": 1923,
+          "end": 3123
+        }
+      },
+      "text": "In\nboth cases, co-funding is beneficial for six reasons:\n•\nComplementary strengths, stronger solutions:\nPartners bring distinct expertise, perspectives\nand capabilities, strengthening both the design\nand delivery of interventions and enabling\nmore holistic approaches.\n•\nFresh perspectives that sharpen thinking:\nA second lens introduces constructive challenges\n– surfacing blind spots, raising new questions\nand ultimately leading to more thoughtful and\nrobust decision-making.\n•\nShared learning and thoughtful capital deployment: Organisations benefit from each other’s\nexperience, enabling more informed choices and\nthe ability to commit additional funding as ini-\ntiatives mature and risks become clearer over time.\n•\nScaling reach and opportunity: By aligning\nresources and efforts, organisations can extend\ntheir reach, opening pathways and reducing\nbarriers for more individuals and communities.\n•\nNetworks that amplify impact: Each partner\ncontributes access to wider ecosystems and rela-\ntionships, creating connections that enhance\ncollaboration and multiply outcomes over time.\n•\nFrom fragmentation to coordinated impact:\nCo-funding moves beyond isolated efforts,\nfostering more coherent a",
+      "chunking": {
+        "strategy": "size_fallback",
+        "chunk_index": 99
+      },
+      "metadata": {
+        "start_offset": 1923,
+        "end_offset": 3123,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "9ac1bf0f1d6087cb",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 16,
+        "page_end": 16,
+        "section": null,
+        "offsets": {
+          "start": 3123,
+          "end": 3445
+        }
+      },
+      "text": "nd aligned approaches\nthat lead to deeper, more sustainable impact.\nIt also helps foundation teams ensure their own\npotential impact is not constrained by what can\noften be lean teams.\n“The different stakeholders at the table connect dots\nfor access and visibility, finding and seeing things\nthat were not visible before. ",
+      "chunking": {
+        "strategy": "size_fallback",
+        "chunk_index": 100
+      },
+      "metadata": {
+        "start_offset": 3123,
+        "end_offset": 3445,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "3bf3c29a314f95a9",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 16,
+        "page_end": 16,
+        "section": null,
+        "offsets": {
+          "start": 3445,
+          "end": 4097
+        }
+      },
+      "text": "They have the privilege\nof opening doors”, Arunima explains, highlighting\nthe innovative potential of such partnerships. There\nis another advantage to collaborating: “More eyes\nto look for red flags is very helpful because it is unfair\nto expect organisations to think of everything.”\nIt takes a village to bring a project to success and by\nco-funding, a project gains far more than twice the\nfunding.\nThere are challenges to be aware of. Many voices can\n“bombard an organisation with too many possible\ndirections”. Funders’ words carry significant weight\nand must be chosen carefully. And vague account-\nability calls for clear roles from the outset. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 101
+      },
+      "metadata": {
+        "start_offset": 3445,
+        "end_offset": 4097,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "89562d46b8d5c550",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 16,
+        "page_end": 16,
+        "section": null,
+        "offsets": {
+          "start": 4097,
+          "end": 5050
+        }
+      },
+      "text": "Still, the\nadvantages of co-funding outweigh these challenges\nas the collaboration between the two foundations\nhas proved.\nPurpose-driven through contextual knowledge\nCo-funding the Jojoba for Namibia Trust proved\nimpactful because Julius Baer Foundation’s contextual knowledge and hands-on approach complemented IMS’s localisation agenda. As a results-driven\norganisation, the Julius Baer Foundation invests\nin understanding its projects’ contexts and finding\nthe best funding solutions, customising them to\nallow other foundations to join at the scaling stage.\nArunima notes that knowing the ecosystem is\ncommon in venture philanthropy and impact invest-\nment, though less so for traditional foundations.\n“I think it’s unique for a foundation of the size of the\nJulius Baer Foundation, and it definitely adds value\nto organisations like ours, where we can lean into that\ninformation with confidence and trust to amplify\nthe impact of our investments.”",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 102
+      },
+      "metadata": {
+        "start_offset": 4097,
+        "end_offset": 5050,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "273c6a5676d5fc6c",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 17,
+        "page_end": 17,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 1106
+        }
+      },
+      "text": "32\n33\nConvening with employees\nJulius Baer employees\nare making a difference\nAcross the globe, Julius Baer employees generously contribute to\nthe Foundation’s programmes – by donating, volunteering their\nskills, participating in the project of the year or launching creative\nfundraising initiatives. The Foundation’s 60th anniversary be-\ncame a milestone not only for the organisation but also for employee\nengagement, as 3,400 colleagues across regions stepped up\nand into collective action and deepened their connection to the\nFoundation’s mission.\nFrom festive fundraising over mulled wine and engaging with\nIIHS at the Project of the Year event, to a charity walk around\nLake Zurich and mentoring sessions with FA.VELA –\ncolleagues continue to turn commitment into action.\nEmployee engagement remains an important bridge\nbetween the Foundation and the wider Julius Baer\ncommunity. Colleagues can support partner organisations around the world while learning more about\nthe social challenges the Foundation addresses.\nCollaboration across the wealth spectrum lies at the\nheart of the Foundation’s work. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 103
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 1106,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "2c1b95ec44e75c10",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 17,
+        "page_end": 17,
+        "section": null,
+        "offsets": {
+          "start": 1106,
+          "end": 1810
+        }
+      },
+      "text": "Bringing together\npeople from different backgrounds, professions and\nperspectives – including our employees – creates\nopportunities for exchange, shared learning and col-\nlective impact. Throughout the anniversary year,\nthe Foundation hosted events and conversations\nacross locations – both online and in person – where\nemployees could engage directly with partner\norganisations and see first-hand how their contributions support communities around the world.\nDonations around the world\nEmployees’ contributions – whether through regular\nmonthly giving or one-off donations – increase\nthe Foundation’s ability to drive change, strengthen\nour partner organisations and fund new projects\nacross the world. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 104
+      },
+      "metadata": {
+        "start_offset": 1106,
+        "end_offset": 1810,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "15e27dac03d8a75b",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 17,
+        "page_end": 17,
+        "section": null,
+        "offsets": {
+          "start": 1810,
+          "end": 2305
+        }
+      },
+      "text": "In 2025, over CHF 150,000 was\ndonated by 251 colleagues. For many, the Bank’s\ngenerous donation-matching is a key incentive: know-\ning their contribution will be doubled and invested\nto improve lives across the world.\nVolunteers\nBeyond financial contributions, employees can choose\nto share their expertise, time and networks with\nthe Foundation’s partners. Through skills-based vol-\nunteering, employees support organisations work-\ning to create opportunities for communities around\nthe world. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 105
+      },
+      "metadata": {
+        "start_offset": 1810,
+        "end_offset": 2305,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "8d36804ae2df8416",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 17,
+        "page_end": 17,
+        "section": null,
+        "offsets": {
+          "start": 2305,
+          "end": 3275
+        }
+      },
+      "text": "In 2025, employees worked closely with\nour partners, including:\n• FA.VELA, Brazil: For the third consecutive year,\n11 Portuguese-speaking employees mentored\nfive young entrepreneurs participating in the Corre\nCriativo accelerator. Through exchanges on\nbusiness strategy, finance, marketing and IT, the\nmentoring programme fostered both profes-\nsional growth and cross-cultural dialogue.\n• Forge Foundation, Mexico: 15 Spanish-speaking\nemployees volunteered their time to support\nyoung people preparing to enter the labour market,\noffering guidance and career insights.\nThese exchanges go beyond knowledge transfer.\nThey create spaces where people from different\nbackgrounds learn from one another, strengthening\nthe Foundation’s belief that progress emerges\nthrough collaboration.\nJulius Baer Activists\nThrough the Activists initiative, employees transform\npersonal passions into collective impact by or-\nganising fundraising activities within their teams\nand networks. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 106
+      },
+      "metadata": {
+        "start_offset": 2305,
+        "end_offset": 3275,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "09b8bc1d2c48ed08",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 17,
+        "page_end": 17,
+        "section": null,
+        "offsets": {
+          "start": 3275,
+          "end": 4083
+        }
+      },
+      "text": "In 2025, two employee-led initiatives\nraised funds and awareness for the Foundation:\n• Charity Walk around Lake Zurich: Initiated by\nemployees from the Wealth Planning team,\n21 participants walked a combined 987 kilometres\nwithin 24 hours, raising more than CHF 18,000\nfor the Project of the Year 2025.\n• Festive Fundraiser: A team-led mulled wine stand\nduring the holiday season brought employees\nand clients together and generated additional\nfunds for the Project of the Year 2025.\nProject of the Year 2025: IIHS India\nEach year, employees select a Project of the Year,\ndirecting additional fundraising and engagement\ntowards one of the Foundation’s partner organisations.\nThe 2025 campaign set new participation records,\nwith nearly 1,200 colleagues voting – a 38% increase\ncompared to the previous year. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 107
+      },
+      "metadata": {
+        "start_offset": 3275,
+        "end_offset": 4083,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "1aba8012a659c1b4",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 17,
+        "page_end": 17,
+        "section": null,
+        "offsets": {
+          "start": 4083,
+          "end": 4567
+        }
+      },
+      "text": "In a close race be-\ntween three partner organisations, IIHS India received\n44% of the votes, with employee donations throughout the year generating over CHF 52,000 in combined\ncontributions.\nIIHS (Indian Institute for Human Settlements)\nfocuses on expanding access to quality childcare for\nworking mothers in India’s construction sector,\nproviding critical early childhood development oppor-\ntunities, but also enabling their mothers to continue\nto build their economic independence. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 108
+      },
+      "metadata": {
+        "start_offset": 4083,
+        "end_offset": 4567,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "74ff13bb4d14f1eb",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 17,
+        "page_end": 17,
+        "section": null,
+        "offsets": {
+          "start": 4567,
+          "end": 5002
+        }
+      },
+      "text": "So far, the\nprogramme has enabled more than 1,200 children\nto attend daycare centres, trained local caregivers\nand provided health services for families. IIHS is now\ncollaborating with three state governments to\nexpand this childcare model nationally. Employers\nhave already witnessed how accessible childcare\nenables mothers to remain in the workforce, demonstrating how targeted interventions can unlock\nbroader economic opportunity.",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 109
+      },
+      "metadata": {
+        "start_offset": 4567,
+        "end_offset": 5002,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "37de69f73b2aac20",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 18,
+        "page_end": 18,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 429
+        }
+      },
+      "text": "34\n35\nGovernance\nEstablished more than six decades ago by Walter J. Bär (1895–\n1970), the Foundation has remained closely affiliated with\nthe Julius Baer Group, drawing on its financial, administrative\nand professional support. This structure enables 100% of\ndonations to be allocated directly to project funding. In addition,\nthe Bank matches donations made by clients and employees,\nfurther amplifying the Foundation’s impact. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 110
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 429,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "49aeea9de1769547",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 18,
+        "page_end": 18,
+        "section": null,
+        "offsets": {
+          "start": 429,
+          "end": 1629
+        }
+      },
+      "text": "As an autonomous\nentity headquartered in Zurich, the Foundation is governed\nby Swiss law.\nGovernance\nFoundation Management\nLaura Hemrika, CEO Julius Baer Foundation\nNathalie Jean-Baptiste, Deputy CEO and Head of Programmes\nVanessa Almengor Hofmann, Administrative Assistant\nKathrin Benz, Head Communications & Engagement\nJulian Hermann, Programme Manager\nNaveen Shamsudhin, Head of the Wealth Inequality Initiative\n(as of 26 January 2026)\nSusan Hermann-Soraluz, Digital Marketing Specialist\nWealth Inequality Initiative\nAdrian Meier, Head Finance & Operations\nMarina Morsellino, Engagement & Communications Manager\nBoard members\nNoel Quinn, Chairman\nChairman of Julius Baer Group\nJennifer Estes\nMember of the Bär Family\nAriane de Lannoy\nProfessor at University of Cape Town\nand ‘Wealth Inequality’ expert\nRahul Malhotra\nRegion Head Emerging Markets and\nMember of the Global Wealth Management Committee, Julius Baer\nJimmy Kong Eng Lee\nRegion Head Asia and Member of the\nGlobal Wealth Management Committee,\nJulius Baer\nCharing Tsang\nRepresentative of Julius Baer’s employee\norganisation JB Cares\nDhir Jhingran\nExternal advisor to the Board\nAnnual financial statements and bookkeeping\nFacto Treuhand AG,",
+      "chunking": {
+        "strategy": "size_fallback",
+        "chunk_index": 111
+      },
+      "metadata": {
+        "start_offset": 429,
+        "end_offset": 1629,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "23547a2ad84eca36",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 18,
+        "page_end": 18,
+        "section": null,
+        "offsets": {
+          "start": 1629,
+          "end": 1991
+        }
+      },
+      "text": " Chamerstrasse 172, 6300 Zug\nStatutory auditor\nKPMG AG, Postfach, 8026 Zurich\nJulius Baer Foundation account\nIBAN: CH94 0851 5072 8789 4200 9\nJulius Baer Foundation Board\nThe Foundation is led by the Foundation Board,\ncomprising senior Julius Baer executives and external\nspecialists, including a wealth inequality expert\nand a representative of the Bär family. ",
+      "chunking": {
+        "strategy": "size_fallback",
+        "chunk_index": 112
+      },
+      "metadata": {
+        "start_offset": 1629,
+        "end_offset": 1991,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "9ca05a1885df05e1",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 18,
+        "page_end": 18,
+        "section": null,
+        "offsets": {
+          "start": 1991,
+          "end": 2151
+        }
+      },
+      "text": "An additional\nadvisor supports the Board on education inequality.\nIn 2025, Noel Quinn, Chairman of Julius Baer Group,\nwas appointed Chairman of the Foundation. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 113
+      },
+      "metadata": {
+        "start_offset": 1991,
+        "end_offset": 2151,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "74776f6eff10825e",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 18,
+        "page_end": 18,
+        "section": null,
+        "offsets": {
+          "start": 2151,
+          "end": 3129
+        }
+      },
+      "text": "Larissa\nAlghisi stepped down from the Board after leaving\nthe company.\nThe Board defines the Foundation’s strategic focus,\npolicies and fund allocations. It ensures the effective\nand efficient use of resources; oversees and devel-\nops the Foundation’s strategy and organisation to-\ngether with the Management team; approves plans,\nbudgets and annual financial statements; ensures\nregulatory compliance; acknowledges audit reports;\nand approves funding decisions.\nThe Foundation’s Management runs daily operations\nand works to strengthen the Foundation’s impact\nin reducing wealth inequality. It strives to manage\nfinancial and professional resources effectively\nand efficiently; develops and maintains relationships\nwith internal and external stakeholders; defines\noperational objectives; and establishes clear processes and accountabilities.\nThe Investment Committee oversees the investment\nof the Foundation’s capital. Senior leaders from\nJulius Baer supervise the portfolio. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 114
+      },
+      "metadata": {
+        "start_offset": 2151,
+        "end_offset": 3129,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "244ad7b2e0b58004",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 18,
+        "page_end": 18,
+        "section": null,
+        "offsets": {
+          "start": 3129,
+          "end": 3991
+        }
+      },
+      "text": "The Foundation\noperates in line with the principles of the Swiss\nFoundation Code and reports to the Swiss Federal\nSupervisory Authority for Foundations (Eidgenös-\nsische Stiftungsaufsicht, ESA), ensuring regulatory\ncompliance and transparency. It is also a member\nof, and contributes to, various industry groups such\nas SwissFoundations, Latimpacto and AVPN.\nTo encourage collaborative giving, the Foundation\nprovides clients and employees with opportunities\nto support its work and partner organisations. This\napproach led to the establishment of the ‘Julius Bär\nStiftung Deutschland’ in 2019 and the launch of the\nJulius Baer Foundation UK collective fund in 2024.\nIn addition, donation channels have been created to\nenable direct support for partner organisations in\nBrazil, India and Spain, expanding opportunities for\ninternational philanthropic engagement.",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 115
+      },
+      "metadata": {
+        "start_offset": 3129,
+        "end_offset": 3991,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "f833aa413b5894ed",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 19,
+        "page_end": 19,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 393
+        }
+      },
+      "text": "36\n37\nFinancial information\nFinancial information\n2025\nCHF\n2024\nCHF\nAssets\nCash and cash equivalents\n1,753,501\n1,134,319\nReceivables from donation commitments\n876,000\n500,000\nOther short-term receivables\n28,981\n30,793\nOther short-term assets\n–\n48,000\nCurrent assets\n2,658,482\n1,713,112\nReceivables from donation commitments\n845,000\n150,000\nFinancial assets\nPortfolio at Bank Julius Baer & Co. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 116
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 393,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "63925a43798e3da3",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 19,
+        "page_end": 19,
+        "section": null,
+        "offsets": {
+          "start": 393,
+          "end": 1593
+        }
+      },
+      "text": "Ltd.\n8,472,160\n8,277,806\nNon-current assets\n9,317,160\n8,427,806\nTotal assets\n11,975,642\n10,140,918\n2025\nCHF\n2024\nCHF\nLiabilities and capital\nConfirmed contributions and donations\n7,780,000\n4,646,000\nAccrued liabilities and deferred income\n110,635\n175,338\nShort-term liabilities\n7,890,635\n4,821,338\nFund capital\n45\n345\nInitial capital\n250,000\n250,000\nFree capital\n3,834,962\n5,069,235\nOrganisation capital\n4,084,962\n5,319,235\nTotal liabilities and capital\n11,975,642\n10,140,918\nAs at 31 December 2025 *\n* with comparison to prior year’s figures\nFrom 1 January to 31 December 2025 *\n2025\nCHF\n2024\nCHF\nDonations received\n6,156,696\n4,283,797\nof which restricted\n2,395,285\n748,823\nof which free\n3,761,411\n3,534,974\nOperating income\n6,156,696\n4,283,797\nContributions and donations\n–7,590,810\n–3,533,668\nGeneral administration\n–92,635\n–98,622\nOperating expenses\n–7,683,445\n–3,632,290\nFinancial expenses\n–27,035\n–26,329\nFinancial income\n181,394\n135,277\nValuation result of securities\n137,817\n533,510\nFinancial result\n292,176\n642,458\nResult before change in fund capital\n–1,234,573\n1,293,965\nChange in fund capital\n300\n940\nAnnual result (before allocation to organisation capital)\n–1,234,273\n1,294,905\nAppropri",
+      "chunking": {
+        "strategy": "size_fallback",
+        "chunk_index": 117
+      },
+      "metadata": {
+        "start_offset": 393,
+        "end_offset": 1593,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "65f2156ef649f013",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 19,
+        "page_end": 19,
+        "section": null,
+        "offsets": {
+          "start": 1593,
+          "end": 2122
+        }
+      },
+      "text": "ation of available capital to free capital\n1,234,273\n–1,294,905\n0\n0\n* with comparison to prior year’s figures\nJulius Baer Foundation also prepared financial statements\nin accordance with Swiss GAAP FER 21.\nAccounting principles\n•\nThe accounts are prepared in Swiss Francs.\n•\n\u0007Receivables: Valuations are made at nominal values less\nrequired/necessary value adjustments.\n•\n\u0007Prepayments and accrued income: This item consists of\nassets resulting from the material and period accrual\nand deferral of individual expenses and income. ",
+      "chunking": {
+        "strategy": "size_fallback",
+        "chunk_index": 118
+      },
+      "metadata": {
+        "start_offset": 1593,
+        "end_offset": 2122,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "374568bc9590c06b",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 19,
+        "page_end": 19,
+        "section": null,
+        "offsets": {
+          "start": 2122,
+          "end": 2821
+        }
+      },
+      "text": "They are\nvalued at nominal value.\n•\n\u0007Financial assets: Securities are valued at market value.\nAccrued interest is considered to be part of the market value.\n•\n\u0007Confirmed contributions and donations: This item consists\nof the contributions already confirmed but not yet paid\nor amounts not yet paid to or drawn down by the project par-\nticipants as at the balance sheet date. These are valued at\nnominal value.\n•\n\u0007Accrued liabilities and deferred income: This item consists\nof liabilities resulting from the accrual and deferral of specific\nexpenses and income. These are valued at nominal value.\n•\n\u0007The valuation principles are the same as in the previous year.\nBalance sheet\nStatement of operations",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 119
+      },
+      "metadata": {
+        "start_offset": 2122,
+        "end_offset": 2821,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "9f984ebf991f1e64",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 20,
+        "page_end": 20,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 1179
+        }
+      },
+      "text": "38\n39\n2025\nCHF\n2024\nCHF\nCash inflow from donations\n4,585,696\n3,873,481\nCash outflow from donations confirmed previous year\n–2,524,703\n–2,421,583\nCash outflow from donations confirmed current year\n–1,956,510\n–916,728\nOther payments\n– 88,551\n–88,223\nCash inflow from other asset\n–\n–40,000\nCash flow from operating activities\n15,932\n406,947\nInvestments of financial assets\n–\n–\nDivestments of financial assets\n603,250\n250,000\nCash flow from investment activities\n603,250\n250,000\nChange in liquid funds\n619,182\n656,947\nReconciliation of change in liquid funds\nCash and cash equivalents as at 1 January\n1,134,319\n477,372\nCash and cash equivalents as at 31 December\n1,753,501\n1,134,319\nChange in liquid funds\n619,182\n656,947\n* with comparison to prior year’s figures\nFinancial information\nFinancial information\nCash flow statement *\nReview report\n\n© 2026 KPMG AG, a Swiss corporation, is a group company of KPMG Holding LLP, which is a\nmember of the KPMG global organization of independent firms affiliated with KPMG International\nLimited, a private English company limited by guarantee. All rights reserved.\n\nKPMG AG\nBadenerstrasse 172\nPO Box\nCH-8036 Zurich\n\n+41 58 249 31 31\nkpmg.ch\n\n",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 120
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 1179,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "dd4d176698878f3d",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 20,
+        "page_end": 20,
+        "section": null,
+        "offsets": {
+          "start": 1179,
+          "end": 2361
+        }
+      },
+      "text": "Review Report to the Board of Trustees of Julius Baer Foundation, Zurich\nWe have been engaged to review the financial statements (balance sheet, statement of operations, cashflow\nstatement and accounting principles, pages 36 to 38) of Julius Baer Foundation for the year ended\n31 December 2025.\n\nThese financial statements are the responsibility of the Board of Trustees. Our responsibility is to issue a report on\nthese financial statements based on our review.\n\nWe conducted our review in accordance with the Swiss Auditing Standard 910 „Engagements to Review Financial\nStatements”. This standard requires that we plan and perform the review to obtain limited assurance as to whether\nthe financial statements are free of material misstatement. A review is limited primarily to inquiries of company\npersonnel and analytical procedures applied to financial data and thus provides less assurance than an audit. We\nhave not performed an audit and, accordingly, we do not express an audit opinion.\n\nBased on our review, nothing has come to our attention that causes us to believe that the financial statements do\nnot comply with Swiss law and the company’s articles of incorporation.\n\n",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 121
+      },
+      "metadata": {
+        "start_offset": 1179,
+        "end_offset": 2361,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "5038d667e3c45333",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 20,
+        "page_end": 20,
+        "section": null,
+        "offsets": {
+          "start": 2361,
+          "end": 2467
+        }
+      },
+      "text": "KPMG AG\n\nCorina Wipfler\nLicensed Audit Expert\nSamuel X. Burri\nLicensed Audit Expert\n\nZurich, 27 April 2026",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 122
+      },
+      "metadata": {
+        "start_offset": 2361,
+        "end_offset": 2467,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "40a16eb5985dbf8a",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 21,
+        "page_end": 21,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 471
+        }
+      },
+      "text": "40\nWealth Inequality Initiative\nDiscover it all on\nwealth-inequality.net\nScan to read more on the\nKnowledge Hub\nScan to watch the interview\nScan to get in contact\nThe Wealth Inequality Initiative, launched by the Julius\nBaer Foundation in 2021, convenes experts, practitioners,\ncommunities and funders around the topic of wealth\ninequality, offering rich content, interviews, case studies\nand collaborative insights that make the complex topic\naccessible and actionable. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 123
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 471,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "47d6f2678859a2d4",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 21,
+        "page_end": 21,
+        "section": null,
+        "offsets": {
+          "start": 471,
+          "end": 1014
+        }
+      },
+      "text": "It serves as a catalyst for dialogue and cooperation by circulating knowledge, showcasing innovative projects and mobilising different actors\nto drive change and foster more equitable opportunities.\nFarewells and welcomes\nThe Julius Baer Foundation\nThe Julius Baer Foundation is proud to partner with organisations\nthat drive meaningful, lasting change. Our collaborations are\nshaped by defined time horizons, allowing us to create impact,\nbuild deep connections and gather valuable insights, while\nregularly making room for new changemakers. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 124
+      },
+      "metadata": {
+        "start_offset": 471,
+        "end_offset": 1014,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "eb405fd9a75509a0",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 21,
+        "page_end": 21,
+        "section": null,
+        "offsets": {
+          "start": 1014,
+          "end": 1401
+        }
+      },
+      "text": "In 2025, we concluded three partnerships and welcomed two new ones.\nWelcomes\nFarewells\n41\nJoblinge Hamburg, Germany (2019–2025)\nJoblinge Munich, Germany (2023–2025)\nJoblinge, co-funded with the ‘Julius Bär Stiftung Deutschland’,\nsupports Germany’s NEET youth (not in education, employment\nor training) in overcoming personal and structural barriers\nto help them enter the labour market. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 125
+      },
+      "metadata": {
+        "start_offset": 1014,
+        "end_offset": 1401,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "fac6dce15479d2ee",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 21,
+        "page_end": 21,
+        "section": null,
+        "offsets": {
+          "start": 1401,
+          "end": 1866
+        }
+      },
+      "text": "The organisation provides\ncoaching, skills training and direct support in securing appren-\nticeships and formal job placements. During the funding period,\nJoblinge Hamburg reached more than 1,800 young people\nfrom underserved backgrounds, with more than 1,200 receiving\ndirect support. The Julius Baer Foundation’s backing came\nat a pivotal moment in the organisation’s growth, and Joblinge is\ntoday firmly established across Germany, with 35 locations\nnationwide. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 126
+      },
+      "metadata": {
+        "start_offset": 1401,
+        "end_offset": 1866,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "738e6edc9d649cca",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 21,
+        "page_end": 21,
+        "section": null,
+        "offsets": {
+          "start": 1866,
+          "end": 2270
+        }
+      },
+      "text": "Joblinge’s Munich headquarters additionally devel-\noped and launched an online platform to coordinate the organisation’s extensive volunteer activities.\nISRD Manipur, India (2023–2025)\nIn Manipur, a landlocked state in India’s Northeast, many girls from\nmarginalised communities have historically been excluded from\nformal education, whether through early dropout or never having\nattended school at all. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 127
+      },
+      "metadata": {
+        "start_offset": 1866,
+        "end_offset": 2270,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "da41aeb693b65be4",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 21,
+        "page_end": 21,
+        "section": null,
+        "offsets": {
+          "start": 2270,
+          "end": 2771
+        }
+      },
+      "text": "This project, led by the Institute for\nSocial Research and Development (ISRD), supported their reinte-\ngration into the public education system through four Bridge\nEducation Centres that provided adapted learning and transition\nsupport. The Centres reached 633 girls, surpassing the original\ntarget, and more than 90% subsequently enrolled in public schools.\nISRD’s holistic approach, engaging families, educators, religious\nleaders and local authorities, proved essential to achieving these\nresults. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 128
+      },
+      "metadata": {
+        "start_offset": 2270,
+        "end_offset": 2771,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "16fa6b1f4a3e9213",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 21,
+        "page_end": 21,
+        "section": null,
+        "offsets": {
+          "start": 2771,
+          "end": 3504
+        }
+      },
+      "text": "Despite the persistent challenges of ongoing ethnic\nconflict and severe flooding, the ISRD team was able to continue\ntheir work throughout the project period.\nCOES, Chile (2022–2025)\nThe Centre for Social Conflict and Cohesion Studies (COES)\nis one of Chile’s leading research institutions on social inequality.\nOver three years, six scholars examined upward social mobility\npatterns across a broad range of social groups, including execu-\ntives, first-generation university graduates, migrants and In-\ndigenous people, drawing on a survey of 1,528 respondents and\n300 in-depth interviews. Among the key outputs are a bilingual\nWealth Inequality Glossary, extensive outreach materials and\nthe animated video Greater Social Mobility. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 129
+      },
+      "metadata": {
+        "start_offset": 2771,
+        "end_offset": 3504,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "ffed715a899cb68f",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 21,
+        "page_end": 21,
+        "section": null,
+        "offsets": {
+          "start": 3504,
+          "end": 4355
+        }
+      },
+      "text": "The findings were\npresented at, and served as the impetus for, the international\nconference The Future of Social Mobility in Santiago de Chile in\nDecember 2025, and will be accompanied by a COES publication.\nYEFI, Zambia (2025–2028)\nThe Young Emerging Farmers Initiative (YEFI) is the first organ-\nisation in Zambia dedicated exclusively to the needs of young\nfarmers aged 15 to 35, a generation that is central to the future\nof the country’s food systems yet often overlooked by main-\nstream agricultural support. YEFI strengthens the resilience of\nyoung small-scale farmers by promoting restorative farming\npractices and improving their access to markets. Through its No\nAgrochem project, young farmers receive training in agroeco-\nlogical methods that protect ecosystems, restore degraded soils\nand respond to growing demand for high-quality food. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 130
+      },
+      "metadata": {
+        "start_offset": 3504,
+        "end_offset": 4355,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "dde9113201b5fd2c",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 21,
+        "page_end": 21,
+        "section": null,
+        "offsets": {
+          "start": 4355,
+          "end": 5504
+        }
+      },
+      "text": "YEFI’s\nfood-system approach reinforces community networks, connects\nproducers with buyers and contributes to an enabling policy\nenvironment.\nRainforest Alliance, Colombia & Peru (2025–2028)\nThe Rainforest Alliance is a global organisation working at the\nintersection of environmental sustainability and rural livelihoods.\nThis project strengthens the organisational, economic and\nproductive capacities of small-scale coffee and cacao farmers in\nthe Amazon Basin of Colombia and Peru. Sustainable agriculture\nin this biodiversity-rich region supports livelihoods and forest\nconversation. With a particular emphasis on including women,\nyoung people and indigenous communities, the initiative promotes\nthe adoption of climate-smart, regenerative farming practices.\nIt also improves farmers’ access to credit and supports the instal-\nlation of new infrastructure, such as cacao drying and fermen-\ntation facilities. Together, these efforts aim to empower previously\nunderserved groups to increase their yields and meet the stan-\ndards required to access more profitable international markets.\nJoin Us\nAddressing wealth inequality\nis a shared endeavour. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 131
+      },
+      "metadata": {
+        "start_offset": 4355,
+        "end_offset": 5504,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "4237a712071dc344",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 21,
+        "page_end": 21,
+        "section": null,
+        "offsets": {
+          "start": 5504,
+          "end": 5981
+        }
+      },
+      "text": "Whether\nthrough ideas, collaboration or\nengagement, there are many ways\nto contribute. Explore how you\ncan get involved and be part of\nthe conversation. We would be\npleased to hear from you.\n“A Conversation With...”\nListen in on a conversation\nwith one of our partner organisa-\ntions from our ongoing series.\nIn this edition, Gqibelo Dandala,\nExecutive Director of One\nto One Africa reflects on how\ncommunity-led action is transforming lives in the Eastern Cape,\nSouth Africa. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 132
+      },
+      "metadata": {
+        "start_offset": 5504,
+        "end_offset": 5981,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "123a3d3aff3e9abc",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 21,
+        "page_end": 21,
+        "section": null,
+        "offsets": {
+          "start": 5981,
+          "end": 6593
+        }
+      },
+      "text": "With the Julius\nBaer Foundation’s support, the\nEnable-i project combines\npractical training for women seek-\ning income opportunities with\nearly childhood programmes that\nfoster cognitive and emotional\ndevelopment.\nKnowledge Hub\nThe Knowledge Hub serves as\na comprehensive resource centre\nthat brings together research,\nexpert interviews, case studies,\npodcasts and thematic articles\nexploring the causes, effects, and\npotential solutions to wealth\ninequality. It features diverse con-\ntent such as analyses of eco-\nnomic progress, examinations\nof social mobility dynamics and\nconversations with leading\nthinkers.",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 133
+      },
+      "metadata": {
+        "start_offset": 5981,
+        "end_offset": 6593,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "c26e935ecfd10f14",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 22,
+        "page_end": 22,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 346
+        }
+      },
+      "text": "The Julius Baer Group is present in around\n60 locations worldwide, including Zurich\n(Head Office), Abu Dhabi, Bangkok, Dubai, Dublin,\nFrankfurt, Geneva, Hong Kong, Lisbon, London,\nLuxembourg, Madrid, Mexico City, Milan, Monaco,\nMumbai, Santiago de Chile, Shanghai, Singapore,\nTel Aviv and Tokyo.\nJULIUS BAER FOUNDATION\nc/o Bank Julius Baer & Co. ",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 134
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 346,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "2e97dc1ff2e4c9f6",
+      "document_id": "overview/annual-report-2025",
+      "source": {
+        "file": "annual-report-2025.pdf",
+        "page_start": 22,
+        "page_end": 22,
+        "section": null,
+        "offsets": {
+          "start": 346,
+          "end": 788
+        }
+      },
+      "text": "Ltd.\nBahnhofstrasse 36\nP.O. Box\n8010 Zurich\nSwitzerland\nTelephone +41 (0) 58 888 4422\nFax +41 (0) 58 888 1122\nwww.juliusbaer.com/foundation\n© JULIUS BAER GROUP, 2026\nTo donate, please scan the QR code\nwith your mobile banking app.\nIf you are donating from outside of Switzerland,\nplease use the following bank details:\n\nIBAN: CH94 0851 5072 8789 4200 9\nSWIFT: BAERCHZZ\nNAME: Julius Baer Foundation,\nBahnhofstrasse 36, 8010 Zurich, Switzerland",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 135
+      },
+      "metadata": {
+        "start_offset": 346,
+        "end_offset": 788,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    }
+  ]
+}

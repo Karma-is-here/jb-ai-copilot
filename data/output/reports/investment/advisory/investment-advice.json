@@ -1,0 +1,873 @@
+{
+  "schema_version": "1.0",
+  "document": "investment\\advisory\\investment-advice.jsonl",
+  "page_count": 4,
+  "question_count": 26,
+  "summaries": [
+    {
+      "strategy": "fixed",
+      "chunks": 18,
+      "mean_chars": 1063.3,
+      "median_chars": 1200.0,
+      "under_100_chars": 0,
+      "recall_at_1": 0.5384615384615384,
+      "recall_at_3": 0.7692307692307693,
+      "recall_at_5": 0.7692307692307693,
+      "mrr": 0.6474358974358975
+    },
+    {
+      "strategy": "recursive",
+      "chunks": 16,
+      "mean_chars": 1064.9,
+      "median_chars": 1163.0,
+      "under_100_chars": 0,
+      "recall_at_1": 0.5,
+      "recall_at_3": 0.7692307692307693,
+      "recall_at_5": 0.7692307692307693,
+      "mrr": 0.6119329388560157
+    },
+    {
+      "strategy": "semantic",
+      "chunks": 26,
+      "mean_chars": 655.3,
+      "median_chars": 673.5,
+      "under_100_chars": 0,
+      "recall_at_1": 0.46153846153846156,
+      "recall_at_3": 0.6538461538461539,
+      "recall_at_5": 0.8076923076923077,
+      "mrr": 0.5878205128205128
+    },
+    {
+      "strategy": "structural",
+      "chunks": 47,
+      "mean_chars": 362.5,
+      "median_chars": 160,
+      "under_100_chars": 17,
+      "recall_at_1": 0.6153846153846154,
+      "recall_at_3": 0.6923076923076923,
+      "recall_at_5": 0.7307692307692307,
+      "mrr": 0.6634615384615384
+    }
+  ],
+  "selection": {
+    "selected_strategy": "structural",
+    "selection_score": 0.664904,
+    "selection_reason": "Selected the highest-scoring strategy among candidates that passed the chunk-quality gates using available retrieval metrics.",
+    "selected_metrics": {
+      "strategy": "structural",
+      "chunks": 47,
+      "mean_chars": 362.5,
+      "median_chars": 160.0,
+      "under_100_chars": 17,
+      "recall_at_1": 0.6153846153846154,
+      "recall_at_3": 0.6923076923076923,
+      "recall_at_5": 0.7307692307692307,
+      "mrr": 0.6634615384615384
+    },
+    "candidates": [
+      {
+        "strategy": "structural",
+        "score": 0.664904,
+        "metrics": {
+          "strategy": "structural",
+          "chunks": 47,
+          "mean_chars": 362.5,
+          "median_chars": 160.0,
+          "under_100_chars": 17,
+          "recall_at_1": 0.6153846153846154,
+          "recall_at_3": 0.6923076923076923,
+          "recall_at_5": 0.7307692307692307,
+          "mrr": 0.6634615384615384
+        },
+        "under_100_ratio": 0.3617
+      },
+      {
+        "strategy": "fixed",
+        "score": 0.657372,
+        "metrics": {
+          "strategy": "fixed",
+          "chunks": 18,
+          "mean_chars": 1063.3,
+          "median_chars": 1200.0,
+          "under_100_chars": 0,
+          "recall_at_1": 0.5384615384615384,
+          "recall_at_3": 0.7692307692307693,
+          "recall_at_5": 0.7692307692307693,
+          "mrr": 0.6474358974358975
+        },
+        "under_100_ratio": 0.0
+      },
+      {
+        "strategy": "recursive",
+        "score": 0.633407,
+        "metrics": {
+          "strategy": "recursive",
+          "chunks": 16,
+          "mean_chars": 1064.9,
+          "median_chars": 1163.0,
+          "under_100_chars": 0,
+          "recall_at_1": 0.5,
+          "recall_at_3": 0.7692307692307693,
+          "recall_at_5": 0.7692307692307693,
+          "mrr": 0.6119329388560157
+        },
+        "under_100_ratio": 0.0
+      },
+      {
+        "strategy": "semantic",
+        "score": 0.596122,
+        "metrics": {
+          "strategy": "semantic",
+          "chunks": 26,
+          "mean_chars": 655.3,
+          "median_chars": 673.5,
+          "under_100_chars": 0,
+          "recall_at_1": 0.46153846153846156,
+          "recall_at_3": 0.6538461538461539,
+          "recall_at_5": 0.8076923076923077,
+          "mrr": 0.5878205128205128
+        },
+        "under_100_ratio": 0.0
+      }
+    ],
+    "rejected_candidates": []
+  },
+  "per_question": {
+    "fixed": [
+      {
+        "question": "What kinds of recommendations can the Bank make?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "81f2927d5fa3a79a"
+      },
+      {
+        "question": "What does a Hold recommendation mean?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "81f2927d5fa3a79a"
+      },
+      {
+        "question": "Who decides whether to follow an investment recommendation?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "81f2927d5fa3a79a"
+      },
+      {
+        "question": "When is an investment recommendation valid?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "81f2927d5fa3a79a"
+      },
+      {
+        "question": "Who must monitor the performance of purchased financial instruments?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "df2dbbc6e777a52a"
+      },
+      {
+        "question": "What are examples of financial instruments?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "df2dbbc6e777a52a"
+      },
+      {
+        "question": "What agreement is needed before the Bank can provide investment advice?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "df2dbbc6e777a52a"
+      },
+      {
+        "question": "What information does the Bank collect about a client's financial situation?",
+        "expected_page": 2,
+        "hit_rank": 3,
+        "hit_page": 2,
+        "hit_chunk_id": "df2dbbc6e777a52a"
+      },
+      {
+        "question": "What does loss-bearing capacity refer to?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "af656357e3b5197b"
+      },
+      {
+        "question": "What sustainability preferences may the Bank ask about?",
+        "expected_page": 2,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "When will the Bank give an investment recommendation?",
+        "expected_page": 2,
+        "hit_rank": 6,
+        "hit_page": 2,
+        "hit_chunk_id": "af656357e3b5197b"
+      },
+      {
+        "question": "What written document summarizes the recommendation and its suitability?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "a64423c1b1db7543"
+      },
+      {
+        "question": "What happens if an instrument is deemed inappropriate or information is missing?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "a64423c1b1db7543"
+      },
+      {
+        "question": "What fees do clients pay for investment advice?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "3a256940b5c0008b"
+      },
+      {
+        "question": "For how long is the Advisory Agreement concluded?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "3a256940b5c0008b"
+      },
+      {
+        "question": "When can a client revoke the Advisory Agreement within 14 days?",
+        "expected_page": 3,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "How soon does the Bank confirm receipt of a written complaint?",
+        "expected_page": 3,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What is the latest stated timeframe for answering a complaint?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "83dc79c2d6d4f09f"
+      },
+      {
+        "question": "How quickly does the Bank provide feedback on complaints relating to payment services?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "83dc79c2d6d4f09f"
+      },
+      {
+        "question": "Which authority can receive a complaint if the client is dissatisfied with the Bank's response?",
+        "expected_page": 3,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What are the four accessibility principles described in the document?",
+        "expected_page": 3,
+        "hit_rank": 3,
+        "hit_page": 3,
+        "hit_chunk_id": "344ea564ce398953"
+      },
+      {
+        "question": "How can the Bank provide the Advisory Agreement to a client?",
+        "expected_page": 3,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "How can a client transmit an order to buy or sell financial instruments?",
+        "expected_page": 4,
+        "hit_rank": 2,
+        "hit_page": 4,
+        "hit_chunk_id": "4f51d39f4b167144"
+      },
+      {
+        "question": "What language level does the document say it does not exceed?",
+        "expected_page": 4,
+        "hit_rank": 1,
+        "hit_page": 4,
+        "hit_chunk_id": "4f51d39f4b167144"
+      },
+      {
+        "question": "Which format may make documents accessible to screen readers?",
+        "expected_page": 4,
+        "hit_rank": 1,
+        "hit_page": 4,
+        "hit_chunk_id": "83fdfdc8162b5469"
+      },
+      {
+        "question": "Which authority is responsible for accessibility surveillance in Luxembourg?",
+        "expected_page": 4,
+        "hit_rank": 1,
+        "hit_page": 4,
+        "hit_chunk_id": "83fdfdc8162b5469"
+      }
+    ],
+    "recursive": [
+      {
+        "question": "What kinds of recommendations can the Bank make?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "ba5b84f0dbccd3f3"
+      },
+      {
+        "question": "What does a Hold recommendation mean?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "ba5b84f0dbccd3f3"
+      },
+      {
+        "question": "Who decides whether to follow an investment recommendation?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "ba5b84f0dbccd3f3"
+      },
+      {
+        "question": "When is an investment recommendation valid?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "ba5b84f0dbccd3f3"
+      },
+      {
+        "question": "Who must monitor the performance of purchased financial instruments?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "8bedc384ac9766b2"
+      },
+      {
+        "question": "What are examples of financial instruments?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "8bedc384ac9766b2"
+      },
+      {
+        "question": "What agreement is needed before the Bank can provide investment advice?",
+        "expected_page": 2,
+        "hit_rank": 3,
+        "hit_page": 2,
+        "hit_chunk_id": "8bedc384ac9766b2"
+      },
+      {
+        "question": "What information does the Bank collect about a client's financial situation?",
+        "expected_page": 2,
+        "hit_rank": 3,
+        "hit_page": 2,
+        "hit_chunk_id": "8bedc384ac9766b2"
+      },
+      {
+        "question": "What does loss-bearing capacity refer to?",
+        "expected_page": 2,
+        "hit_rank": 3,
+        "hit_page": 2,
+        "hit_chunk_id": "8bedc384ac9766b2"
+      },
+      {
+        "question": "What sustainability preferences may the Bank ask about?",
+        "expected_page": 2,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "When will the Bank give an investment recommendation?",
+        "expected_page": 2,
+        "hit_rank": 3,
+        "hit_page": 2,
+        "hit_chunk_id": "85d8317b882b09f2"
+      },
+      {
+        "question": "What written document summarizes the recommendation and its suitability?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "b95a6d7b4d96ec7e"
+      },
+      {
+        "question": "What happens if an instrument is deemed inappropriate or information is missing?",
+        "expected_page": 2,
+        "hit_rank": 13,
+        "hit_page": 2,
+        "hit_chunk_id": "b95a6d7b4d96ec7e"
+      },
+      {
+        "question": "What fees do clients pay for investment advice?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "b95a6d7b4d96ec7e"
+      },
+      {
+        "question": "For how long is the Advisory Agreement concluded?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "951ad8512668e99d"
+      },
+      {
+        "question": "When can a client revoke the Advisory Agreement within 14 days?",
+        "expected_page": 3,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "How soon does the Bank confirm receipt of a written complaint?",
+        "expected_page": 3,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What is the latest stated timeframe for answering a complaint?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "026ad4e703c6e083"
+      },
+      {
+        "question": "How quickly does the Bank provide feedback on complaints relating to payment services?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "026ad4e703c6e083"
+      },
+      {
+        "question": "Which authority can receive a complaint if the client is dissatisfied with the Bank's response?",
+        "expected_page": 3,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What are the four accessibility principles described in the document?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "50a3cd1946e6b6e5"
+      },
+      {
+        "question": "How can the Bank provide the Advisory Agreement to a client?",
+        "expected_page": 3,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "How can a client transmit an order to buy or sell financial instruments?",
+        "expected_page": 4,
+        "hit_rank": 1,
+        "hit_page": 4,
+        "hit_chunk_id": "cf79947651572f47"
+      },
+      {
+        "question": "What language level does the document say it does not exceed?",
+        "expected_page": 4,
+        "hit_rank": 1,
+        "hit_page": 4,
+        "hit_chunk_id": "cf79947651572f47"
+      },
+      {
+        "question": "Which format may make documents accessible to screen readers?",
+        "expected_page": 4,
+        "hit_rank": 1,
+        "hit_page": 4,
+        "hit_chunk_id": "692b1a92db68e715"
+      },
+      {
+        "question": "Which authority is responsible for accessibility surveillance in Luxembourg?",
+        "expected_page": 4,
+        "hit_rank": 1,
+        "hit_page": 4,
+        "hit_chunk_id": "692b1a92db68e715"
+      }
+    ],
+    "semantic": [
+      {
+        "question": "What kinds of recommendations can the Bank make?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "80746fbc72de87a4"
+      },
+      {
+        "question": "What does a Hold recommendation mean?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "80746fbc72de87a4"
+      },
+      {
+        "question": "Who decides whether to follow an investment recommendation?",
+        "expected_page": 2,
+        "hit_rank": 4,
+        "hit_page": 2,
+        "hit_chunk_id": "7eecf638da96b80b"
+      },
+      {
+        "question": "When is an investment recommendation valid?",
+        "expected_page": 2,
+        "hit_rank": 5,
+        "hit_page": 2,
+        "hit_chunk_id": "7eecf638da96b80b"
+      },
+      {
+        "question": "Who must monitor the performance of purchased financial instruments?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "312853d531cfe0f9"
+      },
+      {
+        "question": "What are examples of financial instruments?",
+        "expected_page": 2,
+        "hit_rank": 4,
+        "hit_page": 2,
+        "hit_chunk_id": "0563a277706e27c2"
+      },
+      {
+        "question": "What agreement is needed before the Bank can provide investment advice?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "0563a277706e27c2"
+      },
+      {
+        "question": "What information does the Bank collect about a client's financial situation?",
+        "expected_page": 2,
+        "hit_rank": 3,
+        "hit_page": 2,
+        "hit_chunk_id": "0563a277706e27c2"
+      },
+      {
+        "question": "What does loss-bearing capacity refer to?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "4f8e0992e8cf2711"
+      },
+      {
+        "question": "What sustainability preferences may the Bank ask about?",
+        "expected_page": 2,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "When will the Bank give an investment recommendation?",
+        "expected_page": 2,
+        "hit_rank": 4,
+        "hit_page": 2,
+        "hit_chunk_id": "4f8e0992e8cf2711"
+      },
+      {
+        "question": "What written document summarizes the recommendation and its suitability?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "589c0c44ad2ac7cd"
+      },
+      {
+        "question": "What happens if an instrument is deemed inappropriate or information is missing?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "35bc9c89a5da671f"
+      },
+      {
+        "question": "What fees do clients pay for investment advice?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "86a73dc933afd0c3"
+      },
+      {
+        "question": "For how long is the Advisory Agreement concluded?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "c5d1deece190a74b"
+      },
+      {
+        "question": "When can a client revoke the Advisory Agreement within 14 days?",
+        "expected_page": 3,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "How soon does the Bank confirm receipt of a written complaint?",
+        "expected_page": 3,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What is the latest stated timeframe for answering a complaint?",
+        "expected_page": 3,
+        "hit_rank": 2,
+        "hit_page": 3,
+        "hit_chunk_id": "25e730897d7e6bf7"
+      },
+      {
+        "question": "How quickly does the Bank provide feedback on complaints relating to payment services?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "7f2c3ec6bbed5437"
+      },
+      {
+        "question": "Which authority can receive a complaint if the client is dissatisfied with the Bank's response?",
+        "expected_page": 3,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What are the four accessibility principles described in the document?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "ab9719903f49b0aa"
+      },
+      {
+        "question": "How can the Bank provide the Advisory Agreement to a client?",
+        "expected_page": 3,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "How can a client transmit an order to buy or sell financial instruments?",
+        "expected_page": 4,
+        "hit_rank": 2,
+        "hit_page": 4,
+        "hit_chunk_id": "b741c8c0e3b703f0"
+      },
+      {
+        "question": "What language level does the document say it does not exceed?",
+        "expected_page": 4,
+        "hit_rank": 1,
+        "hit_page": 4,
+        "hit_chunk_id": "b741c8c0e3b703f0"
+      },
+      {
+        "question": "Which format may make documents accessible to screen readers?",
+        "expected_page": 4,
+        "hit_rank": 1,
+        "hit_page": 4,
+        "hit_chunk_id": "bee12d9e90795364"
+      },
+      {
+        "question": "Which authority is responsible for accessibility surveillance in Luxembourg?",
+        "expected_page": 4,
+        "hit_rank": 1,
+        "hit_page": 4,
+        "hit_chunk_id": "504d8d296cae7db1"
+      }
+    ],
+    "structural": [
+      {
+        "question": "What kinds of recommendations can the Bank make?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "ea304afdaef4ee89"
+      },
+      {
+        "question": "What does a Hold recommendation mean?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "ea304afdaef4ee89"
+      },
+      {
+        "question": "Who decides whether to follow an investment recommendation?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "ea304afdaef4ee89"
+      },
+      {
+        "question": "When is an investment recommendation valid?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "ea304afdaef4ee89"
+      },
+      {
+        "question": "Who must monitor the performance of purchased financial instruments?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "ea304afdaef4ee89"
+      },
+      {
+        "question": "What are examples of financial instruments?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "2096eda1f2fdc9c8"
+      },
+      {
+        "question": "What agreement is needed before the Bank can provide investment advice?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "0589ac5ef36cbad4"
+      },
+      {
+        "question": "What information does the Bank collect about a client's financial situation?",
+        "expected_page": 2,
+        "hit_rank": 4,
+        "hit_page": 2,
+        "hit_chunk_id": "0589ac5ef36cbad4"
+      },
+      {
+        "question": "What does loss-bearing capacity refer to?",
+        "expected_page": 2,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What sustainability preferences may the Bank ask about?",
+        "expected_page": 2,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "When will the Bank give an investment recommendation?",
+        "expected_page": 2,
+        "hit_rank": 6,
+        "hit_page": 2,
+        "hit_chunk_id": "1d2d3f23d97dc3f3"
+      },
+      {
+        "question": "What written document summarizes the recommendation and its suitability?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "1d2d3f23d97dc3f3"
+      },
+      {
+        "question": "What happens if an instrument is deemed inappropriate or information is missing?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "17cc90c9f3b7b58b"
+      },
+      {
+        "question": "What fees do clients pay for investment advice?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "3b894034d249ae3c"
+      },
+      {
+        "question": "For how long is the Advisory Agreement concluded?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "94be8b5e87987c9d"
+      },
+      {
+        "question": "When can a client revoke the Advisory Agreement within 14 days?",
+        "expected_page": 3,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "How soon does the Bank confirm receipt of a written complaint?",
+        "expected_page": 3,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What is the latest stated timeframe for answering a complaint?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "1c61a4f63aa23f69"
+      },
+      {
+        "question": "How quickly does the Bank provide feedback on complaints relating to payment services?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "1c61a4f63aa23f69"
+      },
+      {
+        "question": "Which authority can receive a complaint if the client is dissatisfied with the Bank's response?",
+        "expected_page": 3,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What are the four accessibility principles described in the document?",
+        "expected_page": 3,
+        "hit_rank": 3,
+        "hit_page": 3,
+        "hit_chunk_id": "f54df10dae735ba5"
+      },
+      {
+        "question": "How can the Bank provide the Advisory Agreement to a client?",
+        "expected_page": 3,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "How can a client transmit an order to buy or sell financial instruments?",
+        "expected_page": 4,
+        "hit_rank": 2,
+        "hit_page": 4,
+        "hit_chunk_id": "488c7d3575d60713"
+      },
+      {
+        "question": "What language level does the document say it does not exceed?",
+        "expected_page": 4,
+        "hit_rank": 1,
+        "hit_page": 4,
+        "hit_chunk_id": "488c7d3575d60713"
+      },
+      {
+        "question": "Which format may make documents accessible to screen readers?",
+        "expected_page": 4,
+        "hit_rank": 1,
+        "hit_page": 4,
+        "hit_chunk_id": "c5855fdd827519e0"
+      },
+      {
+        "question": "Which authority is responsible for accessibility surveillance in Luxembourg?",
+        "expected_page": 4,
+        "hit_rank": 1,
+        "hit_page": 4,
+        "hit_chunk_id": "85b97badd4d4c3c6"
+      }
+    ]
+  }
+}

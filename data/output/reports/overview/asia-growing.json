@@ -1,0 +1,649 @@
+{
+  "schema_version": "1.0",
+  "document": "overview\\asia-growing.jsonl",
+  "page_count": 4,
+  "question_count": 18,
+  "summaries": [
+    {
+      "strategy": "fixed",
+      "chunks": 9,
+      "mean_chars": 899.6,
+      "median_chars": 1200,
+      "under_100_chars": 0,
+      "recall_at_1": 0.5,
+      "recall_at_3": 0.7222222222222222,
+      "recall_at_5": 0.9444444444444444,
+      "mrr": 0.6453703703703704
+    },
+    {
+      "strategy": "recursive",
+      "chunks": 9,
+      "mean_chars": 816.2,
+      "median_chars": 1009,
+      "under_100_chars": 0,
+      "recall_at_1": 0.6111111111111112,
+      "recall_at_3": 0.8888888888888888,
+      "recall_at_5": 0.8888888888888888,
+      "mrr": 0.7486772486772487
+    },
+    {
+      "strategy": "semantic",
+      "chunks": 9,
+      "mean_chars": 816.2,
+      "median_chars": 950,
+      "under_100_chars": 0,
+      "recall_at_1": 0.6111111111111112,
+      "recall_at_3": 0.9444444444444444,
+      "recall_at_5": 0.9444444444444444,
+      "mrr": 0.7685185185185185
+    },
+    {
+      "strategy": "structural",
+      "chunks": 18,
+      "mean_chars": 408.1,
+      "median_chars": 199.0,
+      "under_100_chars": 6,
+      "recall_at_1": 0.5555555555555556,
+      "recall_at_3": 0.7777777777777778,
+      "recall_at_5": 0.8888888888888888,
+      "mrr": 0.6916666666666667
+    }
+  ],
+  "selection": {
+    "selected_strategy": "semantic",
+    "selection_score": 0.78287,
+    "selection_reason": "Selected the highest-scoring strategy among candidates that passed the chunk-quality gates using available retrieval metrics.",
+    "selected_metrics": {
+      "strategy": "semantic",
+      "chunks": 9,
+      "mean_chars": 816.2,
+      "median_chars": 950.0,
+      "under_100_chars": 0,
+      "recall_at_1": 0.6111111111111112,
+      "recall_at_3": 0.9444444444444444,
+      "recall_at_5": 0.9444444444444444,
+      "mrr": 0.7685185185185185
+    },
+    "candidates": [
+      {
+        "strategy": "semantic",
+        "score": 0.78287,
+        "metrics": {
+          "strategy": "semantic",
+          "chunks": 9,
+          "mean_chars": 816.2,
+          "median_chars": 950.0,
+          "under_100_chars": 0,
+          "recall_at_1": 0.6111111111111112,
+          "recall_at_3": 0.9444444444444444,
+          "recall_at_5": 0.9444444444444444,
+          "mrr": 0.7685185185185185
+        },
+        "under_100_ratio": 0.0
+      },
+      {
+        "strategy": "recursive",
+        "score": 0.756481,
+        "metrics": {
+          "strategy": "recursive",
+          "chunks": 9,
+          "mean_chars": 816.2,
+          "median_chars": 1009.0,
+          "under_100_chars": 0,
+          "recall_at_1": 0.6111111111111112,
+          "recall_at_3": 0.8888888888888888,
+          "recall_at_5": 0.8888888888888888,
+          "mrr": 0.7486772486772487
+        },
+        "under_100_ratio": 0.0
+      },
+      {
+        "strategy": "structural",
+        "score": 0.697639,
+        "metrics": {
+          "strategy": "structural",
+          "chunks": 18,
+          "mean_chars": 408.1,
+          "median_chars": 199.0,
+          "under_100_chars": 6,
+          "recall_at_1": 0.5555555555555556,
+          "recall_at_3": 0.7777777777777778,
+          "recall_at_5": 0.8888888888888888,
+          "mrr": 0.6916666666666667
+        },
+        "under_100_ratio": 0.3333
+      },
+      {
+        "strategy": "fixed",
+        "score": 0.661991,
+        "metrics": {
+          "strategy": "fixed",
+          "chunks": 9,
+          "mean_chars": 899.6,
+          "median_chars": 1200.0,
+          "under_100_chars": 0,
+          "recall_at_1": 0.5,
+          "recall_at_3": 0.7222222222222222,
+          "recall_at_5": 0.9444444444444444,
+          "mrr": 0.6453703703703704
+        },
+        "under_100_ratio": 0.0
+      }
+    ],
+    "rejected_candidates": []
+  },
+  "per_question": {
+    "fixed": [
+      {
+        "question": "What proportion of Julius Baer’s total assets under management did Asia account for?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "44a0e8154cbacf60"
+      },
+      {
+        "question": "Which Asian markets made strong contributions to Julius Baer’s record annual profits in 2021?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "44a0e8154cbacf60"
+      },
+      {
+        "question": "Where is Julius Baer’s regional management based in Asia?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "4f9f66aa6732ac91"
+      },
+      {
+        "question": "Which locations and arrangements does Julius Baer use to serve the diverse Asian region?",
+        "expected_page": 2,
+        "hit_rank": 3,
+        "hit_page": 2,
+        "hit_chunk_id": "59e8473d88d69d70"
+      },
+      {
+        "question": "Which client segment does Julius Baer focus on as a wealth manager in Asia?",
+        "expected_page": 2,
+        "hit_rank": 3,
+        "hit_page": 2,
+        "hit_chunk_id": "59e8473d88d69d70"
+      },
+      {
+        "question": "What factors does Jimmy Lee say differentiate Julius Baer in Asia?",
+        "expected_page": 2,
+        "hit_rank": 4,
+        "hit_page": 2,
+        "hit_chunk_id": "59e8473d88d69d70"
+      },
+      {
+        "question": "Which topics has Julius Baer been providing more advice on as wealthy individuals’ priorities change?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "e3c29a0ab600cb14"
+      },
+      {
+        "question": "When did Julius Baer institute its new Single Family Office in Singapore?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "07392f858e23c2fa"
+      },
+      {
+        "question": "What does Julius Baer’s Single Family Office support Asian clients with?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "07392f858e23c2fa"
+      },
+      {
+        "question": "What was set up in Singapore to underline the importance of innovation in Asia for Julius Baer?",
+        "expected_page": 3,
+        "hit_rank": 2,
+        "hit_page": 3,
+        "hit_chunk_id": "07392f858e23c2fa"
+      },
+      {
+        "question": "According to the article, what share of the world’s population lives in Asia?",
+        "expected_page": 3,
+        "hit_rank": 4,
+        "hit_page": 3,
+        "hit_chunk_id": "aab22c4f6e4871bf"
+      },
+      {
+        "question": "How many people escaped poverty in Asia over the past three decades, according to the article?",
+        "expected_page": 3,
+        "hit_rank": 5,
+        "hit_page": 3,
+        "hit_chunk_id": "aab22c4f6e4871bf"
+      },
+      {
+        "question": "Which region houses the largest number of high and ultra-high net worth individuals globally, according to Julius Baer’s Global Wealth and Lifestyle Report?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "aab22c4f6e4871bf"
+      },
+      {
+        "question": "In which years was Julius Baer granted banking licenses in Singapore and Hong Kong?",
+        "expected_page": 3,
+        "hit_rank": 4,
+        "hit_page": 3,
+        "hit_chunk_id": "aab22c4f6e4871bf"
+      },
+      {
+        "question": "What does the Digital Advisory Suite (DiAS) provide relationship managers with?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "12cfbab5c97f9978"
+      },
+      {
+        "question": "What award did Julius Baer receive for its Digital Advisory Suite (DiAS)?",
+        "expected_page": 4,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "Across how many major exchanges can clients booked in Singapore and Hong Kong trade securities through Julius Baer Mobile?",
+        "expected_page": 4,
+        "hit_rank": 1,
+        "hit_page": 4,
+        "hit_chunk_id": "4bfe286762ab94ea"
+      },
+      {
+        "question": "What is Julius Baer’s stated purpose in its commitment to clients and team development?",
+        "expected_page": 4,
+        "hit_rank": 1,
+        "hit_page": 4,
+        "hit_chunk_id": "4bfe286762ab94ea"
+      }
+    ],
+    "recursive": [
+      {
+        "question": "What proportion of Julius Baer’s total assets under management did Asia account for?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "0f259694022ab91b"
+      },
+      {
+        "question": "Which Asian markets made strong contributions to Julius Baer’s record annual profits in 2021?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "0f259694022ab91b"
+      },
+      {
+        "question": "Where is Julius Baer’s regional management based in Asia?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "a3c6053de335c330"
+      },
+      {
+        "question": "Which locations and arrangements does Julius Baer use to serve the diverse Asian region?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "380de6e290452531"
+      },
+      {
+        "question": "Which client segment does Julius Baer focus on as a wealth manager in Asia?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "380de6e290452531"
+      },
+      {
+        "question": "What factors does Jimmy Lee say differentiate Julius Baer in Asia?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "380de6e290452531"
+      },
+      {
+        "question": "Which topics has Julius Baer been providing more advice on as wealthy individuals’ priorities change?",
+        "expected_page": 2,
+        "hit_rank": 7,
+        "hit_page": 2,
+        "hit_chunk_id": "c2c5e21cc92b7b5b"
+      },
+      {
+        "question": "When did Julius Baer institute its new Single Family Office in Singapore?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "d646912672c7fe5d"
+      },
+      {
+        "question": "What does Julius Baer’s Single Family Office support Asian clients with?",
+        "expected_page": 3,
+        "hit_rank": 3,
+        "hit_page": 3,
+        "hit_chunk_id": "d646912672c7fe5d"
+      },
+      {
+        "question": "What was set up in Singapore to underline the importance of innovation in Asia for Julius Baer?",
+        "expected_page": 3,
+        "hit_rank": 2,
+        "hit_page": 3,
+        "hit_chunk_id": "d646912672c7fe5d"
+      },
+      {
+        "question": "According to the article, what share of the world’s population lives in Asia?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "009207686bbf08f8"
+      },
+      {
+        "question": "How many people escaped poverty in Asia over the past three decades, according to the article?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "009207686bbf08f8"
+      },
+      {
+        "question": "Which region houses the largest number of high and ultra-high net worth individuals globally, according to Julius Baer’s Global Wealth and Lifestyle Report?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "009207686bbf08f8"
+      },
+      {
+        "question": "In which years was Julius Baer granted banking licenses in Singapore and Hong Kong?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "009207686bbf08f8"
+      },
+      {
+        "question": "What does the Digital Advisory Suite (DiAS) provide relationship managers with?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "3dbdcabc16f2a821"
+      },
+      {
+        "question": "What award did Julius Baer receive for its Digital Advisory Suite (DiAS)?",
+        "expected_page": 4,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "Across how many major exchanges can clients booked in Singapore and Hong Kong trade securities through Julius Baer Mobile?",
+        "expected_page": 4,
+        "hit_rank": 2,
+        "hit_page": 4,
+        "hit_chunk_id": "0df9f63aeb9c255b"
+      },
+      {
+        "question": "What is Julius Baer’s stated purpose in its commitment to clients and team development?",
+        "expected_page": 4,
+        "hit_rank": 1,
+        "hit_page": 4,
+        "hit_chunk_id": "0df9f63aeb9c255b"
+      }
+    ],
+    "semantic": [
+      {
+        "question": "What proportion of Julius Baer’s total assets under management did Asia account for?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "6fe540d535993af6"
+      },
+      {
+        "question": "Which Asian markets made strong contributions to Julius Baer’s record annual profits in 2021?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "6fe540d535993af6"
+      },
+      {
+        "question": "Where is Julius Baer’s regional management based in Asia?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "d2adb099f7c7f608"
+      },
+      {
+        "question": "Which locations and arrangements does Julius Baer use to serve the diverse Asian region?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "f4301661088442d3"
+      },
+      {
+        "question": "Which client segment does Julius Baer focus on as a wealth manager in Asia?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "f4301661088442d3"
+      },
+      {
+        "question": "What factors does Jimmy Lee say differentiate Julius Baer in Asia?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "f4301661088442d3"
+      },
+      {
+        "question": "Which topics has Julius Baer been providing more advice on as wealthy individuals’ priorities change?",
+        "expected_page": 2,
+        "hit_rank": 3,
+        "hit_page": 2,
+        "hit_chunk_id": "a7d6b3b3da625621"
+      },
+      {
+        "question": "When did Julius Baer institute its new Single Family Office in Singapore?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "323ba09cf9b86bb2"
+      },
+      {
+        "question": "What does Julius Baer’s Single Family Office support Asian clients with?",
+        "expected_page": 3,
+        "hit_rank": 2,
+        "hit_page": 3,
+        "hit_chunk_id": "323ba09cf9b86bb2"
+      },
+      {
+        "question": "What was set up in Singapore to underline the importance of innovation in Asia for Julius Baer?",
+        "expected_page": 3,
+        "hit_rank": 2,
+        "hit_page": 3,
+        "hit_chunk_id": "323ba09cf9b86bb2"
+      },
+      {
+        "question": "According to the article, what share of the world’s population lives in Asia?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "dbf9f628e687fd12"
+      },
+      {
+        "question": "How many people escaped poverty in Asia over the past three decades, according to the article?",
+        "expected_page": 3,
+        "hit_rank": 2,
+        "hit_page": 3,
+        "hit_chunk_id": "dbf9f628e687fd12"
+      },
+      {
+        "question": "Which region houses the largest number of high and ultra-high net worth individuals globally, according to Julius Baer’s Global Wealth and Lifestyle Report?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "dbf9f628e687fd12"
+      },
+      {
+        "question": "In which years was Julius Baer granted banking licenses in Singapore and Hong Kong?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "dbf9f628e687fd12"
+      },
+      {
+        "question": "What does the Digital Advisory Suite (DiAS) provide relationship managers with?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "512201fc8aded838"
+      },
+      {
+        "question": "What award did Julius Baer receive for its Digital Advisory Suite (DiAS)?",
+        "expected_page": 4,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "Across how many major exchanges can clients booked in Singapore and Hong Kong trade securities through Julius Baer Mobile?",
+        "expected_page": 4,
+        "hit_rank": 1,
+        "hit_page": 4,
+        "hit_chunk_id": "17239ec62be4ea48"
+      },
+      {
+        "question": "What is Julius Baer’s stated purpose in its commitment to clients and team development?",
+        "expected_page": 4,
+        "hit_rank": 1,
+        "hit_page": 4,
+        "hit_chunk_id": "a330208f2512e42a"
+      }
+    ],
+    "structural": [
+      {
+        "question": "What proportion of Julius Baer’s total assets under management did Asia account for?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "cef93be06c6ee7ec"
+      },
+      {
+        "question": "Which Asian markets made strong contributions to Julius Baer’s record annual profits in 2021?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "cef93be06c6ee7ec"
+      },
+      {
+        "question": "Where is Julius Baer’s regional management based in Asia?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "0ae602f230c17013"
+      },
+      {
+        "question": "Which locations and arrangements does Julius Baer use to serve the diverse Asian region?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "0ae602f230c17013"
+      },
+      {
+        "question": "Which client segment does Julius Baer focus on as a wealth manager in Asia?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "3d7612b180a70ffa"
+      },
+      {
+        "question": "What factors does Jimmy Lee say differentiate Julius Baer in Asia?",
+        "expected_page": 2,
+        "hit_rank": 6,
+        "hit_page": 2,
+        "hit_chunk_id": "3d7612b180a70ffa"
+      },
+      {
+        "question": "Which topics has Julius Baer been providing more advice on as wealthy individuals’ priorities change?",
+        "expected_page": 2,
+        "hit_rank": 5,
+        "hit_page": 2,
+        "hit_chunk_id": "11809150dafed80c"
+      },
+      {
+        "question": "When did Julius Baer institute its new Single Family Office in Singapore?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "cb841bf042f83ac4"
+      },
+      {
+        "question": "What does Julius Baer’s Single Family Office support Asian clients with?",
+        "expected_page": 3,
+        "hit_rank": 2,
+        "hit_page": 3,
+        "hit_chunk_id": "cb841bf042f83ac4"
+      },
+      {
+        "question": "What was set up in Singapore to underline the importance of innovation in Asia for Julius Baer?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "cb841bf042f83ac4"
+      },
+      {
+        "question": "According to the article, what share of the world’s population lives in Asia?",
+        "expected_page": 3,
+        "hit_rank": 3,
+        "hit_page": 3,
+        "hit_chunk_id": "f47a073b1ccd7485"
+      },
+      {
+        "question": "How many people escaped poverty in Asia over the past three decades, according to the article?",
+        "expected_page": 3,
+        "hit_rank": 2,
+        "hit_page": 3,
+        "hit_chunk_id": "f47a073b1ccd7485"
+      },
+      {
+        "question": "Which region houses the largest number of high and ultra-high net worth individuals globally, according to Julius Baer’s Global Wealth and Lifestyle Report?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "f47a073b1ccd7485"
+      },
+      {
+        "question": "In which years was Julius Baer granted banking licenses in Singapore and Hong Kong?",
+        "expected_page": 3,
+        "hit_rank": 2,
+        "hit_page": 3,
+        "hit_chunk_id": "f47a073b1ccd7485"
+      },
+      {
+        "question": "What does the Digital Advisory Suite (DiAS) provide relationship managers with?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "4fd9abfde8a37015"
+      },
+      {
+        "question": "What award did Julius Baer receive for its Digital Advisory Suite (DiAS)?",
+        "expected_page": 4,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "Across how many major exchanges can clients booked in Singapore and Hong Kong trade securities through Julius Baer Mobile?",
+        "expected_page": 4,
+        "hit_rank": 1,
+        "hit_page": 4,
+        "hit_chunk_id": "ec52425bd646bac6"
+      },
+      {
+        "question": "What is Julius Baer’s stated purpose in its commitment to clients and team development?",
+        "expected_page": 4,
+        "hit_rank": 4,
+        "hit_page": 4,
+        "hit_chunk_id": "ec52425bd646bac6"
+      }
+    ]
+  }
+}

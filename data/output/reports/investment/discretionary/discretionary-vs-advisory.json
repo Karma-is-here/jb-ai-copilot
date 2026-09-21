@@ -1,0 +1,621 @@
+{
+  "schema_version": "1.0",
+  "document": "investment\\discretionary\\discretionary-vs-advisory.jsonl",
+  "page_count": 4,
+  "question_count": 17,
+  "summaries": [
+    {
+      "strategy": "fixed",
+      "chunks": 7,
+      "mean_chars": 889.3,
+      "median_chars": 889,
+      "under_100_chars": 0,
+      "recall_at_1": 0.6470588235294118,
+      "recall_at_3": 0.8823529411764706,
+      "recall_at_5": 0.9411764705882353,
+      "mrr": 0.7764705882352941
+    },
+    {
+      "strategy": "recursive",
+      "chunks": 7,
+      "mean_chars": 825,
+      "median_chars": 789,
+      "under_100_chars": 0,
+      "recall_at_1": 0.6470588235294118,
+      "recall_at_3": 0.8235294117647058,
+      "recall_at_5": 0.8823529411764706,
+      "mrr": 0.738795518207283
+    },
+    {
+      "strategy": "semantic",
+      "chunks": 9,
+      "mean_chars": 641.7,
+      "median_chars": 701,
+      "under_100_chars": 0,
+      "recall_at_1": 0.7058823529411765,
+      "recall_at_3": 0.8235294117647058,
+      "recall_at_5": 0.8823529411764706,
+      "mrr": 0.7750700280112045
+    },
+    {
+      "strategy": "structural",
+      "chunks": 16,
+      "mean_chars": 360.9,
+      "median_chars": 385.0,
+      "under_100_chars": 5,
+      "recall_at_1": 0.7647058823529411,
+      "recall_at_3": 0.8823529411764706,
+      "recall_at_5": 0.8823529411764706,
+      "mrr": 0.8284313725490197
+    }
+  ],
+  "selection": {
+    "selected_strategy": "structural",
+    "selection_score": 0.828186,
+    "selection_reason": "Selected the highest-scoring strategy among candidates that passed the chunk-quality gates using available retrieval metrics.",
+    "selected_metrics": {
+      "strategy": "structural",
+      "chunks": 16,
+      "mean_chars": 360.9,
+      "median_chars": 385.0,
+      "under_100_chars": 5,
+      "recall_at_1": 0.7647058823529411,
+      "recall_at_3": 0.8823529411764706,
+      "recall_at_5": 0.8823529411764706,
+      "mrr": 0.8284313725490197
+    },
+    "candidates": [
+      {
+        "strategy": "structural",
+        "score": 0.828186,
+        "metrics": {
+          "strategy": "structural",
+          "chunks": 16,
+          "mean_chars": 360.9,
+          "median_chars": 385.0,
+          "under_100_chars": 5,
+          "recall_at_1": 0.7647058823529411,
+          "recall_at_3": 0.8823529411764706,
+          "recall_at_5": 0.8823529411764706,
+          "mrr": 0.8284313725490197
+        },
+        "under_100_ratio": 0.3125
+      },
+      {
+        "strategy": "fixed",
+        "score": 0.783529,
+        "metrics": {
+          "strategy": "fixed",
+          "chunks": 7,
+          "mean_chars": 889.3,
+          "median_chars": 889.0,
+          "under_100_chars": 0,
+          "recall_at_1": 0.6470588235294118,
+          "recall_at_3": 0.8823529411764706,
+          "recall_at_5": 0.9411764705882353,
+          "mrr": 0.7764705882352941
+        },
+        "under_100_ratio": 0.0
+      },
+      {
+        "strategy": "semantic",
+        "score": 0.780098,
+        "metrics": {
+          "strategy": "semantic",
+          "chunks": 9,
+          "mean_chars": 641.7,
+          "median_chars": 701.0,
+          "under_100_chars": 0,
+          "recall_at_1": 0.7058823529411765,
+          "recall_at_3": 0.8235294117647058,
+          "recall_at_5": 0.8823529411764706,
+          "mrr": 0.7750700280112045
+        },
+        "under_100_ratio": 0.0
+      },
+      {
+        "strategy": "recursive",
+        "score": 0.749755,
+        "metrics": {
+          "strategy": "recursive",
+          "chunks": 7,
+          "mean_chars": 825.0,
+          "median_chars": 789.0,
+          "under_100_chars": 0,
+          "recall_at_1": 0.6470588235294118,
+          "recall_at_3": 0.8235294117647058,
+          "recall_at_5": 0.8823529411764706,
+          "mrr": 0.738795518207283
+        },
+        "under_100_ratio": 0.0
+      }
+    ],
+    "rejected_candidates": []
+  },
+  "per_question": {
+    "fixed": [
+      {
+        "question": "In an advisory setup, who makes the final investment decision?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "cdc69b9a68054aa1"
+      },
+      {
+        "question": "Who is responsible for day-to-day portfolio management under a discretionary mandate?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "cdc69b9a68054aa1"
+      },
+      {
+        "question": "What does an investment profile evaluate?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "9e669114c4506d7b"
+      },
+      {
+        "question": "What do investment guidelines reflect?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "9e669114c4506d7b"
+      },
+      {
+        "question": "What is an investment strategy used for?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "99c2df2273a64d05"
+      },
+      {
+        "question": "What are the five considerations discussed when choosing between discretionary and advisory mandates?",
+        "expected_page": 2,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "Which mandate may suit someone who is familiar with financial markets and interested in them?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "cdc69b9a68054aa1"
+      },
+      {
+        "question": "Which mandate may suit someone with little investing knowledge and less interest in learning more?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "cdc69b9a68054aa1"
+      },
+      {
+        "question": "How is the learning effect described in an advisory setup?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "f835536dafb148c0"
+      },
+      {
+        "question": "How is the learning effect described in a discretionary setup?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "f835536dafb148c0"
+      },
+      {
+        "question": "How can clients track decisions made by their portfolio manager in a discretionary setup?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "f835536dafb148c0"
+      },
+      {
+        "question": "Which mandate may suit someone who cannot allocate enough time to speak with an investment partner?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "55ec684039a03c84"
+      },
+      {
+        "question": "Which mandate may suit someone who is difficult for an investment advisor to reach?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "55ec684039a03c84"
+      },
+      {
+        "question": "What communication channels are mentioned for reaching a client?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "f835536dafb148c0"
+      },
+      {
+        "question": "What regulatory requirements might clients in certain countries have to follow?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "55ec684039a03c84"
+      },
+      {
+        "question": "How may a discretionary solution help clients facing complex investment regulations?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "55ec684039a03c84"
+      },
+      {
+        "question": "What do the two investment professionals advise readers not to do?",
+        "expected_page": 3,
+        "hit_rank": 5,
+        "hit_page": 3,
+        "hit_chunk_id": "48ed36fb06906412"
+      }
+    ],
+    "recursive": [
+      {
+        "question": "In an advisory setup, who makes the final investment decision?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "fff01ba77d2e1505"
+      },
+      {
+        "question": "Who is responsible for day-to-day portfolio management under a discretionary mandate?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "fff01ba77d2e1505"
+      },
+      {
+        "question": "What does an investment profile evaluate?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "b6121cf80ec24b84"
+      },
+      {
+        "question": "What do investment guidelines reflect?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "b6121cf80ec24b84"
+      },
+      {
+        "question": "What is an investment strategy used for?",
+        "expected_page": 1,
+        "hit_rank": 3,
+        "hit_page": 1,
+        "hit_chunk_id": "b6121cf80ec24b84"
+      },
+      {
+        "question": "What are the five considerations discussed when choosing between discretionary and advisory mandates?",
+        "expected_page": 2,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "Which mandate may suit someone who is familiar with financial markets and interested in them?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "8afc44bb17bdbed3"
+      },
+      {
+        "question": "Which mandate may suit someone with little investing knowledge and less interest in learning more?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "8afc44bb17bdbed3"
+      },
+      {
+        "question": "How is the learning effect described in an advisory setup?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "8afc44bb17bdbed3"
+      },
+      {
+        "question": "How is the learning effect described in a discretionary setup?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "8afc44bb17bdbed3"
+      },
+      {
+        "question": "How can clients track decisions made by their portfolio manager in a discretionary setup?",
+        "expected_page": 2,
+        "hit_rank": 7,
+        "hit_page": 2,
+        "hit_chunk_id": "8afc44bb17bdbed3"
+      },
+      {
+        "question": "Which mandate may suit someone who cannot allocate enough time to speak with an investment partner?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "7432f8ce9b586202"
+      },
+      {
+        "question": "Which mandate may suit someone who is difficult for an investment advisor to reach?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "fff01ba77d2e1505"
+      },
+      {
+        "question": "What communication channels are mentioned for reaching a client?",
+        "expected_page": 2,
+        "hit_rank": 3,
+        "hit_page": 2,
+        "hit_chunk_id": "7432f8ce9b586202"
+      },
+      {
+        "question": "What regulatory requirements might clients in certain countries have to follow?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "7432f8ce9b586202"
+      },
+      {
+        "question": "How may a discretionary solution help clients facing complex investment regulations?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "7432f8ce9b586202"
+      },
+      {
+        "question": "What do the two investment professionals advise readers not to do?",
+        "expected_page": 3,
+        "hit_rank": 4,
+        "hit_page": 3,
+        "hit_chunk_id": "6764827ebb6a897c"
+      }
+    ],
+    "semantic": [
+      {
+        "question": "In an advisory setup, who makes the final investment decision?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "df1bec915c298795"
+      },
+      {
+        "question": "Who is responsible for day-to-day portfolio management under a discretionary mandate?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "df1bec915c298795"
+      },
+      {
+        "question": "What does an investment profile evaluate?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "37442f6e242ffb2b"
+      },
+      {
+        "question": "What do investment guidelines reflect?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "37442f6e242ffb2b"
+      },
+      {
+        "question": "What is an investment strategy used for?",
+        "expected_page": 1,
+        "hit_rank": 3,
+        "hit_page": 1,
+        "hit_chunk_id": "37442f6e242ffb2b"
+      },
+      {
+        "question": "What are the five considerations discussed when choosing between discretionary and advisory mandates?",
+        "expected_page": 2,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "Which mandate may suit someone who is familiar with financial markets and interested in them?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "9c68065141b8d93d"
+      },
+      {
+        "question": "Which mandate may suit someone with little investing knowledge and less interest in learning more?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "9c68065141b8d93d"
+      },
+      {
+        "question": "How is the learning effect described in an advisory setup?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "9c68065141b8d93d"
+      },
+      {
+        "question": "How is the learning effect described in a discretionary setup?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "9c68065141b8d93d"
+      },
+      {
+        "question": "How can clients track decisions made by their portfolio manager in a discretionary setup?",
+        "expected_page": 2,
+        "hit_rank": 7,
+        "hit_page": 2,
+        "hit_chunk_id": "9c68065141b8d93d"
+      },
+      {
+        "question": "Which mandate may suit someone who cannot allocate enough time to speak with an investment partner?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "cc94e35a4a2550d9"
+      },
+      {
+        "question": "Which mandate may suit someone who is difficult for an investment advisor to reach?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "df1bec915c298795"
+      },
+      {
+        "question": "What communication channels are mentioned for reaching a client?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "525ea87283f2d341"
+      },
+      {
+        "question": "What regulatory requirements might clients in certain countries have to follow?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "0553ca26658f53c6"
+      },
+      {
+        "question": "How may a discretionary solution help clients facing complex investment regulations?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "0553ca26658f53c6"
+      },
+      {
+        "question": "What do the two investment professionals advise readers not to do?",
+        "expected_page": 3,
+        "hit_rank": 5,
+        "hit_page": 3,
+        "hit_chunk_id": "5977623d096cba8c"
+      }
+    ],
+    "structural": [
+      {
+        "question": "In an advisory setup, who makes the final investment decision?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "f9cfc13a6caf3e8b"
+      },
+      {
+        "question": "Who is responsible for day-to-day portfolio management under a discretionary mandate?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "f9cfc13a6caf3e8b"
+      },
+      {
+        "question": "What does an investment profile evaluate?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "3e7bcc581ec5ebe6"
+      },
+      {
+        "question": "What do investment guidelines reflect?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "3e7bcc581ec5ebe6"
+      },
+      {
+        "question": "What is an investment strategy used for?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "3e7bcc581ec5ebe6"
+      },
+      {
+        "question": "What are the five considerations discussed when choosing between discretionary and advisory mandates?",
+        "expected_page": 2,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "Which mandate may suit someone who is familiar with financial markets and interested in them?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "d03d38b4ab8a6f94"
+      },
+      {
+        "question": "Which mandate may suit someone with little investing knowledge and less interest in learning more?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "d03d38b4ab8a6f94"
+      },
+      {
+        "question": "How is the learning effect described in an advisory setup?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "d88c0ba8ed840655"
+      },
+      {
+        "question": "How is the learning effect described in a discretionary setup?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "d88c0ba8ed840655"
+      },
+      {
+        "question": "How can clients track decisions made by their portfolio manager in a discretionary setup?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "d88c0ba8ed840655"
+      },
+      {
+        "question": "Which mandate may suit someone who cannot allocate enough time to speak with an investment partner?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "4f124cbf86f0e93e"
+      },
+      {
+        "question": "Which mandate may suit someone who is difficult for an investment advisor to reach?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "f9cfc13a6caf3e8b"
+      },
+      {
+        "question": "What communication channels are mentioned for reaching a client?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "55077084539fc55a"
+      },
+      {
+        "question": "What regulatory requirements might clients in certain countries have to follow?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "f5e2bb625d835759"
+      },
+      {
+        "question": "How may a discretionary solution help clients facing complex investment regulations?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "f5e2bb625d835759"
+      },
+      {
+        "question": "What do the two investment professionals advise readers not to do?",
+        "expected_page": 3,
+        "hit_rank": 12,
+        "hit_page": 3,
+        "hit_chunk_id": "7e9764af40baa540"
+      }
+    ]
+  }
+}

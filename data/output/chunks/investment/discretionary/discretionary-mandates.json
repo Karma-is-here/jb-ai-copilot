@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0",
+  "document": "data\\normalized\\investment\\discretionary\\discretionary-mandates.jsonl",
+  "strategy": "fixed",
+  "chunks": [
+    {
+      "chunk_id": "ddf81c295ac79279",
+      "document_id": "investment/discretionary/discretionary-mandates",
+      "source": {
+        "file": "discretionary-mandates.pdf",
+        "page_start": 1,
+        "page_end": 1,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 1200
+        }
+      },
+      "text": "Discretionary mandates at Julius Baer | Julius Baer\n\nJulius Bar\n\n€ Investing\n\nDISCRETIONARY MANDATES\n\nFocus on the big picture and leave the day-to-day investment decisions in the hands of\ntrusted professionals.\n\nDoes keeping on top of your investments eat up too much of your free time? And do you feel your\ninvestment performance would be better if your portfolio were managed by a professional? If you’re\nfamiliar with concerns such as these, our managed premium or managed exclusive offering could be an\n\nideal option for you.\n\nWith our discretionary solutions, our dedicated experts manage your portfolio on your behalf,\naccording to agreed-upon investment objectives, risk tolerance, guidelines, and a disciplined approach.\n\nOur range of discretionary mandates covers all major asset classes and styles.\n\nWhy opt for a discretionary mandate?\n\nHow does it work?\n\nIn a first step, you explain to us your situation, personal and financial, and your objectives,\nrequirements, and risk appetite. We then provide you with objective advice on the investment\nstrategies which, based on our extensive portfolio engineering capabilities, correspond to your profile\n\nand objectives.\n\nUpon request, our Chi",
+      "chunking": {
+        "strategy": "fixed",
+        "chunk_index": 0
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 1200,
+        "chunk_size": 1200,
+        "overlap": 150
+      }
+    },
+    {
+      "chunk_id": "0d9b346805460a8a",
+      "document_id": "investment/discretionary/discretionary-mandates",
+      "source": {
+        "file": "discretionary-mandates.pdf",
+        "page_start": 1,
+        "page_end": 1,
+        "section": null,
+        "offsets": {
+          "start": 1050,
+          "end": 1607
+        }
+      },
+      "text": "stment\nstrategies which, based on our extensive portfolio engineering capabilities, correspond to your profile\n\nand objectives.\n\nUpon request, our Chief Investment Office (CIO) team can also develop a tailored investment solution\n\nbuilt around an individual investment strategy designed to evolve with your needs.\n\nOnce you have decided which strategy you want to move forward with, Julius Baer starts managing\n\nyour assets and making investment decisions on your behalf.\n\nhttps:/Awww.juliusbaer.com/in/en/our-solutions/investing/discretionary-mandates/ 1/3",
+      "chunking": {
+        "strategy": "fixed",
+        "chunk_index": 1
+      },
+      "metadata": {
+        "start_offset": 1050,
+        "end_offset": 1607,
+        "chunk_size": 1200,
+        "overlap": 150
+      }
+    },
+    {
+      "chunk_id": "15f83d33e09b818a",
+      "document_id": "investment/discretionary/discretionary-mandates",
+      "source": {
+        "file": "discretionary-mandates.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 1200
+        }
+      },
+      "text": "Discretionary mandates at Julius Baer | Julius Baer\nThrough portfolio monitoring and regular reviews, we make sure that your portfolio remains aligned\nwith your chosen strategy, which you can change any time. We also provide you with regular reports so\n\nthat you are always up to date on your portfolio performance.\n\nThe products and services offered depend on the domicile of the client and the legal entity of Julius Baer.\n\nWHAT SETS US APART\n\nOur range of mandates includes:\n\n¢ Globally diversified mandates\n\nRegionally focused mandates\n\ne Asset class-specific mandates\n\ne Mandates with a focus on sustainability\n\n¢ Tailored mandates managed directly by our Chief Investment Office (CIO) team\nA team of dedicated portfolio managers is responsible for managing your portfolio. You have direct\naccess to this team.\nWe can tailor discretionary mandates to meet your specific investment objectives, risk tolerance, and\nliquidity needs. Our bespoke mandates provide access to a broad investment universe and leverage our\nextensive active portfolio management expertise and proprietary investment approach.\nOur investment process combines top-down analysis by our Investment Committee (ie defining the\na",
+      "chunking": {
+        "strategy": "fixed",
+        "chunk_index": 2
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 1200,
+        "chunk_size": 1200,
+        "overlap": 150
+      }
+    },
+    {
+      "chunk_id": "1bbb9775220755ff",
+      "document_id": "investment/discretionary/discretionary-mandates",
+      "source": {
+        "file": "discretionary-mandates.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": null,
+        "offsets": {
+          "start": 1050,
+          "end": 2248
+        }
+      },
+      "text": "gement expertise and proprietary investment approach.\nOur investment process combines top-down analysis by our Investment Committee (ie defining the\nasset allocation) and decision-making, with bottom-up portfolio management (ie our portfolio\n\nmanagers make individual investment decisions based on your chosen strategy/investment approach).\n\nAll of Julius Baer’s discretionary mandates reflect our house view of the financial markets.\n\nOur Investment Committee meets weekly as well as ad-hoc to assess markets and economic\ndevelopments, asset class weightings, and any short-term opportunities. Tactical decisions are made\nbased on the outcome of these assessments.\n\nWe offer tailored monthly and quarterly performance reports that you can access at any time.\n\nBy choosing one of our sustainability mandates, which consist of multi-asset-class and equity\nmandates. They primarily invest in high-quality companies that have an outstanding MSCI\nenvironmental, social, and governance (ESG) research rating and pursue the objective of generating\n\nlong-term, risk-adjusted financial returns.\n\nOUR INVESTMENT EXPERTISE\n\nhttps:/Awww.juliusbaer.com/in/en/our-solutions/investing/discretionary-mandates/ 2/3",
+      "chunking": {
+        "strategy": "fixed",
+        "chunk_index": 3
+      },
+      "metadata": {
+        "start_offset": 1050,
+        "end_offset": 2248,
+        "chunk_size": 1200,
+        "overlap": 150
+      }
+    }
+  ]
+}

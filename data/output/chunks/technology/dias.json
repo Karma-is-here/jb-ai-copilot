@@ -1,0 +1,223 @@
+{
+  "schema_version": "1.0",
+  "document": "data\\normalized\\technology\\dias.jsonl",
+  "strategy": "semantic",
+  "chunks": [
+    {
+      "chunk_id": "d8880ac596a227ec",
+      "document_id": "technology/dias",
+      "source": {
+        "file": "dias.pdf",
+        "page_start": 1,
+        "page_end": 1,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 1012
+        }
+      },
+      "text": "Technology to power human advice — a glimpse behind the scenes | Julius Baer\n\nJulius Bar\n\nTechnology to power human advice - a\nglimpse behind the scenes\n\nJanuary 22,2021 by () 3min\n\nMake the trend your friend — Discover Julius Baer’s innovation framework\n\nDigitalisation and innovative technologies are creating unprecedented\ndisruption in the banking sector, empowering industry professionals and clients\nalike. We have recently won the ’Best digital innovator of the year, global’ award\nfrom PWM/FT Group. So how is Julius Baer approaching this topic? And which\nexciting projects are currently underway? Our Company Insights series offers\nyou a glimpse behind the scenes.\n\nThe ancient art of private banking is becoming part science too. While personal relationships remain\nthe rock of excellent wealth management, we use digital technology to improve the banking experience\nfor both clients and industry professionals. Which exciting projects are currently underway? Let’s take a\n\nglimpse behind the scenes.\n\n",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 0
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 1012,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "7bc9a9f8262d9a07",
+      "document_id": "technology/dias",
+      "source": {
+        "file": "dias.pdf",
+        "page_start": 1,
+        "page_end": 1,
+        "section": null,
+        "offsets": {
+          "start": 1012,
+          "end": 1693
+        }
+      },
+      "text": "Fast technology for fast trading\n\nBesides experimenting with Chatbots and robotics (our robots handled tasks that would take their\nhuman peers 5’300 days to complete in 2020) to improve our efficiency, we use technology to help our\nclients navigate today’s unpredictable market environment. The secret ingredients? Big data and\n\nadvanced analytics.\n\nSPARK, our in-house built structured product optimisation engine, for example, harnesses big data and\n\nanalytics. The latest add-on to the bank’s trading platform enables the construction and optimisation of\n\nhttps://www.juliusbaer.com/en/insights/behind-the-scenes/technology-to-power-human-advice-a-glimpse-behind-the-scenes/ 1/4",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 1
+      },
+      "metadata": {
+        "start_offset": 1012,
+        "end_offset": 1693,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "8e1b97e69daeca99",
+      "document_id": "technology/dias",
+      "source": {
+        "file": "dias.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 454
+        }
+      },
+      "text": "Technology to power human advice — a glimpse behind the scenes | Julius Baer\n\nJulius Bar\n\nto match user-specific requirements.\n\nMeet our FinTech-assistant\n\nOur relationship managers have a digital assistant at their side that automates administration, helps\nthem to navigate regulation and even suggests tailored investment ideas. Julius Baer’s Digital Advisory\n\nSuite (DiAS) takes care of the burden of bureaucracy required in wealth management today.\n\n",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 2
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 454,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "213138c66d778ebf",
+      "document_id": "technology/dias",
+      "source": {
+        "file": "dias.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": null,
+        "offsets": {
+          "start": 454,
+          "end": 863
+        }
+      },
+      "text": "Complying with laws such as the European Union’s MiFID II directive or its Swiss equivalent, the\nFinancial Services Act, can demand as much as a third of a relationship manager’s time. DiAS reclaims\nsome of these hours to focus on what matters most: providing tailored advice to clients. Currently,\nDiAS is used by more than 1300 relationship managers who trade more than CHF 4.9 billion a month\nthrough it.\n\n",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 3
+      },
+      "metadata": {
+        "start_offset": 454,
+        "end_offset": 863,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "e57a318b4f9b9825",
+      "document_id": "technology/dias",
+      "source": {
+        "file": "dias.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": null,
+        "offsets": {
+          "start": 863,
+          "end": 2018
+        }
+      },
+      "text": "From paper to online - creating the digital experience of the future\n\nA number of teams within Julius Baer are also working on creating the digital client experience of the\nfuture. From e-Banking to e-Trading - online is the name of the game. But not only are e-signatures and\nvideo identification convenient, they also offer a greener alternative to printing and scanning\n\ndocuments.\n\nAnd where would we be without our apps these days? The\n\nJulius Baer Investment Insights App (https://appadvice.com/app/jb-investment-insights/1077783657)\nenables clients and intermediaries to access Julius Baer research and investment publications on the\ngo. After completing a one-time-onboarding process to ensure data security and compliance with\n\nregulatory guidelines, clients can also chat with their relationship managers via Whatsapp.\n\nCollaborating through the cloud\n\nAgility and DevOps (a set of practices that combines software development ‘Dev’ and IT operations\n‘Ops’) have become increasingly important in today’s world. Both work methodologies minimise the\ntime-to-market for digital innovations, challenging the best software engineers to come up with\n\n",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 4
+      },
+      "metadata": {
+        "start_offset": 863,
+        "end_offset": 2018,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "92af4f2017f12d70",
+      "document_id": "technology/dias",
+      "source": {
+        "file": "dias.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "section": null,
+        "offsets": {
+          "start": 2018,
+          "end": 2804
+        }
+      },
+      "text": "solutions centred around speed and client focus.\n\nSince good software engineers require a state-of-the-art workplace and a flexible working model, Julius\nBaer collaborated with leading specialists in this realm to develop its own cloud framework. Think of it\nthis way: it’s a highly secure, specialised environment to exchange assets needed by IT developers. Data\nsecurity is constantly being screened and monitored. The initial pilot project supported a team of 40\ndevelopers, whereas today more than 900 users from across Julius Baer and 30 vendors collaborate in\n\n60 projects. The number is growing continuously.\n\nA ‘One-Stop-Shop’ for external asset managers\n\nhttps://www.juliusbaer.com/en/insights/behind-the-scenes/technology-to-power-human-advice-a-glimpse-behind-the-scenes/ 2/4",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 5
+      },
+      "metadata": {
+        "start_offset": 2018,
+        "end_offset": 2804,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "ffc3520e37c899f3",
+      "document_id": "technology/dias",
+      "source": {
+        "file": "dias.pdf",
+        "page_start": 3,
+        "page_end": 3,
+        "section": null,
+        "offsets": {
+          "start": 0,
+          "end": 1127
+        }
+      },
+      "text": "Technology to power human advice — a glimpse behind the scenes | Julius Baer\n\nJulius Bar\n\nnear real-time reporting, a direct link for order processing and a gateway to all services for\n\nIntermediaries. Its latest version is currently being rolled out in Asia.\n\nSimilarly, the new EPIC platform allows asset managers to efficiently rebalance all of their ‘actively\n\nmanaged certificate’ portfolios, while presenting other investment possibilities.\n\nConstantly innovating - Julius Baer’s ‘Thinkathon’\n\nAll of these projects and initiatives would not be feasible if the corporate culture wouldn't encourage\nout-of-the-box thinking. One recent example in this area is Julius Baer’s ‘Thinkathon’, which challenged\nteams around the globe to come up with fresh ideas. After two weeks of brainstorming, ideating, ThinkA-Caffeeing, thought-partnering and presenting, the three winning teams were announced during a\nlive awards ceremony webcast. But it wasn’t only about making it into the top three. All projects were\n\nassessed, mapped out, and - where applicable —- merged or integrated into existing project streams.\n\nThe road ahead\n\n",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 6
+      },
+      "metadata": {
+        "start_offset": 0,
+        "end_offset": 1127,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    },
+    {
+      "chunk_id": "7b2f2ce66957d50b",
+      "document_id": "technology/dias",
+      "source": {
+        "file": "dias.pdf",
+        "page_start": 3,
+        "page_end": 3,
+        "section": null,
+        "offsets": {
+          "start": 1127,
+          "end": 1758
+        }
+      },
+      "text": "Compared to 2019, investments in technology to power human advice are being increased by\napproximately 20% in 2020 and in 2021. The focus lies on further enhancing data and analytics as well\nas continuing to work on digital, product, front and agile transformation projects. Follow Julius Baer to\n\nstay up to date!\n\nCompany Insights\n\nFrom the Julius Baer Art Collection to its Digital Transformation Team - we take you behind the\n\nscenes of Julius Baer.\n\nRELATED TOPICS\n\nDigital Disruption\n\nRELATED ARTICLES\n\nhttps://www.juliusbaer.com/en/insights/behind-the-scenes/technology-to-power-human-advice-a-glimpse-behind-the-scenes/ 3/4",
+      "chunking": {
+        "strategy": "semantic",
+        "chunk_index": 7
+      },
+      "metadata": {
+        "start_offset": 1127,
+        "end_offset": 1758,
+        "similarity_threshold": 0.45,
+        "max_chars": 1200,
+        "min_chars": 300,
+        "window_size": 1
+      }
+    }
+  ]
+}

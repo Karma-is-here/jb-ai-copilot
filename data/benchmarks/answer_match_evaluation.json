@@ -1,0 +1,3171 @@
+{
+  "summary": {
+    "questions": 226,
+    "exact_match": 0.24336283185840707,
+    "token_recall_ge_0_80": 0.5752212389380531,
+    "abstention_rate": 0.030973451327433628
+  },
+  "results": [
+    {
+      "question": "Who has the final say on any investment decision?",
+      "expected_answer": "the client",
+      "answer": "The client (you) retains the final say on every investment decision. [1][2]",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "2"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What do advisory mandates offer?",
+      "expected_answer": "expert investment strategies aligned with your financial situation and objectives",
+      "answer": "Advisory mandates give you access to expert, tailor‑made investment strategies and recommendations that are matched to your financial situation and goals. You receive strategic and tactical advice – from single‑instrument tips to ongoing portfolio monitoring – together with personal support from a dedicated relationship manager and daily research and portfolio‑monitoring services. At the same time you keep the final say on every investment decision. [1][2]",
+      "exact_match": false,
+      "token_recall": 0.75,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "2"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Who provides personal investment advice?",
+      "expected_answer": "your dedicated relationship manager",
+      "answer": "Personal investment advice is provided by Julius Baer. The bank offers advisory mandates and a range of advisory solutions—including tailored strategic and tactical recommendations—delivered by dedicated relationship managers and investment advisors who work with each client’s financial situation and objectives[3][4].",
+      "exact_match": false,
+      "token_recall": 0.5,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "3",
+        "4"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What portfolio monitoring and research expertise do advisory mandates provide?",
+      "expected_answer": "daily portfolio monitoring and research expertise",
+      "answer": "Advisory mandates give you continuous oversight of your holdings – the bank monitors your portfolio on a daily basis and supplies its research findings through its publications. In addition, the advice is built on ongoing portfolio monitoring that can be applied to standard or bespoke criteria, ensuring you receive up‑to‑date analysis and insight. [1][2]",
+      "exact_match": false,
+      "token_recall": 0.8,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "2"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What does Julius Baer determine when exploring the client's needs?",
+      "expected_answer": "the client's risk profile",
+      "answer": "When exploring a client’s needs, Julius Baer determines the client’s individual needs and investment objectives, the client’s financial knowledge and experience, the ability to bear losses (risk ability) and the attitude toward risk (risk tolerance), as well as the client’s investment goals—including purpose, planned time horizon and risk appetite[3][1].",
+      "exact_match": false,
+      "token_recall": 0.6666666666666666,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "3",
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "How often can interaction with the bank take place?",
+      "expected_answer": "monthly, weekly, or even daily",
+      "answer": "Interaction frequency is flexible and can be set to monthly, weekly or even daily, depending on the client’s preferences and the chosen advisory mandate [1].",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Can I personalise my advisory mandate?",
+      "expected_answer": "Yes. Clients can choose between a range of investment strategies and profiles, which vary depending on the model selected, risk appetite, and investment horizon.",
+      "answer": "Yes. With an advisory mandate you can tailor it to your needs – you can select from a range of investment strategies and profiles that reflect the model you choose, your risk appetite and investment horizon, and you retain the final decision on every investment. [1][3]",
+      "exact_match": false,
+      "token_recall": 0.6666666666666666,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "3"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "How many experts across the bank support the relationship manager?",
+      "expected_answer": "over 400 experts",
+      "answer": "Over 400 experts across the bank support the relationship manager. [1]",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [
+        "400"
+      ],
+      "answer_numbers": [
+        "400",
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What does the open architecture enable clients to access?",
+      "expected_answer": "long-term trends and industries with high barriers to entry",
+      "answer": "The open architecture lets clients invest in long‑term trends and gives them access to industries that have high barriers to entry[1].",
+      "exact_match": false,
+      "token_recall": 0.8333333333333334,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What investment ideas do clients receive?",
+      "expected_answer": "individual investment ideas tailored to their portfolio",
+      "answer": "Clients are provided with individual investment ideas that are tailored specifically to their portfolio. [1]",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "When did the Swiss Financial Services Act (FinSA) enter into force?",
+      "expected_answer": "1 January 2020",
+      "answer": "The Swiss Financial Services Act (FinSA) entered into force on 1 January 2020[1].",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [
+        "1",
+        "2020"
+      ],
+      "answer_numbers": [
+        "1",
+        "2020",
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What does FinSA aim to strengthen?",
+      "expected_answer": "investor protection",
+      "answer": "FinSA aims to strengthen investor protection[1].",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Which authority authorizes and regulates Julius Baer?",
+      "expected_answer": "Swiss Financial Market Supervisory Authority FINMA",
+      "answer": "Julius Baer is authorised and regulated by the Swiss Financial Market Supervisory Authority (FINMA)[1].",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "How many third-party fund providers does Julius Baer's investment fund universe predominantly draw on?",
+      "expected_answer": "more than 100 third-party fund providers",
+      "answer": "Julius Baer’s investment‑fund universe is built mainly on the products of **more than 100 third‑party fund providers**[1][2][5].",
+      "exact_match": false,
+      "token_recall": 0.8333333333333334,
+      "expected_numbers": [
+        "100"
+      ],
+      "answer_numbers": [
+        "100",
+        "1",
+        "2",
+        "5"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What must Julius Baer assess before providing wealth management services?",
+      "expected_answer": "whether the investment strategy and financial instruments are suitable for the client",
+      "answer": "Before offering wealth‑management services, Julius Baer must carry out a suitability and appropriateness assessment. This requires checking that the proposed investment strategy and financial instruments match the client’s investment objectives and that the client has the necessary knowledge, experience and personal‑financial circumstances to understand the risks and bear any potential loss【1†L1-L5】【4†L1-L4】.",
+      "exact_match": false,
+      "token_recall": 0.7142857142857143,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "4"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Which forms does a client need to complete for the suitability and appropriateness assessment?",
+      "expected_answer": "Client Investment Profile (CIP) and Knowledge & Experience form (K&E form)",
+      "answer": "A client must complete the **Client Investment Profile (CIP)** and the **Knowledge & Experience (K&E) form** for the suitability and appropriateness assessment[1][4].",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "4"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Who makes the investment decision under a Discretionary Mandate?",
+      "expected_answer": "Julius Baer, after the client delegates the investment decision to Julius Baer",
+      "answer": "Under a Discretionary Mandate the client hands the investment decision over to Julius Baer; the firm’s portfolio manager (e.g., Daniel Obradovic) makes the day‑to‑day investment choices on the client’s behalf[1][2].",
+      "exact_match": false,
+      "token_recall": 0.7777777777777778,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "2"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What does Julius Baer assess before providing investment advice under an Advisory Mandate?",
+      "expected_answer": "the suitability and appropriateness of all investment advice",
+      "answer": "Julius Baer first evaluates the **suitability and appropriateness** of any investment advice before it is given to a client under an Advisory Mandate[1].",
+      "exact_match": false,
+      "token_recall": 0.8,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What are the three client classifications defined by FinSA?",
+      "expected_answer": "private clients, professional clients, and institutional clients",
+      "answer": "FinSA classifies clients into three categories: private clients, professional clients, and institutional clients[1].",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What eligible asset amount can qualify a client to become a professional client without using the knowledge-and-experience route?",
+      "expected_answer": "eligible assets of at least CHF 2 million",
+      "answer": "A client can qualify as a professional client solely on the basis of assets if they have eligible assets of at least CHF 2 million[1].",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [
+        "2"
+      ],
+      "answer_numbers": [
+        "2",
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Which factors does Julius Baer consider when determining the best possible result for a client?",
+      "expected_answer": "price, cost, speed, likelihood of execution and settlement, size, and nature of the transaction or other relevant considerations",
+      "answer": "Julius Baer evaluates the following execution factors to achieve the best possible result for a client:  \n\n- **Price** – the price at which the instrument is executed.  \n- **Cost** – all fees and charges, including implicit market‑impact costs, external venue or clearing fees and Julius Baer’s own commissions/fees.  \n- **Speed** – the time required to execute the transaction.  \n- **Likelihood of execution and settlement** – the probability that the trade can be completed and settled.  \n- **Size** – the transaction size and its effect on execution price.  \n- **Nature of the transaction or any other relevant consideration** – characteristics of the trade that may affect execution.  \n\nThese factors are outlined in Julius Baer’s best‑execution framework[1][2].",
+      "exact_match": false,
+      "token_recall": 0.9166666666666666,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "2"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What four key steps make up Julius Baer's approach to conflicts of interest?",
+      "expected_answer": "identification, avoidance, mitigation, and disclosure",
+      "answer": "Julius Baer handles conflicts of interest through four key steps: identification, avoidance, mitigation, and disclosure of any potential conflicts [1][2].",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "2"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What does Julius Baer do if its conflict-of-interest measures cannot prevent disadvantages for clients?",
+      "expected_answer": "discloses the conflict in an adequate manner",
+      "answer": "If the controls it has put in place still cannot avoid a client‑disadvantage (or would require a disproportionate effort), Julius Baer discloses the conflict to the client in an adequate manner, informing the client of the existence and nature of the conflict so that the client can decide whether to proceed【1†L9-L13】【2†L9-L13】",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "2"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What must Julius Baer do with compensation received if the client has not waived the right to have it passed on?",
+      "expected_answer": "pass on the compensation received to the client",
+      "answer": "If the client has not waived the right to have the compensation passed on, Julius Baer must pass that compensation on to the client. [1]",
+      "exact_match": false,
+      "token_recall": 0.75,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Who should clients contact first with feedback or complaints?",
+      "expected_answer": "their dedicated relationship manager or contact person",
+      "answer": "Clients should first direct any feedback or complaint to their dedicated relationship manager (or other designated contact person) before escalating it elsewhere[1][2][3].",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "2",
+        "3"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What kinds of investment recommendations can the Bank make?",
+      "expected_answer": "Buy, Sale, Hold, and Do not buy",
+      "answer": "The Bank’s investment advice can recommend four actions on a financial instrument: to buy it, to sell it, to hold it (continue owning it), or to not buy it. These are the specific recommendation types the Bank provides [3]",
+      "exact_match": false,
+      "token_recall": 0.6666666666666666,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "3"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What does a Hold recommendation mean?",
+      "expected_answer": "The Bank recommends that you do not sell the financial instrument but continue to hold it.",
+      "answer": "A “Hold” recommendation means the advisor suggests you keep the financial instrument and not sell it; you should continue to hold it in your portfolio[1].",
+      "exact_match": false,
+      "token_recall": 0.6,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Who decides whether to follow an investment recommendation?",
+      "expected_answer": "You decide for yourself whether you want to follow the recommendation.",
+      "answer": "The decision to follow an investment recommendation rests with the client (the investor) themselves. In an advisory setup the client takes the final investment decision, and the advice documents repeatedly state that “in the end, you decide … whether you want to follow our recommendation.” [1][2][3]",
+      "exact_match": false,
+      "token_recall": 0.8333333333333334,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "2",
+        "3"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "When is an investment recommendation valid?",
+      "expected_answer": "Only at the time of the consultation.",
+      "answer": "An investment recommendation is only valid at the time of the consultation; it will be reviewed later only if you have agreed to a subsequent review in advance[1].",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Who must monitor the performance of purchased financial instruments?",
+      "expected_answer": "The client must monitor their performance themselves.",
+      "answer": "The client who purchases the financial instruments must monitor their performance themselves[1].",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What are examples of financial instruments?",
+      "expected_answer": "Shares, bonds, certificates, and warrants.",
+      "answer": "Examples of financial instruments include securities such as shares, bonds, certificates and warrants, as well as shares in investment funds[1]. These are the types of products that may be recommended or documented in information sheets for shares and bonds or investment‑fund key information sheets[3].",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "3"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What agreement is needed before the Bank can provide investment advice?",
+      "expected_answer": "An Advisory Contract with the Bank.",
+      "answer": "Before the Bank can give you investment advice you must first enter into an advisory contract (an advisory agreement) with the Bank[1][3].",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "3"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What information does the Bank collect about a client's financial situation?",
+      "expected_answer": "Income, expenses, and assets.",
+      "answer": "The Bank gathers a range of data about a client’s financial situation, including the client’s **personal and financial circumstances**, **knowledge and experience with investment services and financial instruments**, and **investment goals** such as the purpose of the investment, the planned time‑horizon and the risk appetite. It also assesses whether the client can understand the nature and risks of a product and whether they have the ability to bear any related financial loss[2][4].",
+      "exact_match": false,
+      "token_recall": 0.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "2",
+        "4"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What does loss-bearing capacity refer to?",
+      "expected_answer": "What financial losses the client could bear.",
+      "answer": "Loss‑bearing capacity is the client’s ability to tolerate financial losses – i.e., the amount of loss they could financially sustain[1].",
+      "exact_match": false,
+      "token_recall": 0.5,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What sustainability preferences may the Bank ask about?",
+      "expected_answer": "Whether sustainability criteria should be taken into account when investing the client's assets.",
+      "answer": "The Bank may ask clients about their sustainability preferences – for example, whether sustainability criteria should be applied to their investments[1].",
+      "exact_match": false,
+      "token_recall": 0.36363636363636365,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "When will the Bank give an investment recommendation?",
+      "expected_answer": "Only if the recommendation matches the client's information.",
+      "answer": "The Bank provides its investment recommendation during the consultation – the recommendation is only valid at the time of that meeting. [1]",
+      "exact_match": false,
+      "token_recall": 0.3333333333333333,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What written document summarizes the recommendation and explains its suitability?",
+      "expected_answer": "The suitability statement.",
+      "answer": "The written document is the **suitability statement** (also referred to as a declaration of suitability), which provides a written summary of the recommendation and explains how it is suitable for you[1][2].",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "2"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What happens if a financial instrument is deemed inappropriate or the necessary information is missing?",
+      "expected_answer": "The Bank will warn the client accordingly.",
+      "answer": "If a financial instrument is judged inappropriate—or if the information needed to assess its appropriateness is missing—the firm will issue a warning to the client. The client may then decide either to refrain from the trade or to go ahead despite the warning. In addition, the firm reserves the right to refuse to execute the transaction if it considers that action necessary in the client’s best interest[1][2].",
+      "exact_match": false,
+      "token_recall": 0.4,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "2"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What fees do clients pay for investment advice?",
+      "expected_answer": "Fees outlined in the Schedule of Prices and Services of the Bank.",
+      "answer": "Clients pay advisory fees (and any related custody or transaction fees) for investment advice. These fees are set out in the Bank’s Schedule of Prices and Services, and clients are normally provided with cost information that details the fees and any follow‑up costs associated with buying, holding or selling a financial instrument[1]. Direct charges such as advisory, custody or transaction fees are paid by the client to Julius Baer and are not treated as compensation to the bank[2].",
+      "exact_match": false,
+      "token_recall": 0.8333333333333334,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "2"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "For how long is the Advisory Agreement concluded?",
+      "expected_answer": "For an indefinite period of time.",
+      "answer": "The Advisory Agreement is concluded for an indefinite period of time[1].",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "When can a client revoke the Advisory Agreement within 14 days?",
+      "expected_answer": "When the contract was concluded as a distance selling transaction or as an out-of-home transaction.",
+      "answer": "A client may cancel the Advisory Agreement within 14 days —but only when the agreement was concluded as a distance‑selling transaction (e.g., via the Internet or telephone) or as an out‑of‑home transaction. The 14‑day cancellation period starts once the contract is concluded and the client has received all required legal information about it[1].",
+      "exact_match": false,
+      "token_recall": 0.875,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "14",
+        "14",
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "How soon does the Bank confirm receipt of a written complaint?",
+      "expected_answer": "Within a maximum of 10 business days.",
+      "answer": "The Bank confirms receipt of a written complaint within a maximum of 10 business days [1].",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [
+        "10"
+      ],
+      "answer_numbers": [
+        "10",
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What is the latest stated timeframe for answering a complaint?",
+      "expected_answer": "Not later than one month.",
+      "answer": "The bank states that it will answer a written complaint no later than one month (with notice if an exceptional case requires more time)[1][2].",
+      "exact_match": false,
+      "token_recall": 0.8,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "2"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "How quickly does the Bank provide feedback on complaints relating to payment services?",
+      "expected_answer": "Within 15 days.",
+      "answer": "The Bank aims to give feedback on complaints that concern payment services within 15 days. [1]",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [
+        "15"
+      ],
+      "answer_numbers": [
+        "15",
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Which authority can receive a complaint if the client is dissatisfied with the Bank's response?",
+      "expected_answer": "Commission de Surveillance du Secteur Financier (CSSF).",
+      "answer": "If the client is not satisfied with the Bank’s response, the complaint can be referred to the Commission de Surveillance du Secteur Financier (CSS F), the Luxembourg financial‑sector supervisory authority. [1][4]",
+      "exact_match": false,
+      "token_recall": 0.8571428571428571,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "4"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What are the four principles of accessibility described in the document?",
+      "expected_answer": "Perceivability, Operability, Understandability, and Robustness.",
+      "answer": "The document lists the four accessibility principles as:\n\n- **Perceivability** – information and IT functions must be perceivable by as many people as possible.  \n- **Operability** – the IT functions must be usable by as many people as possible.  \n- **Understandability** – the content must be clear and easy to understand.  \n- **Robustness** – the content must work reliably with assistive technologies.  \n\nThese principles are described in the sources [1] and [3].",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "3"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "How can the Bank provide the Advisory Agreement to a client?",
+      "expected_answer": "By post, electronically as a PDF via email, or in person.",
+      "answer": "The Bank can give the Advisory Agreement to a client by handing it over in person, typically through the client’s relationship manager. [2]",
+      "exact_match": false,
+      "token_recall": 0.16666666666666666,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "2"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "How can a client transmit an order to buy or sell financial instruments?",
+      "expected_answer": "By calling their relationship manager or sending an email.",
+      "answer": "A client can transmit an order to buy or sell by contacting the Bank through the channel agreed on at account opening – typically by calling the relationship manager or by sending an email. The order may also be placed directly with a Branch, which then forwards it to the Bank for execution in line with the applicable business conditions and correspondence instructions[2][3].",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "2",
+        "3"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What language level does the document say it does not exceed?",
+      "expected_answer": "B2 level of the Common European Framework of Reference for Languages (CEFR).",
+      "answer": "The document states that the information is written in clear language and does not exceed the B2 level of the Common European Framework of Reference for Languages (CEFR)[1].",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Which format may allow documents to be interpreted by screen readers?",
+      "expected_answer": "PDF-UA.",
+      "answer": "Documents that are in the PDF‑UA format (or are web‑based) can be interpreted by screen readers, allowing the content to be read aloud[1].",
+      "exact_match": false,
+      "token_recall": 0.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Which authority is responsible for accessibility surveillance in Luxembourg?",
+      "expected_answer": "Office de la surveillance de l’accessibilité des produits et services (OSAPS).",
+      "answer": "The authority responsible for accessibility surveillance in Luxembourg is the Office de la surveillance de l’accessibilité des produits et services (OSAPS)[1]",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Where is Julius Baer's group head office?",
+      "expected_answer": "Zurich, Switzerland",
+      "answer": "Julius Baer’s group head office is located in Zurich, Switzerland[1][2]",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "2"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "How many locations does Julius Baer have around the world?",
+      "expected_answer": "over 50 locations around the world",
+      "answer": "Julius Baer is present in roughly 60 locations worldwide[1].",
+      "exact_match": false,
+      "token_recall": 0.2,
+      "expected_numbers": [
+        "50"
+      ],
+      "answer_numbers": [
+        "60",
+        "1"
+      ],
+      "numeric_match": false,
+      "abstention": false
+    },
+    {
+      "question": "In a single-location relationship, who is responsible for providing the services?",
+      "expected_answer": "the Bank is responsible for the provision of the respective services",
+      "answer": "The Bank itself is responsible for providing the services in a single‑location relationship[1]",
+      "exact_match": false,
+      "token_recall": 0.6,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What does the Relationship Manager do in a dual-location relationship?",
+      "expected_answer": "take care of the clients' needs, provide advice, and liaise with the Bank in all relevant matters",
+      "answer": "In a dual‑location relationship a dedicated Relationship Manager is stationed at the client’s chosen local branch. He serves the client’s needs, provides advice and acts as the liaison with the Bank, forwarding the client’s instructions, orders or other information to the Bank and discussing all relevant statements, reports and communications with the client, including those supplied by the Bank[1].",
+      "exact_match": false,
+      "token_recall": 0.45454545454545453,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Who makes investment decisions under a discretionary portfolio management mandate?",
+      "expected_answer": "clients delegate the power of making investment decisions to Julius Baer",
+      "answer": "Under a discretionary portfolio‑management mandate the client delegates the investment decision to Julius Baer, and a portfolio manager (e.g., Daniel Obradovic) is responsible for the day‑to‑day management and makes the investment decisions on the client’s behalf[1][2]",
+      "exact_match": false,
+      "token_recall": 0.5,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "2"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What do clients receive under discretionary portfolio management?",
+      "expected_answer": "constant market and portfolio monitoring as well as active asset allocation",
+      "answer": "Clients who opt for discretionary portfolio management delegate investment decisions to Julius Baer’s portfolio managers. They benefit from continuous market and portfolio monitoring and an active asset‑allocation approach, and they receive regular reports and statements showing the status and performance of the managed portfolio[5].",
+      "exact_match": false,
+      "token_recall": 0.75,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "5"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Who makes the final investment decision under an advisory mandate?",
+      "expected_answer": "the responsibility of making the final investment decision remains with the client",
+      "answer": "Under an advisory mandate the client (the investor) retains the final investment decision; the bank provides recommendations but does not execute trades without the client’s explicit instruction. [1][3][4]",
+      "exact_match": false,
+      "token_recall": 0.5714285714285714,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "3",
+        "4"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Can Julius Baer initiate an advisory transaction without the client's instruction?",
+      "expected_answer": "No. Julius Baer will not initiate any transactions without being explicitly instructed to do so by the client",
+      "answer": "No. Under an advisory mandate the client retains the final investment decision, and Julius Baer will not initiate any transactions without an explicit instruction from the client[1].",
+      "exact_match": false,
+      "token_recall": 0.6666666666666666,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What does a non-advised agreement give clients access to?",
+      "expected_answer": "the full range of investment products via the Julius Baer trading platform and generic, high-quality research on financial matters",
+      "answer": "A non‑advised agreement lets clients use the bank’s trading platform to trade the full range of investment products and receive generic, high‑quality research. It is offered in two forms – a “Trade Basic Agreement” that provides worldwide access to financial instruments for trading and the related information, and a “Non‑Trading Account” for the long‑term safekeeping of strategic holdings that are not intended to be traded in the near future[1].",
+      "exact_match": false,
+      "token_recall": 0.6428571428571429,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What are the two types of non-advised mandates?",
+      "expected_answer": "Trade Basic Agreement and Non-Trading Account",
+      "answer": "The two types of non‑advised mandates are the **Trade Basic Agreement**, which provides worldwide access to tradable financial instruments and related information, and the **Non‑Trading Account**, which is intended for the long‑term safekeeping of strategic holdings with no planned transactions[1].",
+      "exact_match": false,
+      "token_recall": 0.8,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "How many carefully selected third-party providers are considered in Julius Baer's investment universe?",
+      "expected_answer": "more than 100 carefully selected third-party providers",
+      "answer": "Julius Baer’s investment universe includes products from **more than 100 carefully selected third‑party providers**[1][2]",
+      "exact_match": false,
+      "token_recall": 0.8571428571428571,
+      "expected_numbers": [
+        "100"
+      ],
+      "answer_numbers": [
+        "100",
+        "1",
+        "2"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What must Julius Baer do if it does not obtain the information necessary for suitability?",
+      "expected_answer": "it is required by law to abstain from providing advised services",
+      "answer": "If Julius Baer cannot obtain the information needed to assess a client’s suitability (or appropriateness), it must warn the client. The client can then choose to refrain from the trade or proceed despite the warning, but Julius Baer reserves the right to refuse to carry out the transaction if it considers that necessary in the client’s best interest[4].",
+      "exact_match": false,
+      "token_recall": 0.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "4"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What does the Client Investment Profile evaluate?",
+      "expected_answer": "knowledge and experience with regard to investment services and financial instruments, as well as investment goals, time horizon, and risk appetite",
+      "answer": "The Client Investment Profile (CIP) is used to collect and assess the client’s \n\n* investment objectives and horizon,  \n* overall financial situation, including the ability and willingness to bear loss (risk ability and risk tolerance), and  \n* knowledge and experience with financial instruments and investment services.  \n\nThese elements form the basis for defining a suitable and appropriate investment strategy for the client[2][3][4].",
+      "exact_match": false,
+      "token_recall": 0.6428571428571429,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "2",
+        "3",
+        "4"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What does Julius Baer do if a client requests advice on an unsuitable financial instrument?",
+      "expected_answer": "Julius Baer will inform the client accordingly",
+      "answer": "If a client asks for advice on a financial instrument that Julius Baer judges to be unsuitable, the bank first informs the client of that assessment. Should the client still wish to go ahead, the trade is treated as a non‑advised transaction (i.e., done against the bank’s advice), and Julius Baer may refuse to include the instrument in any portfolio‑monitoring services or exclude it from its monitoring activity[1][2].",
+      "exact_match": false,
+      "token_recall": 0.5,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "2"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What does Julius Baer do if an order is deemed inappropriate?",
+      "expected_answer": "Julius Baer will warn the client accordingly",
+      "answer": "If an order is judged inappropriate, Julius Baer warns the client that their knowledge and experience are insufficient to understand the risks. The client may then choose to refrain from the trade or proceed despite the warning, but Julius Baer reserves the right to refuse to execute the order if it considers that necessary in the client’s best interest[1][2].",
+      "exact_match": false,
+      "token_recall": 0.5,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "2"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "How are clients classified by default?",
+      "expected_answer": "By default, Julius Baer treats all clients as retail clients",
+      "answer": "By default, Julius Baer classifies every client as a retail client, which receives the highest level of consumer protection. [1]",
+      "exact_match": false,
+      "token_recall": 0.5,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What minimum bankable assets are required to request elective professional client status?",
+      "expected_answer": "EUR 500,000 or more, together with the required experience",
+      "answer": "Retail clients must hold bankable assets of at least EUR 500,000 to be able to request elective professional‑client status. [2]",
+      "exact_match": false,
+      "token_recall": 0.42857142857142855,
+      "expected_numbers": [
+        "500,000"
+      ],
+      "answer_numbers": [
+        "500,000",
+        "2"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Which asset classes are currently covered by the Julius Baer ESG Investment Rating Methodology?",
+      "expected_answer": "equities, corporate and sovereign bonds, and funds",
+      "answer": "The Julius Baer ESG Investment Rating Methodology presently covers **equities, corporate bonds, sovereign bonds and funds**[1].",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What is the purpose of best execution?",
+      "expected_answer": "to take sufficient steps to obtain the best possible result when executing transactions on a client's behalf",
+      "answer": "The purpose of best execution is to ensure that, when carrying out a client’s transaction, the firm takes all necessary steps to obtain the best possible result for the client – including the most favorable price, cost, speed, likelihood of execution and settlement, size and any other relevant considerations [1][3].",
+      "exact_match": false,
+      "token_recall": 0.5833333333333334,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "3"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Which factors does Julius Baer consider for best execution?",
+      "expected_answer": "price, cost, speed, likelihood of execution and settlement, size, and the nature of the transaction or other relevant considerations",
+      "answer": "Julius Baer evaluates the following factors when determining best execution for a client’s order:\n\n* **Price** – the execution price of the instrument.  \n* **Cost** – all fees and charges, including implicit market‑impact costs, external venue or brokerage fees and Julius Baer’s own commissions.  \n* **Speed** – the time required to complete the transaction.  \n* **Likelihood of execution and settlement** – the probability that the trade can be fully executed and settled.  \n* **Size** – the transaction size and its effect on execution price.  \n* **Nature of the transaction or any other relevant consideration** – characteristics of the specific order that may affect execution.  \n\nThese factors are set out in Julius Baer’s best‑execution framework[1][2].",
+      "exact_match": false,
+      "token_recall": 0.9166666666666666,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "2"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "How often does Julius Baer review its best execution policy?",
+      "expected_answer": "on an annual basis",
+      "answer": "Julius Baer reviews its best‑execution policy once a year – an annual review of the policy and the overall order‑execution arrangements is performed (with an additional review if a material change occurs)[1][2]",
+      "exact_match": false,
+      "token_recall": 0.5,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "2"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What does Julius Baer publish annually about execution quality?",
+      "expected_answer": "an annual report on the best execution monitoring results and the quality of execution per asset class",
+      "answer": "Julius Baer publishes on its website an annual report that details its best‑execution monitoring results and the quality of execution for each asset class. In the same publication it also provides, for every class of financial instrument, a yearly list of the five most‑used execution venues by trading volume. [1]",
+      "exact_match": false,
+      "token_recall": 0.9090909090909091,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What should clients do first if they have feedback about their relationship with Julius Baer?",
+      "expected_answer": "address their feedback directly to their dedicated relationship manager or contact person",
+      "answer": "Clients should first direct any feedback about their relationship with Julius Baer to their dedicated relationship manager or contact person. [1][2][3]",
+      "exact_match": false,
+      "token_recall": 0.75,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "2",
+        "3"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What may Julius Baer do if it cannot rule out a conflict of interest affecting a client?",
+      "expected_answer": "adequately inform the client about the existence and nature of the conflict of interest so the client can make an informed decision",
+      "answer": "If Julius Baer cannot rule out, with reasonable confidence, that a conflict of interest could adversely affect a client, it will disclose the existence and nature of the conflict to the client so that the client can decide whether to proceed with the proposed service or transaction[1].",
+      "exact_match": false,
+      "token_recall": 0.5714285714285714,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What is an inducement?",
+      "expected_answer": "a monetary or non-monetary benefit that a Julius Baer entity may receive from another legal entity and that is not paid directly by or on behalf of a client",
+      "answer": "An inducement is a monetary or non‑monetary benefit that a Julius Baer entity may receive from another legal entity (including group companies) that is not paid directly by the client or on the client’s behalf. It can take the form of cash payments, information, conference participation, hospitality, or other goods and services provided in exchange for distribution or other services.[1]",
+      "exact_match": false,
+      "token_recall": 0.9375,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What risk does investing in securities involve?",
+      "expected_answer": "the risk of losing money",
+      "answer": "Investing in securities carries the risk that the value of the investment can fall, potentially leading to a loss of part or even the entire amount invested[3][5].",
+      "exact_match": false,
+      "token_recall": 0.3333333333333333,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "3",
+        "5"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What happens to a bond's price when market interest rates rise?",
+      "expected_answer": "the bond's price will fall accordingly",
+      "answer": "When market interest rates rise, a bond’s fixed‑rate coupon becomes less attractive, so the bond’s market price falls—often dropping below its nominal (par) value. [1][2]",
+      "exact_match": false,
+      "token_recall": 0.4,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "2"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What do discretionary mandates allow clients to leave to investment professionals?",
+      "expected_answer": "day-to-day investment decisions",
+      "answer": "Discretionary mandates let clients hand over the day‑to‑day investment decisions (the everyday investment‑related issues) to trusted investment professionals[1][5]",
+      "exact_match": false,
+      "token_recall": 0.6666666666666666,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "5"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Who manages a client's portfolio under a discretionary solution?",
+      "expected_answer": "dedicated experts",
+      "answer": "Under a discretionary solution the client’s portfolio is managed by a professional portfolio manager (or dedicated investment experts) who make the day‑to‑day investment decisions on the client’s behalf[2][5].",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "2",
+        "5"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Which factors guide the management of a discretionary portfolio?",
+      "expected_answer": "agreed-upon investment objectives, risk tolerance, guidelines, and a disciplined approach",
+      "answer": "The management of a discretionary portfolio is driven by the client’s investment objectives, risk tolerance (or risk appetite), personal‑financial situation and liquidity needs, together with the agreed investment guidelines and strategy that the bank’s portfolio managers apply through their investment process (e.g., top‑down analysis by the Investment Committee). [1][4]",
+      "exact_match": false,
+      "token_recall": 0.625,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "4"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Which major investment categories are covered by Julius Baer's discretionary mandates?",
+      "expected_answer": "all major asset classes and styles",
+      "answer": "Julius Baer’s discretionary mandates span a broad set of investment categories, including globally diversified mandates, regionally focused mandates, asset‑class‑specific mandates, mandates that emphasize sustainability, and tailored mandates that are managed directly by the Chief Investment Office team [2]. The offering is designed to cover all major asset classes and styles [1].",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "2",
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What personal and financial information does a client explain at the first step?",
+      "expected_answer": "their personal and financial situation",
+      "answer": "At the first step the client supplies a personal investment profile that details the client’s financial situation (e.g., income, expenses, assets and loss‑bearing capacity), the client’s investment objectives (including horizon and goals) and the client’s knowledge and experience with financial instruments, which together define the client’s risk‑taking ability and overall investment goals【1†L1-L4】【4†L7-L12】",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "4"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What does the client explain about their investment preferences at the first step?",
+      "expected_answer": "objectives, requirements, and risk appetite",
+      "answer": "At the first step the client (via a personal investment profile) explains their financial situation, their investment objectives, their knowledge and experience with financial instruments, and the maximum amount of risk they are willing and able to take — the information that forms the client’s investment guidelines. [1]",
+      "exact_match": false,
+      "token_recall": 0.5,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What does Julius Baer provide after learning about the client's profile and objectives?",
+      "expected_answer": "objective advice on investment strategies that correspond to the client's profile and objectives",
+      "answer": "After reviewing the client’s investment profile and objectives, Julius Baer defines a suitable overall investment strategy that is tailored to the client’s individual circumstances. [1][4]",
+      "exact_match": false,
+      "token_recall": 0.5,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "4"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Which team can develop a tailored investment solution upon request?",
+      "expected_answer": "the Chief Investment Office (CIO) team",
+      "answer": "The Chief Investment Office (CIO) team can develop a tailored investment solution upon request[1]",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What happens once the client decides which strategy to pursue?",
+      "expected_answer": "Julius Baer starts managing the client's assets and making investment decisions on their behalf",
+      "answer": "After the client selects the desired investment strategy, Julius Baer begins managing the client’s assets and makes all investment decisions on the client’s behalf in line with that strategy[2].",
+      "exact_match": false,
+      "token_recall": 0.8,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "2"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "How does Julius Baer help keep a portfolio aligned with the chosen strategy?",
+      "expected_answer": "through portfolio monitoring and regular reviews",
+      "answer": "Julius Baer keeps a portfolio aligned with the client’s chosen strategy by continuously monitoring the holdings, conducting regular reviews and providing frequent performance reports. This ongoing oversight ensures the portfolio stays true to the agreed‑upon strategy and can be adjusted whenever the client wishes. [1][4]",
+      "exact_match": false,
+      "token_recall": 0.8,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "4"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Can a client change their chosen strategy?",
+      "expected_answer": "Yes, the chosen strategy can be changed at any time",
+      "answer": "Yes. In a discretionary mandate the client may change the chosen investment strategy at any time, with the bank’s portfolio monitoring and regular reviews ensuring the portfolio stays aligned with the new strategy[3].",
+      "exact_match": false,
+      "token_recall": 0.7142857142857143,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "3"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What does Julius Baer provide to keep clients up to date on portfolio performance?",
+      "expected_answer": "regular reports",
+      "answer": "Julius Baer keeps clients informed of how their portfolios are performing by issuing regular performance reports (and accompanying statements) that detail the status and results of the managed assets[1][5]",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "5"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What determines which products and services are offered to a client?",
+      "expected_answer": "the domicile of the client and the legal entity of Julius Baer",
+      "answer": "The range of products and services a client can receive is set by the client’s classification and the bank’s suitability assessment.  Julius Baer must first determine whether a client is a private client (who receives the highest level of protection) or a professional client (who is treated as a sophisticated investor).  Professional status is granted only if the client meets legal criteria such as sufficient knowledge/experience and eligible assets of at least CHF 500 000 or CHF 2 million [3][5].  For any advised or discretionary mandate, the bank must obtain detailed information on the client’s knowledge, experience, investment goals, time horizon and risk appetite and must only recommend products that are suitable for those circumstances; if the information is lacking, the bank must refrain from providing the service [2].  Consequently, the bank offers only those financial instruments that are targeted at private clients or expressly registered for private‑client distribution, and only those that meet the client’s assessed suitability and professional‑client criteria [1][4].",
+      "exact_match": false,
+      "token_recall": 0.6666666666666666,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "500",
+        "000",
+        "2",
+        "3",
+        "5",
+        "2",
+        "1",
+        "4"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Name one type of mandate included in Julius Baer's range.",
+      "expected_answer": "Globally diversified mandates",
+      "answer": "One example is a globally diversified mandate[1].",
+      "exact_match": false,
+      "token_recall": 0.6666666666666666,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Which mandates focus on a particular geographical area?",
+      "expected_answer": "Regionally focused mandates",
+      "answer": "Regionally focused mandates are the ones that concentrate on a specific geographical area[1].",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Which team directly manages tailored mandates?",
+      "expected_answer": "the Chief Investment Office (CIO) team",
+      "answer": "Tailored mandates are managed directly by the Chief Investment Office (CIO) team[1][2].",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "2"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What needs can Julius Baer tailor discretionary mandates to meet?",
+      "expected_answer": "specific investment objectives, risk tolerance, and liquidity needs",
+      "answer": "Julius Baer can customize discretionary mandates to match a client’s specific investment objectives, risk tolerance and liquidity needs[1].",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What two levels of analysis are combined in the investment process?",
+      "expected_answer": "top-down analysis and bottom-up portfolio management",
+      "answer": "The investment process blends a top‑down analysis (asset‑allocation decisions made by the Investment Committee) with a bottom‑up approach (portfolio managers selecting individual investments).[1]",
+      "exact_match": false,
+      "token_recall": 0.4,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What does the Investment Committee define in the top-down process?",
+      "expected_answer": "the asset allocation",
+      "answer": "The Investment Committee’s role in the top‑down process is to define the asset allocation for the portfolio[1].",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What guides individual investment decisions by portfolio managers in the bottom-up process?",
+      "expected_answer": "the client's chosen strategy/investment approach",
+      "answer": "Portfolio managers make their individual investment choices in the bottom‑up process by following the client’s selected strategy or investment approach that has been defined for the mandate[1].",
+      "exact_match": false,
+      "token_recall": 0.8,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What do all of Julius Baer's discretionary mandates reflect?",
+      "expected_answer": "Julius Baer's house view of the financial markets",
+      "answer": "All of Julius Baer’s discretionary mandates reflect the bank’s house view of the financial markets[1].",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "How often does the Investment Committee meet to assess markets and economic developments?",
+      "expected_answer": "weekly as well as ad-hoc",
+      "answer": "The Investment Committee meets weekly (and also on an ad‑hoc basis) to assess markets and economic developments[1].",
+      "exact_match": false,
+      "token_recall": 0.3333333333333333,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What are tactical decisions based on?",
+      "expected_answer": "the outcome of the Investment Committee's assessments",
+      "answer": "Tactical decisions are made based on the outcome of the Investment Committee’s assessments of market and economic developments, asset‑class weightings and any short‑term opportunities[1].",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "How often can clients access tailored performance reports?",
+      "expected_answer": "monthly and quarterly performance reports",
+      "answer": "Clients can receive tailored performance reports on a regular basis, with the frequency set to suit their preferences – it can be monthly, weekly or even daily[1][3].",
+      "exact_match": false,
+      "token_recall": 0.75,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "3"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What is the stated objective of the sustainability mandates?",
+      "expected_answer": "generating long-term, risk-adjusted financial returns",
+      "answer": "The sustainability mandates are designed to generate long‑term, risk‑adjusted financial returns by investing in high‑quality companies that hold an outstanding MSCI environmental, social and governance (ESG) research rating[2].",
+      "exact_match": false,
+      "token_recall": 0.4,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "2"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "In an advisory setup, who makes the final investment decision?",
+      "expected_answer": "The client takes the final investment decision",
+      "answer": "In an advisory mandate the client retains the ultimate authority – the client makes the final investment decision. [1][2]",
+      "exact_match": false,
+      "token_recall": 0.8,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "2"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Who is responsible for day-to-day portfolio management under a discretionary mandate?",
+      "expected_answer": "A portfolio manager",
+      "answer": "Under a discretionary mandate the day‑to‑day management of the portfolio is handled by a portfolio manager (or a team of dedicated portfolio managers) who makes investment decisions on the client’s behalf[1].",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What does an investment profile evaluate?",
+      "expected_answer": "The client's financial situation, investment objectives, prior knowledge, and experience",
+      "answer": "An investment profile is used to assess a client’s overall financial situation and goals. It evaluates the client’s financial circumstances, investment objectives, knowledge and experience with financial instruments, and the ability and willingness to take risk—including risk appetite, risk tolerance and the capacity to bear potential losses—as well as the intended investment horizon and purpose[1][4][5].",
+      "exact_match": false,
+      "token_recall": 0.875,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "4",
+        "5"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What do investment guidelines reflect?",
+      "expected_answer": "The client's current understanding of financial instruments and the maximum amount of risk they are able to take",
+      "answer": "Investment guidelines reflect your current understanding of financial instruments and the maximum amount of risk you are able to take in order to achieve your broader investment goals[1].",
+      "exact_match": false,
+      "token_recall": 0.9,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What is an investment strategy used for?",
+      "expected_answer": "As a guideline for adjusting investments whenever the portfolio valuation changes",
+      "answer": "An investment strategy is the guideline that directs how a portfolio is managed – it is used to adjust holdings when the portfolio’s value changes and to ensure that all investment decisions are aligned with the client’s financial situation, objectives, risk tolerance and compliance requirements[1][2].",
+      "exact_match": false,
+      "token_recall": 0.42857142857142855,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "2"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What are the five considerations discussed when choosing between discretionary and advisory mandates?",
+      "expected_answer": "Financial (markets) knowledge; Learning effect; Time investment; Reachability; Regulation",
+      "answer": "The available sources only identify the first consideration—financial (markets) knowledge—but do not list the remaining four considerations. Therefore, the sources do not provide enough information to answer the question fully.",
+      "exact_match": false,
+      "token_recall": 0.1111111111111111,
+      "expected_numbers": [],
+      "answer_numbers": [],
+      "numeric_match": true,
+      "abstention": true
+    },
+    {
+      "question": "Which mandate may suit someone who is familiar with financial markets and interested in them?",
+      "expected_answer": "An advisory mandate",
+      "answer": "An advisory mandate would be appropriate for someone who already knows about asset classes, financial indexes and market dynamics and is interested in staying involved in those topics[1].",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Which mandate may suit someone with little investing knowledge and less interest in learning more?",
+      "expected_answer": "A discretionary mandate",
+      "answer": "A discretionary mandate is likely the better fit for someone who has little investing knowledge and is less interested in learning more about it[1].",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "How is the learning effect described in an advisory setup?",
+      "expected_answer": "The learning effect is direct",
+      "answer": "In an advisory mandate you are actively involved in the markets and see the results of your decisions right away, so the learning effect is direct[1]",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "How is the learning effect described in a discretionary setup?",
+      "expected_answer": "The learning effect is indirect",
+      "answer": "In a discretionary setup the learning effect is indirect. Because portfolio decisions are made by the manager and you only see the outcomes later through regular reports or statements, the time lag between the market event and the information you receive means you learn about the impact of decisions indirectly rather than directly. [1]",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "How can clients track decisions made by their portfolio manager in a discretionary setup?",
+      "expected_answer": "By tracking the decisions their portfolio manager made on their behalf through their e-banking account",
+      "answer": "Clients can monitor a discretionary portfolio by receiving regular portfolio reports and statements, which are also accessible through their e‑banking account, allowing them to see the decisions their portfolio manager has made on their behalf[1][5].",
+      "exact_match": false,
+      "token_recall": 0.7777777777777778,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "5"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Which mandate may suit someone who cannot allocate enough time to speak with an investment partner?",
+      "expected_answer": "A discretionary mandate",
+      "answer": "A discretionary mandate would be appropriate for someone who cannot devote enough time to speak with an investment partner[1].",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Which mandate may suit someone who is difficult for an investment advisor to reach?",
+      "expected_answer": "A discretionary mandate",
+      "answer": "A discretionary mandate is appropriate for clients who are hard for an investment advisor to reach, such as frequent travelers or expats who are often in different time zones. [1]",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What communication channels are mentioned for reaching a client?",
+      "expected_answer": "Telephone or email",
+      "answer": "The documents list several ways a client can be contacted, including:\n\n* E‑mail, fax and telephone calls [1]  \n* Phone calls or e‑mail to the client’s relationship manager [3]  \n* In‑person hand‑over or face‑to‑face meetings with the relationship manager [2][3]  \n* The Bank’s website (online access) [3]  \n* Postal mail (sending documents by post) [4]  \n* Electronic PDF sent by e‑mail [4]  \n\nThe bank also notes that it cannot accept client communications via third‑party instant messengers [2].",
+      "exact_match": false,
+      "token_recall": 0.5,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "3",
+        "2",
+        "3",
+        "3",
+        "4",
+        "4",
+        "2"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What regulatory requirements might clients in certain countries have to follow?",
+      "expected_answer": "They may have to approve all decisions in writing or adhere to holding periods",
+      "answer": "Clients in some jurisdictions must meet especially strict regulatory rules. For example, they may be required to approve every investment decision in writing and to observe prescribed holding‑period limits [1]. In addition, banks in those countries must submit daily reports on all securities transactions—including the buyer’s and seller’s identification and, for legal‑entity traders, their Legal Entity Identifier—and may be subject to mandatory reporting of holdings or trading under local securities‑holding rules and the automatic exchange of information under the Common Reporting Standard [4].",
+      "exact_match": false,
+      "token_recall": 0.5555555555555556,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "4"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "How may a discretionary solution help clients facing complex investment regulations?",
+      "expected_answer": "It may help them fully comply with regulation while simultaneously working towards achieving their investment goals",
+      "answer": "A discretionary solution lets the client hand over day‑to‑day decision‑making to the bank, so that all trades are executed within an agreed investment strategy that already incorporates the local regulatory rules (e.g., written approvals, holding‑period requirements). By doing so, the client can meet the complex regulatory demands while still pursuing their investment objectives, with compliance monitored by the bank’s independent risk function[1][2].",
+      "exact_match": false,
+      "token_recall": 0.15384615384615385,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "2"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What do the two investment professionals advise readers not to do?",
+      "expected_answer": "Don't rush into something that does not suit your personal circumstances",
+      "answer": "The available sources do not provide enough information to determine what the two investment professionals specifically advise readers not to do.",
+      "exact_match": false,
+      "token_recall": 0.1,
+      "expected_numbers": [],
+      "answer_numbers": [],
+      "numeric_match": true,
+      "abstention": true
+    },
+    {
+      "question": "What is the Julius Baer Foundation's mission?",
+      "expected_answer": "Reducing Wealth Inequality",
+      "answer": "The Julius Baer Foundation’s mission is to act as a catalyst for dialogue and cooperation – circulating knowledge, showcasing innovative projects and mobilising diverse actors to drive change and create more equitable opportunities, while fostering trust‑based partnerships that inspire clients, employees, fellow philanthropists and other foundations to join its work[2].",
+      "exact_match": false,
+      "token_recall": 0.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "2"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What three areas does the Foundation fund?",
+      "expected_answer": "Income generation and enterprise development; Inclusive education and skills development; Strengthening community infrastructure",
+      "answer": "The Foundation funds projects in three focus areas:\n\n1. Income generation and enterprise development  \n2. Inclusive education and skills development  \n3. Strengthening community infrastructure  \n\n[1]",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "2",
+        "3",
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "How does the Foundation act as a convener?",
+      "expected_answer": "It connects stakeholders who do not typically collaborate, including clients, employees, peer foundations, philanthropists, and academics",
+      "answer": "The Foundation uses its position to bring together people and organisations that normally do not work side‑by‑side. It links clients, employees, peer foundations, philanthropists and academics, creating open spaces for dialogue, shared learning and joint design of projects. By combining capital, evidence and networks, these diverse perspectives are turned into co‑designed, funded and measured pilot ventures that enable collective action and new solutions [1][3][5].",
+      "exact_match": false,
+      "token_recall": 0.5714285714285714,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "3",
+        "5"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "How many partner organisations did the Foundation have across how many countries as of 31 December 2025?",
+      "expected_answer": "24 partner organisations in 18 countries",
+      "answer": "The Foundation had **24 partner organisations in 18 countries** as of 31 December 2025[5].",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [
+        "24",
+        "18"
+      ],
+      "answer_numbers": [
+        "24",
+        "18",
+        "31",
+        "2025",
+        "5"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "How much did the Foundation spend on donations in 2025?",
+      "expected_answer": "CHF 4.40 million",
+      "answer": "The Foundation’s expenses for contributions and donations in 2025 amounted to CHF 7,590,810[4].",
+      "exact_match": false,
+      "token_recall": 0.5,
+      "expected_numbers": [
+        "4.40"
+      ],
+      "answer_numbers": [
+        "2025",
+        "7,590",
+        "810",
+        "4"
+      ],
+      "numeric_match": false,
+      "abstention": false
+    },
+    {
+      "question": "Which organisation in Zambia is supported to train young farmers in agroecology?",
+      "expected_answer": "Young Emerging Farmers Initiative (YEFI)",
+      "answer": "The Young Emerging Farmers Initiative (YEFI) is the organisation in Zambia that is being supported to train young farmers in agroecology[1][3][4].",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "3",
+        "4"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What does the Foundation identify as a key barrier to opportunity beyond education and skills?",
+      "expected_answer": "The right network",
+      "answer": "The Foundation says that even when people have education and skills, unequal access to essential networks — and the broader infrastructure that supports them — remains a major barrier to opportunity[1].",
+      "exact_match": false,
+      "token_recall": 0.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What is the name of Forge Foundation's programme supported by the Foundation?",
+      "expected_answer": "Tu Huella Digital",
+      "answer": "The Julius Baer Foundation supports Forge’s programme called **“Tu Huella Digital”** (Your Digital Footprint)[1]",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What does Fundación CODESPA's project help seaweed farmers and multinational companies jointly design?",
+      "expected_answer": "A business model",
+      "answer": "Fundación CODESPA’s project helps small‑scale seaweed farmers and multinational buyers jointly design a business model that cuts transaction costs, boosts economic efficiency and improves profitability for both parties[1].",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "How many girls did CAMFED's national leadership training programme connect with professionals for leadership guidance?",
+      "expected_answer": "86 selected girls",
+      "answer": "CAMFED’s new national leadership training programme connected **86 selected girls** across the country with professionals for leadership guidance[1].",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [
+        "86"
+      ],
+      "answer_numbers": [
+        "86",
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What is the name of the Israeli-Palestinian winner team that qualified for seed funding through MEET?",
+      "expected_answer": "BridgeIt",
+      "answer": "The Israeli‑Palestinian winner team that qualified for seed funding is BridgeIt[1][3].",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "3"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "How much seaweed does the HISFA-CO cooperative consolidate each month, according to the participant account?",
+      "expected_answer": "12,000 kilograms of seaweed per month",
+      "answer": "The participant account states that the HISFA‑CO cooperative consolidates **12,000 kilograms of seaweed each month**[1].",
+      "exact_match": false,
+      "token_recall": 0.8333333333333334,
+      "expected_numbers": [
+        "12,000"
+      ],
+      "answer_numbers": [
+        "12,000",
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What are the three steps of Impact Hub Mexico's Emprende Juventud Poblana programme?",
+      "expected_answer": "Inspirational events; a five-month incubator; formalising the ventures",
+      "answer": "The available sources do not provide enough information to list the three steps of Impact Hub Mexico’s Emprende Juventud Poblana programme.",
+      "exact_match": false,
+      "token_recall": 0.0,
+      "expected_numbers": [],
+      "answer_numbers": [],
+      "numeric_match": true,
+      "abstention": true
+    },
+    {
+      "question": "What does the five-month incubator provide participants?",
+      "expected_answer": "Business education and skills, seed funding, and mentorship",
+      "answer": "The five‑month incubator gives participants three core resources: business education and skills, seed funding, and mentorship (along with professional support such as lawyers, accountants and communication specialists to help formalise their ventures)[1]",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What farming techniques does YEFI promote through its NO AGROCHEM project?",
+      "expected_answer": "Locally made bokashi fertiliser, botanical pesticides, and composting methods",
+      "answer": "YEFI’s NO AGROCHEM project trains young farmers in agro‑ecological, regenerative methods that replace synthetic inputs.  Participants learn to make and apply locally produced bokashi fertilizer, to use botanical (home‑made) pesticides, and to adopt composting and other soil‑restoring practices that improve fertility and support organic production[1][3][4].",
+      "exact_match": false,
+      "token_recall": 0.875,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "3",
+        "4"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "How many farmers had YEFI reached within four months, according to the report?",
+      "expected_answer": "Over 1,100 farmers across 22 communities",
+      "answer": "The report states that within four months YEFI had reached **over 1,100 farmers** across 22 communities[1].",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [
+        "1,100",
+        "22"
+      ],
+      "answer_numbers": [
+        "1,100",
+        "22",
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What was the name of the conference on social mobility held in Santiago de Chile?",
+      "expected_answer": "The Future of Social Mobility Conference",
+      "answer": "The conference was called **“The Future of Social Mobility”** (the Future of Social Mobility Conference) held in Santiago de Chile[1][3][4].",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "3",
+        "4"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Which research institution in Chile led the study discussed at the conference?",
+      "expected_answer": "Centre for Social Conflict and Cohesion Studies (COES)",
+      "answer": "The study was led by the Centre for Social Conflict and Cohesion Studies (COES) in Chile[1].",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What initiative did the Foundation launch during its 60th anniversary year?",
+      "expected_answer": "60 Facts on Wealth Inequality",
+      "answer": "During its 60th‑anniversary year, the Foundation launched “The Future of Social Mobility” conference in Chile, co‑hosted with COES, to bring together leading thinkers and practitioners on social mobility and spark new solutions and partnerships[2].",
+      "exact_match": false,
+      "token_recall": 0.0,
+      "expected_numbers": [
+        "60"
+      ],
+      "answer_numbers": [
+        "2"
+      ],
+      "numeric_match": false,
+      "abstention": false
+    },
+    {
+      "question": "Which organisation partnered with the Julius Baer Foundation to help the Jojoba for Namibia Trust scale its model?",
+      "expected_answer": "Irene M. Staehelin Foundation (IMS)",
+      "answer": "The Jojoba for Namibia Trust was able to scale its model through a partnership between the Julius Baer Foundation and the Irene M. Staehelin Foundation (IMS)[1][5].",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "5"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "According to Arunima Singh, at which two stages can co-funding be especially valuable?",
+      "expected_answer": "When a project is ready to scale; when piloting high-risk projects",
+      "answer": "Co‑funding is especially valuable (1) when a project is ready to scale and there is enough data and experience from an initial donor to make the investment catalytic, and (2) when piloting high‑risk projects where data are still scarce[1].",
+      "exact_match": false,
+      "token_recall": 0.875,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "2",
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Who was appointed Chairman of the Julius Baer Foundation in 2025?",
+      "expected_answer": "Noel Quinn",
+      "answer": "Noel Quinn was appointed Chairman of the Julius Baer Foundation in 2025[1][3]",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "2025",
+        "1",
+        "3"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Which body defines the Foundation's strategic focus, policies and fund allocations?",
+      "expected_answer": "The Board",
+      "answer": "The Foundation’s Board defines its strategic focus, policies and fund allocations[1].",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Which organisation reviewed the Foundation's 2025 financial statements?",
+      "expected_answer": "KPMG AG",
+      "answer": "The available sources do not specify which organisation performed the review of the Foundation’s 2025 financial statements.",
+      "exact_match": false,
+      "token_recall": 0.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "2025"
+      ],
+      "numeric_match": true,
+      "abstention": true
+    },
+    {
+      "question": "On what date was the review report signed in Zurich?",
+      "expected_answer": "27 April 2026",
+      "answer": "The review report was signed in Zurich on 27 April 2026[2]",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [
+        "27",
+        "2026"
+      ],
+      "answer_numbers": [
+        "27",
+        "2026",
+        "2"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "When was the Wealth Inequality Initiative launched?",
+      "expected_answer": "2021",
+      "answer": "The Wealth Inequality Initiative was launched in 2021[1].",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [
+        "2021"
+      ],
+      "answer_numbers": [
+        "2021",
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "How many girls did ISRD's four Bridge Education Centres reach in Manipur?",
+      "expected_answer": "633 girls",
+      "answer": "The four Bridge Education Centres reached **633 girls** in Manipur[1].",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [
+        "633"
+      ],
+      "answer_numbers": [
+        "633",
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What percentage of the girls reached by ISRD subsequently enrolled in public schools?",
+      "expected_answer": "More than 90%",
+      "answer": "More than 90 % of the girls reached by ISRD subsequently enrolled in public schools[1].",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [
+        "90"
+      ],
+      "answer_numbers": [
+        "90",
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What proportion of Julius Baer's total assets under management did Asia account for?",
+      "expected_answer": "About a quarter",
+      "answer": "Asia accounts for about a quarter (approximately 25 %) of Julius Baer’s total assets under management[1].",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "25",
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Which Asian markets made strong contributions to Julius Baer's record annual profits in 2021?",
+      "expected_answer": "Singapore, Greater China, Japan, and India",
+      "answer": "Julius Baer’s record 2021 profits were driven by strong contributions from its Asian markets in Singapore, Greater China, Japan and India[1].",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "2021",
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Where is Julius Baer's regional management based in Asia?",
+      "expected_answer": "Singapore",
+      "answer": "Julius Baer’s regional management for Asia is based in Singapore[1].",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Which locations and arrangements does Julius Baer use to serve the diverse Asian region?",
+      "expected_answer": "Local booking centres in Singapore and Hong Kong, a representative office in Shanghai, a domestic presence in India, and joint ventures in Thailand and Japan",
+      "answer": "Julius Baer serves Asia through a mix of on‑the‑ground operations: local booking centres in Singapore and Hong Kong, a representative office in Shanghai, a domestic presence in India, and joint‑venture arrangements in Thailand and Japan[1].",
+      "exact_match": false,
+      "token_recall": 0.9375,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Which client segment does Julius Baer focus on as a wealth manager in Asia?",
+      "expected_answer": "High and ultra-high net worth clients",
+      "answer": "Julius Baer positions itself in Asia as a focused wealth manager for high‑ and ultra‑high‑net‑worth clients[1].",
+      "exact_match": false,
+      "token_recall": 0.8,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What factors does Jimmy Lee say differentiate Julius Baer in Asia?",
+      "expected_answer": "A diverse and experienced workforce, innovative solutions, and personal, trusted relationships",
+      "answer": "Jimmy Lee says Julius Baer stands out in Asia by maintaining a diverse and experienced workforce, offering innovative solutions, and fostering personal, trusted relationships with its high‑ and ultra‑high‑net‑worth clients[1].",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Which topics has Julius Baer been providing more advice on as wealthy individuals' priorities change?",
+      "expected_answer": "Sustainability, philanthropy, and building a legacy",
+      "answer": "The available sources do not provide enough information to answer which topics Julius Baer has been providing more advice on as wealthy individuals’ priorities change.",
+      "exact_match": false,
+      "token_recall": 0.0,
+      "expected_numbers": [],
+      "answer_numbers": [],
+      "numeric_match": true,
+      "abstention": true
+    },
+    {
+      "question": "When did Julius Baer institute its new Single Family Office in Singapore?",
+      "expected_answer": "Early 2021",
+      "answer": "Julius Baer instituted its new Single Family Office in Singapore in early 2021[1].",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [
+        "2021"
+      ],
+      "answer_numbers": [
+        "2021",
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What does Julius Baer's Single Family Office support Asian clients with?",
+      "expected_answer": "Their wealth planning needs",
+      "answer": "Julius Baer’s Single Family Office in Singapore was created to meet Asian families’ wealth‑planning needs. It draws on a global network of specialists and sophisticated planning tools to deliver bespoke road‑maps that help families set up governance structures, grow and protect their wealth, navigate life’s challenges and connect with a family network for idea‑exchange[1].",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What was set up in Singapore to underline the importance of innovation in Asia for Julius Baer?",
+      "expected_answer": "Julius Baer's first innovation lab, the Launchpad",
+      "answer": "Julius Baer established its first innovation lab, called the “Launchpad,” in Singapore to highlight the importance of innovation in Asia[1].",
+      "exact_match": false,
+      "token_recall": 0.8333333333333334,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "According to the article, what share of the world's population lives in Asia?",
+      "expected_answer": "More than half",
+      "answer": "More than half of the world’s population lives in Asia[1].",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "How many people escaped poverty in Asia over the past three decades, according to the article?",
+      "expected_answer": "A billion people",
+      "answer": "A billion people have escaped poverty in Asia over the past three decades[1].",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Which region houses the largest number of high and ultra-high net worth individuals globally, according to Julius Baer's Global Wealth and Lifestyle Report?",
+      "expected_answer": "Asia",
+      "answer": "Asia houses the largest number of high and ultra‑high net worth individuals worldwide, according to Julius Baer’s Global Wealth and Lifestyle Report[1]",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "In which years was Julius Baer granted banking licenses in Singapore and Hong Kong?",
+      "expected_answer": "Singapore in 2007 and Hong Kong in 2010",
+      "answer": "Julius Baer received its banking licence in Singapore in 2007 and its banking licence in Hong Kong in 2010[1]",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [
+        "2007",
+        "2010"
+      ],
+      "answer_numbers": [
+        "2007",
+        "2010",
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What does the Digital Advisory Suite (DiAS) provide relationship managers with?",
+      "expected_answer": "Holistic overviews of client objectives and helps them identify opportunities for engagement with sound recommendations that meet regulatory requirements",
+      "answer": "The Digital Advisory Suite gives relationship managers a holistic view of each client’s objectives and helps them spot engagement opportunities with sound, regulation‑compliant recommendations. It also acts as a digital assistant that automates administrative tasks, guides them through regulatory requirements and suggests tailored investment ideas[1][2].",
+      "exact_match": false,
+      "token_recall": 0.7142857142857143,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "2"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What award did Julius Baer receive for its Digital Advisory Suite (DiAS)?",
+      "expected_answer": "The Front Office award at the WealthTechAsia Awards",
+      "answer": "Julius Baer was honoured with the “Best digital innovator of the year, global” award from PWM/FT Group for its Digital Advisory Suite (DiAS)[3]",
+      "exact_match": false,
+      "token_recall": 0.2,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "3"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Across how many major exchanges can clients booked in Singapore and Hong Kong trade securities through Julius Baer Mobile?",
+      "expected_answer": "Over 30 major exchanges",
+      "answer": "Clients booked in Singapore and Hong Kong can trade securities through Julius Baer Mobile on more than 30 major exchanges[1].",
+      "exact_match": false,
+      "token_recall": 0.75,
+      "expected_numbers": [
+        "30"
+      ],
+      "answer_numbers": [
+        "30",
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What is Julius Baer's stated purpose in its commitment to clients and team development?",
+      "expected_answer": "To create value beyond wealth",
+      "answer": "Julius Baer says its purpose is “to create value beyond wealth” and it is committed to the long‑term development of its team, enabling them to take pride in their commitment and dedication to clients through high‑quality service and care[1].",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What two drivers of the future does the article identify as being at inflection points?",
+      "expected_answer": "generative AI and sustainability",
+      "answer": "The article says the two future drivers at inflection points are **generative AI** and **sustainability**[1][2]",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "2"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What will sustainability require to decarbonise economies by 2050?",
+      "expected_answer": "huge investments",
+      "answer": "Sustainability will need massive investment – an economic and technological transformation – to decarbonise economies by 2050[1][2]",
+      "exact_match": false,
+      "token_recall": 0.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "2050",
+        "1",
+        "2"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "How can cutting-edge AI enhance financial intermediaries’ work?",
+      "expected_answer": "enhance intermediaries’ client relationships",
+      "answer": "Cutting‑edge AI—especially generative AI—helps financial intermediaries deepen and differentiate their client relationships. By leveraging advanced AI models, intermediaries can deliver more personalized, high‑quality advice and integrate sustainability considerations more effectively, turning technology into a competitive advantage that strengthens the advisory role. [1][2]",
+      "exact_match": false,
+      "token_recall": 0.75,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "2"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "How many users did ChatGPT reportedly reach within two months of its launch?",
+      "expected_answer": "100 million users",
+      "answer": "The available sources do not provide enough information to answer that question.",
+      "exact_match": false,
+      "token_recall": 0.0,
+      "expected_numbers": [
+        "100"
+      ],
+      "answer_numbers": [],
+      "numeric_match": false,
+      "abstention": true
+    },
+    {
+      "question": "What economic and technological shift will the move to a zero-carbon economy by 2050 require?",
+      "expected_answer": "an economic and technological transformation",
+      "answer": "The transition to a zero‑carbon economy by 2050 will demand a broad economic and technological transformation. [1]",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "2050",
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What is the name of the cycle in which inflated expectations are followed by disillusionment before real advantages become clear?",
+      "expected_answer": "hype cycle",
+      "answer": "The cycle is called the “hype cycle”[1]",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What could AI-powered chatbots deliver to clients?",
+      "expected_answer": "instant support for clients",
+      "answer": "AI‑powered chatbots could provide clients with instant, on‑demand support, enabling quick answers and assistance whenever needed[1].",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "How could AI help relationship managers personalise advice?",
+      "expected_answer": "quickly personalise advice",
+      "answer": "AI can give relationship managers tools that speed up and deepen personalization.  Chat‑bots and generative‑AI can provide instant client support and generate tailored recommendations, while AI‑driven trend analytics and an “advisory concierge” surface insights that match each client’s specific needs[1].  A digital assistant (the DiAS platform) automates routine administration, helps navigate regulations and then suggests investment ideas that fit the client’s objectives, giving managers a holistic view of goals and opportunities to craft bespoke advice[2][5].",
+      "exact_match": false,
+      "token_recall": 0.3333333333333333,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "2",
+        "5"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "How could AI assist with compliance and risk management?",
+      "expected_answer": "detecting compliance violations",
+      "answer": "AI can be used to spot compliance breaches and flag risk‑related issues automatically. By powering monitoring engines and rule‑based surveillance tools, AI can detect abusive or inappropriate trading patterns and other violations, thereby supporting the independent compliance function and reducing the manual workload of staff in areas such as financial reporting and risk oversight[1][3][4].",
+      "exact_match": false,
+      "token_recall": 0.6666666666666666,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "3",
+        "4"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Where is Julius Baer’s Launchpad innovation lab located?",
+      "expected_answer": "Singapore",
+      "answer": "Julius Baer’s Launchpad innovation lab was set up in Singapore[2].",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "2"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What are Julius Baer’s content creation tools being tested to refine?",
+      "expected_answer": "our investment publications",
+      "answer": "Julius Baer is testing its content‑creation tools to improve and refine its investment publications[1].",
+      "exact_match": false,
+      "token_recall": 0.6666666666666666,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What percentage of EU private investors consider sustainability important to how they invest, according to the cited Deloitte research?",
+      "expected_answer": "79%",
+      "answer": "79% of EU private investors say sustainability is important to how they invest, according to the Deloitte research[1].",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [
+        "79"
+      ],
+      "answer_numbers": [
+        "79",
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What percentage of EU private investors said their banks and advisors had yet to discuss sustainable investing strategies with them?",
+      "expected_answer": "60%",
+      "answer": "60% of EU private investors said their banks and advisors had yet to discuss sustainable investing strategies with them[1].",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [
+        "60"
+      ],
+      "answer_numbers": [
+        "60",
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What does sustainable investing aim to promote alongside financial returns?",
+      "expected_answer": "long-term environmental or social value",
+      "answer": "Sustainable investing seeks to generate financial returns while also promoting long‑term environmental or social value[1][2].",
+      "exact_match": false,
+      "token_recall": 0.75,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "2"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What can make ESG analytical data confusing for financial intermediaries?",
+      "expected_answer": "may be contradictory and confusing",
+      "answer": "The sheer volume of ESG data from many different providers—often contradictory and presented through a wide variety of metrics—can leave non‑specialist financial intermediaries “lost in an alphabet soup” of metrics, making the information confusing. [1]",
+      "exact_match": false,
+      "token_recall": 0.6666666666666666,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Which Swiss and EU rules does the article cite in relation to sustainable investing?",
+      "expected_answer": "Self-Regulation Sustainability Guidelines and Sustainable Finance Disclosure Regulation",
+      "answer": "The article references the Swiss Self‑Regulation Sustainability Guidelines and the EU’s Sustainable Finance Disclosure Regulation as the rules governing sustainable investing[1].",
+      "exact_match": false,
+      "token_recall": 0.8571428571428571,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What two major economic changes does the article describe as potentially representing dramatic upheaval?",
+      "expected_answer": "the Fourth Industrial Revolution, which AI is a key part of, and the decarbonisation of the energy industry",
+      "answer": "The article says the most dramatic economic upheaval in centuries will come from (1) the Fourth Industrial Revolution – with AI as a key driver – and (2) the decarbonisation of the energy industry toward a zero‑carbon economy[1].",
+      "exact_match": false,
+      "token_recall": 0.8,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "2",
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "How does Julius Baer describe its ESG expertise and services for financial intermediaries?",
+      "expected_answer": "our curated open product platform, our advanced ESG rating methodology, and our experience creating dedicated and focused ESG services",
+      "answer": "Julius Baer says that, for financial intermediaries, its ESG expertise is built on a “curated open product platform,” an “advanced ESG rating methodology,” and a track record of creating “dedicated and focused ESG services,” positioning the bank as the default partner to guide intermediaries through the sustainable‑investing landscape[1]",
+      "exact_match": false,
+      "token_recall": 0.7647058823529411,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "According to the article’s conclusion, what can expertise in sustainable investing do for a financial intermediary?",
+      "expected_answer": "differentiate a financial intermediary",
+      "answer": "Expertise in sustainable investing can set a financial intermediary apart and deepen its client relationships, signalling high‑quality, innovative advice that differentiates the intermediary in the market[2][4].",
+      "exact_match": false,
+      "token_recall": 0.6666666666666666,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "2",
+        "4"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Which award had Julius Baer recently won for digital innovation, according to the article?",
+      "expected_answer": "Best digital innovator of the year, global",
+      "answer": "Julius Baer recently won the **“Best digital innovator of the year, global” award from PWM/FT Group**[1].",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "How many days of work did Julius Baer’s robots handle in 2020?",
+      "expected_answer": "5’300 days",
+      "answer": "The available sources do not provide enough information to answer how many days of work Julius Baer’s robots handled in 2020.",
+      "exact_match": false,
+      "token_recall": 0.5,
+      "expected_numbers": [
+        "5",
+        "300"
+      ],
+      "answer_numbers": [
+        "2020"
+      ],
+      "numeric_match": false,
+      "abstention": true
+    },
+    {
+      "question": "What does Julius Baer use to help clients navigate unpredictable market environments?",
+      "expected_answer": "Big data and advanced analytics",
+      "answer": "Julius Baer leverages artificial‑intelligence tools – such as generative AI, chat‑bots, trend‑analytics platforms and an advisory‑concierge service – to give relationship managers and clients real‑time, personalised insights that help them steer through unpredictable market conditions[1]",
+      "exact_match": false,
+      "token_recall": 0.25,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What is SPARK?",
+      "expected_answer": "our in-house built structured product optimisation engine",
+      "answer": "SPARK is the bank’s in‑house structured‑product optimisation engine. It leverages big‑data and advanced analytics to build and optimise structured products as an add‑on to the trading platform[1].",
+      "exact_match": false,
+      "token_recall": 0.5714285714285714,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What does SPARK harness?",
+      "expected_answer": "big data and analytics",
+      "answer": "SPARK harnesses big data and analytics[1]",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What does Julius Baer’s Digital Advisory Suite (DiAS) automate for relationship managers?",
+      "expected_answer": "administration",
+      "answer": "Julius Baer’s Digital Advisory Suite (DiAS) acts as a digital assistant that automates the administrative, bureaucratic work for relationship managers – handling paperwork, navigating regulatory requirements and even suggesting tailored investment ideas[1].",
+      "exact_match": false,
+      "token_recall": 0.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "How much of a relationship manager’s time can compliance with MiFID II or the Swiss Financial Services Act demand?",
+      "expected_answer": "as much as a third",
+      "answer": "Compliance with MiFID II or the Swiss Financial Services Act can consume as much as one‑third of a relationship manager’s time[1].",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "How many relationship managers currently use DiAS?",
+      "expected_answer": "more than 1300 relationship managers",
+      "answer": "DiAS is currently used by more than 1,300 relationship managers. [1]",
+      "exact_match": false,
+      "token_recall": 0.8,
+      "expected_numbers": [
+        "1300"
+      ],
+      "answer_numbers": [
+        "1,300",
+        "1"
+      ],
+      "numeric_match": false,
+      "abstention": false
+    },
+    {
+      "question": "How much do DiAS users trade through the platform each month?",
+      "expected_answer": "more than CHF 4.9 billion a month",
+      "answer": "DiAS users trade more than CHF 4.9 billion each month through the platform[1].",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [
+        "4.9"
+      ],
+      "answer_numbers": [
+        "4.9",
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What greener alternative do e-signatures and video identification offer?",
+      "expected_answer": "a greener alternative to printing and scanning documents",
+      "answer": "E‑signatures and video identification provide a greener alternative to the traditional printing and scanning of documents[1].",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What can clients and intermediaries access through the Julius Baer Investment Insights App?",
+      "expected_answer": "Julius Baer research and investment publications",
+      "answer": "Clients and intermediaries can use the Julius Baer Investment Insights App to view Julius Baer’s research and investment publications while on the go[1].",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What process must clients complete before chatting with relationship managers via WhatsApp?",
+      "expected_answer": "a one-time-onboarding process",
+      "answer": "Clients must first finish a one‑time onboarding process that verifies data security and meets regulatory‑compliance requirements before they can chat with their relationship managers on WhatsApp[1].",
+      "exact_match": false,
+      "token_recall": 0.5,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What two work methodologies does the article say minimise time-to-market for digital innovations?",
+      "expected_answer": "Agility and DevOps",
+      "answer": "The article states that **Agility** and **DevOps** are the two work methodologies that minimise time‑to‑market for digital innovations[1].",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What did Julius Baer develop with leading specialists to support software engineers’ workplace and working model?",
+      "expected_answer": "its own cloud framework",
+      "answer": "Julius Baer worked with leading specialists to build its own cloud framework – a highly secure, specialised environment that lets software engineers exchange the assets they need and supports a flexible, state‑of‑the‑art workplace and working model[1].",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "How many developers did the initial cloud-framework pilot project support?",
+      "expected_answer": "a team of 40 developers",
+      "answer": "The initial cloud‑framework pilot project supported a team of **40 developers**[1].",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [
+        "40"
+      ],
+      "answer_numbers": [
+        "40",
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "How many users and vendors currently collaborate in the cloud framework, and across how many projects?",
+      "expected_answer": "more than 900 users from across Julius Baer and 30 vendors collaborate in 60 projects",
+      "answer": "More than 900 users and 30 vendors are now collaborating in the cloud framework, working together on 60 projects[1].",
+      "exact_match": false,
+      "token_recall": 0.6666666666666666,
+      "expected_numbers": [
+        "900",
+        "30",
+        "60"
+      ],
+      "answer_numbers": [
+        "900",
+        "30",
+        "60",
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What does the EPIC platform allow asset managers to do with their actively managed certificate portfolios?",
+      "expected_answer": "efficiently rebalance all of their ‘actively managed certificate’ portfolios",
+      "answer": "The EPIC platform lets asset managers efficiently rebalance all of their actively‑managed certificate portfolios, while also presenting additional investment possibilities[1].",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What did Julius Baer’s Thinkathon challenge teams around the globe to develop?",
+      "expected_answer": "fresh ideas",
+      "answer": "Julius Baer’s Thinkathon invited teams worldwide to generate fresh, innovative ideas. [1]",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What happened to Thinkathon projects after they were assessed and mapped out?",
+      "expected_answer": "where applicable — merged or integrated into existing project streams",
+      "answer": "After the Thinkathon, every idea was evaluated and charted, and—when appropriate—those projects were merged into or incorporated with existing project streams. [1]",
+      "exact_match": false,
+      "token_recall": 0.625,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "By approximately how much were investments in technology to power human advice increased in 2020 and 2021 compared with 2019?",
+      "expected_answer": "approximately 20%",
+      "answer": "Investments in technology to power human advice were increased by roughly 20 percent in both 2020 and 2021 compared with 2019[1].",
+      "exact_match": false,
+      "token_recall": 0.5,
+      "expected_numbers": [
+        "20"
+      ],
+      "answer_numbers": [
+        "20",
+        "2020",
+        "2021",
+        "2019",
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Which areas are the focus of Julius Baer’s technology investments going forward?",
+      "expected_answer": "further enhancing data and analytics as well as continuing to work on digital, product, front and agile transformation projects",
+      "answer": "Julius Baer’s upcoming technology spending is aimed at strengthening data and analytics and driving further digital, product, front‑office and agile transformation initiatives[1].",
+      "exact_match": false,
+      "token_recall": 0.6153846153846154,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What does Dominik describe as the role of an ML engineer at Julius Baer?",
+      "expected_answer": "transforming ideas into innovations",
+      "answer": "Dominik says that an ML engineer at Julius Baer “transforms ideas into innovations” by applying AI to the bank’s data to automate routine work and free colleagues for higher‑value activities. Their role centres on designing algorithms that let machines operate without direct human input, while using strong communication skills to collaborate with relationship managers and other experts so the models serve the bank’s purpose‑driven, client‑focused approach【1†L1-L5】【5†L1-L5】",
+      "exact_match": false,
+      "token_recall": 0.75,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "5"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What kind of bank data has Dominik been making usable for large language models?",
+      "expected_answer": "publications",
+      "answer": "Dominik has been taking the bank’s own data—specifically internal publications—and preparing it so that large language models can use it. [1]",
+      "exact_match": true,
+      "token_recall": 0.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What does Dominik say AI can help colleagues focus on by reducing routine tasks?",
+      "expected_answer": "more value-adding activities",
+      "answer": "Dominik says that by using AI to cut down routine tasks, colleagues can devote their time to more value‑adding activities[1].",
+      "exact_match": false,
+      "token_recall": 0.6666666666666666,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What can AI do to enrich interactions and decision-making for client relationships?",
+      "expected_answer": "retrieving, preparing, or summarising, data",
+      "answer": "AI can enrich client interactions and decision‑making by \n\n* retrieving, preparing and summarising data for relationship managers [1]  \n* providing instant chatbot support and quickly personalising advice [2]  \n* assisting compliance and risk management through detection of violations [2]  \n* reducing staff workload in areas such as financial reporting [2]  \n* enabling content‑creation tools, trend‑analytics and an advisory‑concierge service tailored to client needs [2]  \n* offering holistic overviews of client objectives and identifying engagement opportunities with sound, regulatory‑compliant recommendations via the Digital Advisory Suite [3]",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "2",
+        "3"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Which artist’s text-to-image work particularly excited Dominik?",
+      "expected_answer": "Refik Anadol",
+      "answer": "Dominik was especially excited by the text‑to‑image creations of media artist Refik Anadol[1].",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Which prize did Dominik win before joining Julius Baer?",
+      "expected_answer": "Julius Baer’s annual Best Master’s Thesis in Business Information Technology prize",
+      "answer": "Dominik joined Julius Baer after winning the bank’s annual **Best Master’s Thesis in Business Information Technology** prize[1].",
+      "exact_match": false,
+      "token_recall": 0.9,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What did Dominik complete before enrolling at university?",
+      "expected_answer": "an apprenticeship with a rail manufacturing company",
+      "answer": "Dominik completed a Vocational Baccalaureate (Berufsmatura) before enrolling at university[1].",
+      "exact_match": false,
+      "token_recall": 0.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What attracted Marine to machine learning?",
+      "expected_answer": "it’s very applied",
+      "answer": "Marine was drawn to machine learning because she found it “very applied” – it required the mathematics to grasp the theory but also programming to build the solutions. She discovered it during her university studies in mathematics and computer science when a group of tech‑savvy friends started exploring it, and she liked the hands‑on, minds‑on approach it offered[4].",
+      "exact_match": false,
+      "token_recall": 0.6666666666666666,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "4"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "How did Marine initially join Julius Baer?",
+      "expected_answer": "applying for a working student position",
+      "answer": "Marine first came to Julius Baer by applying for a working‑student position, after which she transitioned into a permanent role[1].",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What data does Marine’s team use to train the models behind its in-house GenAI tool?",
+      "expected_answer": "the data created by our Investment Research team",
+      "answer": "Marine’s team trains the in‑house GenAI models using the data produced by the bank’s Investment Research team[1].",
+      "exact_match": false,
+      "token_recall": 0.6666666666666666,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What percentage of Marine’s fellow Data Science classmates at ETH Zurich were women?",
+      "expected_answer": "fewer than ten per cent",
+      "answer": "Fewer than 10 percent of Marine’s fellow Data Science classmates at ETH Zurich were women[1].",
+      "exact_match": false,
+      "token_recall": 0.4,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "10",
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What did Paul study for his bachelor’s degree?",
+      "expected_answer": "biomedical engineering",
+      "answer": "Paul earned his bachelor’s degree in biomedical engineering[1].",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What is Paul responsible for in the ML engineering team?",
+      "expected_answer": "to orchestrate the landscape of machine learning and large language models used by the bank and make sure that they run reliably and quickly",
+      "answer": "Paul is responsible for orchestrating the bank’s machine‑learning and large‑language‑model landscape and ensuring those models run reliably and quickly. [1]",
+      "exact_match": false,
+      "token_recall": 0.6428571428571429,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Why did Paul say Julius Baer’s in-house hardware setup enabled innovative and safe data utilisation?",
+      "expected_answer": "By keeping data in-house",
+      "answer": "Paul explained that because Julius Baer hosts its hardware on‑premises, the bank can keep all data inside its own secure environment. This in‑house setup protects the data from external access, which in turn lets the team explore innovative ways to use the data while maintaining safety and security[1].",
+      "exact_match": false,
+      "token_recall": 0.3333333333333333,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What do the three ML engineers identify as one of their most important job motivations?",
+      "expected_answer": "working together",
+      "answer": "The three ML engineers say that working together — collaborating side‑by‑side with their team — is one of their most important job motivations[1]",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Why are communication skills important for an ML engineer, according to the article?",
+      "expected_answer": "they need to be able to collaborate with experts from different areas",
+      "answer": "Communication skills are essential for ML engineers because they must collaborate with experts from various domains to build machine‑learning models that align with the bank’s purpose‑driven, client‑focused approach[1].",
+      "exact_match": false,
+      "token_recall": 0.3333333333333333,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What kind of culture does Marine say is essential to fostering innovation in AI and machine learning?",
+      "expected_answer": "a bottom-up culture",
+      "answer": "Marine says that a bottom‑up culture—one that gives people the space to experiment—is essential for fostering innovation in AI and machine learning[1].",
+      "exact_match": false,
+      "token_recall": 0.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "Which two career paths can ML engineers choose between at Julius Baer, according to Paul?",
+      "expected_answer": "the computer science route",
+      "answer": "Paul says ML engineers at Julius Baer can choose between a **computer‑science route** focused on cutting‑edge computational techniques and a **data‑science career path** that leverages data distributions, probability and statistical analysis to uncover insights[1].",
+      "exact_match": false,
+      "token_recall": 1.0,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "How many new roles did the World Economic Forum project would emerge by 2025 as a result of AI?",
+      "expected_answer": "97 million new roles",
+      "answer": "The World Economic Forum projects that about 97 million new roles will emerge by 2025 as a result of AI[1].",
+      "exact_match": true,
+      "token_recall": 1.0,
+      "expected_numbers": [
+        "97"
+      ],
+      "answer_numbers": [
+        "97",
+        "2025",
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    },
+    {
+      "question": "What combination of capabilities does the article say employers may seek in future ML engineers?",
+      "expected_answer": "business insights to understand what the market needs and how they can best leverage advancements in machine learning",
+      "answer": "Employers may look for ML engineers who combine strong business insight—understanding market needs—with the ability to leverage the latest advances in machine learning[1].",
+      "exact_match": false,
+      "token_recall": 0.38461538461538464,
+      "expected_numbers": [],
+      "answer_numbers": [
+        "1"
+      ],
+      "numeric_match": true,
+      "abstention": false
+    }
+  ]
+}

@@ -1,0 +1,705 @@
+{
+  "schema_version": "1.0",
+  "document": "technology\\ml-engg.jsonl",
+  "page_count": 6,
+  "question_count": 20,
+  "summaries": [
+    {
+      "strategy": "fixed",
+      "chunks": 13,
+      "mean_chars": 954.7,
+      "median_chars": 1200,
+      "under_100_chars": 0,
+      "recall_at_1": 0.5,
+      "recall_at_3": 0.8,
+      "recall_at_5": 0.9,
+      "mrr": 0.6858333333333333
+    },
+    {
+      "strategy": "recursive",
+      "chunks": 14,
+      "mean_chars": 811.5,
+      "median_chars": 776.0,
+      "under_100_chars": 0,
+      "recall_at_1": 0.6,
+      "recall_at_3": 0.75,
+      "recall_at_5": 0.9,
+      "mrr": 0.6958928571428571
+    },
+    {
+      "strategy": "semantic",
+      "chunks": 15,
+      "mean_chars": 757.4,
+      "median_chars": 749,
+      "under_100_chars": 0,
+      "recall_at_1": 0.65,
+      "recall_at_3": 0.8,
+      "recall_at_5": 0.95,
+      "mrr": 0.7513888888888889
+    },
+    {
+      "strategy": "structural",
+      "chunks": 19,
+      "mean_chars": 597.9,
+      "median_chars": 549,
+      "under_100_chars": 4,
+      "recall_at_1": 0.55,
+      "recall_at_3": 0.75,
+      "recall_at_5": 0.9,
+      "mrr": 0.6842676767676767
+    }
+  ],
+  "selection": {
+    "selected_strategy": "semantic",
+    "selection_score": 0.760486,
+    "selection_reason": "Selected the highest-scoring strategy among candidates that passed the chunk-quality gates using available retrieval metrics.",
+    "selected_metrics": {
+      "strategy": "semantic",
+      "chunks": 15,
+      "mean_chars": 757.4,
+      "median_chars": 749.0,
+      "under_100_chars": 0,
+      "recall_at_1": 0.65,
+      "recall_at_3": 0.8,
+      "recall_at_5": 0.95,
+      "mrr": 0.7513888888888889
+    },
+    "candidates": [
+      {
+        "strategy": "semantic",
+        "score": 0.760486,
+        "metrics": {
+          "strategy": "semantic",
+          "chunks": 15,
+          "mean_chars": 757.4,
+          "median_chars": 749.0,
+          "under_100_chars": 0,
+          "recall_at_1": 0.65,
+          "recall_at_3": 0.8,
+          "recall_at_5": 0.95,
+          "mrr": 0.7513888888888889
+        },
+        "under_100_ratio": 0.0
+      },
+      {
+        "strategy": "recursive",
+        "score": 0.708562,
+        "metrics": {
+          "strategy": "recursive",
+          "chunks": 14,
+          "mean_chars": 811.5,
+          "median_chars": 776.0,
+          "under_100_chars": 0,
+          "recall_at_1": 0.6,
+          "recall_at_3": 0.75,
+          "recall_at_5": 0.9,
+          "mrr": 0.6958928571428571
+        },
+        "under_100_ratio": 0.0
+      },
+      {
+        "strategy": "structural",
+        "score": 0.689494,
+        "metrics": {
+          "strategy": "structural",
+          "chunks": 19,
+          "mean_chars": 597.9,
+          "median_chars": 549.0,
+          "under_100_chars": 4,
+          "recall_at_1": 0.55,
+          "recall_at_3": 0.75,
+          "recall_at_5": 0.9,
+          "mrr": 0.6842676767676767
+        },
+        "under_100_ratio": 0.2105
+      },
+      {
+        "strategy": "fixed",
+        "score": 0.685042,
+        "metrics": {
+          "strategy": "fixed",
+          "chunks": 13,
+          "mean_chars": 954.7,
+          "median_chars": 1200.0,
+          "under_100_chars": 0,
+          "recall_at_1": 0.5,
+          "recall_at_3": 0.8,
+          "recall_at_5": 0.9,
+          "mrr": 0.6858333333333333
+        },
+        "under_100_ratio": 0.0
+      }
+    ],
+    "rejected_candidates": []
+  },
+  "per_question": {
+    "fixed": [
+      {
+        "question": "What does Dominik describe as the role of an ML engineer at Julius Baer?",
+        "expected_page": 1,
+        "hit_rank": 6,
+        "hit_page": 1,
+        "hit_chunk_id": "f40094a7b36610e6"
+      },
+      {
+        "question": "What kind of bank data has Dominik been making usable for large language models?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "f40094a7b36610e6"
+      },
+      {
+        "question": "What does Dominik say AI can help colleagues focus on by reducing routine tasks?",
+        "expected_page": 1,
+        "hit_rank": 4,
+        "hit_page": 1,
+        "hit_chunk_id": "f40094a7b36610e6"
+      },
+      {
+        "question": "What can AI do to enrich interactions and decision-making for client relationships?",
+        "expected_page": 2,
+        "hit_rank": 10,
+        "hit_page": 2,
+        "hit_chunk_id": "efe4940b4ee6595a"
+      },
+      {
+        "question": "Which artist’s text-to-image work particularly excited Dominik?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "efe4940b4ee6595a"
+      },
+      {
+        "question": "Which prize did Dominik win before joining Julius Baer?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "efe4940b4ee6595a"
+      },
+      {
+        "question": "What did Dominik complete before enrolling at university?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "8cdd92edfb2629a8"
+      },
+      {
+        "question": "What attracted Marine to machine learning?",
+        "expected_page": 3,
+        "hit_rank": 2,
+        "hit_page": 3,
+        "hit_chunk_id": "4e1924275b1408eb"
+      },
+      {
+        "question": "How did Marine initially join Julius Baer?",
+        "expected_page": 3,
+        "hit_rank": 2,
+        "hit_page": 3,
+        "hit_chunk_id": "4e1924275b1408eb"
+      },
+      {
+        "question": "What data does Marine’s team use to train the models behind its in-house GenAI tool?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "8c7ebbf800dd79e3"
+      },
+      {
+        "question": "What percentage of Marine’s fellow Data Science classmates at ETH Zurich were women?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "8c7ebbf800dd79e3"
+      },
+      {
+        "question": "What did Paul study for his bachelor’s degree?",
+        "expected_page": 4,
+        "hit_rank": 1,
+        "hit_page": 4,
+        "hit_chunk_id": "bc3bb9fd396f97f6"
+      },
+      {
+        "question": "What is Paul responsible for in the ML engineering team?",
+        "expected_page": 4,
+        "hit_rank": 2,
+        "hit_page": 4,
+        "hit_chunk_id": "bc3bb9fd396f97f6"
+      },
+      {
+        "question": "Why did Paul say Julius Baer’s in-house hardware setup enabled innovative and safe data utilisation?",
+        "expected_page": 4,
+        "hit_rank": 1,
+        "hit_page": 4,
+        "hit_chunk_id": "5173be32ff9c9569"
+      },
+      {
+        "question": "What do the three ML engineers identify as one of their most important job motivations?",
+        "expected_page": 5,
+        "hit_rank": 2,
+        "hit_page": 5,
+        "hit_chunk_id": "24bd6ffcb8e57086"
+      },
+      {
+        "question": "Why are communication skills important for an ML engineer, according to the article?",
+        "expected_page": 5,
+        "hit_rank": 1,
+        "hit_page": 5,
+        "hit_chunk_id": "24bd6ffcb8e57086"
+      },
+      {
+        "question": "What kind of culture does Marine say is essential to fostering innovation in AI and machine learning?",
+        "expected_page": 5,
+        "hit_rank": 1,
+        "hit_page": 5,
+        "hit_chunk_id": "24bd6ffcb8e57086"
+      },
+      {
+        "question": "Which two career paths can ML engineers choose between at Julius Baer, according to Paul?",
+        "expected_page": 6,
+        "hit_rank": 5,
+        "hit_page": 6,
+        "hit_chunk_id": "7f4fdf3d6bc9c653"
+      },
+      {
+        "question": "How many new roles did the World Economic Forum project would emerge by 2025 as a result of AI?",
+        "expected_page": 6,
+        "hit_rank": 1,
+        "hit_page": 6,
+        "hit_chunk_id": "7f4fdf3d6bc9c653"
+      },
+      {
+        "question": "What combination of capabilities does the article say employers may seek in future ML engineers?",
+        "expected_page": 6,
+        "hit_rank": 1,
+        "hit_page": 6,
+        "hit_chunk_id": "7f4fdf3d6bc9c653"
+      }
+    ],
+    "recursive": [
+      {
+        "question": "What does Dominik describe as the role of an ML engineer at Julius Baer?",
+        "expected_page": 1,
+        "hit_rank": 7,
+        "hit_page": 1,
+        "hit_chunk_id": "fc4a9c4da625b5a2"
+      },
+      {
+        "question": "What kind of bank data has Dominik been making usable for large language models?",
+        "expected_page": 1,
+        "hit_rank": 3,
+        "hit_page": 1,
+        "hit_chunk_id": "fc4a9c4da625b5a2"
+      },
+      {
+        "question": "What does Dominik say AI can help colleagues focus on by reducing routine tasks?",
+        "expected_page": 1,
+        "hit_rank": 4,
+        "hit_page": 1,
+        "hit_chunk_id": "fc4a9c4da625b5a2"
+      },
+      {
+        "question": "What can AI do to enrich interactions and decision-making for client relationships?",
+        "expected_page": 2,
+        "hit_rank": 8,
+        "hit_page": 2,
+        "hit_chunk_id": "55383e7dfd08be58"
+      },
+      {
+        "question": "Which artist’s text-to-image work particularly excited Dominik?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "55383e7dfd08be58"
+      },
+      {
+        "question": "Which prize did Dominik win before joining Julius Baer?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "55383e7dfd08be58"
+      },
+      {
+        "question": "What did Dominik complete before enrolling at university?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "e2dddcce5c982128"
+      },
+      {
+        "question": "What attracted Marine to machine learning?",
+        "expected_page": 3,
+        "hit_rank": 5,
+        "hit_page": 3,
+        "hit_chunk_id": "d15d0148aaf7d05f"
+      },
+      {
+        "question": "How did Marine initially join Julius Baer?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "6546b7fdb5799cbb"
+      },
+      {
+        "question": "What data does Marine’s team use to train the models behind its in-house GenAI tool?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "6546b7fdb5799cbb"
+      },
+      {
+        "question": "What percentage of Marine’s fellow Data Science classmates at ETH Zurich were women?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "633f9b498e5d815d"
+      },
+      {
+        "question": "What did Paul study for his bachelor’s degree?",
+        "expected_page": 4,
+        "hit_rank": 1,
+        "hit_page": 4,
+        "hit_chunk_id": "54dff670c1ecf9df"
+      },
+      {
+        "question": "What is Paul responsible for in the ML engineering team?",
+        "expected_page": 4,
+        "hit_rank": 5,
+        "hit_page": 4,
+        "hit_chunk_id": "b0eac902cea87c61"
+      },
+      {
+        "question": "Why did Paul say Julius Baer’s in-house hardware setup enabled innovative and safe data utilisation?",
+        "expected_page": 4,
+        "hit_rank": 1,
+        "hit_page": 4,
+        "hit_chunk_id": "95019286e4a6a434"
+      },
+      {
+        "question": "What do the three ML engineers identify as one of their most important job motivations?",
+        "expected_page": 5,
+        "hit_rank": 3,
+        "hit_page": 5,
+        "hit_chunk_id": "b15e2a047a37050e"
+      },
+      {
+        "question": "Why are communication skills important for an ML engineer, according to the article?",
+        "expected_page": 5,
+        "hit_rank": 1,
+        "hit_page": 5,
+        "hit_chunk_id": "b15e2a047a37050e"
+      },
+      {
+        "question": "What kind of culture does Marine say is essential to fostering innovation in AI and machine learning?",
+        "expected_page": 5,
+        "hit_rank": 1,
+        "hit_page": 5,
+        "hit_chunk_id": "b15e2a047a37050e"
+      },
+      {
+        "question": "Which two career paths can ML engineers choose between at Julius Baer, according to Paul?",
+        "expected_page": 6,
+        "hit_rank": 3,
+        "hit_page": 6,
+        "hit_chunk_id": "c6a2defc31c65135"
+      },
+      {
+        "question": "How many new roles did the World Economic Forum project would emerge by 2025 as a result of AI?",
+        "expected_page": 6,
+        "hit_rank": 1,
+        "hit_page": 6,
+        "hit_chunk_id": "c6a2defc31c65135"
+      },
+      {
+        "question": "What combination of capabilities does the article say employers may seek in future ML engineers?",
+        "expected_page": 6,
+        "hit_rank": 1,
+        "hit_page": 6,
+        "hit_chunk_id": "c6a2defc31c65135"
+      }
+    ],
+    "semantic": [
+      {
+        "question": "What does Dominik describe as the role of an ML engineer at Julius Baer?",
+        "expected_page": 1,
+        "hit_rank": 9,
+        "hit_page": 1,
+        "hit_chunk_id": "ebdeb21559e59cfc"
+      },
+      {
+        "question": "What kind of bank data has Dominik been making usable for large language models?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "ebdeb21559e59cfc"
+      },
+      {
+        "question": "What does Dominik say AI can help colleagues focus on by reducing routine tasks?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "ebdeb21559e59cfc"
+      },
+      {
+        "question": "What can AI do to enrich interactions and decision-making for client relationships?",
+        "expected_page": 2,
+        "hit_rank": 4,
+        "hit_page": 2,
+        "hit_chunk_id": "2c10482ad2da8ee1"
+      },
+      {
+        "question": "Which artist’s text-to-image work particularly excited Dominik?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "423e7074dfbe4862"
+      },
+      {
+        "question": "Which prize did Dominik win before joining Julius Baer?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "423e7074dfbe4862"
+      },
+      {
+        "question": "What did Dominik complete before enrolling at university?",
+        "expected_page": 2,
+        "hit_rank": 3,
+        "hit_page": 2,
+        "hit_chunk_id": "5c0df124aef09d70"
+      },
+      {
+        "question": "What attracted Marine to machine learning?",
+        "expected_page": 3,
+        "hit_rank": 4,
+        "hit_page": 3,
+        "hit_chunk_id": "64c72c5d67c62583"
+      },
+      {
+        "question": "How did Marine initially join Julius Baer?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "a5d9b9f727cf2158"
+      },
+      {
+        "question": "What data does Marine’s team use to train the models behind its in-house GenAI tool?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "a5d9b9f727cf2158"
+      },
+      {
+        "question": "What percentage of Marine’s fellow Data Science classmates at ETH Zurich were women?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "7881cea81e602f57"
+      },
+      {
+        "question": "What did Paul study for his bachelor’s degree?",
+        "expected_page": 4,
+        "hit_rank": 1,
+        "hit_page": 4,
+        "hit_chunk_id": "e3cee5b83a4edd36"
+      },
+      {
+        "question": "What is Paul responsible for in the ML engineering team?",
+        "expected_page": 4,
+        "hit_rank": 1,
+        "hit_page": 4,
+        "hit_chunk_id": "e3cee5b83a4edd36"
+      },
+      {
+        "question": "Why did Paul say Julius Baer’s in-house hardware setup enabled innovative and safe data utilisation?",
+        "expected_page": 4,
+        "hit_rank": 1,
+        "hit_page": 4,
+        "hit_chunk_id": "659651e0d2d11c6a"
+      },
+      {
+        "question": "What do the three ML engineers identify as one of their most important job motivations?",
+        "expected_page": 5,
+        "hit_rank": 3,
+        "hit_page": 5,
+        "hit_chunk_id": "a3da2a51881cc0ee"
+      },
+      {
+        "question": "Why are communication skills important for an ML engineer, according to the article?",
+        "expected_page": 5,
+        "hit_rank": 1,
+        "hit_page": 5,
+        "hit_chunk_id": "a3da2a51881cc0ee"
+      },
+      {
+        "question": "What kind of culture does Marine say is essential to fostering innovation in AI and machine learning?",
+        "expected_page": 5,
+        "hit_rank": 1,
+        "hit_page": 5,
+        "hit_chunk_id": "a3da2a51881cc0ee"
+      },
+      {
+        "question": "Which two career paths can ML engineers choose between at Julius Baer, according to Paul?",
+        "expected_page": 6,
+        "hit_rank": 4,
+        "hit_page": 6,
+        "hit_chunk_id": "916c923a707063e8"
+      },
+      {
+        "question": "How many new roles did the World Economic Forum project would emerge by 2025 as a result of AI?",
+        "expected_page": 6,
+        "hit_rank": 1,
+        "hit_page": 6,
+        "hit_chunk_id": "97bc62e22eb95fc1"
+      },
+      {
+        "question": "What combination of capabilities does the article say employers may seek in future ML engineers?",
+        "expected_page": 6,
+        "hit_rank": 1,
+        "hit_page": 6,
+        "hit_chunk_id": "97bc62e22eb95fc1"
+      }
+    ],
+    "structural": [
+      {
+        "question": "What does Dominik describe as the role of an ML engineer at Julius Baer?",
+        "expected_page": 1,
+        "hit_rank": 11,
+        "hit_page": 1,
+        "hit_chunk_id": "7a7ac986724df5a7"
+      },
+      {
+        "question": "What kind of bank data has Dominik been making usable for large language models?",
+        "expected_page": 1,
+        "hit_rank": 1,
+        "hit_page": 1,
+        "hit_chunk_id": "7a7ac986724df5a7"
+      },
+      {
+        "question": "What does Dominik say AI can help colleagues focus on by reducing routine tasks?",
+        "expected_page": 1,
+        "hit_rank": 2,
+        "hit_page": 1,
+        "hit_chunk_id": "e5a88f16ccacf425"
+      },
+      {
+        "question": "What can AI do to enrich interactions and decision-making for client relationships?",
+        "expected_page": 2,
+        "hit_rank": 9,
+        "hit_page": 2,
+        "hit_chunk_id": "66ff46d043e66b6b"
+      },
+      {
+        "question": "Which artist’s text-to-image work particularly excited Dominik?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "66ff46d043e66b6b"
+      },
+      {
+        "question": "Which prize did Dominik win before joining Julius Baer?",
+        "expected_page": 2,
+        "hit_rank": 2,
+        "hit_page": 2,
+        "hit_chunk_id": "66ff46d043e66b6b"
+      },
+      {
+        "question": "What did Dominik complete before enrolling at university?",
+        "expected_page": 2,
+        "hit_rank": 1,
+        "hit_page": 2,
+        "hit_chunk_id": "d77346fb3e1a0114"
+      },
+      {
+        "question": "What attracted Marine to machine learning?",
+        "expected_page": 3,
+        "hit_rank": 5,
+        "hit_page": 3,
+        "hit_chunk_id": "aa3268abbf1dbf8b"
+      },
+      {
+        "question": "How did Marine initially join Julius Baer?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "d8164056505fa275"
+      },
+      {
+        "question": "What data does Marine’s team use to train the models behind its in-house GenAI tool?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "d8164056505fa275"
+      },
+      {
+        "question": "What percentage of Marine’s fellow Data Science classmates at ETH Zurich were women?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "56bc1206c3ebd06e"
+      },
+      {
+        "question": "What did Paul study for his bachelor’s degree?",
+        "expected_page": 4,
+        "hit_rank": 1,
+        "hit_page": 4,
+        "hit_chunk_id": "5cee688a1c45cd46"
+      },
+      {
+        "question": "What is Paul responsible for in the ML engineering team?",
+        "expected_page": 4,
+        "hit_rank": 5,
+        "hit_page": 4,
+        "hit_chunk_id": "1a17066a25cfadde"
+      },
+      {
+        "question": "Why did Paul say Julius Baer’s in-house hardware setup enabled innovative and safe data utilisation?",
+        "expected_page": 4,
+        "hit_rank": 1,
+        "hit_page": 4,
+        "hit_chunk_id": "740b4f7cba56e750"
+      },
+      {
+        "question": "What do the three ML engineers identify as one of their most important job motivations?",
+        "expected_page": 5,
+        "hit_rank": 3,
+        "hit_page": 5,
+        "hit_chunk_id": "0fc9039bbb4ea621"
+      },
+      {
+        "question": "Why are communication skills important for an ML engineer, according to the article?",
+        "expected_page": 5,
+        "hit_rank": 1,
+        "hit_page": 5,
+        "hit_chunk_id": "0fc9039bbb4ea621"
+      },
+      {
+        "question": "What kind of culture does Marine say is essential to fostering innovation in AI and machine learning?",
+        "expected_page": 5,
+        "hit_rank": 1,
+        "hit_page": 5,
+        "hit_chunk_id": "0fc9039bbb4ea621"
+      },
+      {
+        "question": "Which two career paths can ML engineers choose between at Julius Baer, according to Paul?",
+        "expected_page": 6,
+        "hit_rank": 4,
+        "hit_page": 6,
+        "hit_chunk_id": "6be4fa1d960ac972"
+      },
+      {
+        "question": "How many new roles did the World Economic Forum project would emerge by 2025 as a result of AI?",
+        "expected_page": 6,
+        "hit_rank": 1,
+        "hit_page": 6,
+        "hit_chunk_id": "6be4fa1d960ac972"
+      },
+      {
+        "question": "What combination of capabilities does the article say employers may seek in future ML engineers?",
+        "expected_page": 6,
+        "hit_rank": 1,
+        "hit_page": 6,
+        "hit_chunk_id": "6be4fa1d960ac972"
+      }
+    ]
+  }
+}

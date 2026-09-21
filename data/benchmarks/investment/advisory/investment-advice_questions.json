@@ -1,0 +1,132 @@
+[
+  {
+    "question": "What kinds of investment recommendations can the Bank make?",
+    "answer": "Buy, Sale, Hold, and Do not buy",
+    "page": 2
+  },
+  {
+    "question": "What does a Hold recommendation mean?",
+    "answer": "The Bank recommends that you do not sell the financial instrument but continue to hold it.",
+    "page": 2
+  },
+  {
+    "question": "Who decides whether to follow an investment recommendation?",
+    "answer": "You decide for yourself whether you want to follow the recommendation.",
+    "page": 2
+  },
+  {
+    "question": "When is an investment recommendation valid?",
+    "answer": "Only at the time of the consultation.",
+    "page": 2
+  },
+  {
+    "question": "Who must monitor the performance of purchased financial instruments?",
+    "answer": "The client must monitor their performance themselves.",
+    "page": 2
+  },
+  {
+    "question": "What are examples of financial instruments?",
+    "answer": "Shares, bonds, certificates, and warrants.",
+    "page": 2
+  },
+  {
+    "question": "What agreement is needed before the Bank can provide investment advice?",
+    "answer": "An Advisory Contract with the Bank.",
+    "page": 2
+  },
+  {
+    "question": "What information does the Bank collect about a client's financial situation?",
+    "answer": "Income, expenses, and assets.",
+    "page": 2
+  },
+  {
+    "question": "What does loss-bearing capacity refer to?",
+    "answer": "What financial losses the client could bear.",
+    "page": 2
+  },
+  {
+    "question": "What sustainability preferences may the Bank ask about?",
+    "answer": "Whether sustainability criteria should be taken into account when investing the client's assets.",
+    "page": 2
+  },
+  {
+    "question": "When will the Bank give an investment recommendation?",
+    "answer": "Only if the recommendation matches the client's information.",
+    "page": 2
+  },
+  {
+    "question": "What written document summarizes the recommendation and explains its suitability?",
+    "answer": "The suitability statement.",
+    "page": 2
+  },
+  {
+    "question": "What happens if a financial instrument is deemed inappropriate or the necessary information is missing?",
+    "answer": "The Bank will warn the client accordingly.",
+    "page": 2
+  },
+  {
+    "question": "What fees do clients pay for investment advice?",
+    "answer": "Fees outlined in the Schedule of Prices and Services of the Bank.",
+    "page": 2
+  },
+  {
+    "question": "For how long is the Advisory Agreement concluded?",
+    "answer": "For an indefinite period of time.",
+    "page": 2
+  },
+  {
+    "question": "When can a client revoke the Advisory Agreement within 14 days?",
+    "answer": "When the contract was concluded as a distance selling transaction or as an out-of-home transaction.",
+    "page": 3
+  },
+  {
+    "question": "How soon does the Bank confirm receipt of a written complaint?",
+    "answer": "Within a maximum of 10 business days.",
+    "page": 3
+  },
+  {
+    "question": "What is the latest stated timeframe for answering a complaint?",
+    "answer": "Not later than one month.",
+    "page": 3
+  },
+  {
+    "question": "How quickly does the Bank provide feedback on complaints relating to payment services?",
+    "answer": "Within 15 days.",
+    "page": 3
+  },
+  {
+    "question": "Which authority can receive a complaint if the client is dissatisfied with the Bank's response?",
+    "answer": "Commission de Surveillance du Secteur Financier (CSSF).",
+    "page": 3
+  },
+  {
+    "question": "What are the four principles of accessibility described in the document?",
+    "answer": "Perceivability, Operability, Understandability, and Robustness.",
+    "page": 3
+  },
+  {
+    "question": "How can the Bank provide the Advisory Agreement to a client?",
+    "answer": "By post, electronically as a PDF via email, or in person.",
+    "page": 3
+  },
+  {
+    "question": "How can a client transmit an order to buy or sell financial instruments?",
+    "answer": "By calling their relationship manager or sending an email.",
+    "page": 4
+  },
+  {
+    "question": "What language level does the document say it does not exceed?",
+    "answer": "B2 level of the Common European Framework of Reference for Languages (CEFR).",
+    "page": 4
+  },
+  {
+    "question": "Which format may allow documents to be interpreted by screen readers?",
+    "answer": "PDF-UA.",
+    "page": 4
+  },
+  {
+    "question": "Which authority is responsible for accessibility surveillance in Luxembourg?",
+    "answer": "Office de la surveillance de l’accessibilité des produits et services (OSAPS).",
+    "page": 4
+  }
+]

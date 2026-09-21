@@ -1,0 +1,570 @@
+{
+  "schema_version": "1.0",
+  "document": "investment\\advisory\\finsa.jsonl",
+  "page_count": 20,
+  "question_count": 15,
+  "summaries": [
+    {
+      "strategy": "fixed",
+      "chunks": 37,
+      "mean_chars": 863.6,
+      "median_chars": 1200,
+      "under_100_chars": 3,
+      "recall_at_1": 0.4666666666666667,
+      "recall_at_3": 0.5333333333333333,
+      "recall_at_5": 0.6,
+      "mrr": 0.5055555555555555
+    },
+    {
+      "strategy": "recursive",
+      "chunks": 36,
+      "mean_chars": 808.5,
+      "median_chars": 1124.5,
+      "under_100_chars": 5,
+      "recall_at_1": 0.26666666666666666,
+      "recall_at_3": 0.6,
+      "recall_at_5": 0.6,
+      "mrr": 0.43333333333333335
+    },
+    {
+      "strategy": "semantic",
+      "chunks": 44,
+      "mean_chars": 661.5,
+      "median_chars": 643.5,
+      "under_100_chars": 4,
+      "recall_at_1": 0.4666666666666667,
+      "recall_at_3": 0.6,
+      "recall_at_5": 0.6,
+      "mrr": 0.5222222222222223
+    },
+    {
+      "strategy": "structural",
+      "chunks": 89,
+      "mean_chars": 327.0,
+      "median_chars": 30,
+      "under_100_chars": 59,
+      "recall_at_1": 0.26666666666666666,
+      "recall_at_3": 0.5333333333333333,
+      "recall_at_5": 0.5333333333333333,
+      "mrr": 0.3984126984126984
+    }
+  ],
+  "selection": {
+    "selected_strategy": "semantic",
+    "selection_score": 0.532778,
+    "selection_reason": "Selected the highest-scoring strategy among candidates that passed the chunk-quality gates using available retrieval metrics.",
+    "selected_metrics": {
+      "strategy": "semantic",
+      "chunks": 44,
+      "mean_chars": 661.5,
+      "median_chars": 643.5,
+      "under_100_chars": 4,
+      "recall_at_1": 0.4666666666666667,
+      "recall_at_3": 0.6,
+      "recall_at_5": 0.6,
+      "mrr": 0.5222222222222223
+    },
+    "candidates": [
+      {
+        "strategy": "semantic",
+        "score": 0.532778,
+        "metrics": {
+          "strategy": "semantic",
+          "chunks": 44,
+          "mean_chars": 661.5,
+          "median_chars": 643.5,
+          "under_100_chars": 4,
+          "recall_at_1": 0.4666666666666667,
+          "recall_at_3": 0.6,
+          "recall_at_5": 0.6,
+          "mrr": 0.5222222222222223
+        },
+        "under_100_ratio": 0.0909
+      },
+      {
+        "strategy": "fixed",
+        "score": 0.513611,
+        "metrics": {
+          "strategy": "fixed",
+          "chunks": 37,
+          "mean_chars": 863.6,
+          "median_chars": 1200.0,
+          "under_100_chars": 3,
+          "recall_at_1": 0.4666666666666667,
+          "recall_at_3": 0.5333333333333333,
+          "recall_at_5": 0.6,
+          "mrr": 0.5055555555555555
+        },
+        "under_100_ratio": 0.0811
+      },
+      {
+        "strategy": "recursive",
+        "score": 0.441667,
+        "metrics": {
+          "strategy": "recursive",
+          "chunks": 36,
+          "mean_chars": 808.5,
+          "median_chars": 1124.5,
+          "under_100_chars": 5,
+          "recall_at_1": 0.26666666666666666,
+          "recall_at_3": 0.6,
+          "recall_at_5": 0.6,
+          "mrr": 0.43333333333333335
+        },
+        "under_100_ratio": 0.1389
+      }
+    ],
+    "rejected_candidates": [
+      {
+        "strategy": "structural",
+        "score": 0.406111,
+        "metrics": {
+          "strategy": "structural",
+          "chunks": 89,
+          "mean_chars": 327.0,
+          "median_chars": 30.0,
+          "under_100_chars": 59,
+          "recall_at_1": 0.26666666666666666,
+          "recall_at_3": 0.5333333333333333,
+          "recall_at_5": 0.5333333333333333,
+          "mrr": 0.3984126984126984
+        },
+        "under_100_ratio": 0.6629,
+        "reasons": [
+          "median_chunk_too_small (30.0 < 100.0)",
+          "too_many_undersized_chunks (66.29% > 50.00%)"
+        ]
+      }
+    ]
+  },
+  "per_question": {
+    "fixed": [
+      {
+        "question": "When did the Swiss Financial Services Act enter into force?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "6132d9d740543d18"
+      },
+      {
+        "question": "What does FinSA aim to strengthen?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "6132d9d740543d18"
+      },
+      {
+        "question": "Which Swiss authority authorizes and regulates Julius Baer?",
+        "expected_page": 6,
+        "hit_rank": 1,
+        "hit_page": 6,
+        "hit_chunk_id": "1eef9683a2964497"
+      },
+      {
+        "question": "How many third-party fund providers does Julius Baer's investment fund universe predominantly draw on?",
+        "expected_page": 7,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What must Julius Baer assess before providing wealth management services?",
+        "expected_page": 8,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "Which forms does a client complete for the suitability and appropriateness assessment?",
+        "expected_page": 8,
+        "hit_rank": 1,
+        "hit_page": 8,
+        "hit_chunk_id": "8f81c4847675859a"
+      },
+      {
+        "question": "Who makes investment decisions under a Discretionary Mandate?",
+        "expected_page": 8,
+        "hit_rank": 1,
+        "hit_page": 8,
+        "hit_chunk_id": "daa0fd28814728ae"
+      },
+      {
+        "question": "What does Julius Baer assess before providing investment advice under an Advisory Mandate?",
+        "expected_page": 9,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What are the three client classifications defined by FinSA?",
+        "expected_page": 10,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What eligible asset amount can qualify a client to opt out to professional status, without the knowledge-and-experience route?",
+        "expected_page": 11,
+        "hit_rank": 1,
+        "hit_page": 11,
+        "hit_chunk_id": "d6dded1095633e14"
+      },
+      {
+        "question": "Which factors does Julius Baer consider for best execution?",
+        "expected_page": 12,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What four steps make up Julius Baer's approach to conflicts of interest?",
+        "expected_page": 13,
+        "hit_rank": 4,
+        "hit_page": 13,
+        "hit_chunk_id": "7bfdcb97fe5fed4c"
+      },
+      {
+        "question": "What may Julius Baer do if conflict-of-interest measures cannot prevent client disadvantages?",
+        "expected_page": 14,
+        "hit_rank": 1,
+        "hit_page": 14,
+        "hit_chunk_id": "bd05e9246a1e2000"
+      },
+      {
+        "question": "What must happen regarding compensation received by Julius Baer?",
+        "expected_page": 15,
+        "hit_rank": 3,
+        "hit_page": 15,
+        "hit_chunk_id": "320be943fabb4fed"
+      },
+      {
+        "question": "Who should clients contact first with feedback or complaints?",
+        "expected_page": 16,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      }
+    ],
+    "recursive": [
+      {
+        "question": "When did the Swiss Financial Services Act enter into force?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "b37effcbacc3916e"
+      },
+      {
+        "question": "What does FinSA aim to strengthen?",
+        "expected_page": 3,
+        "hit_rank": 2,
+        "hit_page": 3,
+        "hit_chunk_id": "b37effcbacc3916e"
+      },
+      {
+        "question": "Which Swiss authority authorizes and regulates Julius Baer?",
+        "expected_page": 6,
+        "hit_rank": 2,
+        "hit_page": 6,
+        "hit_chunk_id": "a260f6d32e6e8244"
+      },
+      {
+        "question": "How many third-party fund providers does Julius Baer's investment fund universe predominantly draw on?",
+        "expected_page": 7,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What must Julius Baer assess before providing wealth management services?",
+        "expected_page": 8,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "Which forms does a client complete for the suitability and appropriateness assessment?",
+        "expected_page": 8,
+        "hit_rank": 1,
+        "hit_page": 8,
+        "hit_chunk_id": "ff53b55291a78e75"
+      },
+      {
+        "question": "Who makes investment decisions under a Discretionary Mandate?",
+        "expected_page": 8,
+        "hit_rank": 1,
+        "hit_page": 8,
+        "hit_chunk_id": "b48247fdc3e8ba94"
+      },
+      {
+        "question": "What does Julius Baer assess before providing investment advice under an Advisory Mandate?",
+        "expected_page": 9,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What are the three client classifications defined by FinSA?",
+        "expected_page": 10,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What eligible asset amount can qualify a client to opt out to professional status, without the knowledge-and-experience route?",
+        "expected_page": 11,
+        "hit_rank": 1,
+        "hit_page": 11,
+        "hit_chunk_id": "e6eb682e41c2127f"
+      },
+      {
+        "question": "Which factors does Julius Baer consider for best execution?",
+        "expected_page": 12,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What four steps make up Julius Baer's approach to conflicts of interest?",
+        "expected_page": 13,
+        "hit_rank": 2,
+        "hit_page": 13,
+        "hit_chunk_id": "e3eee7a64c70111a"
+      },
+      {
+        "question": "What may Julius Baer do if conflict-of-interest measures cannot prevent client disadvantages?",
+        "expected_page": 14,
+        "hit_rank": 2,
+        "hit_page": 14,
+        "hit_chunk_id": "551adf65419dd7e3"
+      },
+      {
+        "question": "What must happen regarding compensation received by Julius Baer?",
+        "expected_page": 15,
+        "hit_rank": 2,
+        "hit_page": 15,
+        "hit_chunk_id": "071cdb4ca677544f"
+      },
+      {
+        "question": "Who should clients contact first with feedback or complaints?",
+        "expected_page": 16,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      }
+    ],
+    "semantic": [
+      {
+        "question": "When did the Swiss Financial Services Act enter into force?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "7e805bcedea8f8a3"
+      },
+      {
+        "question": "What does FinSA aim to strengthen?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "7e805bcedea8f8a3"
+      },
+      {
+        "question": "Which Swiss authority authorizes and regulates Julius Baer?",
+        "expected_page": 6,
+        "hit_rank": 1,
+        "hit_page": 6,
+        "hit_chunk_id": "a09bbcaacc505619"
+      },
+      {
+        "question": "How many third-party fund providers does Julius Baer's investment fund universe predominantly draw on?",
+        "expected_page": 7,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What must Julius Baer assess before providing wealth management services?",
+        "expected_page": 8,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "Which forms does a client complete for the suitability and appropriateness assessment?",
+        "expected_page": 8,
+        "hit_rank": 1,
+        "hit_page": 8,
+        "hit_chunk_id": "eb7a6c7cf87ebe65"
+      },
+      {
+        "question": "Who makes investment decisions under a Discretionary Mandate?",
+        "expected_page": 8,
+        "hit_rank": 1,
+        "hit_page": 8,
+        "hit_chunk_id": "a179c1022e73de5c"
+      },
+      {
+        "question": "What does Julius Baer assess before providing investment advice under an Advisory Mandate?",
+        "expected_page": 9,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What are the three client classifications defined by FinSA?",
+        "expected_page": 10,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What eligible asset amount can qualify a client to opt out to professional status, without the knowledge-and-experience route?",
+        "expected_page": 11,
+        "hit_rank": 1,
+        "hit_page": 11,
+        "hit_chunk_id": "2daf80464b0b639f"
+      },
+      {
+        "question": "Which factors does Julius Baer consider for best execution?",
+        "expected_page": 12,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What four steps make up Julius Baer's approach to conflicts of interest?",
+        "expected_page": 13,
+        "hit_rank": 2,
+        "hit_page": 13,
+        "hit_chunk_id": "f52fa23daa8cf62a"
+      },
+      {
+        "question": "What may Julius Baer do if conflict-of-interest measures cannot prevent client disadvantages?",
+        "expected_page": 14,
+        "hit_rank": 3,
+        "hit_page": 14,
+        "hit_chunk_id": "3b07e8719c3fa456"
+      },
+      {
+        "question": "What must happen regarding compensation received by Julius Baer?",
+        "expected_page": 15,
+        "hit_rank": 1,
+        "hit_page": 15,
+        "hit_chunk_id": "b751304ababb2b1f"
+      },
+      {
+        "question": "Who should clients contact first with feedback or complaints?",
+        "expected_page": 16,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      }
+    ],
+    "structural": [
+      {
+        "question": "When did the Swiss Financial Services Act enter into force?",
+        "expected_page": 3,
+        "hit_rank": 1,
+        "hit_page": 3,
+        "hit_chunk_id": "cf45e53ebce76816"
+      },
+      {
+        "question": "What does FinSA aim to strengthen?",
+        "expected_page": 3,
+        "hit_rank": 7,
+        "hit_page": 3,
+        "hit_chunk_id": "cf45e53ebce76816"
+      },
+      {
+        "question": "Which Swiss authority authorizes and regulates Julius Baer?",
+        "expected_page": 6,
+        "hit_rank": 2,
+        "hit_page": 6,
+        "hit_chunk_id": "394527e0d1836ce0"
+      },
+      {
+        "question": "How many third-party fund providers does Julius Baer's investment fund universe predominantly draw on?",
+        "expected_page": 7,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What must Julius Baer assess before providing wealth management services?",
+        "expected_page": 8,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "Which forms does a client complete for the suitability and appropriateness assessment?",
+        "expected_page": 8,
+        "hit_rank": 1,
+        "hit_page": 8,
+        "hit_chunk_id": "7298ec2e013561c7"
+      },
+      {
+        "question": "Who makes investment decisions under a Discretionary Mandate?",
+        "expected_page": 8,
+        "hit_rank": 1,
+        "hit_page": 8,
+        "hit_chunk_id": "e36d4ebd70c747f9"
+      },
+      {
+        "question": "What does Julius Baer assess before providing investment advice under an Advisory Mandate?",
+        "expected_page": 9,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What are the three client classifications defined by FinSA?",
+        "expected_page": 10,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What eligible asset amount can qualify a client to opt out to professional status, without the knowledge-and-experience route?",
+        "expected_page": 11,
+        "hit_rank": 1,
+        "hit_page": 11,
+        "hit_chunk_id": "0c78a357e7c9644e"
+      },
+      {
+        "question": "Which factors does Julius Baer consider for best execution?",
+        "expected_page": 12,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      },
+      {
+        "question": "What four steps make up Julius Baer's approach to conflicts of interest?",
+        "expected_page": 13,
+        "hit_rank": 2,
+        "hit_page": 13,
+        "hit_chunk_id": "3d952fb87104966d"
+      },
+      {
+        "question": "What may Julius Baer do if conflict-of-interest measures cannot prevent client disadvantages?",
+        "expected_page": 14,
+        "hit_rank": 2,
+        "hit_page": 14,
+        "hit_chunk_id": "a9c654d0813fc89d"
+      },
+      {
+        "question": "What must happen regarding compensation received by Julius Baer?",
+        "expected_page": 15,
+        "hit_rank": 3,
+        "hit_page": 15,
+        "hit_chunk_id": "69608a4b683fdebd"
+      },
+      {
+        "question": "Who should clients contact first with feedback or complaints?",
+        "expected_page": 16,
+        "hit_rank": null,
+        "hit_page": null,
+        "hit_chunk_id": null
+      }
+    ]
+  }
+}
