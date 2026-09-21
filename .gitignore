@@ -25,6 +25,7 @@ data/processed/
 data/normalized/
 data/manifest.json
 data/debug/
+data/uploads/
 
 # Generated artifacts
 *.db

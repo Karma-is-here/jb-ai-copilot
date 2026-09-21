@@ -1,7 +1,14 @@
 psycopg[binary]
+psycopg-pool
 pgvector
 python-dotenv
 PyMuPDF
 pandas
 tiktoken
 sentence-transformers
+fastapi
+uvicorn[standard]
+python-multipart
+huggingface_hub
+pytesseract
+Pillow
